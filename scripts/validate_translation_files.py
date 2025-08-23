@@ -114,26 +114,15 @@ def _extract_placeholder_names_from_pattern(message):
                     arg_number = str(next_part.getValue())
                     placeholders.add(arg_number)
 
+    # Also check for # symbols which are special placeholders in ICU MessageFormat
+    # We're being a bit too strict here and require that # is used at least once (usually in `other` plural form)
+    # in the plural formats.
+    # This prevents a more creative use of the plurals, but catches errors in which # are complete
+    # forgotten.
+    if '#' in message:
+        placeholders.add('#')
+
     return placeholders
-
-
-def _simple_validate_placeholders(source_message, target_message):
-    """
-    Simple first-pass placeholder validation using regex.
-    """
-    # ICU MessageFormat placeholder patterns - extract just the argument name/number
-    # This handles both named args {username} and numbered args {0}
-    icu_placeholder_pattern = re.compile(r'\{([^},\s]+)(?:[^}]*)?\}')
-
-    source_placeholders = set(icu_placeholder_pattern.findall(source_message))
-    target_placeholders = set(icu_placeholder_pattern.findall(target_message))
-
-    if source_placeholders != target_placeholders:
-        return False, (
-            f"Placeholder mismatch: source has {sorted(source_placeholders)}, target has {sorted(target_placeholders)}"
-        )
-
-    return True, None
 
 
 def validate_placeholders(source_message, target_message):
@@ -141,15 +130,6 @@ def validate_placeholders(source_message, target_message):
     Validate placeholders using PyICU MessagePattern.
     """
     try:
-        is_first_pass_valid, simple_validation_error = _simple_validate_placeholders(
-            source_message,
-            target_message,
-        )
-
-        if not is_first_pass_valid:
-            # Fail quickly, if first pass catches errors to avoid any potential errors using PyICU
-            return is_first_pass_valid, simple_validation_error
-
         source_placeholders = _extract_placeholder_names_from_pattern(source_message)
         target_placeholders = _extract_placeholder_names_from_pattern(target_message)
 
