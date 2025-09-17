@@ -2,153 +2,274 @@
 # edX translation file
 # Copyright (C) 2018 edX
 # This file is distributed under the GNU AFFERO GENERAL PUBLIC LICENSE.
-# 
+#
 # Translators:
-# Translators:
-# Nathan Robertson, 2024
-# Brian Smith, 2024
-# edx_transifex_bot <i18n-working-group+edx-transifex-bot@edx.org>, 2025
-# 
 msgid ""
 msgstr ""
 "Project-Id-Version: edx-platform\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-03-07 00:27+0000\n"
-"PO-Revision-Date: 2023-01-26 15:39+0000\n"
-"Last-Translator: edx_transifex_bot <i18n-working-group+edx-transifex-bot@edx.org>, 2025\n"
-"Language-Team: Russian (https://app.transifex.com/open-edx/teams/6205/ru/)\n"
+"POT-Creation-Date: 2025-09-03 00:30+0000\n"
+"PO-Revision-Date: 2016-05-25 15:41+0000\n"
+"Last-Translator: Muhammad Ayub khan <ayubkhan@edx.org>\n"
+"Language-Team: English (http://www.transifex.com/open-edx/edx-platform/language/en/)\n"
+"Language: en\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: ru\n"
-"Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || (n%100>=11 && n%100<=14)? 2 : 3);\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: apps/api/filters.py:47
+#: apps/api/filters.py:48
 #, python-brace-format
 msgid "No user with the username [{username}] exists."
-msgstr "Нет пользователей с именем [{username}]."
+msgstr "Ниједан корисник са корисничким именом [{username}] постоји."
 
-#: apps/api/filters.py:50
+#: apps/api/filters.py:51
 msgid ""
 "Only staff users are permitted to filter by username. Remove the username "
 "parameter."
 msgstr ""
-"Только сотрудники могут искать по имени пользователя. Исключите параметр с "
-"именем пользователя."
+"Само корисницима особља дозвољено је да филтрирају корисничко име. Уклоните "
+"параметар корисничког имена."
 
 #: apps/api/serializers.py:850
 msgid "Number of courses contained in this catalog"
-msgstr "Количество курсов в этом каталоге"
+msgstr "Број курсева садржаних у овом каталогу"
 
 #: apps/api/serializers.py:853
 msgid "Usernames of users with explicit access to view this catalog"
 msgstr ""
-"Пользовательские имена участников с доступом для просмотра данного каталога"
+"Корисничка имена корисника са експлицитним приступом за преглед овог "
+"каталога"
 
 #: apps/api/serializers.py:1023
 msgid "Start date cannot be after the End date"
-msgstr "Дата начала не может быть позже даты окончания"
+msgstr "Датум почетка не може бити након завршетка датума"
+
+#: apps/api/serializers.py:1028
+msgid "Term cannot be changed"
+msgstr "Израз се не може мењати"
 
 #: apps/api/serializers.py:1048
 msgid "Language in which the course is administered"
-msgstr "Язык, на котором ведется курс "
+msgstr "Језик у којем се курс примењује"
+
+#: apps/api/serializers.py:1152
+msgid "Course cannot be changed for an existing course run"
+msgstr "Курс се не може мењати на постојећи покретање курса"
 
 #: apps/api/serializers.py:1157
 msgid "Minimum effort cannot be greater than Maximum effort"
-msgstr "Минимальное усилие не может превышать максимальное усилие"
+msgstr "Минимални напор не може бити већи од максималног напора"
+
+#: apps/api/serializers.py:1159
+msgid "Minimum effort and Maximum effort cannot be the same"
+msgstr "Минимални напор и максимални напор не могу бити исти"
 
 #: apps/api/serializers.py:1205
 msgid "Dictionary mapping course run IDs to boolean values"
-msgstr ""
-"Словарное отображение прохождения курса идентификаторы по булевым значениям"
+msgstr "Директни мапирање курсева Покрените личне карте у боолејске вредности"
+
+#: apps/api/serializers.py:1309
+msgid "Restriction Type cannot be empty"
+msgstr "Тип ограничења не може бити празан"
 
 #: apps/api/serializers.py:1775
 msgid "Dictionary mapping course IDs to boolean values"
-msgstr "Словарное отображение курса идентификаторы по булевым значениям "
+msgstr "ИД-оч за мапирање курса за боолејске вредности"
 
 #: apps/api/serializers.py:2242
 msgid "Languages that course runs in this program are offered in."
-msgstr "Предлагаются языки, на которых ведется обучение по этой программе."
+msgstr "Понуђене су језике који се налазе у овом програму."
 
 #: apps/api/serializers.py:2246
 msgid ""
 "Languages that course runs in this program have available transcripts in."
 msgstr ""
-"Языки, на которых проводится курс в рамках этой программы, имеют доступные "
-"расшифровки."
+"Језици који курс ради у овом програму имају доступне транскрипте унутра."
+
+#: apps/api/utils.py:343
+#, python-brace-format
+msgid ""
+"An error occurred while setting the course run image for [{key}] in studio. "
+"All other fields were successfully saved in Studio."
+msgstr ""
+"Дошло је до грешке приликом постављања имиџа за покретање курса за [{key}] у"
+" студију. Сва остала поља су успешно сачувана у студију."
+
+#: apps/api/v1/exceptions.py:13
+msgid "Specifying both editable=1 and a q parameter is not supported."
+msgstr "Навођење и уређивање = 1 и К параметар није подржан."
+
+#: apps/api/v1/views/comments.py:34
+msgid "You must include a course_uuid in your query parameters."
+msgstr "Морате да укључите курс_ууид у параметрима упита."
 
 #: apps/api/v1/views/comments.py:58 apps/api/v1/views/courses.py:204
 #, python-brace-format
 msgid "Missing value for: [{name}]. "
-msgstr "Отсутствует значение для: [{name}]."
+msgstr "Недостаје вредност за: [{name}]."
 
-#: apps/api/v1/views/course_runs.py:376
+#: apps/api/v1/views/comments.py:60 apps/api/v1/views/courses.py:215
+msgid "Incorrect data sent. "
+msgstr "Послани погрешни подаци."
+
+#: apps/api/v1/views/course_runs.py:49
+msgid "Failed to set course run data: {}"
+msgstr "Постављање података о покретању курса није успело: {}"
+
+#: apps/api/v1/views/course_runs.py:328
+msgid "Can only update status, ofac restrictions, and ofac comment"
+msgstr "Може да ажурира само статус, ОФАЦ ограничења и коментар ОФАЦ-а"
+
+#: apps/api/v1/views/course_runs.py:363
+#, python-brace-format
+msgid ""
+"The course run type '{course_run_type}' is not valid for this course type "
+"'{course_type}'."
+msgstr ""
+"Покретање курса '{course_run_type} ' није важи за овај курс тип "
+"'{course_type} '."
+
+#: apps/api/v1/views/course_runs.py:381
+msgid "Course run is in review. Editing disabled."
+msgstr "Покретање курса је у прегледу. Уређивање је онемогућено."
+
+#: apps/api/v1/views/course_runs.py:388
 msgid "Invalid parameter"
-msgstr "Неверный параметр"
+msgstr "Неважећи параметар"
+
+#: apps/api/v1/views/courses.py:61
+msgid "Failed to set data: {}"
+msgstr "Постављање података није успело: {}"
 
 #: apps/api/v1/views/courses.py:206
 #, python-brace-format
 msgid "Organization [{org}] does not exist. "
-msgstr "Организация [{org}] не существует. "
+msgstr "Организација [{org}] не постоји."
+
+#: apps/api/v1/views/courses.py:208
+#, python-brace-format
+msgid "Course Type [{course_type}] does not exist. "
+msgstr "Тип курса [{course_type}] не постоји."
+
+#: apps/api/v1/views/courses.py:211
+#, python-brace-format
+msgid "Product Source [{product_source}] does not exist. "
+msgstr "Извор производа [{product_source}] не постоји."
+
+#: apps/api/v1/views/courses.py:229
+#, python-brace-format
+msgid "A course with key [{key}] already exists."
+msgstr "Курс са кључем [{key}] већ постоји."
+
+#: apps/api/v1/views/courses.py:237
+#, python-brace-format
+msgid ""
+"Course creation was unsuccessful. The course URL slug ‘[{url_slug}]’ is "
+"already in use. Please update this field and try again."
+msgstr ""
+"Стварање курса је било неуспешно. Урл курса слуга '[{url_slug}]' је већ у "
+"употреби. Ажурирајте ово поље и покушајте поново."
+
+#: apps/api/v1/views/courses.py:296
+msgid ""
+"Switching entitlement types after being reviewed is not supported. Please "
+"reach out to your project coordinator for additional help if necessary."
+msgstr ""
+"Пребацивање типова права након прегледа није подржан. По потреби посегните "
+"свом координатору пројекта за додатну помоћ ако је потребно."
+
+#: apps/api/v1/views/courses.py:406
+#, python-brace-format
+msgid ""
+"Course edit was unsuccessful. The course URL slug ‘[{url_slug}]’ is already "
+"in use. Please update this field and try again."
+msgstr ""
+"Едит курса је био неуспешан. Урл курса слуга '[{url_slug}]' је већ у "
+"употреби. Ажурирајте ово поље и покушајте поново."
 
 #: apps/api/views.py:58
 msgid "You are not permitted to access the API documentation."
-msgstr "Вы не имеете доступа к документации API."
+msgstr "Није вам дозвољено да приступите АПИ документацији."
 
 #: apps/catalogs/models.py:17
 msgid "Catalog name"
-msgstr "название каталога"
+msgstr "Име каталога"
+
+#: apps/catalogs/models.py:18
+msgid "Query to retrieve Course Run catalog contents"
+msgstr "Упит за преузимање курсева Каталошко садржај"
+
+#: apps/catalogs/models.py:22
+msgid "Query to retrieve Program catalog contents"
+msgstr "Упит за преношење садржаја каталога програма"
+
+#: apps/catalogs/models.py:25
+msgid "Include archived courses"
+msgstr "Укључују архивиране курсеве"
 
 #: apps/core/admin.py:17
 msgid "Personal info"
-msgstr "Личная информация"
+msgstr "Лични подаци"
 
 #: apps/core/admin.py:18
 msgid "Permissions"
-msgstr "Права доступа"
+msgstr "Дозволе"
 
 #: apps/core/admin.py:19
 msgid "Important dates"
-msgstr "Важные даты"
+msgstr "Важни датуми"
 
 #: apps/core/admin.py:45
 msgid "API Configuration"
-msgstr "Настройки API"
+msgstr "АПИ конфигурација"
 
 #: apps/core/admin.py:46
 msgid "Configure the APIs that will be used to retrieve data."
-msgstr "Настроить API, которые будут использоваться для доступа к данным."
+msgstr "Конфигуришите АПИ који ће се користити за преузимање података."
 
 #: apps/core/admin.py:53
 msgid "Marketing Site Configuration"
-msgstr "Настройки Маркетингового Сайта"
+msgstr "Конфигурација маркетинга"
 
 #: apps/core/admin.py:54
 msgid ""
 "Configure the marketing site URLs that will be used to retrieve data and "
 "create URLs."
 msgstr ""
-"Настроить URL-адреса маркетингового сайта, которые будут использоваться для "
-"сбора данных и создания URL-адресов."
+"Конфигуришите маркетинг урл-ови који ће се користити за преузимање података "
+"и креирање УРЛ-ова."
+
+#: apps/core/admin.py:58
+msgid "Analytics Configuration"
+msgstr "Конфигурација аналитике"
+
+#: apps/core/admin.py:59
+msgid ""
+"Configure the analytics API that will be used to retrieve enrollment data"
+msgstr ""
+"Конфигуришите АПИ аналитике који ће се користити за преузимање података о "
+"упису"
 
 #. Translators: 'period_choices' is a list of possible values, like ('second',
 #. 'minute', 'hour')
 #: apps/core/forms.py:23
 #, python-brace-format
 msgid "period must be one of {period_choices}."
-msgstr "Промежуток должен быть одним из {period_choices}."
+msgstr "Период мора бити један од {period_choices}."
 
 #: apps/core/forms.py:26
 msgid "'rate' must be in the format defined by DRF, such as '100/hour'."
-msgstr "'rate' должен быть опредлен форматом  DRF, таким как '100/hour'. "
+msgstr ""
+"'rate' мора бити у формату који је дефинисао ДРФ, као што је '100/hour'."
 
 #: apps/core/models.py:17
 msgid "Full Name"
-msgstr "Полное имя"
+msgstr "Пуно име"
 
 #: apps/core/models.py:18
 msgid "Referral Tracking ID"
-msgstr "Реферальный отслеживающий идентификатор "
+msgstr "ИД за праћење упућивања"
 
 #: apps/core/models.py:34
 msgid ""
@@ -156,88 +277,129 @@ msgid ""
 "Django Rest Framework (see http://www.django-rest-framework.org/api-"
 "guide/throttling/)."
 msgstr ""
-"Ограничить скорость запросов пользователя. Формат задается через Django Rest"
-" Framework (см http://www.django-rest-framework.org/api-guide/throttling/)."
+"Стопа захтева за ограничавање овог корисника на. Формат је одређен Оквиром "
+"за одмор Дјанго (види хттп: //ввв.дјанго-рест-фрамеворк.орг/апи-"
+"гуиде/тхротлинг/)."
 
 #: apps/core/models.py:54
 msgid "Short Code"
-msgstr "Короткий код"
+msgstr "Кратки код"
 
 #: apps/core/models.py:55
 msgid ""
 "Convenient code/slug used to identify this Partner (e.g. for management "
 "commands.)"
 msgstr ""
-"Удобный код/слаг, используемый для идентификации данного партнера (например,"
-" для команд управления)."
+"Погодан код / ​​слушки који се користи за идентификацију овог партнера (нпр."
+" За команде менаџмента.)"
 
 #: apps/core/models.py:56
 msgid "Courses API URL"
-msgstr "URL-адрес API Курсов"
+msgstr "Курсеви АПИ УРЛ"
+
+#: apps/core/models.py:59
+msgid "Course Mode API URL"
+msgstr "Начин курса АПИ УРЛ"
 
 #: apps/core/models.py:60
 msgid "E-Commerce API URL"
-msgstr "URL-адрес API Эл. Коммерции"
+msgstr "Е-Цоммерце АПИ УРЛ"
 
 #: apps/core/models.py:62
 msgid "Organizations API URL"
-msgstr "URL-адрес API Организаций"
+msgstr "Организације АПИ УРЛ"
 
 #: apps/core/models.py:63
 msgid "Programs API URL"
-msgstr "URL-адрес API Программ"
+msgstr "Програми АПИ УРЛ"
 
 #: apps/core/models.py:65
 msgid "Marketing Site API URL"
-msgstr "URL-адрес API Маркетингового Сайта"
+msgstr "Маркетинг Сите АПИ УРЛ"
 
 #: apps/core/models.py:67
 msgid "Marketing Site URL"
-msgstr "URL-адрес Маркетингового Сайта"
+msgstr "Маркетинг сајт УРЛ адреса"
 
 #: apps/core/models.py:69
 msgid "Marketing Site API Username"
-msgstr "Имя пользователя API Маркетингового Сайта"
+msgstr "Маркетинг Сите АПИ корисничко име"
 
 #: apps/core/models.py:71
 msgid "Marketing Site API Password"
-msgstr "Пароль пользователя API Маркетингового Сайта"
+msgstr "АПИ лозинка за маркетинг сајт"
 
 #: apps/core/models.py:73
 msgid "Studio URL"
-msgstr "Студия url"
+msgstr "Студио УРЛ"
+
+#: apps/core/models.py:75
+msgid "Publisher URL"
+msgstr "УРЛ издавача"
+
+#: apps/core/models.py:76
+msgid ""
+"The base URL of your publisher service, if used. Example: "
+"https://publisher.example.com/"
+msgstr ""
+"Ако се користи основна УРЛ вашег сервиса издавача, ако се користи. Пример: "
+"хттпс: //публисхер.екампле.цом/"
 
 #: apps/core/models.py:79
 msgid "LMS URL"
-msgstr "Система управления обучением url"
+msgstr "ЛМС УРЛ"
+
+#: apps/core/models.py:81
+msgid "LMS Admin URL"
+msgstr "ЛМС Админ УРЛ"
+
+#: apps/core/models.py:82
+msgid ""
+"The public URL of your LMS Django admin. Example: https://lms-"
+"internal.example.com/admin"
+msgstr ""
+"Јавна УРЛ-а вашег ЛМС Дјанго Админ. Пример: хттпс: //лмс-"
+"интернал.екампле.цом/админ"
+
+#: apps/core/models.py:84
+msgid "Analytics API URL"
+msgstr "АНИЦТИЦ АПИ УРЛ"
+
+#: apps/core/models.py:85
+msgid "Analytics Access Token"
+msgstr "Аналитички приступни токен"
 
 #: apps/core/models.py:94
 msgid "Partner"
-msgstr "Партнёр"
+msgstr "Партнер"
 
 #: apps/core/models.py:95
 msgid "Partners"
-msgstr "Партнеры"
+msgstr "Партнери"
 
 #: apps/core/models.py:130
 msgid "Salesforce Username"
-msgstr "Имя пользователя Salesforce"
+msgstr "Корисничко име за продају"
 
 #: apps/core/models.py:134
 msgid "Salesforce Password"
-msgstr "Пароль Salesforce"
+msgstr "Лозинка за продају"
 
 #: apps/core/models.py:139
 msgid "Salesforce Organization Id"
-msgstr "ID организации Salesforce"
+msgstr "ИД организације за продају"
 
 #: apps/core/models.py:145
 msgid "Salesforce Security Token"
-msgstr "Токен безопасности Salesforce"
+msgstr "Салесфорце Сигурносни токен"
 
 #: apps/core/models.py:149
 msgid "Is a Salesforce Sandbox?"
-msgstr "Salesforce является  Sandbox-ом?"
+msgstr "Је ли сандбок за сандферце?"
+
+#: apps/core/models.py:155
+msgid "Case Record Type Id"
+msgstr "ИД за снимање предмета"
 
 #: apps/course_metadata/admin.py:38
 #, python-brace-format
@@ -245,13 +407,12 @@ msgid ""
 "An error occurred while publishing the {model} to the marketing site. Please"
 " try again. If the error persists, please contact the Engineering Team."
 msgstr ""
-"Возникла ошибка при публикации {model} на маркетинговом сайте. Пожалуйста, "
-"попробуйте еще раз. Если ошибка не исчезает, пожалуйста, свяжитесь с "
-"технической группой."
+"Дошло је до грешке приликом објављивања {model} до маркетиншког места. "
+"Покушајте поново. Ако грешка настави, обратите се инжењерском тиму."
 
 #: apps/course_metadata/admin.py:65
 msgid "eligible for one-click purchase"
-msgstr "доступно для покупки в один клик"
+msgstr "Испуњава услове за куповину једним кликом"
 
 #: apps/course_metadata/admin.py:70
 msgid "Yes"
@@ -259,418 +420,1672 @@ msgstr "Да"
 
 #: apps/course_metadata/admin.py:71
 msgid "No"
-msgstr "Нет"
+msgstr "Не"
 
-#: apps/course_metadata/admin.py:495 apps/course_metadata/admin.py:840
+#: apps/course_metadata/admin.py:537 apps/course_metadata/admin.py:882
 msgid "Included course runs"
-msgstr "Включаемые в курс занятия"
+msgstr "Укључени курс"
 
-#: apps/course_metadata/admin.py:846
+#: apps/course_metadata/admin.py:888
 msgid "Edit link"
-msgstr "Изменить ссылку"
+msgstr "Уређивање везе"
+
+#: apps/course_metadata/admin.py:896
+msgid "Edit course run exclusions"
+msgstr "Уређивање ексклузије покретања курса"
+
+#: apps/course_metadata/admin.py:898
+msgid "(save and continue editing to create a link)"
+msgstr "(Сачувајте и наставите уређивање да бисте креирали везу)"
+
+#: apps/course_metadata/admin.py:1036
+#, python-format
+msgid "Successfully %(status)s %(count)d %(items)s."
+msgstr "Успешно %(status)s %(count)d %(items)s."
+
+#: apps/course_metadata/algolia_models.py:54
+msgid "Certificates"
+msgstr "Сертификати"
+
+#: apps/course_metadata/algolia_models.py:55
+msgid "Pathways to Degrees"
+msgstr "Стазе до степена"
+
+#: apps/course_metadata/algolia_models.py:58
+msgid "Boot Camps"
+msgstr "Боот Цампс"
+
+#: apps/course_metadata/algolia_models.py:65
+msgid "Bachelor’s"
+msgstr "Бацхелор'с"
+
+#: apps/course_metadata/algolia_models.py:66
+msgid "Master’s"
+msgstr "Мајстор"
 
 #: apps/course_metadata/algolia_models.py:116
 #: apps/course_metadata/algolia_models.py:667
 msgid "Available now"
-msgstr "Доступно"
+msgstr "Доступно сада"
 
 #: apps/course_metadata/algolia_models.py:118
-#: apps/course_metadata/models.py:2702
+#: apps/course_metadata/models.py:2756
 msgid "Upcoming"
-msgstr "Скоро"
+msgstr "Предстојеће"
 
 #: apps/course_metadata/algolia_models.py:120
-#: apps/course_metadata/choices.py:77 apps/course_metadata/models.py:2696
-#: apps/course_metadata/models.py:2712
+#: apps/course_metadata/choices.py:100 apps/course_metadata/models.py:2750
+#: apps/course_metadata/models.py:2766
 msgid "Archived"
-msgstr "Сохранено в Архив"
+msgstr "Архивиран"
+
+#: apps/course_metadata/algolia_models.py:678
+msgid "Available by subscription"
+msgstr "Доступно од претплате"
 
 #: apps/course_metadata/choices.py:6 apps/course_metadata/choices.py:22
 #: apps/course_metadata/choices.py:36
 msgid "Unpublished"
-msgstr "Не опубликовано"
+msgstr "Необјављен"
+
+#: apps/course_metadata/choices.py:7
+msgid "Awaiting Review from Legal"
+msgstr "Чека се преглед правног"
+
+#: apps/course_metadata/choices.py:8
+msgid "Awaiting Internal Review"
+msgstr "Чека се унутрашњи преглед"
 
 #: apps/course_metadata/choices.py:9
 msgid "Reviewed"
-msgstr "Рассмотрено"
+msgstr "Прегледан"
 
 #: apps/course_metadata/choices.py:10 apps/course_metadata/choices.py:23
-#: apps/course_metadata/choices.py:78
+#: apps/course_metadata/choices.py:101
 msgid "Published"
-msgstr "Опубликовано"
+msgstr "Објављен"
 
 #: apps/course_metadata/choices.py:24 apps/course_metadata/choices.py:38
 msgid "Retired"
-msgstr "В отставке"
+msgstr "Пензионисан"
 
 #. Translators: Instructor-paced refers to course runs that operate on a
 #. schedule set by the instructor,
 #. similar to a normal university course.
 #: apps/course_metadata/choices.py:30
 msgid "Instructor-paced"
-msgstr "Ведущий инструктор "
+msgstr "Уметнут инструктор"
 
 #. Translators: Self-paced refers to course runs that operate on the student's
 #. schedule.
 #: apps/course_metadata/choices.py:32
 msgid "Self-paced"
-msgstr "самостоятельное обучение"
+msgstr "Самопокушајан"
 
 #: apps/course_metadata/choices.py:37 apps/learner_pathway/choices.py:6
 msgid "Active"
-msgstr "Активный"
+msgstr "Активан"
 
 #: apps/course_metadata/choices.py:39
 msgid "Deleted"
-msgstr "Удалено"
+msgstr "Избрисан"
 
-#: apps/course_metadata/choices.py:51
-msgid "Honor"
-msgstr "Сертификат Кодекса чести"
+#: apps/course_metadata/choices.py:43
+msgid "mooc"
+msgstr "мооц"
 
-#: apps/course_metadata/choices.py:52
-msgid "Credit"
-msgstr "Баллы"
+#: apps/course_metadata/choices.py:44
+msgid "spoc"
+msgstr "спор"
 
-#: apps/course_metadata/choices.py:53
-msgid "Verified"
-msgstr "Подтверждённые"
+#: apps/course_metadata/choices.py:45
+msgid "test"
+msgstr "тест"
+
+#: apps/course_metadata/choices.py:46
+msgid "demo"
+msgstr "демонстрација"
+
+#: apps/course_metadata/choices.py:47
+msgid "other"
+msgstr "други"
 
 #: apps/course_metadata/choices.py:54
-msgid "Professional"
-msgstr "Профессиональный"
+msgid "Course Create"
+msgstr "Курс стварати"
 
-#: apps/course_metadata/choices.py:63
+#: apps/course_metadata/choices.py:55
+msgid "Partial Update"
+msgstr "Делимично ажурирање"
+
+#: apps/course_metadata/choices.py:56
+msgid "Course Rerun"
+msgstr "Курс репун"
+
+#: apps/course_metadata/choices.py:57
+msgid "Course Editor Update"
+msgstr "Ажурирање уредника курса"
+
+#: apps/course_metadata/choices.py:64
+msgid "Pending"
+msgstr "На чекању"
+
+#: apps/course_metadata/choices.py:65 apps/course_metadata/choices.py:76
+msgid "Verified"
+msgstr "Верификован"
+
+#: apps/course_metadata/choices.py:66
+msgid "Processing"
+msgstr "Прерада"
+
+#: apps/course_metadata/choices.py:67
+msgid "Completed"
+msgstr "Завршен"
+
+#: apps/course_metadata/choices.py:68
+msgid "Failed"
+msgstr "Није успео"
+
+#: apps/course_metadata/choices.py:69
+msgid "Partially Completed"
+msgstr "Делимично завршен"
+
+#: apps/course_metadata/choices.py:70
+msgid "Errored"
+msgstr "Погрешан"
+
+#: apps/course_metadata/choices.py:74
+msgid "Honor"
+msgstr "Част"
+
+#: apps/course_metadata/choices.py:75
+msgid "Credit"
+msgstr "Кредит"
+
+#: apps/course_metadata/choices.py:77
+msgid "Professional"
+msgstr "Професионалан"
+
+#: apps/course_metadata/choices.py:78
+msgid "Executive Education"
+msgstr "Извршно образовање"
+
+#: apps/course_metadata/choices.py:79
+msgid "Paid Executive Education"
+msgstr "Плаћено извршно образовање"
+
+#: apps/course_metadata/choices.py:80
+msgid "Unpaid Executive Education"
+msgstr "Неплаћено извршно образовање"
+
+#: apps/course_metadata/choices.py:81
+msgid "Paid Bootcamp"
+msgstr "Плаћено покретање боотцамп-а"
+
+#: apps/course_metadata/choices.py:82
+msgid "Unpaid Bootcamp"
+msgstr "Неплаћени боотцамп"
+
+#: apps/course_metadata/choices.py:86
 msgid "Platform"
 msgstr "Платформа"
 
-#: apps/course_metadata/choices.py:64
+#: apps/course_metadata/choices.py:87
 msgid "Organization"
-msgstr "Организация"
+msgstr "Организација"
+
+#: apps/course_metadata/choices.py:91
+msgid "Short"
+msgstr "Кратак"
+
+#: apps/course_metadata/choices.py:92
+msgid "Medium"
+msgstr "Средњи"
+
+#: apps/course_metadata/choices.py:93
+msgid "Long"
+msgstr "Дугачак"
+
+#: apps/course_metadata/choices.py:108
+msgid "Short Course"
+msgstr "Кратки курс"
+
+#: apps/course_metadata/choices.py:109
+msgid "Sprint"
+msgstr "Спринт"
+
+#: apps/course_metadata/choices.py:110
+msgid "Course Stack"
+msgstr "Стака на курсу"
+
+#: apps/course_metadata/choices.py:114
+msgid "Custom B2B Enterprise"
+msgstr "Цустом Б2Б Ентерприсе"
+
+#: apps/course_metadata/choices.py:115
+msgid "Custom B2C"
+msgstr "Цустом Б2Ц"
+
+#: apps/course_metadata/data_loaders/course_type.py:27
+#, python-brace-format
+msgid ""
+"Existing course type {type} for {key} ({id}) doesn't match its own "
+"entitlements."
+msgstr ""
+"Постојећи курс тип {type} за {key} ({id}) не одговара сопственим правима."
+
+#: apps/course_metadata/data_loaders/course_type.py:61
+#, python-brace-format
+msgid ""
+"Existing run type {run_type} for {key} ({id}) doesn't match course type "
+"{type}.Skipping type."
+msgstr ""
+"Постојећи тип покретања {run_type} за {key} ({id}) Не одговара курсу тип "
+"{type}. ИСКиПпинг тип."
+
+#: apps/course_metadata/data_loaders/course_type.py:75
+#, python-brace-format
+msgid ""
+"Existing run type {run_type} for {key} ({id}) doesn't match its own seats."
+msgstr ""
+"Постојеће покретање типа {run_type} за {key} ({id}) не одговара сопственим "
+"седиштима."
+
+#: apps/course_metadata/data_loaders/course_type.py:91
+#, python-brace-format
+msgid "Course {key} ({id}) matched type {type}"
+msgstr "Курс {key} ({id}) подударни тип {type}"
+
+#: apps/course_metadata/data_loaders/course_type.py:101
+#, python-brace-format
+msgid "Could not convert course {key} ({id}) to type {type}"
+msgstr "Није могуће претворити курс {key} ({id}) да бисте уписао {type}"
+
+#: apps/course_metadata/emails.py:37
+#, python-brace-format
+msgid ""
+"Not sending notification email for template {template} because no "
+"organization is defined for course {course}"
+msgstr ""
+"Не слање обавештења Е-маил за шаблона {template} јер ниједна организација "
+"није дефинисана за курс {course}"
+
+#: apps/course_metadata/emails.py:42
+#, python-brace-format
+msgid ""
+"Not sending notification email for template {template} because no project "
+"coordinator is defined for organization {org}"
+msgstr ""
+"Не слање е-поште Обавештења за шаблон {template} јер није дефинисан "
+"координатор пројекта за организацију {org}"
+
+#: apps/course_metadata/emails.py:96
+#, python-brace-format
+msgid ""
+"Not sending notification email for template {template} because no publisher "
+"URL is defined for partner {partner}"
+msgstr ""
+"Не слање обавештења Е-маил за шаблона {template} Зато што није дефинисан УРЛ"
+" адреса издавача за партнер {partner}"
+
+#: apps/course_metadata/emails.py:104
+#, python-brace-format
+msgid ""
+"Not sending notification email for template {template} because no studio URL"
+" is defined for partner {partner}"
+msgstr ""
+"Не слање обавештења Е-маил за предложак {template} Зато што није дефинисан "
+"студио УРЛ за партнер {partner}"
+
+#: apps/course_metadata/emails.py:170
+msgid "legal team"
+msgstr "правни тим"
+
+#: apps/course_metadata/emails.py:188
+msgid "Project Coordinator team"
+msgstr "Тим координатора пројекта"
 
 #: apps/course_metadata/emails.py:212
 msgid "course team"
-msgstr "команда курса"
+msgstr "тим за курс"
 
 #: apps/course_metadata/emails.py:221
 #, python-brace-format
 msgid "Legal review requested: {title}"
-msgstr "Требуется юридический запрос: {title}"
+msgstr "Законско рецензију тражено: {title}"
+
+#: apps/course_metadata/emails.py:234
+#, python-brace-format
+msgid "Course URL for {title}"
+msgstr "УРЛ курса за {title}"
+
+#: apps/course_metadata/emails.py:280
+#, python-brace-format
+msgid "Review requested: {key} - {title}"
+msgstr "Преглед тражено: {key} - {title}"
 
 #: apps/course_metadata/emails.py:292
 #, python-brace-format
 msgid "Review complete: {title}"
-msgstr "рецензирование завершено {title}"
+msgstr "Рецензија Комплетна: {title}"
+
+#: apps/course_metadata/emails.py:308
+#, python-brace-format
+msgid "Published: {title}"
+msgstr "Објављено: {title}"
+
+#: apps/course_metadata/emails.py:312
+#, python-brace-format
+msgid "Published: {key} - {title}"
+msgstr "Објављено: {key} - {title}"
+
+#: apps/course_metadata/emails.py:327
+#, python-brace-format
+msgid "Comment added: {title}"
+msgstr "Додато коментар: {title}"
+
+#. Translators: "letters" means latin letters: a-z and A-Z.
+#: apps/course_metadata/fields.py:33
+msgid ""
+"Enter a valid “slug” consisting of letters, numbers, slashes, underscores or"
+" hyphens."
+msgstr ""
+"Унесите валидно \"слуг\" који се састоји од слова, бројева, косих, подвлака "
+"или цртица."
 
 #: apps/course_metadata/forms.py:102
 msgid "Programs can only be activated if they have a banner image."
+msgstr "Програми се могу активирати само ако имају слику банер."
+
+#: apps/course_metadata/management/commands/add_tag_to_courses.py:15
+msgid "Tag to add to courses"
+msgstr "Ознака за додавање курсева"
+
+#: apps/course_metadata/management/commands/add_tag_to_courses.py:16
+msgid "UUIDs of courses to tag"
+msgstr "Ууиди курсева за означавање"
+
+#: apps/course_metadata/management/commands/add_tag_to_courses.py:18
+msgid ""
+"Use arguments from the TagCourseUUIDsConfig model instead of the command "
+"line."
 msgstr ""
-"Активация программ возможна только в том случае, если у них есть изображение"
-" баннера."
+"Користите аргументе са тагцоурсеуууиидсцонфиг модела уместо командне линије."
+
+#: apps/course_metadata/management/commands/add_tag_to_courses.py:27
+msgid "Missing required arguments"
+msgstr "Недостају потребни аргументи"
+
+#: apps/course_metadata/management/commands/backpopulate_course_type.py:10
+msgid "Backpopulate new-style CourseType and CourseRunType where possible."
+msgstr "БацкПопулирајте курс за ново стиловет и курсер је могуће."
+
+#: apps/course_metadata/management/commands/backpopulate_course_type.py:15
+msgid "CODE"
+msgstr "Шифра"
 
 #: apps/course_metadata/management/commands/backpopulate_course_type.py:16
 #: apps/course_metadata/management/commands/delete_person_dups.py:33
 msgid "Short code for a partner."
-msgstr "Короткий код партнера."
+msgstr "Кратки код за партнера."
 
 #: apps/course_metadata/management/commands/backpopulate_course_type.py:20
-#: apps/course_metadata/models.py:235 apps/course_metadata/models.py:490
-#: apps/course_metadata/models.py:638 apps/course_metadata/models.py:671
-#: apps/course_metadata/models.py:695 apps/course_metadata/models.py:734
-#: apps/course_metadata/models.py:1027 apps/course_metadata/models.py:1248
-#: apps/course_metadata/models.py:1410 apps/course_metadata/models.py:2239
-#: apps/course_metadata/models.py:3306 apps/course_metadata/models.py:4266
-#: apps/course_metadata/models.py:4358 apps/learner_pathway/models.py:34
+#: apps/course_metadata/models.py:238 apps/course_metadata/models.py:493
+#: apps/course_metadata/models.py:641 apps/course_metadata/models.py:674
+#: apps/course_metadata/models.py:698 apps/course_metadata/models.py:737
+#: apps/course_metadata/models.py:1054 apps/course_metadata/models.py:1275
+#: apps/course_metadata/models.py:1452 apps/course_metadata/models.py:2287
+#: apps/course_metadata/models.py:3370 apps/course_metadata/models.py:4420
+#: apps/course_metadata/models.py:4561 apps/learner_pathway/models.py:34
 #: apps/learner_pathway/models.py:83 apps/learner_pathway/models.py:158
 msgid "UUID"
-msgstr "UUID"
+msgstr "Ууид"
+
+#: apps/course_metadata/management/commands/backpopulate_course_type.py:22
+msgid "Course to backpopulate."
+msgstr "Курс да се позабавите."
 
 #: apps/course_metadata/management/commands/backpopulate_course_type.py:27
 msgid "KEY"
-msgstr "КЛЮЧ"
+msgstr "Кључ"
+
+#: apps/course_metadata/management/commands/backpopulate_course_type.py:29
+msgid "Organization to backpopulate."
+msgstr "Организација за бацање."
+
+#: apps/course_metadata/management/commands/backpopulate_course_type.py:35
+msgid ""
+"CourseType/CourseRunType mismatches to allow. Specify like course-type-"
+"slug:run-type-slug."
+msgstr ""
+"КурсСетипе / Цоурсерунтипе Мисматцхес за дозволу. Наведите налик на курс-"
+"курс-слуг: Покрени тип-слуг."
+
+#: apps/course_metadata/management/commands/backpopulate_course_type.py:41
+#: apps/course_metadata/management/commands/delete_person_dups.py:38
+msgid "Actually commit the changes to the database."
+msgstr "Заправо почине промене у бази података."
+
+#: apps/course_metadata/management/commands/backpopulate_course_type.py:46
+msgid ""
+"Use arguments from the BackpopulateCourseTypeConfig model instead of the "
+"command line."
+msgstr ""
+"Користите аргументе са БацкПопулатеЦоурсетиПецонфиг модела уместо командне "
+"линије."
+
+#: apps/course_metadata/management/commands/backpopulate_course_type.py:64
+msgid "You must specify --partner"
+msgstr "Морате навести --Партнер"
+
+#: apps/course_metadata/management/commands/backpopulate_course_type.py:71
+#, python-brace-format
+msgid "Supplied Course Run Type slug [{rt_slug}] does not exist."
+msgstr "Испоручени курс ТИП РУН СЛУГ [{rt_slug}] не постоји."
+
+#: apps/course_metadata/management/commands/backpopulate_course_type.py:78
+#, python-brace-format
+msgid "Supplied Course Type slug [{ct_slug}] does not exist."
+msgstr "Испоручени тип курса Слуг [{ct_slug}] не постоји."
+
+#: apps/course_metadata/management/commands/backpopulate_course_type.py:89
+msgid "No courses found. Did you specify an argument?"
+msgstr "Нема пронађених курсева. Да ли сте одредили аргумент?"
+
+#: apps/course_metadata/management/commands/backpopulate_course_type.py:101
+#, python-brace-format
+msgid ""
+"Could not backpopulate a course type for the following courses: "
+"{course_keys}"
+msgstr "Није могао да се појави врсту курса за следеће курсеве: {course_keys}"
+
+#: apps/course_metadata/management/commands/delete_person_dups.py:21
+msgid "Delete duplicate persons in course_metadata."
+msgstr "Избришите дупликате особа у курсу_метадата."
+
+#: apps/course_metadata/management/commands/delete_person_dups.py:26
+msgid "PERSON"
+msgstr "Особа"
+
+#: apps/course_metadata/management/commands/delete_person_dups.py:28
+msgid "People to delete, in UUID:TARGET_UUID form."
+msgstr "Људи који ће избрисати, у УУИД-у: Циљни_ууид форм."
+
+#: apps/course_metadata/management/commands/delete_person_dups.py:32
+msgid "PARTNER"
+msgstr "Партнер"
+
+#: apps/course_metadata/management/commands/delete_person_dups.py:43
+msgid ""
+"Use arguments from the DeletePersonDupsConfig model instead of the command "
+"line."
+msgstr ""
+"Користите аргументе са модела ДелетеПерсондупСцонфиг уместо командне линије."
+
+#: apps/course_metadata/management/commands/delete_person_dups.py:60
+msgid "Malformed argument \"{}\", should be in form of UUID:TARGET_UUID"
+msgstr ""
+"Неправедни аргумент \"{}\", требало би да буде у облику УУИД-а: таргет_ууид"
+
+#: apps/course_metadata/management/commands/delete_person_dups.py:62
+msgid "Malformed argument \"{}\", UUIDs cannot be equal"
+msgstr "Неправилно обликовани аргумент \"{}\", УУИДС не може бити једнак"
 
 #: apps/course_metadata/management/commands/delete_person_dups.py:85
 msgid "Deleting"
-msgstr "Удаление"
+msgstr "Брисање"
+
+#: apps/course_metadata/management/commands/delete_person_dups.py:85
+msgid "Would delete"
+msgstr "Би се избрисало"
 
 #: apps/course_metadata/management/commands/delete_person_dups.py:86
 msgid "Name"
-msgstr "Имя"
+msgstr "Назив"
+
+#: apps/course_metadata/management/commands/delete_person_dups.py:87
+msgid "Endorsements"
+msgstr "Одобрења"
 
 #: apps/course_metadata/management/commands/delete_person_dups.py:88
 msgid "Programs"
-msgstr "Программы"
+msgstr "Програми"
+
+#: apps/course_metadata/management/commands/delete_person_dups.py:89
+msgid "Course Runs"
+msgstr "Курс трчи"
 
 #: apps/course_metadata/management/commands/delete_person_dups.py:90
 msgid "Target"
-msgstr "Цель"
+msgstr "Мета"
 
-#: apps/course_metadata/models.py:236
+#: apps/course_metadata/management/commands/delete_person_dups.py:129
+msgid "You must specify --partner-code"
+msgstr "Морате навести --Партнер-код"
+
+#: apps/course_metadata/management/commands/delete_person_dups.py:132
+msgid "You must specify at least one person"
+msgstr "Морате навести најмање једну особу"
+
+#: apps/course_metadata/management/commands/publish_live_course_runs.py:23
+#, python-brace-format
+msgid "Publishing course run {key}"
+msgstr "Објављивање курса Рун {key}"
+
+#: apps/course_metadata/management/commands/publish_live_course_runs.py:28
+#, python-brace-format
+msgid "Failed to publish {key}"
+msgstr "Није успело објавити {key}"
+
+#: apps/course_metadata/management/commands/publish_live_course_runs.py:31
+#, python-brace-format
+msgid "Successfully published {key}"
+msgstr "Успешно објављен {key}"
+
+#: apps/course_metadata/management/commands/publish_live_course_runs.py:34
+msgid "One or more course runs failed to publish."
+msgstr "Један или више трчања курса није успело да објаве."
+
+#: apps/course_metadata/management/commands/remove_redirects_from_courses.py:22
+msgid "Remove all redirects to all courses"
+msgstr "Уклоните све преусмеравање на све курсеве"
+
+#: apps/course_metadata/management/commands/remove_redirects_from_courses.py:23
+msgid "Redirects to remove"
+msgstr "Преусмерава да се уклони"
+
+#: apps/course_metadata/management/commands/remove_redirects_from_courses.py:25
+msgid ""
+"Use arguments from the RemoveRedirectsConfig model instead of the command "
+"line."
+msgstr ""
+"Користите аргументе са модела РемовеРедирецтСцонфиг уместо командне линије."
+
+#: apps/course_metadata/management/commands/remove_redirects_from_courses.py:32
+msgid "Invalid arguments"
+msgstr "Неважећи аргументи"
+
+#: apps/course_metadata/management/commands/remove_redirects_from_courses.py:56
+#, python-brace-format
+msgid "Cannot remove active url_slug {url_slug}"
+msgstr "Не може да уклони активно урл_слуг {url_slug}"
+
+#: apps/course_metadata/management/commands/remove_redirects_from_courses.py:60
+#, python-brace-format
+msgid "Path /course/{url_slug} not in use, nothing to delete"
+msgstr "Стаза / курс / {url_slug} Не у употреби, ништа за брисање"
+
+#: apps/course_metadata/management/commands/remove_redirects_from_courses.py:65
+#, python-brace-format
+msgid "Path {url_path} not in use, nothing to delete"
+msgstr "ПАТХ {url_path} Не користи се, ништа за брисање"
+
+#: apps/course_metadata/management/commands/unpublish_inactive_runs.py:42
+msgid "One or more courses failed to unpublish."
+msgstr "Један или више курсева није успео да отклоне."
+
+#: apps/course_metadata/management/commands/unpublish_inactive_runs.py:48
+#, python-brace-format
+msgid "Successfully unpublished runs in course {key}"
+msgstr "Успешно необјављено трчање на курсу {key}"
+
+#: apps/course_metadata/management/commands/unpublish_inactive_runs.py:51
+#, python-brace-format
+msgid "Failed to unpublish runs in course {key}"
+msgstr "Неуспешно необјављене трке на курсу {key}"
+
+#: apps/course_metadata/models.py:239
 msgid ""
 "Please do not use any spaces or special characters other than period, "
 "underscore or hyphen. This key will be used in the course's course key."
 msgstr ""
-"Пожалуйста, не используйте пробелы или специальные символы, кроме точки, "
-"подчеркивания или дефиса. Этот ключ будет использоваться в курсе."
+"Не користите никакве размаке или посебне знакове осим периода, подвлаке или "
+"цртице. Овај кључ ће се користити у курсу курса."
 
-#: apps/course_metadata/models.py:272 apps/course_metadata/models.py:1487
-#: apps/course_metadata/models.py:2323
+#: apps/course_metadata/models.py:244
+msgid "If populated, this field will overwrite name in platform."
+msgstr "Ако је насељено, ово поље ће преписати име на платформи."
+
+#: apps/course_metadata/models.py:249
+msgid "Spanish Description"
+msgstr "Шпански опис"
+
+#: apps/course_metadata/models.py:250
+msgid ""
+"For seo, this field allows for alternate spanish description to be manually "
+"inputted"
+msgstr ""
+"За СЕО ово поље омогућава алтернативни шпански опис који се ручно унесе"
+
+#: apps/course_metadata/models.py:275 apps/course_metadata/models.py:1529
+#: apps/course_metadata/models.py:2371
 msgid ""
 "Pick a tag from the suggestions. To make a new tag, add a comma after the "
 "tag name."
 msgstr ""
-"Выберите тег из предложений. Чтобы создать новый тег, добавьте запятую после"
-" имени тега."
+"Изаберите ознаку са предлога. Да бисте направили нову ознаку, додајте зарез "
+"након имена ознака."
 
-#: apps/course_metadata/models.py:319
+#: apps/course_metadata/models.py:279
+msgid "Automatically generate course run keys"
+msgstr "Аутоматски генеришите тастере за покретање курсева"
+
+#: apps/course_metadata/models.py:281
+msgid ""
+"When this flag is enabled, the key of a new course run will be auto "
+"generated.  When this flag is disabled, the key can be manually set."
+msgstr ""
+"Када је ова застава омогућена, кључ новог вожње за тока биће аутоматски "
+"генерисан.  Када је ова застава онемогућена, кључ се може ручно подесити."
+
+#: apps/course_metadata/models.py:287
+msgid ""
+"This field signifies if any of this org's courses are in the enterprise "
+"subscription catalog"
+msgstr ""
+"Ово поље означава да ли је било који од ових курсева овог орга у каталогу "
+"претплате предузећа"
+
+#: apps/course_metadata/models.py:290
+msgid ""
+"The 6 character-hex-value of the orgnization theme color,\n"
+"            all related course under same organization will use this color as theme color.\n"
+"            (e.g. \"#ff0000\" which equals red) No need to provide the `#`"
+msgstr ""
+"6 карактера-хек-вредност теме о оргнизацији боје,\n"
+"   Сви повезани курс под исту организацију користиће ову боју као у боји теме.\n"
+"   (нпр. \"#ff0000\" који је једнак црвеној боји) Нема потребе за пружањем `#`"
+
+#: apps/course_metadata/models.py:306
+msgid "The timestamp of the last time the organization data was modified."
+msgstr ""
+"Временска ознака последњи пут када су подаци о организацији модификовани."
+
+#: apps/course_metadata/models.py:322
 msgid ""
 "Please do not use any spaces or special characters other than period, "
 "underscore or hyphen in the key field."
 msgstr ""
-"Пожалуйста, не используйте пробелы или специальные символы, кроме точки, "
-"подчеркивания или дефиса в ключевом поле."
+"Не користите никакве размаке или посебне знакове осим периода, подвлаке или "
+"цртице у пољу кључа."
 
-#: apps/course_metadata/models.py:472
+#: apps/course_metadata/models.py:393
+msgid "Corresponding organization code in an external product source"
+msgstr "Одговарајући код организације у спољном извору производа"
+
+#: apps/course_metadata/models.py:450
+msgid "LevelType model translations"
+msgstr "Преводи модела нивоа"
+
+#: apps/course_metadata/models.py:475
 msgid ""
 "Seat types that qualify for completion of programs of this type. Learners "
 "completing associated courses, but enrolled in other seat types, will NOT "
 "have their completion of the course counted toward the completion of the "
 "program."
 msgstr ""
-"Типы посадочных мест, которые подходят для завершения программ этого типа. "
-"Студенты, завершающие сопутствующие курсы, но зачисленные на другие типы "
-"мест, НЕ будут засчитываться в итоговый счет по завершении курса."
+"Врсте седишта које се квалификују за завршетак програма ове врсте. Ученици "
+"који завршавају придружени курсеви, али уписани у остале врсте седишта, неће"
+" имати завршетак курса који се рачунају ка завршетку програма."
 
-#: apps/course_metadata/models.py:486
+#: apps/course_metadata/models.py:489
 msgid "Please provide an image file with transparent background"
-msgstr "Пожалуйста, предоставьте файл изображения с прозрачным фоном."
+msgstr "Молимо наведите датотеку слике са прозирном позадином"
 
-#: apps/course_metadata/models.py:489 apps/course_metadata/models.py:533
-#: apps/course_metadata/models.py:699 apps/course_metadata/models.py:737
-#: apps/course_metadata/models.py:1422 apps/course_metadata/models.py:3320
+#: apps/course_metadata/models.py:492 apps/course_metadata/models.py:536
+#: apps/course_metadata/models.py:702 apps/course_metadata/models.py:740
+#: apps/course_metadata/models.py:1464 apps/course_metadata/models.py:3384
 msgid "Leave this field blank to have the value generated automatically."
+msgstr "Оставите ово поље празно да би се вредност аутоматски генерисала."
+
+#: apps/course_metadata/models.py:533
+msgid "Name of the external source."
+msgstr "Име спољног извора."
+
+#: apps/course_metadata/models.py:538
+msgid "Description of the external source."
+msgstr "Опис спољног извора."
+
+#: apps/course_metadata/models.py:543
+msgid "Programs of these types will be OFAC restricted"
+msgstr "Програми ових врста биће ОФАЦ ограничени"
+
+#: apps/course_metadata/models.py:557
+msgid "ProgramType model translations"
+msgstr "Преводи модела програма"
+
+#: apps/course_metadata/models.py:571
+msgid "This mode requires ID verification."
+msgstr "Овај режим захтева верификацију ИД-а."
+
+#: apps/course_metadata/models.py:574
+msgid "Completion can grant credit toward an organization’s degree."
+msgstr "Завршетак може одобрити кредит према степену организације."
+
+#: apps/course_metadata/models.py:578
+msgid ""
+"Certificate type granted if this mode is eligible for a certificate, or "
+"blank if not."
 msgstr ""
-"Оставьте это поле пустым, чтобы получить автоматически сгенерированное "
-"значение."
+"Врста сертификата одобрена ако овај режим испуњава услове за потврду или "
+"празно ако не."
 
-#: apps/course_metadata/models.py:729
+#: apps/course_metadata/models.py:582
+msgid ""
+"Who gets paid for the course? Platform is the site owner, Organization is "
+"the school."
+msgstr ""
+"Ко је плаћен за курс? Платформа је власник локације, организација је школа."
+
+#: apps/course_metadata/models.py:679
+msgid "Sets the order for displaying Course Run Types."
+msgstr "Поставља налог за приказивање врста покретања курсева."
+
+#: apps/course_metadata/models.py:682
+msgid ""
+"Leave this blank to allow all orgs. Otherwise, specifies which orgs can see "
+"this course type in Publisher."
+msgstr ""
+"Оставите ово празно да бисте дозволили све оргене. У супротном, одређује "
+"које орге могу видети овај курс у издавачу."
+
+#: apps/course_metadata/models.py:732
 msgid "Subject model translations"
-msgstr "Тематические переводы моделей"
+msgstr "Предметни превод модела"
 
-#: apps/course_metadata/models.py:776
+#: apps/course_metadata/models.py:779
 msgid "Topic model translations"
-msgstr "Тематические переводы моделей"
+msgstr "Преводи модела теме"
 
-#: apps/course_metadata/models.py:1054
+#: apps/course_metadata/models.py:846
+msgid "SEO Meta tags for Products"
+msgstr "СЕО мета ознаке за производе"
+
+#: apps/course_metadata/models.py:881
+msgid ""
+"The ID of the Taxi Form (by 2U) that would be rendered in place of the "
+"hubspot capture form"
+msgstr ""
+"ИД таксија (од 2У) који би био донесен уместо облика хватања Хубспот-а"
+
+#: apps/course_metadata/models.py:887
+msgid ""
+"The grouping of the Taxi Form (by 2U) that would be rendered instead of the "
+"hubspot capture form"
+msgstr ""
+"Групирање таксија (од 2У) који би се приказао уместо формата хватања "
+"Хубпот-а"
+
+#: apps/course_metadata/models.py:933
+msgid "The URL of the paid landing page on external site"
+msgstr "УРЛ плаћене странице за слетање на спољном месту"
+
+#: apps/course_metadata/models.py:939
+msgid "The URL of the organic landing page on external site"
+msgstr "УРЛ органске странице за слетање на спољном месту"
+
+#: apps/course_metadata/models.py:950
+msgid "The start date of the external course offering for marketing purpose"
+msgstr "Датум почетка спољног курса који нуди маркетиншку сврху"
+
+#: apps/course_metadata/models.py:954
+msgid "The ends date of the external course offering for marketing purpose"
+msgstr "Крајњи датум спољног курса који нуди маркетиншку сврху"
+
+#: apps/course_metadata/models.py:958
+msgid "The suggested deadline for enrollment for marketing purpose"
+msgstr "Предложени рок за упис на маркетиншку сврху"
+
+#: apps/course_metadata/models.py:962
+msgid "The identifier for a product variant."
+msgstr "Идентификатор за варијанту производа."
+
+#: apps/course_metadata/models.py:966
+msgid "Course override"
+msgstr "Прегласавање курса"
+
+#: apps/course_metadata/models.py:967
+msgid "This field allows for override the default course term"
+msgstr "Ово поље омогућава преглашавање подразумеваног термина"
+
+#: apps/course_metadata/models.py:993
+msgid ""
+"This field contain external course marketing type specific to product lines"
+msgstr ""
+"Ово поље садржи спољни предмет маркетинга специфично за линије производа"
+
+#: apps/course_metadata/models.py:1002
+msgid ""
+"Determines weather the course should be displayed on the owning "
+"organization's page"
+msgstr ""
+"Одређује временске прилике Курс треба да се прикаже на страници организације"
+" у власништву"
+
+#: apps/course_metadata/models.py:1073
+msgid "A list of major works by this person. Must be valid HTML."
+msgstr "Листа главних дела ове особе. Мора да је валидан ХТМЛ."
+
+#: apps/course_metadata/models.py:1081
 msgid "People"
-msgstr "Люди"
+msgstr "Људи"
 
-#: apps/course_metadata/models.py:1456
+#: apps/course_metadata/models.py:1272
+msgid ""
+"Add the collaborator image, please make sure its dimensions are 200x100px"
+msgstr ""
+"Додајте слику Цоллаборатор, проверите да ли су њене димензије 200к100пк"
+
+#: apps/course_metadata/models.py:1296
+msgid "U.S. Value Per Lead"
+msgstr "Америчка вредност по вођству"
+
+#: apps/course_metadata/models.py:1297
+msgid "U.S. value per lead in U.S. dollars."
+msgstr "Америчка вредност по вођству у америчким доларима."
+
+#: apps/course_metadata/models.py:1302
+msgid "International Value Per Lead"
+msgstr "Међународна вредност по олову"
+
+#: apps/course_metadata/models.py:1303
+msgid "International value per lead in U.S. dollars."
+msgstr "Међународна вредност по вођству у америчким доларима."
+
+#: apps/course_metadata/models.py:1308
+msgid "U.S. Value Per Click"
+msgstr "У.С. Вредност по клику"
+
+#: apps/course_metadata/models.py:1309
+msgid "U.S. value per click in U.S. dollars."
+msgstr "Америчка вредност по клику у америчким доларима."
+
+#: apps/course_metadata/models.py:1314
+msgid "International Value Per Click"
+msgstr "Међународна вредност по клику"
+
+#: apps/course_metadata/models.py:1315
+msgid "International value per click in U.S. dollars."
+msgstr "Међународна вредност по клику у америчким доларима."
+
+#: apps/course_metadata/models.py:1359
+msgid "Latitude"
+msgstr "Ширина"
+
+#: apps/course_metadata/models.py:1366
+msgid "Longitude"
+msgstr "Дужина"
+
+#: apps/course_metadata/models.py:1409
+msgid "Allowlist"
+msgstr "Листа за дозволу"
+
+#: apps/course_metadata/models.py:1410
+msgid "Blocklist"
+msgstr "Клизаљка"
+
+#: apps/course_metadata/models.py:1460
+msgid ""
+"When making reruns for this course, they will use this key instead of the "
+"course key."
+msgstr ""
+"Приликом прављења понављања за овај курс користиће овај кључ уместо кључа "
+"курса."
+
+#: apps/course_metadata/models.py:1477
+msgid ""
+"The actual duration of this course as experienced by learners who complete "
+"it."
+msgstr "Стварно трајање овог курса који су искусили ученици који је испуне."
+
+#: apps/course_metadata/models.py:1498
 msgid "Add the course image"
-msgstr "Добавить изображение курса"
+msgstr "Додајте слику курса"
 
-#: apps/course_metadata/models.py:1459 apps/course_metadata/models.py:3292
+#: apps/course_metadata/models.py:1501 apps/course_metadata/models.py:3356
 msgid "FAQ"
-msgstr "Вопросы и ответы"
+msgstr "Постављана питања"
 
-#: apps/course_metadata/models.py:1481
+#: apps/course_metadata/models.py:1504
+msgid "Total number of learners who have enrolled in this course"
+msgstr "Укупан број ученика који су се уписали у овај курс"
+
+#: apps/course_metadata/models.py:1509
+msgid ""
+"Total number of learners who have enrolled in this course in the last 6 "
+"months"
+msgstr ""
+"Укупан број ученика који су у последњих 6 месеци уписали у овај курс у "
+"последњих 6 месеци"
+
+#: apps/course_metadata/models.py:1523
 msgid "Course number format e.g CS002x, BIO1.1x, BIO1.2x"
-msgstr "Примеры формата номера курса: CS002x, BIO1.1x, BIO1.2x"
+msgstr "Број курса ФОРМАТ Е.Г ЦС002Кс, био1.1к, био1.2к"
 
-#: apps/course_metadata/models.py:1495
+#: apps/course_metadata/models.py:1537
 msgid "Additional Information"
-msgstr "Дополнительная информация"
+msgstr "Додатне информације"
 
-#: apps/course_metadata/models.py:2249
+#: apps/course_metadata/models.py:1559
+msgid "The last time this course was modified in the database."
+msgstr "Последњи пут када је овај курс био модификован у бази података."
+
+#: apps/course_metadata/models.py:1564
+msgid ""
+"This field signifies if this course is in the enterprise subscription "
+"catalog"
+msgstr "Ово поље означава да ли је овај курс у каталогу претплате предузећа"
+
+#: apps/course_metadata/models.py:1572 apps/course_metadata/models.py:3515
+msgid ""
+"If checked, this item will not be indexed in Algolia and will not show up in"
+" search results."
+msgstr ""
+"Ако је проверен, овај артикал се неће индексирати у Алголији и неће се "
+"појавити у резултатима претраге."
+
+#: apps/course_metadata/models.py:1580 apps/course_metadata/models.py:3523
+msgid "If checked, the About Page will have a meta tag with noindex value"
+msgstr ""
+"Ако је проверен, на страници ће имати МЕТА ознаку са Ноиндеком Вредност"
+
+#: apps/course_metadata/models.py:1585
+msgid "Watchers"
+msgstr "Гледаоци"
+
+#: apps/course_metadata/models.py:1587
+msgid ""
+"The list of email addresses that will be notified if any of the course runs "
+"is published or scheduled."
+msgstr ""
+"Листа адреса е-поште која ће бити обавештена ако се објављује или заказује "
+"било који од трајања курса."
+
+#: apps/course_metadata/models.py:1832
+msgid "Future"
+msgstr "Будућност"
+
+#: apps/course_metadata/models.py:1834
+msgid "Past"
+msgstr "Прошлост"
+
+#: apps/course_metadata/models.py:2275 apps/course_metadata/models.py:3367
+msgid "Blocked"
+msgstr "Блокиран"
+
+#: apps/course_metadata/models.py:2276 apps/course_metadata/models.py:3368
+msgid "Unrestricted"
+msgstr "Неограничен"
+
+#: apps/course_metadata/models.py:2297
 msgid ""
 "Title specific for this run of a course. Leave this value blank to default "
 "to the parent course's title."
 msgstr ""
-"Специфика заголовка для прохождения курса. Оставьте это значение "
-"незаполненным,  по умолчанию исконное заглавие курса. "
+"Наслов је специфичан за ово вођење курса. Оставите ову вредност празно за "
+"подразумевано на наслов родитељског курса."
 
-#: apps/course_metadata/models.py:2258
+#: apps/course_metadata/models.py:2306
 msgid ""
 "Short description specific for this run of a course. Leave this value blank "
 "to default to the parent course's short_description attribute."
 msgstr ""
-"Краткое описание специфики данного курса. Оставьте это значение "
-"незаполненным, по умолчанию исконное короткое описание."
+"Кратак опис специфичан за ово вођење курса. Оставите ову вредност празно за "
+"подразумевано атрибут родитељског курса."
 
-#: apps/course_metadata/models.py:2262
+#: apps/course_metadata/models.py:2310
 msgid ""
 "Full description specific for this run of a course. Leave this value blank "
 "to default to the parent course's full_description attribute."
 msgstr ""
-"Полное описание специфики данного курса. Оставьте это значение по умолчанию "
-"родительское полное описание курса. "
+"Потпуни опис специфичан за ово вођење курса. Оставите ову вредност празно за"
+" подразумевано атрибут Фулл_ДеСтиптион атрибута родитељског курса."
 
-#: apps/course_metadata/models.py:2267
+#: apps/course_metadata/models.py:2315
 msgid ""
 "Estimated minimum number of hours per week needed to complete a course run."
-msgstr ""
-"Минимальное количество часов в неделю, необходимое для завершения курса. "
+msgstr "Процењени минимални број сати недељно потребне за завршетак курса."
 
-#: apps/course_metadata/models.py:2270
+#: apps/course_metadata/models.py:2318
 msgid ""
 "Estimated maximum number of hours per week needed to complete a course run."
 msgstr ""
-"Максимальное количество часов в неделю необходимое для завершения курса. "
+"Процењени максимални број сати недељно потребне за завршетак покретања "
+"курса."
 
-#: apps/course_metadata/models.py:2273
+#: apps/course_metadata/models.py:2321
 msgid "Estimated number of weeks needed to complete this course run."
+msgstr "Процењени број недеља потребних за завршетак овог курса."
+
+#: apps/course_metadata/models.py:2328
+msgid ""
+"A JSON dict detailing the available translations and transcriptions for this"
+" run. The dict has two keys: translation_languages and "
+"transcription_languages."
 msgstr ""
-"Предполагаемое количество недель, необходимое для завершения данного курса."
+"Јсон Дицт детаљно описивање доступних превода и транскрипција за ово вођење."
+" Дицт има два тастера: превод_лангуаге и транскрипција_лангуаге."
 
-#: apps/course_metadata/models.py:2310
+#: apps/course_metadata/models.py:2335
+msgid "Total number of learners who have enrolled in this course run"
+msgstr "Укупан број ученика који су се уписали у овај курс"
+
+#: apps/course_metadata/models.py:2339
+msgid ""
+"Total number of learners who have enrolled in this course run in the last 6 "
+"months"
+msgstr ""
+"Укупан број ученика који су се уписују у овај курс у последњих 6 месеци"
+
+#: apps/course_metadata/models.py:2352
+msgid ""
+"Whether this run should be hidden from API responses.  Do not edit here - "
+"this value will be overwritten by the \"Course Visibility In Catalog\" field"
+" in Studio via Refresh Course Metadata."
+msgstr ""
+"Да ли треба да се ово трчање треба скривати од АПИ одговора. Не уредите овде"
+" - ова вредност ће преписати поље \"Course Visibility In Catalog\" у студију"
+" путем метаподатака за освежавање метаподатака."
+
+#: apps/course_metadata/models.py:2358
 msgid "Indicates whether the course relation has been manually overridden."
-msgstr "Показывает, была ли связь дистанции переопределена вручную."
+msgstr "Означава да ли је однос курса ручно надјачан."
 
-#: apps/course_metadata/models.py:2317
+#: apps/course_metadata/models.py:2365
 msgid ""
 "'What You Will Learn' description for this particular course run. Leave this"
 " value blank to default to the parent course's Outcome attribute."
 msgstr ""
-"Описание \"Чему вы научитесь\" для этого конкретного курса. Оставьте это "
-"значение пустым по умолчанию для атрибута Результат родительского курса."
+"'What You Will Learn' Опис за овај одређени курс Рун. Оставите ову вредност "
+"празно за подразумевано атрибут родитељског курса."
 
-#: apps/course_metadata/models.py:2698 apps/course_metadata/models.py:2711
+#: apps/course_metadata/models.py:2378 apps/course_metadata/models.py:3551
+msgid "Add OFAC restriction text to the FAQ section of the Marketing site"
+msgstr ""
+"Додавање текста за рестрикцију са АЦК-ом на одељак ФАК у маркетиншкој "
+"локацији"
+
+#: apps/course_metadata/models.py:2398
+msgid ""
+"This calculated field signifies if this course run is in the enterprise "
+"subscription catalog"
+msgstr ""
+"Ово израчуната поље означава ако је овај курс покренут у каталогу претплате "
+"предузећа"
+
+#: apps/course_metadata/models.py:2404
+msgid ""
+"The identifier for a product variant. This is used to link a course run to a"
+" product variant for external LOBs (i.e; ExecEd & Bootcamps)."
+msgstr ""
+"Идентификатор за варијанту производа. Ово се користи за повезивање курса "
+"који се изводи на варијанту производа за спољне лоб (тј; извршени и "
+"боотцампс)."
+
+#: apps/course_metadata/models.py:2752 apps/course_metadata/models.py:2765
 msgid "Current"
-msgstr "Текущий"
+msgstr "Струја"
 
-#: apps/course_metadata/models.py:2700
+#: apps/course_metadata/models.py:2754
 msgid "Starting Soon"
-msgstr "Скоро начнётся"
+msgstr "Почевши ускоро"
 
-#: apps/course_metadata/models.py:3293
+#: apps/course_metadata/models.py:2804
+msgid ""
+"Switching seat types after being reviewed is not supported. Please reach out"
+" to your project coordinator for additional help if necessary."
+msgstr ""
+"Пребацивање типова седишта након прегледа није подржан. По потреби посегните"
+" свом координатору пројекта за додатну помоћ ако је потребно."
+
+#: apps/course_metadata/models.py:3157
+msgid "Change careers"
+msgstr "Промените каријеру"
+
+#: apps/course_metadata/models.py:3158
+msgid "Job advancement"
+msgstr "Напредовање посла"
+
+#: apps/course_metadata/models.py:3159
+msgid "Learn valuable skills"
+msgstr "Научите драгоцене вештине"
+
+#: apps/course_metadata/models.py:3160
+msgid "Learn for fun"
+msgstr "Научити за забаву"
+
+#: apps/course_metadata/models.py:3357
 msgid "FAQs"
-msgstr "FAQs"
+msgstr "Често постављана питања"
 
-#: apps/course_metadata/models.py:3308
+#: apps/course_metadata/models.py:3372
 msgid "The user-facing display title for this Program."
-msgstr "Заголовок дисплея, обращенный к пользователю для данной Программы."
+msgstr "Назив приказа корисника за овај програм."
 
-#: apps/course_metadata/models.py:3310
+#: apps/course_metadata/models.py:3374
 msgid "A brief, descriptive subtitle for the Program."
-msgstr "Краткий, описательный подзаголовок для Программы."
+msgstr "Кратак, описни поднаслов за програм."
 
-#: apps/course_metadata/models.py:3315
+#: apps/course_metadata/models.py:3376
+msgid "A brief hook for the marketing website"
+msgstr "Кратка кука за маркетиншку веб страницу"
+
+#: apps/course_metadata/models.py:3379
 msgid "The lifecycle status of this Program."
-msgstr "Статус жизненного цикла данной Программы."
+msgstr "Статус животног циклуса овог програма."
 
-#: apps/course_metadata/models.py:3327
+#: apps/course_metadata/models.py:3391
 msgid ""
 "If this box is not checked, courses will be ordered as in the courses select"
 " box above."
 msgstr ""
-"Если этот флажок не установлен, то курсы будут упорядочены, как в "
-"вышеуказанном флажке."
+"Ако се ова кутија не проверава, курсеви ће бити наручени као у курсевима "
+"Изаберите поље изнад."
 
-#: apps/course_metadata/models.py:3342
+#: apps/course_metadata/models.py:3406
 msgid ""
 "This field is now deprecated (ECOM-6021).Estimated number of weeks needed to"
 " complete a course run belonging to this program."
 msgstr ""
-"Это поле теперь устарело (ECOM-6021). Предполагаемое количество недель, "
-"необходимое для прохождения курса, принадлежащего этой программе."
+"Ово поље је сада застарело (ЕЦОМ-6021) .Естимирани број недеља потребних за "
+"завршетак курса који припадају овом програму."
 
-#: apps/course_metadata/models.py:3375
+#: apps/course_metadata/models.py:3432
+msgid "DEPRECATED: Use the card image field"
+msgstr "Застарело: Користите поље слика картице"
+
+#: apps/course_metadata/models.py:3439
 msgid ""
 "This field can be used by API clients to determine the order in which "
 "instructors will be displayed on program pages. Instructors in this list "
 "should appear before all others associated with this programs courses runs."
 msgstr ""
-"Это поле может быть использовано клиентами API для определения порядка "
-"отображения инструкторов на страницах программы. Преподаватели в этом списке"
-" должны появиться перед всеми остальными, кто связан с этими курсами."
+"Ово поље може користити клијенти АПИ-а како би одредили редослед у којем ће "
+"се инструктори приказати на програмским страницама. Инструктори на овој "
+"листи требало би да се појаве пре него што сви други повезани са овим "
+"програмима курсеви."
 
-#: apps/course_metadata/models.py:3386
+#: apps/course_metadata/models.py:3450
 msgid "The description of credit redemption for courses in program"
-msgstr "Описание погашения кредитов за обучение по предметам программы"
+msgstr "Опис кредитног откупљења за курсеве у програму"
 
-#: apps/course_metadata/models.py:3391
+#: apps/course_metadata/models.py:3455
 msgid "Allow courses in this program to be purchased in a single transaction"
-msgstr "Разрешить покупку курсов в рамках этой программы за одну транзакцию."
+msgstr "Дозволите курсевима у овом програму да се купују у једној трансакцији"
 
-#: apps/course_metadata/models.py:3395
+#: apps/course_metadata/models.py:3459
 msgid ""
 "Hide program on marketing site landing and search pages. This program MAY "
 "have a detail page."
 msgstr ""
-"Скрыть программу на целевых и поисковых страницах маркетинговых сайтов. У "
-"этой программы MAY есть подробная страница."
+"Сакриј програм на маркетингу за слетање и претраживање странице. Овај "
+"програм може имати детаљну страницу."
 
-#: apps/course_metadata/models.py:4178
-msgid "Bell"
-msgstr "Звонок"
+#: apps/course_metadata/models.py:3462
+msgid "Total number of learners who have enrolled in courses this program"
+msgstr "Укупан број ученика који су уписали курсеве овог програма"
 
-#: apps/course_metadata/models.py:4179
-msgid "Certificate"
-msgstr "Cертификат"
+#: apps/course_metadata/models.py:3467
+msgid ""
+"Total number of learners who have enrolled in courses in this program in the"
+" last 6 months"
+msgstr ""
+"Укупан број ученика који су у последњих 6 месеци уписали курсеве у курсеве у"
+" овом програму"
+
+#: apps/course_metadata/models.py:3472
+msgid ""
+"Number of credits a learner will earn upon successful completion of the "
+"program"
+msgstr "Број кредита Ученик ће зарадити на успешном завршетку програма"
+
+#: apps/course_metadata/models.py:3476
+msgid ""
+"This calculated field signifies if all the courses in this program are "
+"included in the enterprise subscription catalog "
+msgstr ""
+"Ово израчуната поље означава да ли су сви курсеви у овом програму укључени у"
+" претплатни каталог претплате предузећа"
+
+#: apps/course_metadata/models.py:3480
+msgid ""
+"A field to override Organization short code alias specific for this program."
+msgstr ""
+"Поље за надјачавање организације кратког кода Специфично за овај програм."
+
+#: apps/course_metadata/models.py:3487
+msgid "A field to override Organization logo specific for this program."
+msgstr ""
+"Поље за превладавање логотипа организације специфично за овај програм."
+
+#: apps/course_metadata/models.py:3491
+msgid ""
+"Primary subject field specific for this program. Useful field in case there "
+"are no courses associated with this program."
+msgstr ""
+"Примарно предметно поље специфично за овај програм. Корисно поље у случају "
+"да нема курсева повезаних са овим програмом."
+
+#: apps/course_metadata/models.py:3496
+msgid ""
+"Level type specific for this program. Useful field in case there are no "
+"courses associated with this program."
+msgstr ""
+"Тип нивоа специфично за овај програм. Корисно поље у случају да нема курсева"
+" повезаних са овим програмом."
+
+#: apps/course_metadata/models.py:3501
+msgid ""
+"Language code specific for this program. Useful field in case there are no "
+"courses associated with this program."
+msgstr ""
+"Језички код специфичан за овај програм. Корисно поље у случају да нема "
+"курсева повезаних са овим програмом."
+
+#: apps/course_metadata/models.py:3535
+msgid ""
+"Useful field to overwrite the duration of a program. It can be a text "
+"describing a period of time, Ex: 6-9 months."
+msgstr ""
+"Корисно поље за преписивање трајања програма. То може бити текст који "
+"описује временски период, ек: 6-9 месеци."
+
+#: apps/course_metadata/models.py:3544
+msgid ""
+"Pick a tag/label from the suggestions. To make a new tag, add a comma after "
+"the tag name."
+msgstr ""
+"Изаберите ознаку / етикету из предлога. Да бисте направили нову ознаку, "
+"додајте зарез након имена ознака."
+
+#: apps/course_metadata/models.py:3555
+msgid "The last time this program was modified."
+msgstr "Последњи пут када је овај програм модификован."
+
+#: apps/course_metadata/models.py:4007 apps/course_metadata/models.py:4024
+msgid "ID"
+msgstr "Ид"
+
+#: apps/course_metadata/models.py:4043
+msgid "The actual rank number"
+msgstr "Стварни ранг број"
+
+#: apps/course_metadata/models.py:4044
+msgid "What does the rank number mean"
+msgstr "Шта значи ранг број"
+
+#: apps/course_metadata/models.py:4045
+msgid "From where the rank is obtained"
+msgstr "Одакле се добије ранг"
+
+#: apps/course_metadata/models.py:4092
+msgid "Callback URL to partner application flow"
+msgstr "УРЛ адреса за повратни проток партнерске апликације"
+
+#: apps/course_metadata/models.py:4095
+msgid "Overall program ranking (e.g. \"#1 in the U.S.\")"
+msgstr "Укупни програм програма (нпр. \"#1 in the U.S.\")"
+
+#: apps/course_metadata/models.py:4100
+msgid ""
+"The 6 character hex value of the color to make the banner borders\n"
+"            (e.g. \"#ff0000\" which equals red) No need to provide the `#`"
+msgstr ""
+"Шестерокутна вредност од 6 карактера да би се банер граничи\n"
+"   (нпр. \"#ff0000\" који је једнак црвеној боји) Нема потребе за пружањем `#`"
+
+#: apps/course_metadata/models.py:4109
+msgid "Provide a campus image for the header of the degree"
+msgstr "Обезбедите слику у кампусу за заглавље дипломе"
+
+#: apps/course_metadata/models.py:4115
+msgid "Provide a background image for the title section of the degree"
+msgstr "Обезбедите позадинску слику за одјељак наслова у дипломи"
+
+#: apps/course_metadata/models.py:4120
+msgid "The fine print that displays at the Tuition section's bottom"
+msgstr "Фини отисак који се приказује на дну одељења за школовање"
+
+#: apps/course_metadata/models.py:4125
+msgid "The fine print that displays at the Deadline section's bottom"
+msgstr "Фини отисак који се приказује на дну рока"
+
+#: apps/course_metadata/models.py:4132
+msgid "The sailthru email list name to capture leads"
+msgstr "Назив е-поште са једрама за снимање водича за снимање"
+
+#: apps/course_metadata/models.py:4146
+msgid "Please provide an image file for the lead capture banner."
+msgstr "Наведите датотеку слике за баннер овлашћења овлашћења."
+
+#: apps/course_metadata/models.py:4149
+msgid "The Hubspot form ID for the lead capture form"
+msgstr "ИД обрасца ХУБСПОТА за образац за хватање овлашћења"
+
+#: apps/course_metadata/models.py:4155
+msgid "URL to micromasters landing page"
+msgstr "УРЛ до странице за слетање микромастера"
+
+#: apps/course_metadata/models.py:4161
+msgid "Micromasters verbose title"
+msgstr "Микромастери Вербосе наслов"
+
+#: apps/course_metadata/models.py:4167
+msgid "Micromasters descriptive paragraph"
+msgstr "Микромастери Описни пасус"
 
 #: apps/course_metadata/models.py:4180
-msgid "Checkmark"
-msgstr "Галочка"
-
-#: apps/course_metadata/models.py:4181
-msgid "Clock"
-msgstr "Часы"
-
-#: apps/course_metadata/models.py:4183
-msgid "Info"
-msgstr "Информация"
+msgid "Customized background image for the MicroMasters section."
+msgstr "Прилагођена позадинска слика за одељење микромастера."
 
 #: apps/course_metadata/models.py:4184
+msgid ""
+"Override org name if micromasters program comes from different organization "
+"than Masters program"
+msgstr ""
+"Оверриде орг име Ако програм микромастера долази из различитих организација "
+"од програма Мастерс"
+
+#: apps/course_metadata/models.py:4191
+msgid "Ranking display for search card (e.g. \"#1 in the U.S.\""
+msgstr "Рангирање екрана за картицу претраге (нпр. \"#1 in the U.S.\""
+
+#: apps/course_metadata/models.py:4197
+msgid "Cost display for search card (e.g. \"$9,999\""
+msgstr "Приказ трошкова за картицу претраге (нпр. \"$9,999\""
+
+#: apps/course_metadata/models.py:4203
+msgid "Number of courses for search card (e.g. \"11 Courses\""
+msgstr "Број курсева за картицу за претрагу (нпр. \"11 Courses\""
+
+#: apps/course_metadata/models.py:4211
+msgid ""
+"Designates whether the degree should be displayed on the owning "
+"organization's page"
+msgstr ""
+"Означава да ли је степен треба да буде приказан на страници организације у "
+"власништву организације"
+
+#: apps/course_metadata/models.py:4230
+msgid "The redirect URL of the degree on external site"
+msgstr "УРЛ за преусмеравање степена на спољном месту"
+
+#: apps/course_metadata/models.py:4235
+msgid "The URL of the landing page on external site"
+msgstr "УРЛ странице за слетање на спољном месту"
+
+#: apps/course_metadata/models.py:4286
+msgid "Bell"
+msgstr "Звоно"
+
+#: apps/course_metadata/models.py:4287
+msgid "Certificate"
+msgstr "Сертификат"
+
+#: apps/course_metadata/models.py:4288
+msgid "Checkmark"
+msgstr "Квачицу"
+
+#: apps/course_metadata/models.py:4289
+msgid "Clock"
+msgstr "Сат"
+
+#: apps/course_metadata/models.py:4290
+msgid "Desktop"
+msgstr "Радна површина"
+
+#: apps/course_metadata/models.py:4291
+msgid "Info"
+msgstr "Информације"
+
+#: apps/course_metadata/models.py:4292
 msgid "Sitemap"
-msgstr "Карта сайта"
+msgstr "Мапа сајта"
 
-#: apps/course_metadata/models.py:4185
+#: apps/course_metadata/models.py:4293
 msgid "User"
-msgstr "Пользователь"
+msgstr "Корисник"
 
-#: apps/course_metadata/models.py:4186
+#: apps/course_metadata/models.py:4294
 msgid "Dollar"
-msgstr "Доллар"
+msgstr "Долар"
 
-#: apps/course_metadata/models.py:4189
+#: apps/course_metadata/models.py:4295
+msgid "Book"
+msgstr "Књига"
+
+#: apps/course_metadata/models.py:4296
+msgid "Mortar Board"
+msgstr "Малтер"
+
+#: apps/course_metadata/models.py:4297
 msgid "Star"
 msgstr "Звезда"
 
-#: apps/course_metadata/models.py:4363
+#: apps/course_metadata/models.py:4298
+msgid "Trophy"
+msgstr "Трофеј"
+
+#: apps/course_metadata/models.py:4302
+msgid "Icon FA class"
+msgstr "Ицон ФА класа"
+
+#: apps/course_metadata/models.py:4303
+msgid "Paired text"
+msgstr "Упарени текст"
+
+#: apps/course_metadata/models.py:4338
+msgid "Deadline applies for this semester (e.g. Spring 2019"
+msgstr "Рок се односи на овај семестар (нпр. Спринг 2019)"
+
+#: apps/course_metadata/models.py:4342
+msgid "Describes the deadline (e.g. Early Admission Deadline)"
+msgstr "Описује рок (нпр. Рок раног пријема)"
+
+#: apps/course_metadata/models.py:4346
+msgid "The date after which the deadline expires (e.g. January 1, 2019)"
+msgstr "Датум након чега рок истиче (нпр. 1. јануара 2019.)"
+
+#: apps/course_metadata/models.py:4350
+msgid "The time after which the deadline expires (e.g. 11:59 PM EST)."
+msgstr "Време након чега рок истиче (нпр. 23:59 ЕСТ)."
+
+#: apps/course_metadata/models.py:4386
+msgid "Describes what the cost is for (e.g. Tuition)"
+msgstr "Описује колики је цена (нпр. Школарина)"
+
+#: apps/course_metadata/models.py:4390
+msgid "String-based field stating how much the cost is (e.g. $1000)."
+msgstr ""
+"Поље на бази стрингова у којој се наводи колико је цена (нпр. 1000 долара)."
+
+#: apps/course_metadata/models.py:4433
+msgid ""
+"A high-level overview of the degree's courseware. The \"brief\"\n"
+"            text is the first 750 characters of \"marketing_text\" and must be\n"
+"            valid HTML."
+msgstr ""
+"Преглед високог нивоа дипломевог курсева. \"brief\" \n"
+"   Текст је првих 750 знакова \"marketing_text\" и мора бити\n"
+"   Важећа ХТМЛ."
+
+#: apps/course_metadata/models.py:4441
+msgid "A high-level overview of the degree's courseware."
+msgstr "Преглед високог нивоа дипломевог курсева."
+
+#: apps/course_metadata/models.py:4566
 msgid "Organization name"
-msgstr "Название организации"
+msgstr "Име организације"
 
-#: apps/course_metadata/models.py:4417
+#: apps/course_metadata/models.py:4593
+msgid "These programs are for a different partner than the pathway itself: {}"
+msgstr "Ови програми су за другачијег партнера од самог пута: {}"
+
+#: apps/course_metadata/models.py:4620
 msgid "Facebook"
-msgstr "Facebook"
+msgstr "Фацебоок"
 
-#: apps/course_metadata/models.py:4418
+#: apps/course_metadata/models.py:4621
 msgid "Twitter"
-msgstr "Twitter"
+msgstr "Нагнути"
 
-#: apps/course_metadata/models.py:4419
+#: apps/course_metadata/models.py:4622
 msgid "Blog"
 msgstr "Блог"
 
-#: apps/course_metadata/models.py:4420
+#: apps/course_metadata/models.py:4623
 msgid "Others"
-msgstr "Другое"
+msgstr "Други"
 
-#: apps/course_metadata/models.py:4733
+#: apps/course_metadata/models.py:4683
+#, python-brace-format
+msgid ""
+"Partner {partner_key} and course partner {course_partner_key} do not match "
+"when attempting to save url slug {url_slug}"
+msgstr ""
+"Партнер {partner_key} и партнер курса {course_partner_key} Не подударајте се"
+" приликом покушаја сачувања УРЛ-а СЛУГ {url_slug}"
+
+#: apps/course_metadata/models.py:4703
+#, python-brace-format
+msgid ""
+"Partner {partner_key} and course partner {course_partner_key} do not match "
+"when attempting to save url redirect {url_path}"
+msgstr ""
+"Партнер {partner_key} и партнер курса {course_partner_key} Не подударајте се"
+" приликом покушаја сачувања УРЛ-а преусмеравања {url_path}"
+
+#: apps/course_metadata/models.py:4724
+msgid "It expects the data will be provided in a csv file format "
+msgstr "Очекује да ће се подаци дати у ЦСВ формату датотеке"
+
+#: apps/course_metadata/models.py:4736
+msgid "A csv file containing uuid of the courses to be archived"
+msgstr "ЦСВ датотека која садржи ууид курсева који ће се архивирати"
+
+#: apps/course_metadata/models.py:4750 apps/course_metadata/models.py:4763
+#: apps/course_metadata/models.py:4776 apps/course_metadata/models.py:4811
+#: apps/course_metadata/models.py:4824 apps/course_metadata/models.py:4843
+#: apps/course_metadata/models.py:4863 apps/course_metadata/models.py:4878
+#: apps/course_metadata/models.py:5031
+msgid ""
+"It expects the data will be provided in a csv file format with first row "
+"containing all the headers."
+msgstr ""
+"Очекује да ће се подаци дати у ЦСВ формату датотека са првим редом који "
+"садржи све заглавља."
+
+#: apps/course_metadata/models.py:4835
+msgid "Open Courses"
+msgstr "Отворени курсеви"
+
+#: apps/course_metadata/models.py:4836
+msgid "2U Executive Education Courses"
+msgstr "2У курсеви извршног образовања"
+
+#: apps/course_metadata/models.py:4837
+msgid "Bootcamps"
+msgstr "Боотцампс"
+
+#: apps/course_metadata/models.py:4848 apps/course_metadata/models.py:4952
+msgid "Course UUIDs"
+msgstr "Курс ууидс"
+
+#: apps/course_metadata/models.py:4928
+msgid "Course Run IDs"
+msgstr "ИД-ови на курсу"
+
+#: apps/course_metadata/models.py:4944
+msgid "Profile Image UUIDs"
+msgstr "Профил Имаге Ууидс"
+
+#: apps/course_metadata/models.py:4951
 msgid "Tag"
-msgstr "Тег"
+msgstr "Ознака"
+
+#: apps/course_metadata/models.py:4967
+msgid "Remove All Redirects"
+msgstr "Уклоните све преусмеравање"
+
+#: apps/course_metadata/models.py:4968
+msgid "Url Paths"
+msgstr "УРЛ стазе"
+
+#: apps/course_metadata/models.py:4976
+msgid "Add redirects from all published course url slugs"
+msgstr "Додајте преусмеравање са свих објављених курсева УРЛ слугова"
+
+#: apps/course_metadata/models.py:4977 apps/taxonomy_support/models.py:55
+msgid "Course uuids"
+msgstr "Курс ууидс"
+
+#: apps/course_metadata/models.py:5042
+msgid "User who uploaded the file"
+msgstr "Корисник који је отпремио датотеку"
+
+#: apps/course_metadata/models.py:5047
+msgid "Summary of the task"
+msgstr "Резиме задатка"
+
+#: apps/course_metadata/models.py:5050
+msgid "Task Type"
+msgstr "Тип задатка"
+
+#: apps/course_metadata/models.py:5053
+msgid "Type of Bulk Task to be performed"
+msgstr "Врста расуте задатке"
+
+#: apps/course_metadata/models.py:5056
+msgid "Status"
+msgstr "Статус"
+
+#: apps/course_metadata/models.py:5059
+msgid "Status of the Bulk Task"
+msgstr "Статус расућег задатка"
+
+#: apps/course_metadata/models.py:5067
+msgid "Identifier of the celery task associated with this bulk task"
+msgstr "Идентификатор задатка целера повезаних са овим расутом задатком"
+
+#: apps/course_metadata/salesforce.py:78
+msgid "Attempted to query Salesforce with no client for partner={}"
+msgstr "Покушао да упише продавачи без клијента за партнер = {}"
+
+#: apps/course_metadata/salesforce.py:237
+msgid "Unable to associate a case for comments for {}"
+msgstr "Неспособан да повежете предмет за коментаре за {}"
 
 #: apps/course_metadata/templates/admin/course_metadata/course_run.html:24
 msgid "Cancel"
-msgstr "Отмена"
+msgstr "Отказати"
 
 #: apps/course_metadata/templates/admin/course_metadata/course_run.html:27
 msgid "Back to Program"
-msgstr "Вернуться к программе"
+msgstr "Повратак на програм"
 
 #: apps/course_metadata/templates/admin/course_metadata/course_run.html:29
 msgid "Save Course Run"
-msgstr "сохранить запуск курса"
+msgstr "Уштедите трчање курсева"
+
+#: apps/course_metadata/templates/admin/course_metadata/course_skills.html:11
+#: apps/course_metadata/templates/admin/course_metadata/refresh_course_skills.html:7
+#: apps/course_metadata/templates/admin/course_metadata/refresh_program_skills.html:7
+msgid "Home"
+msgstr "Дом"
+
+#: apps/course_metadata/templates/admin/course_metadata/course_skills.html:26
+msgid "Course Skills"
+msgstr "Вештине курса"
+
+#: apps/course_metadata/templates/admin/course_metadata/refresh_course_skills.html:22
+#: apps/course_metadata/templates/admin/course_metadata/refresh_course_skills.html:32
+msgid "Refresh Course Skills"
+msgstr "Освежи вештине курса"
+
+#: apps/course_metadata/templates/admin/course_metadata/refresh_program_skills.html:22
+#: apps/course_metadata/templates/admin/course_metadata/refresh_program_skills.html:32
+msgid "Refresh Program Skills"
+msgstr "Освежи програмске вештине"
 
 #: apps/course_metadata/templates/course_metadata/email/comment.html:7
 #, python-format
@@ -678,21 +2093,177 @@ msgid ""
 "%(user_name)s made the following comment on %(course_name)s on %(date)s at "
 "%(time)s"
 msgstr ""
-"%(user_name)s создан последующий комментарий на %(course_name)s на%(date)s к"
-" %(time)s"
+"%(user_name)s Стекао је следећи коментар на %(course_name)s на %(date)s на "
+"%(time)s"
 
 #: apps/course_metadata/templates/course_metadata/email/comment.html:19
 #: apps/course_metadata/templates/course_metadata/email/comment.txt:9
 msgid "View comment in Publisher"
-msgstr "Смотреть комментарий в Издателе"
+msgstr "Погледајте коментар у издавачу"
 
 #: apps/course_metadata/templates/course_metadata/email/comment.html:21
 #: apps/course_metadata/templates/course_metadata/email/comment.txt:11
 msgid "The edX team"
-msgstr "Команда edX"
+msgstr "eP тим"
 
+#: apps/course_metadata/templates/course_metadata/email/comment.txt:3
+#, python-format
+msgid ""
+"%(user_name)s made the following comment on %(course_name)s %(date)s at "
+"%(time)s"
+msgstr ""
+"%(user_name)s Стекао је следећи коментар на %(course_name)s %(date)s на "
+"%(time)s"
+
+#: apps/course_metadata/templates/course_metadata/email/course_deadline.html:7
+#: apps/course_metadata/templates/course_metadata/email/course_deadline.txt:3
 #: apps/course_metadata/templates/course_metadata/email/go_live.html:9
 #: apps/course_metadata/templates/course_metadata/email/go_live.txt:3
+msgid "Hi Course Team,"
+msgstr "Хи курс тим,"
+
+#: apps/course_metadata/templates/course_metadata/email/course_deadline.html:12
+#, python-format
+msgid ""
+"\n"
+"        This is an automated reminder that the course \"%(course_name)s\" (Course Key: %(course_key)s) is scheduled to end in %(days)s on %(course_end_date)s.\n"
+"        "
+msgstr ""
+"Ово је аутоматизовано подсетник да је курс \"%(course_name)s \" (кључ курса:"
+" %(course_key)s) заказан је за крај %(days)s на %(course_end_date)s."
+
+#: apps/course_metadata/templates/course_metadata/email/course_deadline.html:16
+#: apps/course_metadata/templates/course_metadata/email/course_deadline.txt:16
+msgid ""
+"To ensure uninterrupted learner access and enrollment, please take one of "
+"the following actions:"
+msgstr ""
+"Да бисте осигурали непрекидни приступ и упис ученика, молимо вас да узмете "
+"једну од следећих радњи:"
+
+#: apps/course_metadata/templates/course_metadata/email/course_deadline.html:19
+#, python-format
+msgid ""
+"\n"
+"        This is an automated reminder that the course \"%(course_name)s\" (Course Key: %(course_key)s) has officially ended as of %(course_end_date)s.\n"
+"        "
+msgstr ""
+"Ово је аутоматизовано подсетник да је курс \"%(course_name)s \" (кључ курса:"
+" %(course_key)s) званично је завршио од %(course_end_date)s."
+
+#: apps/course_metadata/templates/course_metadata/email/course_deadline.html:23
+#: apps/course_metadata/templates/course_metadata/email/course_deadline.txt:18
+msgid ""
+"If this was intentional, no action is needed. However, if this course was "
+"meant to remain available, you have two options to restore access:"
+msgstr ""
+"Ако је то било намерно, није потребна ништа. Међутим, ако је овај курс "
+"требало да остане на располагању, имате две опције за враћање приступа:"
+
+#: apps/course_metadata/templates/course_metadata/email/course_deadline.html:29
+#: apps/course_metadata/templates/course_metadata/email/course_deadline.txt:21
+msgid ""
+"Extend the current course run’s end date if the same course is meant to "
+"remain available."
+msgstr ""
+"Проширите тренутни крај курса крајњег дана када је исти курс предвиђен да "
+"остане на располагању."
+
+#: apps/course_metadata/templates/course_metadata/email/course_deadline.html:31
+#: apps/course_metadata/templates/course_metadata/email/course_deadline.txt:22
+msgid ""
+"Create a new course run if you are planning to offer this course again with "
+"updated content, pacing, or a new cohort of learners."
+msgstr ""
+"Креирајте нови курс Рун ако планирате да поново понудите овај курс са "
+"ажурираним садржајем, пејсингом или новом кохортом ученика."
+
+#: apps/course_metadata/templates/course_metadata/email/course_deadline.html:32
+msgid "Visit the Course in Publisher"
+msgstr "Посетите курс издавача"
+
+#: apps/course_metadata/templates/course_metadata/email/course_deadline.html:37
+#: apps/course_metadata/templates/course_metadata/email/course_deadline.txt:25
+msgid "You can review and modify the course end settings here:"
+msgstr "Овде можете прегледати и изменити подешавања курса:"
+
+#: apps/course_metadata/templates/course_metadata/email/course_deadline.html:41
+#, python-format
+msgid ""
+"\n"
+"        If no action is taken, the course will no longer be available for enrollment or access by learners on \n"
+"        <a href=\"%(partner_marketing_site_url)s\">%(partner_marketing_site_url)s</a> after the end date.\n"
+"        "
+msgstr ""
+"Ако се не предузме ниједна акција, курс више неће бити доступан за упис или приступ ученицима \n"
+"    <a href=\"%(partner_marketing_site_url)s\">%(partner_marketing_site_url)s</a> након крајњег датума."
+
+#: apps/course_metadata/templates/course_metadata/email/course_deadline.html:47
+#: apps/course_metadata/templates/course_metadata/email/course_deadline.txt:34
+msgid "Thanks"
+msgstr "Хвала"
+
+#: apps/course_metadata/templates/course_metadata/email/course_deadline.txt:6
+#, python-format
+msgid ""
+"\n"
+"This is an automated reminder that the course \"%(course_name)s\" (Course Key: %(course_key)s) is scheduled to end in %(days)s on %(course_end_date)s.\n"
+msgstr ""
+"Ово је аутоматизовано подсетник да је курс \"%(course_name)s \" (кључ курса:"
+" %(course_key)s) заказан је за крај %(days)s на %(course_end_date)s."
+
+#: apps/course_metadata/templates/course_metadata/email/course_deadline.txt:10
+#, python-format
+msgid ""
+"\n"
+"This is an automated reminder that the course \"%(course_name)s\" (Course Key: %(course_key)s) has officially ended as of %(course_end_date)s.\n"
+msgstr ""
+"Ово је аутоматизовано подсетник да је курс \"%(course_name)s \" (кључ курса:"
+" %(course_key)s) званично је завршио од %(course_end_date)s."
+
+#: apps/course_metadata/templates/course_metadata/email/course_deadline.txt:23
+msgid "Visit the Course in Publisher:"
+msgstr "Посетите курс у издавачу:"
+
+#: apps/course_metadata/templates/course_metadata/email/course_deadline.txt:29
+#, python-format
+msgid ""
+"\n"
+"If no action is taken, the course will no longer be available for enrollment or access by learners on %(partner_marketing_site_url)s after the end date.\n"
+msgstr ""
+"Ако није предузета акција, курс више неће бити доступан за упис или приступ "
+"ученицима на %(partner_marketing_site_url)s након завршетка крајњег датума."
+
+#: apps/course_metadata/templates/course_metadata/email/go_live.html:17
+#: apps/course_metadata/templates/course_metadata/email/go_live.txt:7
+#, python-format
+msgid ""
+"The About page for the %(course_run_number)s course run of %(course_name)s "
+"has been submitted for publishing. The new session will appear on the edX "
+"website following the next couple of deployments—typically within 24 to 48 "
+"business hours."
+msgstr ""
+"Страница за %(course_run_number)s ЦОУРС РУН РУРС ОФ %(course_name)s је "
+"поднесен на издавање. Нова сесија ће се појавити на веб локацији eP-а "
+"након следећег пара размештања - обично у року од 24 до 48 радних сати."
+
+#: apps/course_metadata/templates/course_metadata/email/go_live.html:26
+#: apps/course_metadata/templates/course_metadata/email/legal_review.html:23
+#: apps/course_metadata/templates/course_metadata/email/reviewed.html:38
+#, python-brace-format
+msgid ""
+"{link_start}{contact_us_email}{link_middle}{contact_us_email}{link_end}"
+msgstr ""
+"{link_start} {contact_us_email} {link_middle} {contact_us_email} {link_end}"
+
+#: apps/course_metadata/templates/course_metadata/email/go_live.txt:11
+msgid ""
+"Note: This is a no-reply email. For any questions or comments, please "
+"contact your Project Coordinator at"
+msgstr ""
+"Напомена: Ово је адреса без одговора. За било каква питања или коментаре "
+"обратите се свом координатору пројекта на"
+
 #: apps/course_metadata/templates/course_metadata/email/internal_review.html:9
 #: apps/course_metadata/templates/course_metadata/email/internal_review.txt:3
 #: apps/course_metadata/templates/course_metadata/email/legal_review.html:9
@@ -701,30 +2272,349 @@ msgstr "Команда edX"
 #: apps/course_metadata/templates/course_metadata/email/reviewed.txt:3
 #, python-format
 msgid "Dear %(recipient_name)s,"
-msgstr "Уважаемый/ая %(recipient_name)s"
+msgstr "Поштовани %(recipient_name)s,"
 
-#: apps/course_metadata/templates/course_metadata/email/go_live.html:17
-#: apps/course_metadata/templates/course_metadata/email/go_live.txt:7
+#: apps/course_metadata/templates/course_metadata/email/internal_review.html:14
+#, python-brace-format
+msgid ""
+"{org_name} has submitted {course_key} for review. "
+"{link_start}{course_page_url}{link_middle}View this course run in "
+"Publisher{link_end} to review the changes and mark it as reviewed."
+msgstr ""
+"{org_name} је послао {course_key} на преглед. {link_start} {course_page_url}"
+" {link_middle} Погледајте овај курс Рун у Публисхер{link_end} да бисте "
+"прегледали измене и означили га како је прегледан."
+
+#: apps/course_metadata/templates/course_metadata/email/internal_review.html:20
+#, python-brace-format
+msgid ""
+"This is a good time to {link_start}{studio_url}{link_middle}review this "
+"course run in Studio{link_end}."
+msgstr ""
+"Ово је добро време за {link_start} {studio_url} {link_middle} Прегледајте "
+"овај курс Рун у Студио{link_end}."
+
+#: apps/course_metadata/templates/course_metadata/email/internal_review.html:27
+#, python-brace-format
+msgid ""
+"Visit the {link_start}{restricted_admin_url}{link_middle}restricted course "
+"admin page{link_end} to set embargo rules for this course, as needed."
+msgstr ""
+"Посетите {link_start} {restricted_admin_url} {link_middle} Ограничени курс "
+"Админ Паге{link_end} да бисте поставили правила ембарга за овај курс, по "
+"потреби."
+
+#: apps/course_metadata/templates/course_metadata/email/internal_review.txt:6
+#, python-format
+msgid "%(org_name)s has submitted %(course_key)s for review."
+msgstr "%(org_name)s је послао %(course_key)s на преглед."
+
+#: apps/course_metadata/templates/course_metadata/email/internal_review.txt:10
+#, python-format
+msgid "Publisher page: %(course_page_url)s"
+msgstr "Страница издавача: %(course_page_url)s"
+
+#: apps/course_metadata/templates/course_metadata/email/internal_review.txt:14
+#, python-format
+msgid "Studio page: %(studio_url)s"
+msgstr "Страница студија: %(studio_url)s"
+
+#: apps/course_metadata/templates/course_metadata/email/internal_review.txt:19
+#, python-format
+msgid "Restricted Course admin: %(restricted_admin_url)s"
+msgstr "Администратор са ограниченим курсевима: %(restricted_admin_url)s"
+
+#: apps/course_metadata/templates/course_metadata/email/legal_review.html:15
+#, python-brace-format
+msgid ""
+"{org_name} has submitted {course_name} for review. "
+"{link_start}{course_page_url}{link_middle}View this course run in "
+"Publisher{link_end} to determine OFAC status."
+msgstr ""
+"{org_name} је послао {course_name} на преглед. {link_start} "
+"{course_page_url} {link_middle} Погледајте овај курс Рун у "
+"Публисхерс{link_end} да бисте одредили статус."
+
+#: apps/course_metadata/templates/course_metadata/email/legal_review.txt:6
+#, python-format
+msgid "%(org_name)s has submitted %(course_name)s for review."
+msgstr "%(org_name)s је послао %(course_name)s на преглед."
+
+#: apps/course_metadata/templates/course_metadata/email/legal_review.txt:11
+msgid "View this course run in Publisher above to determine OFAC status."
+msgstr ""
+"Погледајте овај курс који се изводи у горњем издавачу да би се одредио "
+"статус АЦАЦ-а."
+
+#: apps/course_metadata/templates/course_metadata/email/legal_review.txt:15
+#: apps/course_metadata/templates/course_metadata/email/reviewed.txt:25
+msgid ""
+"Note: This email address is unable to receive replies. For questions or "
+"comments, please contact your Project Coordinator(s):"
+msgstr ""
+"Напомена: Ова адреса е-поште није у могућности да прима одговоре. За питања "
+"или коментаре обратите се свом координатору пројекта:"
+
+#: apps/course_metadata/templates/course_metadata/email/reviewed.html:15
+#, python-brace-format
+msgid ""
+"The {link_start}{course_page_url}{link_middle}{course_run_number} course "
+"run{link_end} of {course_name} has been reviewed and approved by "
+"{platform_name}."
+msgstr ""
+"{link_start} {course_page_url} {link_middle} {course_run_number} Курс "
+"Рун{link_end} од {course_name} је прегледано и одобрено од {platform_name}."
+
+#: apps/course_metadata/templates/course_metadata/email/reviewed.html:22
+#: apps/course_metadata/templates/course_metadata/email/reviewed.txt:12
 #, python-format
 msgid ""
-"The About page for the %(course_run_number)s course run of %(course_name)s "
-"has been published. No further action is necessary."
+"The course run about page will be published on %(go_live_date)s, pending no "
+"further edits."
 msgstr ""
-"Страница \"О курсе\" для %(course_run_number)s запуска курса %(course_name)s"
-" опубликована. Никаких дальнейших действий не требуется."
+"Представљање курса о страници биће објављен на %(go_live_date)s, на који се "
+"не чека даље."
+
+#: apps/course_metadata/templates/course_metadata/email/reviewed.html:28
+#: apps/course_metadata/templates/course_metadata/email/reviewed.txt:16
+msgid "The course run about page is now published."
+msgstr "Представљање курса о страници је сада објављен."
+
+#: apps/course_metadata/templates/course_metadata/email/reviewed.txt:6
+#, python-format
+msgid ""
+"The %(course_run_number)s course run of %(course_name)s has been reviewed "
+"and approved by %(platform_name)s."
+msgstr ""
+"%(course_run_number)s ЦОУРС РУН ОФ %(course_name)s је прегледан и одобрио "
+"%(platform_name)s."
+
+#: apps/course_metadata/templates/course_metadata/email/reviewed.txt:21
+#, python-format
+msgid "View the course run in Publisher: %(course_page_url)s"
+msgstr "Погледајте курс у којем се изводи из издавача: %(course_page_url)s"
+
+#: apps/course_metadata/templates/course_metadata/email/watchers_course_url.html:8
+#, python-format
+msgid ""
+"\n"
+"        Course '%(course_name)s' has been successfully reviewed by edX and is now published on %(course_publish_date)s. To see live course, go here: <a href=\"%(course_marketing_url)s\">%(course_marketing_url)s</a>\n"
+"    "
+msgstr ""
+"Курс '%(course_name)s ' је успешно прегледао eP и сада је објављен на "
+"%(course_publish_date)s. Да бисте видели курс уживо, идите овде: <a "
+"href=\"%(course_marketing_url)s\">%(course_marketing_url)s</a>"
+
+#: apps/course_metadata/templates/course_metadata/email/watchers_course_url.html:12
+#, python-format
+msgid ""
+"\n"
+"        Course '%(course_name)s' has been successfully reviewed by edX and is now ready for publication. The course will be published on %(course_publish_date)s.\n"
+"        To see a preview of the Course About Page, go here: <a href=\"%(course_marketing_url)s\">%(course_marketing_url)s</a>\n"
+"    "
+msgstr ""
+"Курс '%(course_name)s ' је успешно прегледао eP и сада је спреман за објављивање. Курс ће бити објављен на %(course_publish_date)s.\n"
+" Да бисте видели преглед курса о страници, идите овде: <a href=\"%(course_marketing_url)s\">%(course_marketing_url)s</a>"
+
+#: apps/course_metadata/templates/course_metadata/email/watchers_course_url.txt:4
+#, python-format
+msgid ""
+"\n"
+"    Course '%(course_name)s' has been successfully reviewed by edX and is now published on %(course_publish_date)s. To see live course, go here: %(course_marketing_url)s\n"
+msgstr ""
+"Курс '%(course_name)s ' је успешно прегледао eP и сада је објављен на "
+"%(course_publish_date)s. Да бисте видели курс уживо, идите овде: "
+"%(course_marketing_url)s"
+
+#: apps/course_metadata/templates/course_metadata/email/watchers_course_url.txt:8
+#, python-format
+msgid ""
+"\n"
+"   Course '%(course_name)s' has been successfully reviewed by edX and is now ready for publication. The course will be published on %(course_publish_date)s.\n"
+"    To see a preview of the Course About Page, go here: %(course_preview_url)s\n"
+msgstr ""
+"Курс '%(course_name)s ' је успешно прегледао eP и сада је спреман за објављивање. Курс ће бити објављен на %(course_publish_date)s.\n"
+" Да бисте видели преглед курса о страници, идите овде: %(course_preview_url)s"
+
+#: apps/course_metadata/utils.py:390
+msgid "Special characters not allowed in Course Number."
+msgstr "Посебни знакови нису дозвољени у броју курса."
+
+#: apps/course_metadata/validators.py:30
+#, python-brace-format
+msgid "Invalid HTML received: {0}"
+msgstr "Неважећи ХТМЛ примљен: {0}"
+
+#: apps/course_metadata/validators.py:31
+msgid "Invalid HTML received"
+msgstr "Неважећи ХТМЛ примљен"
+
+#: apps/course_metadata/validators.py:35 apps/course_metadata/validators.py:46
+#, python-brace-format
+msgid "{0} tag is not allowed"
+msgstr "{0} Ознака није дозвољена"
+
+#: apps/course_metadata/validators.py:42
+#, python-brace-format
+msgid "{0} attribute is not allowed on the {1} tag"
+msgstr "{0} Атрибут није дозвољен на ТПП_1__ Означи"
 
 #: apps/course_metadata/views.py:38
 msgid "Update excluded course runs"
-msgstr "Обновление исключенных циклов курсов"
+msgstr "Ажурирање искључених курсева"
 
 #: apps/course_metadata/views.py:45
 msgid "The program was changed successfully."
-msgstr "Программа была успешно изменена."
+msgstr "Програм је успешно промењен."
+
+#: apps/course_metadata/views.py:127
+msgid "The refresh program skills task triggered successfully."
+msgstr "Задатак вештина програма за освежавање успешно активира се успешно."
+
+#: apps/course_metadata/views.py:206
+msgid "The refresh course skills task triggered successfully."
+msgstr "Задатак вештина за освежавање вежбања успешно се активира."
+
+#: apps/course_metadata/views.py:306
+msgid "The course skills were updated successfully."
+msgstr "Вештине курса су успешно ажуриране."
+
+#: apps/edx_elasticsearch_dsl_extensions/exceptions.py:17
+msgid ""
+"Request could not be completed due to an incorrect ElasticSearch query "
+"parameters"
+msgstr ""
+"Захтев се не може завршити због погрешних параметара еластицсеарцх упита"
+
+#: apps/ietf_language_tags/models.py:34
+msgid "Name for translation"
+msgstr "Име за превод"
+
+#: apps/ietf_language_tags/models.py:38
+msgid "LanguageTag model translations"
+msgstr "Преводилачки преводи у језику"
+
+#: apps/learner_pathway/choices.py:7
+msgid "Inactive"
+msgstr "Неактиван"
+
+#: apps/learner_pathway/models.py:84
+msgid "Title of the learner pathway."
+msgstr "Назив пута ученика."
+
+#: apps/learner_pathway/models.py:87
+msgid "Course/Program associated pathways also appear in search results"
+msgstr ""
+"Курс / програмски пут који се придружују се такође у резултатима претраге"
+
+#: apps/learner_pathway/models.py:90
+msgid "The active/inactive status of this Pathway."
+msgstr "Активни / неактивни статус овог пута."
+
+#: apps/learner_pathway/models.py:118
+msgid "Learner Pathway"
+msgstr "Путница"
+
+#: apps/learner_pathway/models.py:119
+msgid "Learner Pathways"
+msgstr "Почетнике учења"
+
+#: apps/learner_pathway/models.py:165
+msgid "Minimum number of nodes to complete this step of the pathway"
+msgstr "Минимални број чворова за завршетак овог корака пута"
+
+#: apps/learner_pathway/models.py:169
+msgid "Learner Pathway Step"
+msgstr "Корак стазе за учење"
+
+#: apps/learner_pathway/models.py:170
+msgid "Learner Pathway Steps"
+msgstr "Кораци за стазе за ученике"
+
+#: apps/learner_pathway/models.py:237
+msgid "Learner Pathway Course"
+msgstr "Курс за пут на ученику"
+
+#: apps/learner_pathway/models.py:238
+msgid "Learner Pathway Courses"
+msgstr "Курсеви за стазе ученика"
+
+#: apps/learner_pathway/models.py:275
+msgid "Learner Pathway Program"
+msgstr "Програм за пут ученика"
+
+#: apps/learner_pathway/models.py:276
+msgid "Learner Pathway Programs"
+msgstr "Програми стаза за ученике"
 
 #: apps/publisher/models.py:34
 msgid "Organization Role"
-msgstr "Роль Организации"
+msgstr "Организациона улога"
+
+#: apps/taxonomy_support/management/commands/update_course_recommendations.py:19
+msgid "Update the course recommendations based on skills."
+msgstr "Ажурирајте препоруке курса на основу вештина."
+
+#: apps/taxonomy_support/management/commands/update_course_recommendations.py:41
+msgid ""
+"Use arguments from the UpdateCourseRecommendationsConfig model instead of "
+"the command line."
+msgstr ""
+"Користите аргументе са модела УпдатеЦоурсерецоммандатионсцонфиг уместо "
+"командне линије."
+
+#: apps/taxonomy_support/models.py:24
+msgid "The original course, whose recommendation is stored here."
+msgstr "Оригинални курс, чија се препорука овде чува."
+
+#: apps/taxonomy_support/models.py:29
+msgid ""
+"This is the course recommended after learner completes the original course."
+msgstr ""
+"Ово је курс који се препоручује након што ученик заврши оригинални курс."
+
+#: apps/taxonomy_support/models.py:32
+msgid "Ratio of number of common skills and total skill count."
+msgstr "Однос броја уобичајених вештина и укупне броја вештина."
+
+#: apps/taxonomy_support/models.py:35
+msgid ""
+"Count of common skills between the original course and recommended course."
+msgstr ""
+"Број уобичајених вештина између оригиналног курса и препорученог курса."
+
+#: apps/taxonomy_support/models.py:38
+msgid "Ratio of number of common subjects and total subject count."
+msgstr "Однос броја уобичајених предмета и укупно рачунање предмета."
+
+#: apps/taxonomy_support/models.py:41
+msgid ""
+"Count of common subjects between the original course and recommended course."
+msgstr ""
+"Број уобичајених предмета између оригиналног курса и препорученог курса."
+
+#: apps/taxonomy_support/models.py:46
+msgid "Course Recommendation"
+msgstr "Препорука курса"
+
+#: apps/taxonomy_support/models.py:47
+msgid "Course Recommendations"
+msgstr "Препоруке курса"
+
+#: apps/taxonomy_support/models.py:54
+msgid "Adds recommendations for all published courses"
+msgstr "Додаје препоруке за све објављене курсеве"
+
+#: apps/taxonomy_support/models.py:58
+msgid ""
+"Adds recommendations for courses created or modified in the past num days"
+msgstr ""
+"Додаје препоруке за курсеве креиране или модификоване у протеклих нуморија"
+
+#: apps/taxonomy_support/providers.py:198
+msgid "No partner object found!"
+msgstr "Није пронађен ниједан партнер објект!"
 
 #: urls.py:32
 msgid "Discovery Service Administration"
-msgstr "Открытие Администрации сервиса"
+msgstr "Управа за услуге Дисцовери"

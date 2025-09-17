@@ -19,37 +19,39 @@ msgstr ""
 
 #: templates/edx.org/_footer.html:7
 msgid "Legal Policies"
-msgstr ""
+msgstr "Pravne politike"
 
 #: templates/edx.org/_footer.html:11
 msgid "Terms of Service & Honor Code"
-msgstr ""
+msgstr "Uslovi usluge i kodeks časti"
 
 #: templates/edx.org/_footer.html:16
 msgid "Privacy Policy"
-msgstr ""
+msgstr "Politika privatnosti"
 
 #: templates/edx.org/_footer.html:21
 msgid "Cookie Policy"
-msgstr ""
+msgstr "Politika kolačića"
 
 #: templates/edx.org/_footer.html:26
 msgid "Your Privacy Choices"
-msgstr ""
+msgstr "Vaš izbor privatnosti"
 
 #: templates/edx.org/_footer.html:36
 msgid ""
 "All rights reserved except where noted. edX, Open edX and the edX and Open "
 "edX logos are registered trademarks or trademarks of edX Inc."
 msgstr ""
+"Sva prava zadržana."
+""
 
 #: templates/edx.org/_footer.html:46
 msgid "Powered by"
-msgstr ""
+msgstr "Pokreće ga"
 
 #: templates/edx.org/credentials/programs/base.html:30
 msgid "About edX"
-msgstr ""
+msgstr "O eP-u"
 
 #: templates/edx.org/credentials/programs/base.html:33
 #, python-brace-format
@@ -59,6 +61,10 @@ msgid ""
 "of Texas, and many others. edX is an online initiative created by founding "
 "partners Harvard and MIT."
 msgstr ""
+"{link_start} eP{link_end} nudi interaktivne klase na mreži i mooci sa "
+"najboljih svetskih univerziteta, uključujući MIT, Harvard, Berkelei, "
+"Univerzitet u Teksasu i mnogim drugima. eP je mrežna inicijativa koju je "
+"stvorio osnivački partneri Harvard i MIT."
 
 #. Translators: MicroBachelors should not be translated, this phrase is
 #. preceded by the learner's name and followed by a program title
@@ -67,16 +73,18 @@ msgid ""
 "has successfully completed all courses and received passing grades to earn a"
 " MicroBachelors program certificate in"
 msgstr ""
+"uspešno je završio sve kurseve i primio prolazne ocene da bi zaradio program"
+" programa  u"
 
 #. Translators: MicroBachelors should not be translated
 #: templates/edx.org/credentials/programs/microbachelors/certificate.html:12
 msgid "MicroBachelors program certificate"
-msgstr ""
+msgstr "Potvrda o programu "
 
 #. Translators: MicroBachelors should not be translated
 #: templates/edx.org/credentials/programs/microbachelors/certificate.html:17
 msgid "About the edX MicroBachelors program certificate"
-msgstr ""
+msgstr "O programu programa eP Microbachelors"
 
 #. Translators: MicroBachelors should not be translated
 #: templates/edx.org/credentials/programs/microbachelors/certificate.html:22
@@ -88,6 +96,10 @@ msgid ""
 "{link_start}Verified Certificates{link_end} from each of the courses "
 "included in the program."
 msgstr ""
+"eP Microbachelors Akreditivi označava da je učenik završio grupu kurseva "
+"koji se u velikoj mjeri sa bogatim razumevanjem područja studija. Završetak "
+"programa  zahteva da učenici zarađuju {link_start} "
+"verifikovane sertifikate{link_end} sa svakog od kurseva uključenih u program."
 
 #. Translators: MicroMasters should not be translated
 #: templates/edx.org/credentials/programs/micromasters/certificate.html:8
@@ -96,6 +108,8 @@ msgid ""
 "You worked hard to earn your MicroMasters Credential from "
 "%(organization_name)s."
 msgstr ""
+"Teško ste radili da biste zaradili svoje mikromastere poverljivo od "
+"%(organization_name)s."
 
 #. Translators: MicroMasters should not be translated, this phrase is preceded
 #. by the learner's name and followed by a program title
@@ -104,16 +118,18 @@ msgid ""
 "has successfully completed all courses and received passing grades to earn a"
 " MicroMasters program certificate in"
 msgstr ""
+"uspešno je završio sve kurseve i primio prolazne ocene da bi zaradio program"
+" programa mikromastera u"
 
 #. Translators: MicroMasters should not be translated
 #: templates/edx.org/credentials/programs/micromasters/certificate.html:21
 msgid "MicroMasters program certificate"
-msgstr ""
+msgstr "Potvrda o programu mikromastera"
 
 #. Translators: MicroMasters should not be translated
 #: templates/edx.org/credentials/programs/micromasters/certificate.html:26
 msgid "About the edX MicroMasters credential"
-msgstr ""
+msgstr "O akreditivu eP mikromastera"
 
 #. Translators: MicroMasters should not be translated
 #: templates/edx.org/credentials/programs/micromasters/certificate.html:31
@@ -125,6 +141,10 @@ msgid ""
 "{link_start}Verified Certificates{link_end} from each of the courses "
 "included in the Program."
 msgstr ""
+"Akreditive eP mikromastera označava da je učenik završio grupu kurseva "
+"koji se u bogato razumevanje područja studija. Završetak programa "
+"mikromastera zahteva da učenici zarađuju {link_start} verifikovane "
+"sertifikate{link_end} sa svakog od kurseva koji su uključeni u program."
 
 #. Translators: This phrase is preceded by the learner's name and followed by
 #. a program title
@@ -133,14 +153,16 @@ msgid ""
 "successfully completed all courses and received passing grades for a "
 "Professional Certificate in"
 msgstr ""
+"uspešno je završio sve kurseve i primio prolazne ocene za profesionalnu "
+"potvrdu u"
 
 #: templates/edx.org/credentials/programs/professional-certificate/certificate.html:11
 msgid "Professional Certificate"
-msgstr ""
+msgstr "Profesionalni sertifikat"
 
 #: templates/edx.org/credentials/programs/professional-certificate/certificate.html:15
 msgid "About the edX Professional Certificate"
-msgstr ""
+msgstr "O eP profesionalnom sertifikatu"
 
 #: templates/edx.org/credentials/programs/professional-certificate/certificate.html:19
 #, python-brace-format
@@ -151,6 +173,10 @@ msgid ""
 "{link_start}Verified Certificates{link_end} from each of the courses "
 "included in the Program."
 msgstr ""
+"eP stručna potvrda označava da je učenik završio grupu kurseva koji se "
+"unose na bogato razumevanje područja studija. Završetak profesionalnih "
+"programa sertifikata zahteva da učenici zarađuju {link_start} verifikovane "
+"sertifikate{link_end} sa svakih kurseva uključenih u program."
 
 #. Translators: XSeries should not be translated
 #: templates/edx.org/credentials/programs/xseries/certificate.html:8
@@ -159,6 +185,8 @@ msgid ""
 "You worked hard to earn your XSeries Program certificate from "
 "%(organization_name)s."
 msgstr ""
+"Radio si naporno da zaradite svoje Ksseries programski sertifikat od "
+"%(organization_name)s."
 
 #. Translators: XSeries should not be translated, this phrase is preceded by
 #. the learner's name and followed by a program title
@@ -167,16 +195,18 @@ msgid ""
 "has successfully completed all courses and received passing grades for an "
 "XSeries Program certificate in"
 msgstr ""
+"uspešno je završio sve kurseve i primio prolazne ocene za CSSERIES PROGRAM "
+"CERTIFIKAT IN"
 
 #. Translators: XSeries should not be translated
 #: templates/edx.org/credentials/programs/xseries/certificate.html:21
 msgid "XSeries Program certificate"
-msgstr ""
+msgstr "KSSERIES PROGRAM CERTIFIKAT"
 
 #. Translators: XSeries should not be translated
 #: templates/edx.org/credentials/programs/xseries/certificate.html:26
 msgid "About the edX XSeries Program certificate"
-msgstr ""
+msgstr "O programu programa eP KSSERIES"
 
 #. Translators: XSeries should not be translated
 #: templates/edx.org/credentials/programs/xseries/certificate.html:31
@@ -188,3 +218,7 @@ msgid ""
 "{link_start}Verified Certificates{link_end} from each of the courses "
 "included in the Program."
 msgstr ""
+"ANDKS Ksseries CERTIVIFIKT FERTIFIC označava da je učenik završio grupu "
+"kurseva koji se donose na bogato razumevanje područja studija. Završetak "
+"Ksseries programa zahteva da učenici zarađuju {link_start} verifikovane "
+"sertifikate{link_end} sa svakog od kurseva uključenih u program."
