@@ -19,13 +19,13 @@ msgstr ""
 
 #: static/proctoring/js/exam_action_handler.js:44
 msgid "OK"
-msgstr ""
+msgstr "U redu"
 
 #: static/proctoring/js/exam_action_handler.js:130
 #: static/proctoring/js/exam_action_handler.js:195
 #: static/proctoring/js/exam_action_handler.js:206
 msgid "Error Ending Exam"
-msgstr ""
+msgstr "Greška kraja ispita"
 
 #: static/proctoring/js/exam_action_handler.js:132
 #: static/proctoring/js/exam_action_handler.js:208
@@ -33,200 +33,212 @@ msgid ""
 "Something has gone wrong ending your exam. Please reload the page and start "
 "again."
 msgstr ""
+"Nešto je pošlo po zlu završio ispit. Ponovo učitajte stranicu i počnite "
+"ponovo."
 
 #: static/proctoring/js/exam_action_handler.js:159
 #: static/proctoring/js/exam_action_handler.js:170
 msgid "Error Starting Exam"
-msgstr ""
+msgstr "Greška pokretanja ispita"
 
 #: static/proctoring/js/exam_action_handler.js:161
 msgid ""
 "Something has gone wrong starting your exam. Please double-check that the "
 "application is running."
 msgstr ""
+"Nešto je pošlo po zlu početak ispita. Dvostruko proverite da li aplikacija "
+"radi."
 
 #: static/proctoring/js/exam_action_handler.js:172
 msgid ""
 "Something has gone wrong starting your exam. Please reload the page and "
 "start again."
 msgstr ""
+"Nešto je pošlo po zlu početak ispita. Ponovo učitajte stranicu i počnite "
+"ponovo."
 
 #: static/proctoring/js/exam_action_handler.js:197
 msgid ""
 "Something has gone wrong ending your exam. Please double-check that the "
 "application is running."
 msgstr ""
+"Nešto je pošlo po zlu završio ispit. Dvostruko proverite da li aplikacija "
+"radi."
 
 #: static/proctoring/js/views/proctored_exam_add_bulk_allowance_view.js:218
 #: static/proctoring/js/views/proctored_exam_allowance_view.js:13
 #: static/proctoring/spec/proctored_exam_add_bulk_allowance_spec.js:82
 msgid "Review Policy Exception"
-msgstr ""
+msgstr "Izuzetak politike razmatranja"
 
 #: static/proctoring/js/views/proctored_exam_add_bulk_allowance_view.js:224
 msgid "Add Time(Minutes)"
-msgstr ""
+msgstr "Dodajte vreme (minuta)"
 
 #: static/proctoring/js/views/proctored_exam_add_bulk_allowance_view.js:226
 msgid "Add Multiplier as a Number Greater Than 1"
-msgstr ""
+msgstr "Dodajte multiplikator kao broj veći od 1"
 
 #: static/proctoring/js/views/proctored_exam_add_bulk_allowance_view.js:228
 msgid "Add Policy Exception"
-msgstr ""
+msgstr "Dodajte izuzetak politike"
 
 #: static/proctoring/js/views/proctored_exam_add_bulk_allowance_view.js:268
 #: static/proctoring/js/views/proctored_exam_add_bulk_allowance_view.js:276
 #: static/proctoring/js/views/proctored_exam_edit_allowance_view.js:118
 msgid "Required field"
-msgstr ""
+msgstr "Obavezno polje"
 
 #: static/proctoring/js/views/proctored_exam_allowance_view.js:12
 #: static/proctoring/spec/proctored_exam_add_bulk_allowance_spec.js:81
 msgid "Additional Time (minutes)"
-msgstr ""
+msgstr "Dodatno vreme (minuta)"
 
 #: static/proctoring/js/views/proctored_exam_allowance_view.js:14
 #: static/proctoring/spec/proctored_exam_add_bulk_allowance_spec.js:83
 msgid "Time Multiplier"
-msgstr ""
+msgstr "Multiplikator vremena"
 
 #: static/proctoring/js/views/proctored_exam_attempt_view.js:10
 msgid "Eligible"
-msgstr ""
+msgstr "Koji ispunjava uslove"
 
 #: static/proctoring/js/views/proctored_exam_attempt_view.js:11
 msgid "Created"
-msgstr ""
+msgstr "Kreiran"
 
 #: static/proctoring/js/views/proctored_exam_attempt_view.js:12
 msgid "Download Software Clicked"
-msgstr ""
+msgstr "Preuzmi softver je kliknuo"
 
 #: static/proctoring/js/views/proctored_exam_attempt_view.js:13
 msgid "Ready to start"
-msgstr ""
+msgstr "Spreman za početak"
 
 #: static/proctoring/js/views/proctored_exam_attempt_view.js:14
 #: static/proctoring/js/views/proctored_exam_info.js:17
 #: static/proctoring/js/views/proctored_exam_onboarding_view.js:33
 msgid "Started"
-msgstr ""
+msgstr "Započeti"
 
 #: static/proctoring/js/views/proctored_exam_attempt_view.js:15
 msgid "Ready to submit"
-msgstr ""
+msgstr "Spreman za slanje"
 
 #: static/proctoring/js/views/proctored_exam_attempt_view.js:16
 msgid "Declined"
-msgstr ""
+msgstr "Odbijen"
 
 #: static/proctoring/js/views/proctored_exam_attempt_view.js:17
 msgid "Timed out"
-msgstr ""
+msgstr "Isteklo"
 
 #: static/proctoring/js/views/proctored_exam_attempt_view.js:18
 msgid "Second Review Required"
-msgstr ""
+msgstr "Potrebno je drugi pregled"
 
 #: static/proctoring/js/views/proctored_exam_attempt_view.js:19
 #: static/proctoring/js/views/proctored_exam_info.js:21
 #: static/proctoring/js/views/proctored_exam_onboarding_view.js:34
 msgid "Submitted"
-msgstr ""
+msgstr "Podneti"
 
 #: static/proctoring/js/views/proctored_exam_attempt_view.js:20
 #: static/proctoring/js/views/proctored_exam_info.js:34
 #: static/proctoring/js/views/proctored_exam_onboarding_view.js:35
 msgid "Verified"
-msgstr ""
+msgstr "Verifikovan"
 
 #: static/proctoring/js/views/proctored_exam_attempt_view.js:21
 #: static/proctoring/js/views/proctored_exam_info.js:38
 #: static/proctoring/js/views/proctored_exam_onboarding_view.js:36
 msgid "Rejected"
-msgstr ""
+msgstr "Odbačen"
 
 #: static/proctoring/js/views/proctored_exam_attempt_view.js:22
 #: static/proctoring/js/views/proctored_exam_info.js:42
 #: static/proctoring/js/views/proctored_exam_onboarding_view.js:37
 msgid "Error"
-msgstr ""
+msgstr "Greška"
 
 #: static/proctoring/js/views/proctored_exam_attempt_view.js:23
 msgid "Onboarding Missing"
-msgstr ""
+msgstr "Nedostaje na brodu"
 
 #: static/proctoring/js/views/proctored_exam_attempt_view.js:24
 msgid "Onboarding Pending"
-msgstr ""
+msgstr "Na brodu"
 
 #: static/proctoring/js/views/proctored_exam_attempt_view.js:25
 msgid "Onboarding Failed"
-msgstr ""
+msgstr "Na brodu nije uspelo"
 
 #: static/proctoring/js/views/proctored_exam_attempt_view.js:26
 msgid "Onboarding Expired"
-msgstr ""
+msgstr "Istekao je na brodu"
 
 #: static/proctoring/js/views/proctored_exam_attempt_view.js:179
 msgid "Practice"
-msgstr ""
+msgstr "Praksa"
 
 #: static/proctoring/js/views/proctored_exam_attempt_view.js:179
 msgid "Proctored"
-msgstr ""
+msgstr "Prokidarni"
 
 #: static/proctoring/js/views/proctored_exam_attempt_view.js:181
 msgid "Timed"
-msgstr ""
+msgstr "Temiran"
 
 #: static/proctoring/js/views/proctored_exam_attempt_view.js:214
 msgid "Are you sure you want to remove this student's exam attempt?"
-msgstr ""
+msgstr "Jeste li sigurni da želite da uklonite pokušaj ispita ovog učenika?"
 
 #: static/proctoring/js/views/proctored_exam_attempt_view.js:248
 msgid "Are you sure you want to resume this student's exam attempt?"
-msgstr ""
+msgstr "Jeste li sigurni da želite da nastavite sa pokušajem ovog učenika?"
 
 #: static/proctoring/js/views/proctored_exam_info.js:13
 #: static/proctoring/js/views/proctored_exam_onboarding_view.js:29
 msgid "Not Started"
-msgstr ""
+msgstr "Nije započeo"
 
 #: static/proctoring/js/views/proctored_exam_info.js:14
 msgid "You have not started your onboarding exam."
-msgstr ""
+msgstr "Niste započeli svoj ispit za ugradnju."
 
 #: static/proctoring/js/views/proctored_exam_info.js:18
 msgid "You have started your onboarding exam."
-msgstr ""
+msgstr "Započeli ste svoj ispitni ispit."
 
 #: static/proctoring/js/views/proctored_exam_info.js:22
 msgid "You have submitted your onboarding exam."
-msgstr ""
+msgstr "Podneli ste svoj ispit za nagradu."
 
 #: static/proctoring/js/views/proctored_exam_info.js:35
 msgid "Your onboarding exam has been approved in this course."
-msgstr ""
+msgstr "Vaš ispit za uključivanje je odobren u ovom kursu."
 
 #: static/proctoring/js/views/proctored_exam_info.js:39
 msgid "Your onboarding exam has been rejected. Please retry onboarding."
 msgstr ""
+"Vaš ispit za uključivanje je odbijeno. Pokušajte ponovo da pokušate da se "
+"vratite."
 
 #: static/proctoring/js/views/proctored_exam_info.js:43
 msgid ""
 "An error has occurred during your onboarding exam. Please retry onboarding."
 msgstr ""
+"Došlo je do greške tokom vašeg ispitnog nazora. Pokušajte ponovo da pokušate"
+" da se vratite."
 
 #: static/proctoring/js/views/proctored_exam_info.js:46
 #: static/proctoring/js/views/proctored_exam_onboarding_view.js:32
 msgid "Approved in Another Course"
-msgstr ""
+msgstr "Odobreno u drugom kursu"
 
 #: static/proctoring/js/views/proctored_exam_info.js:47
 msgid "Your onboarding exam has been approved in another course."
-msgstr ""
+msgstr "Vaš nagradski ispit je odobren u drugom kursu."
 
 #: static/proctoring/js/views/proctored_exam_info.js:49
 msgid ""
@@ -234,10 +246,13 @@ msgid ""
 "onboarding exam in order to ensure that your setup still meets the "
 "requirements for proctoring."
 msgstr ""
+"Ako se vaš uređaj promenio, preporučujemo vam da završite ispit za nagradu "
+"ovog kursa kako biste osigurali da vaše podešavanje i dalje ispunjava uslove za"
+" prokotaciju."
 
 #: static/proctoring/js/views/proctored_exam_info.js:55
 msgid "Expiring Soon"
-msgstr ""
+msgstr "Isteče uskoro"
 
 #: static/proctoring/js/views/proctored_exam_info.js:57
 msgid ""
@@ -245,61 +260,67 @@ msgid ""
 "is expiring soon. Please complete onboarding again to ensure that you will "
 "be able to continue taking proctored exams."
 msgstr ""
+"Vaš nagradni profil je odobren. Međutim, vaš nagradski status uskoro "
+"istekne. Molimo vas da ponovo ispunite na brodu da biste osigurali da ćete "
+"moći da nastavite da preduzmete prokorane ispite."
 
 #: static/proctoring/js/views/proctored_exam_info.js:64
 #: static/proctoring/js/views/proctored_exam_onboarding_view.js:38
 msgid "Expired"
-msgstr ""
+msgstr "Istekao"
 
 #: static/proctoring/js/views/proctored_exam_info.js:66
 msgid ""
 "Your onboarding status has expired. Please complete onboarding again to "
 "continue taking proctored exams."
 msgstr ""
+"Vaš status na brodu je istekao. Molimo vas da ponovo ispunite na brodu da "
+"biste nastavili da preduzmete proktore ispite."
 
 #: static/proctoring/js/views/proctored_exam_onboarding_view.js:30
 msgid "Setup Started"
-msgstr ""
+msgstr "Pokretanje je započelo"
 
 #: static/proctoring/js/views/proctored_exam_onboarding_view.js:31
 msgid "Onboarding Started"
-msgstr ""
+msgstr "Počelo je na brodu"
 
 #: static/proctoring/js/views/proctored_exam_onboarding_view.js:40
 msgid "Onboarding Reset Failed Due to Past Due Exam"
-msgstr ""
+msgstr "Ugradnja resetovanja nije uspela zbog prošlih dema"
 
 #: static/proctoring/js/views/proctored_exam_onboarding_view.js:42
 msgid "Audit"
-msgstr ""
+msgstr "Revizija"
 
 #: static/proctoring/js/views/proctored_exam_onboarding_view.js:43
 msgid "Honor"
-msgstr ""
+msgstr "Čast"
 
 #: static/proctoring/js/views/proctored_exam_onboarding_view.js:44
 msgid "Professional"
-msgstr ""
+msgstr "Profesionalan"
 
 #: static/proctoring/js/views/proctored_exam_onboarding_view.js:45
 msgid "No ID Professional"
-msgstr ""
+msgstr "Nema lične karte"
 
 #: static/proctoring/js/views/proctored_exam_onboarding_view.js:46
 msgid "Credit"
-msgstr ""
+msgstr "Kredit"
 
 #: static/proctoring/js/views/proctored_exam_onboarding_view.js:47
 msgid "Master's"
-msgstr ""
+msgstr "Majstor"
 
 #: static/proctoring/js/views/proctored_exam_onboarding_view.js:48
 msgid "Executive Education"
-msgstr ""
+msgstr "Izvršno obrazovanje"
 
 #: static/proctoring/js/views/proctored_exam_view.js:153
 msgid ""
 "Are you sure you want to leave this page? \n"
-"To pass your proctored exam you must also pass the online proctoring session "
-"review."
+"To pass your proctored exam you must also pass the online proctoring session review."
 msgstr ""
+"Jeste li sigurni da želite da ostavite ovu stranicu? \n"
+"Da biste položili svoj prokorisni ispit, morate proći i pregledu na mrežnom proctoraring sesiji."
