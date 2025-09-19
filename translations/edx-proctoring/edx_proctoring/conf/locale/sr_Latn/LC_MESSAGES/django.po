@@ -202,8 +202,8 @@ msgid ""
 "    "
 msgstr ""
 "\n"
-"Rezultat će biti vidljiv nakon <Snack ID = \"wait_deadline\"> Učitavanje ... "
-"</ strong>"
+"        Rezultat će biti vidljiv nakon <strong id=\"wait_deadline\"> loading ... </strong>\n"
+"    "
 
 #: templates/emails/proctoring_attempt_satisfactory_email.html:5
 #: templates/emails/proctoring_attempt_submitted_email.html:5
@@ -214,7 +214,7 @@ msgid ""
 "    "
 msgstr ""
 "\n"
-"Zdravo,\n"
+"        Zdravo,\n"
 "    "
 
 #: templates/emails/proctoring_attempt_satisfactory_email.html:12
@@ -227,9 +227,10 @@ msgid ""
 "    "
 msgstr ""
 "\n"
-"Vaš proktored ispit \"%(exam_name)s \" in\n"
-" <a href=\"%(course_url)s\">%(course_name)s</a> je pregledan i vi\n"
-" ispunili sve zahteve za rešenjem."
+"        Vaš proktored ispit \"%(exam_name)s\" u\n"
+"        <a href=\"%(course_url)s\">%(course_name)s</a> was reviewed and you\n"
+"        ispunili sve zahteve za rešenjem.\n"
+"    "
 
 #: templates/emails/proctoring_attempt_satisfactory_email.html:21
 #, python-format
@@ -242,10 +243,11 @@ msgid ""
 "    "
 msgstr ""
 "\n"
-"Ako imate bilo kakvih pitanja o svojim rezultatima, možete da posegnete \n"
-" <a href = \"%(contact_url)s \">\n"
-"  %(contact_url_text)s \n"
-" </ a>."
+"    Ako imate bilo kakvih pitanja o svojim rezultatima, možete da posegnete\n"
+"        <a href=\"%(contact_url)s\">\n"
+"            %(contact_url_text)s\n"
+"        </a>.\n"
+"    "
 
 #: templates/emails/proctoring_attempt_submitted_email.html:12
 #, python-format
@@ -259,11 +261,12 @@ msgid ""
 "    "
 msgstr ""
 "\n"
-"Vaš proktored ispit \"%(exam_name)s \" in\n"
-" <a href=\"%(course_url)s\">%(course_name)s</a> je podnesen\n"
-" uspešno i sada će se pregledati kako bi se osiguralo svi ispit\n"
-" Pravila su praćena pravila. Trebali biste dobiti e-poštu sa ispitom\n"
-" Status u roku od 5 radnih dana. Konačne ocene mogu potrajati duže."
+"        Vaš proktored ispit \"%(exam_name)s\" in\n"
+"        <a href=\"%(course_url)s\">%(course_name)s</a> was submitted\n"
+"        uspešno i sada će se pregledati kako bi se osiguralo svi ispit\n"
+"        Pravila su praćena pravila. Trebali biste dobiti e-poštu sa ispitom\n"
+"        Status u roku od 5 radnih dana. Konačne ocene mogu potrajati duže.\n"
+"    "
 
 #: templates/emails/proctoring_attempt_unsatisfactory_email.html:12
 #, python-format
@@ -279,13 +282,14 @@ msgid ""
 "    "
 msgstr ""
 "\n"
-"Vaš proktored ispit \"%(exam_name)s \" in\n"
-" <a href=\"%(course_url)s\">%(course_name)s</a> je pregledan i\n"
-" Tim kursa je identifikovao jednu ili više kršenja pravila Proktored ispita. Primeri\n"
-" pitanja koja mogu rezultirati kršenjem pravila uključuju pregledavanje\n"
-" Internet, zamagljena ili nestala identifikacija fotografije, koristeći telefon,\n"
-" ili dobijanje pomoći druge osobe. Kao rezultat identifikovanih pitanja,\n"
-" Niste uspešno ispunjavali zahteve za ispitni ispit."
+"        Vaš proktored ispit \"%(exam_name)s\" u\n"
+"        <a href=\"%(course_url)s\">%(course_name)s</a> was reviewed and the\n"
+"        Tim kursa je identifikovao jednu ili više kršenja pravila Proktored ispita. Primeri\n"
+"        pitanja koja mogu rezultirati kršenjem pravila uključuju pregledavanje\n"
+"        Internet, zamagljena ili nestala identifikacija fotografije, koristeći telefon,\n"
+"        ili dobijanje pomoći druge osobe. Kao rezultat identifikovanih pitanja,\n"
+"        Niste uspešno ispunjavali zahteve za ispitni ispit.\n"
+"    "
 
 #: templates/emails/proctoring_attempt_unsatisfactory_email.html:25
 #, python-format
@@ -299,11 +303,12 @@ msgid ""
 "    "
 msgstr ""
 "\n"
-"Da biste žalili sa rezultatima vašeg prokorisanog ispita, posetite sve relevantne informacije\n"
-" o vašem ispitu na \n"
-" <a href = \"%(contact_url)s \">\n"
-"  %(contact_url_text)s \n"
-" </ a>."
+"        Da biste žalili sa rezultatima vašeg prokorisanog ispita, posetite sve relevantne informacije\n"
+"        o vašem ispitu na\n"
+"        <a href=\"%(contact_url)s\">\n"
+"            %(contact_url_text)s\n"
+"        </a>.\n"
+"    "
 
 #: templates/onboarding_exam/entrance.html:5
 msgid ""
@@ -312,7 +317,8 @@ msgid ""
 "  "
 msgstr ""
 "\n"
- "Prokotajući ispit za na brodu"
+"    Prokotajući ispit za na brodu\n"
+"  "
 
 #: templates/onboarding_exam/entrance.html:12
 msgid ""
@@ -321,7 +327,8 @@ msgid ""
 "    "
 msgstr ""
 "\n"
-"Zašto vam je ovo važno:"
+"      Zašto vam je ovo važno:\n"
+"    "
 
 #: templates/onboarding_exam/entrance.html:18
 msgid ""
@@ -330,8 +337,8 @@ msgid ""
 "      "
 msgstr ""
 "\n"
-"Uspostavite svoj identitet pomoću COCTORIRAN-a da biste preuzeli prokorani "
-"ispit"
+"        Uspostavite svoj identitet pomoću COCTORIRAN-a da biste preuzeli prokorani ispit\n"
+"      "
 
 #: templates/onboarding_exam/entrance.html:23
 msgid ""
@@ -340,7 +347,8 @@ msgid ""
 "      "
 msgstr ""
 "\n"
-"Kreirajte svoj profil na brodu za brži pristup u budućnosti"
+"        Kreirajte svoj profil na brodu za brži pristup u budućnosti\n"
+"      "
 
 #: templates/onboarding_exam/entrance.html:28
 msgid ""
@@ -349,7 +357,8 @@ msgid ""
 "      "
 msgstr ""
 "\n"
-"Vežbajte uzimanje prokorisanog testa"
+"        Vežbajte uzimanje prokorisanog testa\n"
+"      "
 
 #: templates/onboarding_exam/entrance.html:34
 #, python-format
@@ -359,8 +368,8 @@ msgid ""
 "    "
 msgstr ""
 "\n"
-"Prokokovanje za ovaj kurs je obezbeđen putem %(provider_name)s. Pregled na "
-"brodu, uključujući verifikaciju identiteta, može potrajati 2+ radnih dana."
+"      Prokokovanje za ovaj kurs je obezbeđen putem %(provider_name)s. Pregled   OBARDING, uključujući verifikaciju identiteta, može potrajati 2+ radnih dana.\n"
+"    "
 
 #: templates/onboarding_exam/entrance.html:40
 #, python-format
@@ -372,9 +381,10 @@ msgid ""
 "      "
 msgstr ""
 "\n"
-"Jednom kada je vaš profil pregledao, dobićete e-poštu sa rezultatima pregleda. E-pošta će doći\n"
-" <a href = \"mailto:%(learner_notification_from_email)s \"> %(learner_notification_from_email)s </ a>.\n"
-" Proverite da li je ovaj mejl dodan u vaš primljeni filter."
+"        Jednom kada je vaš profil pregledao, dobićete e-poštu sa rezultatima pregleda. E-pošta će doći\n"
+"        <a href=\"mailto:%(learner_notification_from_email)s\">%(learner_notification_from_email)s</a>.\n"
+"        Proverite da li je ovaj mejl dodan u vaš primljeni filter.\n"
+"      "
 
 #: templates/onboarding_exam/entrance.html:49
 #, python-format
@@ -386,9 +396,10 @@ msgid ""
 "      "
 msgstr ""
 "\n"
-"Molimo kontaktirajte\n"
-" <a href = \"mailto:%(integration_specific_email)s \"> %(integration_specific_email)s </ a>\n"
-" Ako imate pitanja."
+"        Molimo kontaktirajte\n"
+"        <a href=\"mailto:%(integration_specific_email)s\">%(integration_specific_email)s</a>\n"
+"        Ako imate pitanja.\n"
+"      "
 
 #: templates/onboarding_exam/entrance.html:58
 msgid "Continue to onboarding"
@@ -401,8 +412,8 @@ msgid ""
 "  "
 msgstr ""
 "\n"
-"Bićete vođeni putem internetskog softvera za proctorating podešavanje i "
-"verifikaciju identiteta."
+"    Bićete vođeni putem internetskog softvera za proctorating podešavanje i verifikaciju identiteta.\n"
+"  "
 
 #: templates/onboarding_exam/error.html:4
 msgid ""
@@ -411,7 +422,8 @@ msgid ""
 "  "
 msgstr ""
 "\n"
- "GREŠKA: Došlo je do problema sa vašim nagradom"
+"    GREŠKA: Došlo je do problema sa vašim nagradom\n"
+"  "
 
 #: templates/onboarding_exam/error.html:13
 msgid ""
@@ -421,8 +433,9 @@ msgid ""
 "  "
 msgstr ""
 "\n"
-"Vaša rekovna sesija je završila pre nego što ste završili ovaj ispit za na brodu.\n"
-"    Trebali biste pokušati da se ponovo pokušate sa ispitom."
+"    Vaša rekovna sesija je završila pre nego što ste završili ovaj ispit za na brodu.\n"
+"    Trebali biste pokušati da se ponovo pokušate sa ispitom.\n"
+"  "
 
 #: templates/onboarding_exam/ready_to_submit.html:6
 #, python-format
@@ -432,9 +445,8 @@ msgid ""
 "    "
 msgstr ""
 "\n"
-"Uzimate \"%(exam_display_name)s \" kao ispit za uključivanje. Morate da "
-"kliknete \"Да, окончајте мој прокторски испит\" i predajte svoju prokotarsku"
-" sesiju da biste dovršili na brodu."
+"      Uzimate \"%(exam_display_name)s\" kao ispit za uključivanje. Morate da kliknete “Да, окончајте мој прокторски испит” i predajte svoju prokotarsku sesiju da biste dovršili na brodu.\n"
+"    "
 
 #: templates/onboarding_exam/rejected.html:5
 msgid ""
@@ -443,7 +455,8 @@ msgid ""
 "  "
 msgstr ""
 "\n"
-"Vaša sednica za nagradu je preispitala, ali nije preuzela sve zahteve"
+"    Vaša sednica za nagradu je preispitala, ali nije preuzela sve zahteve\n"
+"  "
 
 #: templates/onboarding_exam/rejected.html:12
 #, python-format
@@ -456,10 +469,11 @@ msgid ""
 "    "
 msgstr ""
 "\n"
-"Molimo kontaktirajte\n"
-" <a href = \"mailto:%(integration_specific_email)s \">\n"
-" %(integration_specific_email)s \n"
-" </ a> Ako imate pitanja. Možete ponovo da popite ovaj nagradni ispit klikom na \"Retry my exam\"."
+"      Molimo kontaktirajte\n"
+"      <a href=\"mailto:%(integration_specific_email)s\">\n"
+"        %(integration_specific_email)s\n"
+"      </a> if you have questions. You may retake this onboarding exam by clicking \"Retry my exam\".\n"
+"    "
 
 #: templates/onboarding_exam/rejected.html:20
 #: templates/onboarding_exam/submitted.html:47
@@ -481,7 +495,8 @@ msgid ""
 "  "
 msgstr ""
 "\n"
-"Podneli ste ovaj nagradni ispit"
+"    Podneli ste ovaj nagradni ispit\n"
+"  "
 
 #: templates/onboarding_exam/submitted.html:11
 msgid ""
@@ -493,10 +508,11 @@ msgid ""
 "    "
 msgstr ""
 "\n"
-"Ako nemate nagradni profil sa sistemom,\n"
+"      Ako nemate nagradni profil sa sistemom,\n"
 "      Verilicitet će pregledati vaš podnesak i stvoriti nagradu\n"
 "      profila da vam omogući pristup procesnom ispitima. Nabor\n"
-"      Pregled profila može potrajati 2+ radnih dana."
+"      Pregled profila može potrajati 2+ radnih dana.\n"
+"    "
 
 #: templates/onboarding_exam/submitted.html:19
 #, python-format
@@ -511,12 +527,13 @@ msgid ""
 "    "
 msgstr ""
 "\n"
-"Jednom kada je vaš profil pregledao, dobićete e-poštu\n"
-" sa rezultatima pregleda. E-pošta će doći\n"
-" <a href = \"mailto:%(learner_notification_from_email)s \">\n"
-" %(learner_notification_from_email)s \n"
-" </ a>\n"
-" Pa uverite se da je ovaj mejl dodat u vaš primljeni filter."
+"      Jednom kada je vaš profil pregledao, dobićete e-poštu\n"
+"      sa rezultatima pregleda. E-pošta će doći\n"
+"      <a href=\"mailto:%(learner_notification_from_email)s\">\n"
+"        %(learner_notification_from_email)s\n"
+"      </a>,\n"
+"      Pa uverite se da je ovaj mejl dodat u vaš primljeni filter.\n"
+"    "
 
 #: templates/onboarding_exam/submitted.html:29
 msgid ""
@@ -527,9 +544,10 @@ msgid ""
 "    "
 msgstr ""
 "\n"
-"Ako već imate ugrađeni profil odobren kroz drugi kurs,\n"
+"      Ako već imate ugrađeni profil odobren kroz drugi kurs,\n"
 "      Ovo podnošenje neće biti pregledan. Možete ponovo da pokušate da se ponovo pokušate\n"
-"      da potvrdi da vaše podešavanje i dalje ispunjava uslove za prokotaciju."
+"      da potvrdi da vaše podešavanje i dalje ispunjava uslove za prokotaciju.\n"
+"    "
 
 #: templates/onboarding_exam/submitted.html:36
 msgid ""
@@ -539,8 +557,9 @@ msgid ""
 "    "
 msgstr ""
 "\n"
-"Ako ste doneli grešku u ovom podnesku, možete ponovo pokrenuti proces na brodu. \n"
-"      Vaš trenutni podnesak će biti uklonjen i neće dobiti pregled."
+"      Ako ste doneli grešku u ovom podnesku, možete ponovo pokrenuti proces na brodu.\n"
+"      Vaš trenutni podnesak će biti uklonjen i neće dobiti pregled.\n"
+"    "
 
 #: templates/onboarding_exam/submitted.html:41
 msgid "I understand and want to reset this onboarding exam."
@@ -558,10 +577,11 @@ msgid ""
 "    "
 msgstr ""
 "\n"
-"Molimo kontaktirajte\n"
-" <a href = \"mailto:%(integration_specific_email)s \">\n"
-" %(integration_specific_email)s \n"
-" </ a> Ako imate pitanja."
+"      Molimo kontaktirajte\n"
+"      <a href=\"mailto:%(integration_specific_email)s\">\n"
+"        %(integration_specific_email)s\n"
+"      </a> if you have questions.\n"
+"    "
 
 #: templates/onboarding_exam/verified.html:4
 msgid ""
@@ -570,7 +590,8 @@ msgid ""
 "  "
 msgstr ""
 "\n"
-"Vaš nagradni profil uspešno je pregledano"
+"    Vaš nagradni profil uspešno je pregledano\n"
+"  "
 
 #: templates/onboarding_exam/verified.html:11
 msgid ""
@@ -579,8 +600,8 @@ msgid ""
 "    "
 msgstr ""
 "\n"
-"Vaš profil je osnovan i spreman si da u ovom kursu bude spreman da "
-"preduzmete prokorisane ispite."
+"      Vaš profil je osnovan i spreman si da u ovom kursu bude spreman da preduzmete prokorisane ispite.\n"
+"    "
 
 #: templates/practice_exam/entrance.html:5
 msgid ""
@@ -589,7 +610,8 @@ msgid ""
 "      "
 msgstr ""
 "\n"
-"Isprobajte prokorani ispit"
+"        Isprobajte prokorani ispit\n"
+"      "
 
 #: templates/practice_exam/entrance.html:12
 msgid ""
@@ -599,8 +621,9 @@ msgid ""
 "      "
 msgstr ""
 "\n"
-"Ponovo se upoznajte sa COCKATORING za prave ispite kasnije tokom kursa. Ovaj ispit za praksu nema uticaja\n"
-"        na vašu ocenu na kursu."
+"        Ponovo se upoznajte sa COCKATORING za prave ispite kasnije tokom kursa. Ovaj ispit za praksu nema uticaja\n"
+"        na vašu ocenu na kursu.\n"
+"      "
 
 #: templates/practice_exam/entrance.html:20
 msgid "Continue to my practice exam"
@@ -613,8 +636,8 @@ msgid ""
 "        "
 msgstr ""
 "\n"
-"Bićete vođeni koracima da biste postavili softver na mrežnom Prokotoriju i "
-"proverite svoj identitet."
+"          Bićete vođeni koracima da biste postavili softver na mrežnom Prokotoriju i proverite svoj identitet.\n"
+"        "
 
 #: templates/practice_exam/error.html:5
 msgid ""
@@ -623,7 +646,8 @@ msgid ""
 "      "
 msgstr ""
 "\n"
-"Došlo je do problema sa sesijom vaše prakse"
+"        Došlo je do problema sa sesijom vaše prakse\n"
+"      "
 
 #: templates/practice_exam/error.html:13
 msgid ""
@@ -632,7 +656,8 @@ msgid ""
 "    "
 msgstr ""
 "\n"
-"Rezultati vaše prakse: <b class = \"failure\"> nezadovoljavajuće </ b>"
+"      Rezultati vaše prakse: <b class=\"failure\"> Nezadovoljavajući </b>\n"
+"    "
 
 #: templates/practice_exam/error.html:21
 msgid ""
@@ -642,8 +667,9 @@ msgid ""
 "      "
 msgstr ""
 "\n"
-"Vaša sesija je završena pre nego što završite ispit ove prakse.\n"
-"        Možete pokušati da pokušate ispit za praksu ako imate problema sa postavljanjem mrežnog softvera za prokotaciju."
+"        Vaša sesija je završena pre nego što završite ispit ove prakse.\n"
+"        Možete pokušati da pokušate ispit za praksu ako imate problema sa postavljanjem mrežnog softvera za prokotaciju.\n"
+"      "
 
 #: templates/practice_exam/submitted.html:5
 msgid ""
@@ -652,7 +678,8 @@ msgid ""
 "      "
 msgstr ""
 "\n"
-"Podneli ste ovu praksu Proktorni ispit"
+"        Podneli ste ovu praksu Proktorni ispit\n"
+"      "
 
 #: templates/practice_exam/submitted.html:13
 msgid ""
@@ -662,8 +689,9 @@ msgid ""
 "      "
 msgstr ""
 "\n"
-"Ispiti za vežbanje ne utiču na vašu ocenu.\n"
-"        Ispitni ispit ste završili i možete nastaviti sa radom kursa."
+"        Ispiti za vežbanje ne utiču na vašu ocenu.\n"
+"        Ispitni ispit ste završili i možete nastaviti sa radom kursa.\n"
+"      "
 
 #: templates/proctored_exam/confirm-decline.html:5
 msgid ""
@@ -672,7 +700,8 @@ msgid ""
 "      "
 msgstr ""
 "\n"
-"Jeste li sigurni da želite da preuzmete ovaj ispit bez COCTORITA?"
+"        Jeste li sigurni da želite da preuzmete ovaj ispit bez COCTORITA?\n"
+"      "
 
 #: templates/proctored_exam/confirm-decline.html:10
 msgid ""
@@ -681,8 +710,8 @@ msgid ""
 "      "
 msgstr ""
 "\n"
-"Ako preuzmete ovaj ispit bez COCTORIA, nećete biti podobni za kredit za kurs"
-" ili vjerodajnice mikromastera ako se odnose na ovaj kurs."
+"        Ako preuzmete ovaj ispit bez COCTORIA, nećete biti podobni za kredit za kurs ili vjerodajnice mikromastera ako se odnose na ovaj kurs.\n"
+"      "
 
 #: templates/proctored_exam/confirm-decline.html:16
 msgid "Continue Exam Without Proctoring"
@@ -701,7 +730,8 @@ msgid ""
 "    "
 msgstr ""
 "\n"
-"Ovaj ispit je prokoran"
+"      Ovaj ispit je prokoran\n"
+"    "
 
 #: templates/proctored_exam/entrance.html:9
 msgid ""
@@ -711,8 +741,9 @@ msgid ""
 "    "
 msgstr ""
 "\n"
-"Da biste bili podobni za kredit ili program programa povezane sa ovim "
-"kursom, morate prenijeti reviziju COCTORING za ovaj ispit."
+"      Da biste bili podobni za kredit ili program programa povezane sa ovim kursom, morate prenijeti reviziju COCTORING za ovaj ispit.\n"
+"\n"
+"    "
 
 #: templates/proctored_exam/entrance.html:15
 #: templates/proctored_exam/ready_to_resume.html:19
@@ -727,8 +758,8 @@ msgid ""
 "      "
 msgstr ""
 "\n"
-"Bićete vođeni koracima da biste postavili softver na mrežnom Prokotoriju i "
-"proverite svoj identitet. <//Br>"
+"        Bićete vođeni koracima da biste postavili softver na mreži Prokotoring i proverite svoj identitet.</br>\n"
+"      "
 
 #: templates/proctored_exam/error.html:4
 #: templates/proctored_exam/error_wrong_browser.html:4
@@ -738,7 +769,8 @@ msgid ""
 "    "
 msgstr ""
 "\n"
-"Greška sa prokorisanim ispitom"
+"      Greška sa prokorisanim ispitom\n"
+"    "
 
 #: templates/proctored_exam/error.html:11
 #, python-format
@@ -750,9 +782,10 @@ msgid ""
 "      "
 msgstr ""
 "\n"
-"Došlo je do sistemske greške sa vašim prokoranim ispitom. Molim vas posegnute sa kursom \n"
-" Tim na <a href = \"mailto:%(proctoring_escalation_email)s \"> %(proctoring_escalation_email)s </ a> \n"
-" Za pomoć i vratite se na ispit nakon što dobijete dodatna uputstva."
+"        Došlo je do sistemske greške sa vašim prokoranim ispitom. Molim vas posegnute sa kursom\n"
+"        Tim na <a href=\"mailto:%(proctoring_escalation_email)s\">%(proctoring_escalation_email)s</a>\n"
+"        Za pomoć i vratite se na ispit nakon što dobijete dodatna uputstva.\n"
+"      "
 
 #: templates/proctored_exam/error.html:17
 #, python-format
@@ -764,9 +797,10 @@ msgid ""
 "      "
 msgstr ""
 "\n"
-"Došlo je do sistemske greške sa vašim prokoranim ispitom. Molim vas da se posegnete \n"
-" <a href = \"%(link_urls.contact_us)s \" Target = \"_blank\"> %(platform_name)s Podrška </ a> za \n"
-" Pomoć i vratite se na ispit nakon što dobijete dodatna uputstva."
+"        Došlo je do sistemske greške sa vašim prokoranim ispitom. Molim vas da se posegnete\n"
+"        <a href=\"%(link_urls.contact_us)s\" target=\"_blank\">%(platform_name)s Support</a> for \n"
+"        Pomoć i vratite se na ispit nakon što dobijete dodatna uputstva.\n"
+"      "
 
 #: templates/proctored_exam/error_modal.html:7
 msgid "Close"
@@ -781,9 +815,10 @@ msgid ""
 "    "
 msgstr ""
 "\n"
-"Sadržaj ovog ispita može se videti samo preko RPNOV-a\n"
+"      Sadržaj ovog ispita može se videti samo preko RPNOV-a\n"
 "      Aplikacija. Ako još morate da ispunite ispit, molim vas\n"
-"      Povratak na aplikaciju RPNOV da biste nastavili."
+"      Povratak na aplikaciju RPNOV da biste nastavili.\n"
+"    "
 
 #: templates/proctored_exam/error_wrong_browser.html:17
 msgid ""
@@ -792,7 +827,8 @@ msgid ""
 "    "
 msgstr ""
 "\n"
-"Alternativno, možete završiti ispit."
+"      Alternativno, možete završiti ispit.\n"
+"    "
 
 #: templates/proctored_exam/error_wrong_browser.html:22
 msgid "End My Exam"
@@ -805,7 +841,8 @@ msgid ""
 "    "
 msgstr ""
 "\n"
-"Datum dospeća za ovaj ispit je prošao"
+"      Datum dospeća za ovaj ispit je prošao\n"
+"    "
 
 #: templates/proctored_exam/expired.html:9 templates/timed_exam/expired.html:9
 msgid ""
@@ -814,7 +851,8 @@ msgid ""
 "    "
 msgstr ""
 "\n"
-"Pošto je dospeo datum dospeća, više niste u stanju da preuzmete ovaj ispit."
+"      Pošto je dospeo datum dospeća, više niste u stanju da preuzmete ovaj ispit.\n"
+"    "
 
 #: templates/proctored_exam/failed-prerequisites.html:9
 msgid ""
@@ -823,7 +861,8 @@ msgid ""
 "    "
 msgstr ""
 "\n"
-"Nisi zadovoljio uslove za snimanje ovog ispita sa COCTORIRANSTOM."
+"    Nisi zadovoljio uslove za snimanje ovog ispita sa COCTORIRANSTOM.\n"
+"    "
 
 #: templates/proctored_exam/failed-prerequisites.html:14
 msgid ""
@@ -832,8 +871,8 @@ msgid ""
 "    "
 msgstr ""
 "\n"
-"Niste zadovoljili sledeće preduslove:\n"
-"   "
+"    Niste zadovoljili sledeće preduslove:\n"
+"    "
 
 #: templates/proctored_exam/failed-prerequisites.html:32
 msgid ""
@@ -842,7 +881,8 @@ msgid ""
 "      "
 msgstr ""
 "\n"
-"Zbog nezadovoljenih preduslova, ovaj ispit možete uzeti samo bez COCTORITI."
+"        Zbog nezadovoljenih preduslova, ovaj ispit možete uzeti samo bez COCTORITI.\n"
+"      "
 
 #: templates/proctored_exam/failed-prerequisites.html:40
 #, python-format
@@ -852,8 +892,8 @@ msgid ""
 "    "
 msgstr ""
 "\n"
-"Ako imate pitanja o statusu vaših zahteva, kontaktirajte %(platform_name)s "
-"podršku."
+"      Ako imate pitanja o statusu vaših zahteva, kontaktirajte %(platform_name)s podršku.\n"
+"    "
 
 #: templates/proctored_exam/footer.html:5
 msgid ""
@@ -862,7 +902,8 @@ msgid ""
 "        "
 msgstr ""
 "\n"
-"O prokorisanim ispitima"
+"        O prokorisanim ispitima\n"
+"        "
 
 #: templates/proctored_exam/inactive_account.html:4
 msgid ""
@@ -871,7 +912,8 @@ msgid ""
 "    "
 msgstr ""
 "\n"
-"Niste aktivirali svoj račun."
+"      Niste aktivirali svoj račun.\n"
+"    "
 
 #: templates/proctored_exam/inactive_account.html:10
 #, python-format
@@ -882,8 +924,9 @@ msgid ""
 "    "
 msgstr ""
 "\n"
-"Vaš %(platform_name)s nalog još nije aktiviran. Da preuzmete proporcionirani ispit,\n"
-"   Od vas se traži da aktivirate svoj nalog."
+"      Vaš %(platform_name)s nalog još nije aktiviran. Da preuzmete proporcionirani ispit,\n"
+"      Od vas se traži da aktivirate svoj nalog.\n"
+"    "
 
 #: templates/proctored_exam/inactive_account.html:16
 #, python-format
@@ -894,8 +937,9 @@ msgid ""
 "    "
 msgstr ""
 "\n"
-"Proverite registrovanu poštu i neželjenu mape za aktiviranje e-pošte za aktiviranje e-pošte\n"
-"   %(platform_name)s."
+"      Proverite registrovanu poštu i neželjenu mape za aktiviranje e-pošte za aktiviranje e-pošte\n"
+"      %(platform_name)s.\n"
+"    "
 
 #: templates/proctored_exam/inactive_account.html:21
 #, python-format
@@ -906,8 +950,9 @@ msgid ""
 "      "
 msgstr ""
 "\n"
-"Ako ne možete da pronađete ovu e-poštu, možete <href = \"%(reset_link)s \" target = \"_blank\"> resetovati lozinku </ a> to\n"
-" Aktivirajte svoj račun."
+"        Ako ne možete da pronađete ovaj mejl, možete <a href=\"%(reset_link)s\" target=\"_blank\">reset svoju lozinku</a> to\n"
+"        Aktivirajte svoj nalog.\n"
+"      "
 
 #: templates/proctored_exam/inactive_account.html:26
 msgid ""
@@ -916,8 +961,8 @@ msgid ""
 "      "
 msgstr ""
 "\n"
-"Ako ne možete da pronađete ovaj email, možete da resetujete lozinku da biste"
-" aktivirali svoj nalog."
+"        Ako ne možete da pronađete ovaj email, možete da resetujete lozinku da biste aktivirali svoj nalog.\n"
+"      "
 
 #: templates/proctored_exam/inactive_account.html:32
 #, python-format
@@ -928,8 +973,9 @@ msgid ""
 "    "
 msgstr ""
 "\n"
-"Ako i dalje imate problema, molimo kontaktirajte <a href = \"%(link_urls.contact_us)s \" target = \"_blank\">\n"
-" %(platform_name)s Podrška </ a>."
+"      Ako i dalje imate problema, kontaktirajte <a href=\"%(link_urls.contact_us)s\" target=\"_blank\">\n"
+"      %(platform_name)s support</a>.\n"
+"    "
 
 #: templates/proctored_exam/instructions.html:6
 msgid ""
@@ -938,7 +984,8 @@ msgid ""
 "    "
 msgstr ""
 "\n"
-"Podesite i započnite svoj prokorani ispit"
+"      Podesite i započnite svoj prokorani ispit\n"
+"    "
 
 #: templates/proctored_exam/instructions.html:12
 msgid ""
@@ -951,11 +998,12 @@ msgid ""
 "        "
 msgstr ""
 "\n"
-"NAPOMENA: Kao deo Podešavanja ispitnog ispita biće vam postavljeno\n"
+"          NAPOMENA: Kao deo Podešavanja ispitnog ispita biće vam postavljeno\n"
 "          da potvrdite svoj identitet. Pre nego što počnete, pobrinite se da jeste\n"
 "          na računaru sa veb kamerom i da imate validan oblik\n"
 "          identifikacije fotografija kao što je vozačka dozvola ili\n"
-"          Pasoš."
+"          Pasoš.\n"
+"        "
 
 #: templates/proctored_exam/instructions.html:27
 #, python-format
@@ -965,9 +1013,8 @@ msgid ""
 "          "
 msgstr ""
 "\n"
-"Ako imate pitanja koja se odnose na COCKATORING, možete da se obratite "
-"%(provider_name)s tehničkoj podršci putem e-maila "
-"%(provider_tech_support_email)s ili pozivom %(provider_tech_support_phone)s."
+"            Ako imate problema koje se odnose na COCTORING, možete da se obratite %(provider_name)s Tehničkoj podršci putem e-maila %(provider_tech_support_email)s  OR pozivom %(provider_tech_support_phone)s.\n"
+"          "
 
 #: templates/proctored_exam/instructions.html:33
 #: templates/proctored_exam/instructions.html:78
@@ -985,7 +1032,8 @@ msgid ""
 "        "
 msgstr ""
 "\n"
-"Korak 1"
+"          Korak 1\n"
+"        "
 
 #: templates/proctored_exam/instructions.html:45
 msgid ""
@@ -994,8 +1042,8 @@ msgid ""
 "        "
 msgstr ""
 "\n"
-"Kopirajte ovaj jedinstveni kod ispita. Od vas će se zatražiti da ovaj kod "
-"zalepi kasnije pre nego što započnete ispit."
+"          Kopirajte ovaj jedinstveni kod ispita. Od vas će se zatražiti da ovaj kod zalepi kasnije pre nego što započnete ispit.\n"
+"        "
 
 #: templates/proctored_exam/instructions.html:51
 msgid "Copy Exam Code"
@@ -1008,8 +1056,8 @@ msgid ""
 "      "
 msgstr ""
 "\n"
-"Izaberite kod za ispit, a zatim ga kopirate pomoću Control + C (Vindovs) ili"
-" komande + C (Mac)."
+"        Izaberite kod za ispit, a zatim ga kopirate pomoću Control + C (Vindovs) ili komande + C (Mac).\n"
+"      "
 
 #: templates/proctored_exam/instructions.html:59
 msgid ""
@@ -1018,7 +1066,8 @@ msgid ""
 "        "
 msgstr ""
 "\n"
-"Korak 2"
+"          Korak 2\n"
+"        "
 
 #: templates/proctored_exam/instructions.html:64
 msgid ""
@@ -1027,8 +1076,8 @@ msgid ""
 "      "
 msgstr ""
 "\n"
-"Započnite svoj sistem proverite sada. Novi prozor će se otvoriti za ovaj "
-"korak i verifikućete svoj identitet."
+"        Započnite svoj sistem proverite sada. Novi prozor će se otvoriti za ovaj korak i verifikućete svoj identitet.\n"
+"      "
 
 #: templates/proctored_exam/instructions.html:69
 msgid ""
@@ -1037,8 +1086,8 @@ msgid ""
 "      "
 msgstr ""
 "\n"
-"Proverite da li:\n"
-"  "
+"        Proverite da li:\n"
+"      "
 
 #: templates/proctored_exam/instructions.html:74
 msgid "Have a computer with a functioning webcam"
@@ -1046,7 +1095,8 @@ msgstr "Imajte računar sa funkcionalnim veb kamerom"
 
 #: templates/proctored_exam/instructions.html:75
 msgid "Have your valid photo ID (e.g. driver's license or passport) ready"
-msgstr "Imajte svoju važeću ID fotografije (npr. Vozačku dozvolu ili pasoš) spreman"
+msgstr ""
+"Imajte svoju važeću ID fotografije (npr. Vozačku dozvolu ili pasoš) spreman"
 
 #: templates/proctored_exam/instructions.html:81
 msgid ""
@@ -1055,8 +1105,8 @@ msgid ""
 "        "
 msgstr ""
 "\n"
-"Korak 3\n"
-"   "
+"          Korak 3\n"
+"        "
 
 #: templates/proctored_exam/instructions.html:86
 msgid ""
@@ -1065,9 +1115,8 @@ msgid ""
 "        "
 msgstr ""
 "\n"
-"Za bezbednosni i ispitni integritetni razlozi, tražimo vas da se prijavite "
-"na svoj eP nalog. Tada ćemo vas usmjeriti na iskustvo u RPNov-u.\n"
-"   "
+"          Za bezbednosni i ispitni integritetni razlozi, tražimo vas da se prijavite na svoj EDKS nalog. Tada ćemo vas usmjeriti na iskustvo u RPNov-u.\n"
+"        "
 
 #: templates/proctored_exam/instructions.html:100
 #: templates/proctored_exam/proctoring_opt_out_button.html:5
@@ -1081,8 +1130,8 @@ msgid ""
 "    "
 msgstr ""
 "\n"
-"Morate završiti ispit za nabor pre nego što uzmete ovaj prokorani ispit\n"
-"   "
+"      Morate završiti ispit za nabor pre nego što uzmete ovaj prokorani ispit\n"
+"    "
 
 #: templates/proctored_exam/onboarding_error.html:11
 msgid ""
@@ -1091,8 +1140,8 @@ msgid ""
 "    "
 msgstr ""
 "\n"
-"Pre nego što pokušate da ispitate ispit pre nego što pokušate ispit.\n"
-"   "
+"      Pre nego što pokušate da ispitate ispit pre nego što pokušate ispit.\n"
+"    "
 
 #: templates/proctored_exam/onboarding_error.html:17
 #: templates/proctored_exam/onboarding_error.html:32
@@ -1106,8 +1155,7 @@ msgid ""
 "  "
 msgstr ""
 "\n"
-"Pregledajte se vaš nagradni ispit. Pre nego što pokušate ovaj ispit, molimo "
-"vas da ostavite 2+ radnih dana da bi se pregledao vaš ispit za nagradu.\n"
+"    Pregledajte se vaš nagradni ispit. Pre nego što pokušate ovaj ispit, molimo vas da ostavite 2+ radnih dana da bi se pregledao vaš ispit za nagradu.\n"
 "  "
 
 #: templates/proctored_exam/onboarding_error.html:26
@@ -1117,8 +1165,8 @@ msgid ""
 "    "
 msgstr ""
 "\n"
- "Vaš ispit za uključivanje nije uspelo da donese sve zahteve.\n"
- "  "
+"      Vaš ispit za uključivanje nije uspelo da donese sve zahteve.\n"
+"    "
 
 #: templates/proctored_exam/onboarding_error.html:38
 #, python-format
@@ -1130,10 +1178,10 @@ msgid ""
 "    "
 msgstr ""
 "\n"
-"Prokokovanje vašeg ispita je obezbeđen putem %(provider_name)s.\n"
-" Ako imate pitanja o statusu vašeg ispita, kontaktirajte se\n"
-" <a href = \"mailto:%(integration_specific_email)s \"> %(integration_specific_email)s </ a>.\n"
-"   "
+"      Prokokovanje vašeg ispita je obezbeđen putem %(provider_name)s.\n"
+"      Ako imate pitanja o statusu vašeg ispita, kontaktirajte se\n"
+"      <a href=\"mailto:%(integration_specific_email)s\">%(integration_specific_email)s</a>.\n"
+"    "
 
 #: templates/proctored_exam/pending-prerequisites.html:9
 msgid ""
@@ -1142,9 +1190,8 @@ msgid ""
 "    "
 msgstr ""
 "\n"
-"Niste završili preduslove za ovaj ispit. Svi zahtevi moraju biti zadovoljni "
-"pre nego što uzmete ovaj prokorani ispit.\n"
-"   "
+"    Niste završili preduslove za ovaj ispit. Svi zahtevi moraju biti zadovoljni pre nego što uzmete ovaj prokorani ispit.\n"
+"    "
 
 #: templates/proctored_exam/pending-prerequisites.html:14
 msgid ""
@@ -1153,9 +1200,8 @@ msgid ""
 "    "
 msgstr ""
 "\n"
-"Sledeći preduslovi su u <strogo> na čekanju </ strong> država i moraju se "
-"uspešno završiti pre nego što nastavite:\n"
-"   "
+"    Sledeći preduslovi su u stanju <strong>PendingPP_1__ i moraju se uspešno završiti pre nego što nastavite:\n"
+"    "
 
 #: templates/proctored_exam/pending-prerequisites.html:30
 msgid ""
@@ -1164,12 +1210,12 @@ msgid ""
 "    "
 msgstr ""
 "\n"
-"Ovaj ispit možete preuzeti samo kada su svi preduslovi uspešno završeni.\n"
-" "
+"    Ovaj ispit možete preuzeti samo kada su svi preduslovi uspešno završeni.\n"
+"    "
 
 #: templates/proctored_exam/proctoring_launch_callback.html:164
 msgid " Your Proctoring Session Has Started "
-msgstr "Pokrenulo je vašu proctoraring session"
+msgstr " Pokrenulo je vašu proctoraring session"
 
 #: templates/proctored_exam/proctoring_launch_callback.html:165
 #, python-format
@@ -1178,9 +1224,10 @@ msgid ""
 "href=\"%(link_urls.online_proctoring_rules)s\" target=\"_blank\">online "
 "proctoring rules</a> to pass the proctoring review for your exam. "
 msgstr ""
-"Od ovog trenutka, morate da sledite <a href = "
-"\"%(link_urls.online_proctoring_rules)s \" target = \"_blank\"> mrežne "
-"proctorring pravila </ a> da biste položili reviziju za ispit."
+" Od ovog trenutka, morate da sledite <a "
+"href=\"%(link_urls.online_proctoring_rules)s\" target=\"_blank\">Online "
+"Proctoraring RulespipPP_1__ da biste položili reviziju prokotarstva za "
+"ispit."
 
 #: templates/proctored_exam/proctoring_launch_callback.html:168
 msgid ""
@@ -1189,10 +1236,8 @@ msgid ""
 "          "
 msgstr ""
 "\n"
-"Ne zatvarajte ovaj prozor pre nego što završite ispit. Ako zatvorite ovaj "
-"prozor, završava se vaša prokotarska sesija i nećete uspešno završiti \n"
-"prokorani ispit."
-"  "
+"            Ne zatvarajte ovaj prozor pre nego što završite ispit. Ako zatvorite ovaj prozor, završava se vaša prokotarska sesija i nećete uspešno završiti prokorani ispit.\n"
+"          "
 
 #: templates/proctored_exam/proctoring_launch_callback.html:173
 #, python-format
@@ -1204,10 +1249,10 @@ msgid ""
 "          "
 msgstr ""
 "\n"
-"Povratak na prozor %(platform_name)s da biste započeli ispit. Kada završite ispit i\n"
-"      označili su je kao potpunom, možete zatvoriti ovaj prozor da biste prekinuli prokotarsku sesiju\n"
-"      i otpremite podatke o reprezentaciji za pregled.\n"
-"  "
+"            Povratak na prozor %(platform_name)s da biste započeli ispit. Kada završite ispit i\n"
+"            označili su je kao potpunom, možete zatvoriti ovaj prozor da biste prekinuli prokotarsku sesiju\n"
+"            i otpremite podatke o reprezentaciji za pregled.\n"
+"          "
 
 #: templates/proctored_exam/ready_to_resume.html:4
 msgid ""
@@ -1216,8 +1261,8 @@ msgid ""
 "    "
 msgstr ""
 "\n"
-"Vaš ispit je spreman za nastavak.\n"
-"   "
+"      Vaš ispit je spreman za nastavak.\n"
+"    "
 
 #: templates/proctored_exam/ready_to_resume.html:9
 #, python-format
@@ -1227,8 +1272,8 @@ msgid ""
 "    "
 msgstr ""
 "\n"
-"Imaćete %(total_time)s da biste ispunili ispit.\n"
-"   "
+"        Imaćete %(total_time)s da biste ispunili ispit.\n"
+"    "
 
 #: templates/proctored_exam/ready_to_resume.html:14
 msgid ""
@@ -1237,8 +1282,7 @@ msgid ""
 "    "
 msgstr ""
 "\n"
-"Da biste bili podobni za kredit ili program programa povezane sa ovim "
-"kursom, morate prenijeti reviziju COCTORING za ovaj ispit.\n"
+"        Da biste bili podobni za kredit ili program programa povezane sa ovim kursom, morate prenijeti reviziju COCTORING za ovaj ispit.\n"
 "    "
 
 #: templates/proctored_exam/ready_to_start.html:5
@@ -1248,8 +1292,8 @@ msgid ""
 "    "
 msgstr ""
 "\n"
-"Važan\n"
-" "
+"      Važan\n"
+"    "
 
 #: templates/proctored_exam/ready_to_start.html:10
 #, python-format
@@ -1262,11 +1306,11 @@ msgid ""
 "      "
 msgstr ""
 "\n"
-"& # 8226; Imate %(total_time)s da biste dovršili ovaj ispit. </ //BR>\n"
-" & # 8226; Jednom kada započnete ispit, ne možete zaustaviti tajmer. </ //BR>\n"
-" & # 8226; Za sve vrste pitanja morate da kliknete \"submit\" da biste dovršili odgovor. </ //BR>\n"
-" & # 8226; Ako vreme istekne pre nego što kliknete \"End My Exam\", oceniće se samo vaš podneseni odgovori.\n"
-"    "
+"        &#8226; You have %(total_time)s to complete this exam. </br>\n"
+"        &#8226; Once you start the exam, you cannot stop the timer. </br>\n"
+"        &#8226; For all question types, you must click \"submit\" to complete your answer. </br>\n"
+"        &#8226; If time expires before you click \"End My Exam\", only your submitted answers will be graded.\n"
+"      "
 
 #: templates/proctored_exam/ready_to_start.html:18
 msgid ""
@@ -1275,8 +1319,8 @@ msgid ""
 "    "
 msgstr ""
 "\n"
-"Pravila o ispitu\n"
-"   "
+"      Pravila o ispitu\n"
+"    "
 
 #: templates/proctored_exam/ready_to_start.html:23
 msgid ""
@@ -1288,9 +1332,9 @@ msgid ""
 msgstr ""
 "\n"
 "         Morate se pridržavati sledeća pravila dok završite ovaj ispit.\n"
-"         <strong> Ako prekršite ova pravila, dobićete rezultat od 0 na ispitu i nećete biti podobni za kredit akademskog kursa.\n"
-"         </ strong> </ b>\n"
-"    "
+"         <strong>If you violate these rules, you will receive a score of 0 on the exam, and you will not be eligible for academic course credit.\n"
+"         </strong></br>\n"
+"      "
 
 #: templates/proctored_exam/ready_to_start.html:29
 #, python-format
@@ -1300,8 +1344,8 @@ msgid ""
 "      "
 msgstr ""
 "\n"
-"%(platform_name)s Pravila za prokorane ispite na mreži"
-"   "
+"          %(platform_name)s Pravila za prokorane ispite na mreži\n"
+"      "
 
 #: templates/proctored_exam/ready_to_start.html:36
 msgid ""
@@ -1310,8 +1354,8 @@ msgid ""
 "    "
 msgstr ""
 "\n"
-"Dodatna pravila ispita\n"
-"   "
+"      Dodatna pravila ispita\n"
+"    "
 
 #: templates/proctored_exam/ready_to_start.html:41
 #, python-format
@@ -1323,10 +1367,10 @@ msgid ""
 "      "
 msgstr ""
 "\n"
-"Sledeća dodatna pravila odnose se na ovaj ispit. Ova pravila imaju prednost nad pravilima za proračune na mreži. <//Br> </ c>\n"
+"        Sledeća dodatna pravila odnose se na ovaj ispit. Ova pravila imaju prednost nad pravilima za onlajn proktored pregledi .</br> </br>\n"
 "\n"
-"    %(exam_review_policy)s </ br>\n"
-"   "
+"        %(exam_review_policy)s </br>\n"
+"      "
 
 #: templates/proctored_exam/ready_to_start.html:49
 msgid "Start my exam"
@@ -1343,8 +1387,8 @@ msgid ""
 "    "
 msgstr ""
 "\n"
-"Jeste li sigurni da želite da okončate svoj proporcionirani ispit?\n"
-"  "
+"      Jeste li sigurni da želite da okončate svoj proporcionirani ispit?\n"
+"    "
 
 #: templates/proctored_exam/ready_to_submit.html:10
 msgid ""
@@ -1377,8 +1421,8 @@ msgid ""
 "      "
 msgstr ""
 "\n"
-"Ne, hteo bih da nastavim sa radom\n"
-"   "
+"        Ne, hteo bih da nastavim sa radom\n"
+"      "
 
 #: templates/proctored_exam/rejected.html:5
 msgid ""
@@ -1387,8 +1431,8 @@ msgid ""
 "      "
 msgstr ""
 "\n"
-"Pregledalo je vašu proctoraring sesiju, ali nije prenio sve zahteve\n"
-"    "
+"        Pregledalo je vašu proctoraring sesiju, ali nije prenio sve zahteve\n"
+"      "
 
 #: templates/proctored_exam/rejected.html:13
 #, python-format
@@ -1398,9 +1442,8 @@ msgid ""
 "      "
 msgstr ""
 "\n"
-"Ako imate pitanja o statusu rezultata vaše prokotarske sesije, kontaktirajte "
-"podršku %(platform_name)s."
-"   "
+"        Ako imate pitanja o statusu rezultata vaše prokotarske sesije, kontaktirajte podršku %(platform_name)s.\n"
+"      "
 
 #: templates/proctored_exam/rejected.html:23
 msgid ""
@@ -1409,9 +1452,8 @@ msgid ""
 "      "
 msgstr ""
 "\n"
-"Ako imate zabrinutosti zbog rezultata svoje recepta za sesiju, obratite se "
-"timu kursa.\n"
-"   "
+"        Ako imate zabrinutosti zbog rezultata svoje recepta za sesiju, obratite se timu kursa.\n"
+"      "
 
 #: templates/proctored_exam/submitted.html:4
 msgid ""
@@ -1420,8 +1462,8 @@ msgid ""
 "    "
 msgstr ""
 "\n"
-"Podneli ste ovaj prokorani ispit za pregled\n"
-"  "
+"      Podneli ste ovaj prokorani ispit za pregled\n"
+"    "
 
 #: templates/proctored_exam/submitted.html:9
 msgid "Your recorded data should now be uploaded for review."
@@ -1451,8 +1493,7 @@ msgid ""
 "    "
 msgstr ""
 "\n"
-"Ako imate pitanja o statusu rezultata vašeg Proktored ispita, kontaktirajte "
-"podršku %(platform_name)s."
+"      Ako imate pitanja o statusu rezultata vašeg Proktored ispita, kontaktirajte podršku %(platform_name)s.\n"
 "    "
 
 #: templates/proctored_exam/verified.html:5
@@ -1462,9 +1503,8 @@ msgid ""
 "            "
 msgstr ""
 "\n"
-"Vaša revizija je uspešno pregledana. Idite na stranicu napretka da biste "
-"videli ocenu ispita."
-"    "
+"                Vaša revizija je uspešno pregledana. Idite na stranicu napretka da biste videli ocenu ispita.\n"
+"            "
 
 #: templates/proctored_exam/visit_exam_content.html:5
 msgid ""
@@ -1473,9 +1513,7 @@ msgid ""
 "    "
 msgstr ""
 "\n"
-"Da biste videli ispitna pitanja i odgovore, izaberite <strong> Pogledaj moj "
-"ispit </ strong>. Status pregleda ispita prikazan je u levom navigacionom "
-"oknu."
+"      Da biste pogledali pitanja i odgovori na ispitu, izaberite <strong>Viev Mi Emater</strong>. Status pregleda ispita prikazan je u levom navigacionom oknu.\n"
 "    "
 
 #: templates/proctored_exam/visit_exam_content.html:11
@@ -1490,7 +1528,7 @@ msgid ""
 "    "
 msgstr ""
 "\n"
-"%(exam_name)s je vremenski ispit (%(total_time)s)\n"
+"    %(exam_name)s je vremenski ispit (%(total_time)s)\n"
 "    "
 
 #: templates/timed_exam/entrance.html:9
@@ -1517,7 +1555,7 @@ msgstr "imaćeš"
 
 #: templates/timed_exam/entrance.html:17
 msgid " to complete and submit the exam."
-msgstr "da ispunite i predate ispit."
+msgstr " da ispunite i predate ispit."
 
 #: templates/timed_exam/entrance.html:21
 msgid ""
@@ -1526,8 +1564,8 @@ msgid ""
 "      "
 msgstr ""
 "\n"
-"Spreman sam da započnem ovaj vremenski ispit.\n"
-"    "
+"        Spreman sam da započnem ovaj vremenski ispit.\n"
+"      "
 
 #: templates/timed_exam/footer.html:3
 msgid "Can I request additional time to complete my exam?"
@@ -1542,7 +1580,7 @@ msgid ""
 "    "
 msgstr ""
 "\n"
-"Ako imate invaliditet,\n"
+"      Ako imate invaliditet,\n"
 "      Možda imate pravo na dodatni vremenski dodatak na vremenskim ispitima.\n"
 "      Pitajte tim kursa za informacije o dodatnim vremenskim dodacima.\n"
 "    "
@@ -1554,7 +1592,7 @@ msgid ""
 "    "
 msgstr ""
 "\n"
-"Jeste li sigurni da želite da podnesete vremenski ispit?\n"
+"      Jeste li sigurni da želite da podnesete vremenski ispit?\n"
 "    "
 
 #: templates/timed_exam/ready_to_submit.html:9
@@ -1564,9 +1602,8 @@ msgid ""
 "    "
 msgstr ""
 "\n"
-"Proverite da li ste izabrali \"Submit\" za svaki problem pre nego što "
-"pošaljete ispit.\n"
-"  "
+"      Proverite da li ste izabrali \"Submit\" za svaki problem pre nego što pošaljete ispit.\n"
+"    "
 
 #: templates/timed_exam/ready_to_submit.html:14
 msgid ""
@@ -1575,8 +1612,8 @@ msgid ""
 "    "
 msgstr ""
 "\n"
-"Nakon što pošaljete ispit, ispit će biti ocenjen.\n"
-"   "
+"      Nakon što pošaljete ispit, ispit će biti ocenjen.\n"
+"    "
 
 #: templates/timed_exam/ready_to_submit.html:19
 msgid ""
@@ -1585,8 +1622,8 @@ msgid ""
 "    "
 msgstr ""
 "\n"
-"Da, pošaljite moj vremenski ispit.\n"
-"  "
+"      Da, pošaljite moj vremenski ispit.\n"
+"    "
 
 #: templates/timed_exam/ready_to_submit.html:25
 msgid ""
@@ -1595,8 +1632,8 @@ msgid ""
 "      "
 msgstr ""
 "\n"
-"Ne, želim da nastavim da radim."
-"   "
+"        Ne, želim da nastavim da radim.\n"
+"      "
 
 #: templates/timed_exam/submitted.html:6
 msgid ""
@@ -1606,9 +1643,9 @@ msgid ""
 "            "
 msgstr ""
 "\n"
-"Vrijeme dodeljeno za ovaj ispit je istekao. Vaš ispit je podnesen i bilo koji posao koji ste završili\n"
+"                Vrijeme dodeljeno za ovaj ispit je istekao. Vaš ispit je podnesen i bilo koji posao koji ste završili\n"
 "                će biti ocenjen.\n"
-"   "
+"            "
 
 #: templates/timed_exam/submitted.html:11
 msgid ""
@@ -1617,8 +1654,8 @@ msgid ""
 "            "
 msgstr ""
 "\n"
-"Podneli ste vremenski ispit.\n"
-" "
+"                Podneli ste vremenski ispit.\n"
+"            "
 
 #: templates/timed_exam/submitted.html:21
 msgid ""
@@ -1627,9 +1664,8 @@ msgid ""
 "            "
 msgstr ""
 "\n"
-"Nakon što je dospeo datum dospeća, možete pregledati ispit, ali ne možete da"
-" promenite svoje odgovore.\n"
-"  "
+"                Nakon što je dospeo datum dospeća, možete pregledati ispit, ali ne možete da promenite svoje odgovore.\n"
+"            "
 
 #: utils.py:87
 #, python-brace-format
@@ -1649,7 +1685,7 @@ msgstr "{num_of_minutes} minuta"
 #: utils.py:101
 #, python-brace-format
 msgid " and {num_of_minutes} minute"
-msgstr "i {num_of_minutes} minut"
+msgstr " i {num_of_minutes} minut"
 
 #: utils.py:103
 #, python-brace-format
@@ -1659,7 +1695,7 @@ msgstr "{num_of_minutes} Minut"
 #: utils.py:106
 #, python-brace-format
 msgid " and {num_of_minutes} minutes"
-msgstr "i {num_of_minutes} minuta"
+msgstr " i {num_of_minutes} minuta"
 
 #: utils.py:342
 msgid "a proctored exam"
