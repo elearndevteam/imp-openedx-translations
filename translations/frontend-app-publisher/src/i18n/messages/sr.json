@@ -1,0 +1,7 @@
+{
+  "publisher.status.archived": "Архивиран",
+  "publisher.status.unsubmitted": "Неупућен",
+  "publisher.status.Scheduled": "Заказано",
+  "publisher.status.inReview": "У прегледу",
+  "publisher.status.published": "Објављен"
+}
