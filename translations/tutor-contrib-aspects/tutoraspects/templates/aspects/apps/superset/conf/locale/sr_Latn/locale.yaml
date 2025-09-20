@@ -1,0 +1,376 @@
+sr_Latn:
+  '% Correct': '% Tačno'
+  '% Correct All Attempts': '% Ispravite sve pokušaje'
+  '% Correct First Attempts': '% Ispravite prve pokušaje'
+  '% Correct Last Attempts': '% Ispravite poslednje pokušaje'
+  '% Incorrect': '% Netačno'
+  '% Video Seconds Rewatched': '% video sekunde prepravljeno je'
+  '% Video Seconds Watched': '% Video sekunde gledali su'
+  ? '<dl>
+
+    <dt>Avg % Correct on 1st Attempt </dt>
+
+    <dd> The average percentage of correct answers on the first attempt of the learners
+    who attempted the problem. </dd>
+
+    </dl>'
+  : '<dl>
+
+    <dt>avg % Tacno na 1. pokušaju </dt>
+
+    <dd> Prosečan procenat tačnih odgovora na prvi pokušaj učenika koji su pokušali
+    problem. </dd>
+
+    </dl>'
+  Action: Akcija
+  Action Count: Broj akcije
+  Action Date: Datum delovanja
+  Active: Aktivan
+  Active Courses: Aktivni kursevi
+  Active Learner: Aktivni učenik
+  Active Learners: Aktivni učenici
+  Active Users Per Organization: Aktivni korisnici po organizaciji
+  Active Within Last 7 Days: Aktivno u poslednjih 7 dana
+  Actor ID: ID glumca
+  Actor Id: ID glumca
+  Actors Count: Glumi se računaju
+  Approving State: Odobravanje države
+  At Risk: U riziku
+  At-Risk Learners: At-Riguri
+  Attempt: Pokušati
+  Attempted All Problems: Pokušali su sve probleme
+  Attempted At Least One Problem: Pokušaj barem jednog problema
+  Attempts: Pokušaji
+  Average Score: Prosečna ocena
+  Avg % Correct on 1st Attempt: AVG % Tačno na 1. pokušaju
+  Avg Attempts: AVG pokušaji
+  Avg Correct Attempts Coursewide: AVG PRAVILNI TERMINSIROVI
+  Avg Correct Attempts by Selected Learners: AVG tačni pokušaji odabranih učenika
+  Avg Course Grade: AVG KURSA KURSA
+  Avg Incorrect Attempts Coursewide: AVG Netačni pokušaji savremene šire
+  Avg Incorrect Attempts by Selected Learners: AVG Netačni pokušaji odabranih učenika
+  Avg Score: AVG rezultat
+  Avg Video Length (seconds): AVG Video dužina (sekundi)
+  Block ID: Blok ID
+  Block Id: Blok ID
+  COUNT(*): Grof (*)
+  Changed By Fk: Promenio FK
+  Changed On: Promenjeno na
+  Chart showing the number of Superset actions taken on each chart in the selected time period.: Grafikon
+    prikazuje broj supersetskih radnji uzetih na svaku grafikon u odabranom vremenskom
+    periodu.
+  Chart showing the number of Superset actions taken on each dashboard in the selected time period.: Grafikon
+    koji prikazuje broj supersetskih radnji preuzetih na svaku kontrolnu tablu u izabranom
+    vremenskom periodu.
+  Chart showing the number of registered users over the selected time period.: Grafikon
+    prikazuje broj registrovanih korisnika tokom odabranog vremenskog perioda.
+  ClickHouse: Clickhouse
+  ClickHouse metrics: ClickHouse Metrics
+  Content Level: Nivo sadržaja
+  Correct Attempts: Ispravni pokušaji
+  Correct Attempts By Learner: Ispravni pokušaji učenika
+  Correct Attempts by Selected Learner: Ispravni pokušaji odabranog učenika
+  Count: Računati
+  Count of Passing Grades: Broj prolaznih razreda
+  Count of Scores: Broj rezultata
+  Count of unique users who performed an action in Superset over the selected time period.: Broj
+    jedinstvenih korisnika koji su izvršili radnju u supersetu tokom odabranog vremenskog
+    perioda.
+  Count over time of unique users who performed an action in Superset over the selected time period.: Prebrojite
+    vremenom jedinstvenih korisnika koji su izvršili radnju u supersetu tokom odabranog
+    vremenskog perioda.
+  Course Comparison Dashboard: Poređenja kursa Nadresa
+  Course Dashboard: Komandna tabla na kursu
+  Course Data JSON: Podaci o kursu JSON
+  Course End: Kraj kursa
+  Course Enrollment Mode Status Cnt: Režim upisa na kursu Status CNT
+  Course Enrollments Over Time: Upise kursa tokom vremena
+  Course Grade: Ocena kursa
+  Course Grade %: Ocena kursa %
+  Course ID: ID kursa
+  Course Info: Informacije o kursu
+  Course Information: Informacije o kursu
+  Course Key: Ključ na kursu
+  Course Key Short: Kratki ključ kursa
+  Course Metrics: Metrics kursa
+  Course Name: Naziv kursa
+  Course Order: Naređenje kursa
+  Course Run: Trčanje kursa
+  Course Start: Početak kursa
+  Course Tag: Oznaka kursa
+  Course grade: Ocena kursa
+  Course name: Naziv kursa
+  Course run: Trčanje kursa
+  Courses: Kursevi
+  Courses Cnt: Kursevi CNT
+  Courses Per Organization: Kursevi po organizaciji
+  Coursewide % Correct: COURTVIDEVIDE % Tačno
+  Coursewide Percent Correct: Procenat širokih cerada
+  Coursewide averages are based on learners who attempted the problem.: Proseci šivenja
+    za sedište zasnivaju se na učenicima koji su pokušali problem.
+  Coursewide percentages are based on learners who attempted the problem.: Procenti
+    za resurse zasnivaju se na učenicima koji su pokušali problem.
+  Created: Kreiran
+  Created By Fk: Kreirao FK
+  Created On: Stvoren na
+  Cumulative Enrollments by Track: Kumulativni upisi staza
+  Cumulative Interactions: Kumulativne interakcije
+  Current Active Enrollments By Mode: Trenutni aktivni upisi po režim
+  Current Enrollees: Trenutna upisnika
+  Currently Enrolled Users: Trenutno upisani korisnici
+  Dashboard ID: ID-karboard ID
+  Dashboard Status: Status kontrolne table
+  Dashboard Title: Naziv kontrolne table
+  Datasource ID: IDASOURCE ID
+  Datasource Name: Ime DataSourceousa
+  Datasource Type: Tip podataka podataka
+  Date: Datum
+  Description: Opis
+  Display Name: Prikaz ime
+  Displays the top 10 highest enrollment courses. Selecting different courses in the filter will display those courses.: Prikazuje
+    top 10 najviših kurseva upisa. Odabir različitih kurseva u filteru će prikazati
+    te kurseve.
+  Distribution of Course Grades: Distribucija naravno ocena
+  Distribution of Current Course Grade: Distribucija trenutne ocene kursa
+  Dump ID: ID za deponiju
+  Duration (Seconds): Trajanje (sekundi)
+  Email: E-mail
+  Emission Day: Dan emisije
+  Emission Hour: Čas emisije
+  Emission Time: Vreme emisije
+  Engagement: Angažovanje
+  Enrolled At: Upisano na
+  Enrollees by Enrollment Track: Upisuje se prema upisu
+  Enrollees per Enrollment Track: Upisuje po upisu
+  Enrollment: Upis
+  Enrollment Counts: Broji upisa
+  Enrollment Date: Datum upisa
+  Enrollment Dates: Datumi upisa
+  Enrollment End: Upis
+  Enrollment Mode: Režim upisa
+  Enrollment Start: Upisni početak
+  Enrollment Status: Status upisa
+  Enrollment Track: Trag za upis
+  Enrollment status: Status upisa
+  Enrollment track: Trag za upis
+  Enrollments: Upis
+  Event Activity: Aktivnost događaja
+  Event ID: ID događaja
+  Event String: Niz događaja
+  Event Time: Vreme događaja
+  Events Cnt: Događaji CNT
+  Fail Login Count: Broj prijave FAIL LOGIN
+  Final Response Results: Završni rezultati odgovora
+  First Name: Ime
+  Full Views: Potpuni pogledi
+  Grade Bucket: Kanta
+  Grade Range: Opseg stepena
+  Grade range: Opseg stepena
+  Graded: Ocenjen
+  Graded Learners: Ocenjeni učenici
+  Graded Subsection Engagement: Ocenjeno angažman pododeljke
+  Graded Subsection Performance: Ocenjeni podsekcioni učinak
+  Help: Pomoći
+  Http User Agent: Korisnički agent HTTP-a
+  Id: Id
+  'In-Context Analytics: Course': 'Analitika u kontekstu: kurs'
+  'In-Context Analytics: Graded Subsection': 'Analitika u kontekstu: Ocenjeno pododeljak'
+  'In-Context Analytics: Problem': 'Analitika u kontekstu: problem'
+  'In-Context Analytics: Video': 'Analitika u kontekstu: video'
+  Incorrect Attempts: Netačni pokušaji
+  Incorrect Attempts By Learner: Netačni pokušaji učenika
+  Incorrect Attempts by Selected Learner: Netačni pokušaji odabranih učenika
+  Individual Learner: Pojedinačni učenik
+  Initial Numeric Responses: Početni brojnički odgovori
+  Initial Responses: Početni odgovori
+  Instance Health: Prizor zdravlja
+  Interaction Type: Vrsta interakcije
+  Last Course Published: Poslednji kurs objavljen
+  Last Login: Poslednja prijava
+  Last Name: Prezime
+  Last Received Event: Poslednji primljeni događaj
+  Last Visit Date: Poslednja datum posete
+  Last Visited: Poslednji posećeni
+  Last course syncronized: Poslednji kurs je sinkronizovan
+  Learner Performance: Performanse za učenike
+  Learner Performance Breakdown: Raspodjela performansi učenika
+  Learner Status: Status učenika
+  Learner Summary: Rezime učenika
+  Learners: Učenici
+  Learners with Passing Grade: Učenici sa prolaznom ocenom
+  Login Count: Broj prijave
+  Median Attempts: Medijan pokušaji
+  Median Course Grade: Medijan KURS
+  Memory Usage (KB): Upotreba memorije (KB)
+  Memory Usage Mb: Usage u upotrebi memorije MB
+  Modified: Modifikovan
+  More details: Više detalja
+  Most-used Charts: Najviše korišćeni grafikoni
+  Most-used Dashboards: Najviše korišćene kontrolne table
+  Name: Naziv
+  Name Org: Ime orga
+  Number of Learners: Broj učenika
+  Number of Learners who Attempted the Problem: Broj učenika koji su pokušali problem
+  Number of Videos: Broj video zapisa
+  Number of Videos Watched: Broj posmatranih video zapisa
+  Number of Views across Video Duration: Broj pregleda u trajanju videa
+  Object ID: ID objekta
+  Object Id: ID objekta
+  Object Type: Tip objekta
+  Only available in versions Redwood and later: Dostupno samo u verzijama Crveno drvo
+    i kasnije
+  Operator Dashboard: Upravljačka kontrolna tabla
+  Org: Org
+  Organization: Organizacija
+  Organizations: Organizacije
+  Overview: Pregled
+  Page Count: Broj stranice
+  Page Engagement Over Time: Zaručenje stranice tokom vremena
+  Page Engagement per Section: Angažovanje stranice po odeljku
+  Page Engagement per Section/Subsection: Angažovanje stranice po odeljku / pododjeljku
+  Page Engagement per Subsection: Angažovanje stranice po pododeljku
+  Pages: Stranice
+  Partial Views: Djelomični pogledi
+  Partial and Full Video Views: Djelomični i potpuni prikazi video zapisa
+  Passed: Prošao
+  Passed/Failed: Prošao / nije uspeo
+  Password: Lozinka
+  Performance: Performanse
+  Problem Attempts: Pokušaji problema
+  Problem Attempts and Results: Pokušaji i rezultati problema
+  Problem Engagement: Problematično angažovanje
+  Problem Engagement per Section: Problematično angažovanje po odeljku
+  Problem Engagement per Section/Subsection: Problematično angažovanje po odjeljku
+    / pododeljku
+  Problem Engagement per Subsection: Problematično angažovanje po pododeljku
+  Problem Id: ID problema
+  Problem Link: Venčanica
+  Problem Location and Name: Lokacija i ime problema
+  Problem Name: Ime problema
+  Problem Name Location: Lokacija imena problema
+  Problem Name With Location: Ime problema sa lokacijom
+  Problem Number: Broj problema
+  Problem Part: Problem sa problemima
+  Problem Results: Rezultati problema
+  Problem Results Table: Tabela rezultata problema
+  Problems: Problemi
+  Query: Upit
+  Query Duration Ms: Trajanje upita MS
+  Query performance: Performanse upita
+  Read Rows: Pročitajte redove
+  Repeat Views: Ponovite poglede
+  Respondents: Ispitanici
+  Response: Odgovor
+  Response Count: Broj odgovora
+  Response Numeric: Odgovor numerički
+  Responses: Odgovori
+  Result: Rezultat
+  Result Rows: Rezultati
+  Rewatched: Prepravljen
+  Rownum: Rovn
+  Run Metrics: Pokrenite metrike
+  Run Name: Naziv pokretanja
+  Scaled Score: Skalirani rezultat
+  Score Range: Opseg rezultata
+  Section Location and Name: Odeljak Lokacija i ime
+  Section Name and Location: Ime i lokacija odeljka
+  Section Subsection Video Engagement: Sektor Poželjni video angažman
+  Section Summary: Rezime sekcija
+  Section With Name: Odeljak sa imenom
+  Section with name: Odeljak sa imenom
+  Section/Subsection Name: Odeljak / Podzemni ime
+  Section/Subsection Page Enggagement: Odeljak / Pretpostavljanje stranice
+  Section/Subsection Problem Engagement: Odeljak / Pretpostavljanje problema Angažman
+  Section/Subsection Video Engagement: Odeljak / Poželjni video angažman
+  Segment Count: Broj segmenta
+  Segment Count Rewatched: Broj segmenta prepravljen je
+  Segment Start: Segment početak
+  Selected Learner % Correct: Izabrani učenik % tačan
+  Selected Learner % Incorrect: Izabrani učenik % netačan
+  Selected Learner Percent Correct: Odabrani procenat učenika tačno
+  Selected Learner Percent Incorrect: Odabrani procenat učenika netačno
+  Selected Learners % Correct: Izabrani učenici % tačni
+  Selected Learners % Incorrect: Izabrani učenici % netačno
+  Self Paced: Samostalno
+  Slice ID: ID Slice
+  Slice Name: Naziv na slice
+  Slowest ClickHouse Queries: Najsporije kuries
+  Subsection Location and Name: Pododeljak Lokacija i ime
+  Subsection Name and Location: Naziv i lokacija podzemlja
+  Subsection Number: Pododeljni broj
+  Subsection Summary: Rezime za pododeljak
+  Subsection With Name: Pododeljak sa imenom
+  Subsection with name: Pododeljak sa imenom
+  Success: Uspeh
+  Superset: Superset
+  Superset Active Users: SuperSet Active Korisnici
+  Superset Active Users Over Time: Superset Active CarsFols tokom vremena
+  Superset Registered Users Over Time: SuperSet je tokom vremena registrovao korisnike
+  Tables: Stolovi
+  Tag: Oznaka
+  Tags: Oznake
+  Tags Str: Oznake str
+  Time Grain: Zrno vremena
+  Time Last Dumped: Vreme poslednje odbačeno
+  Time Range: Vremenski raspon
+  Time Stamp: Vremenski pečat
+  ? To view the number of views across the duration of a single video, click the name
+    of the video in the Video Link column in table above.
+  : Da biste pogledali broj pregleda tokom trajanja jednog video zapisa, kliknite
+    na ime video zapisa u koloni za video vezu u gornjoj tabeli.
+  Total: Totalno
+  Total Avg: Total avg
+  Total Courses: Ukupni kursevi
+  Total Organizations: Ukupne organizacije
+  Total Views: Ukupno pogleda
+  Unique Viewers: Jedinstveni gledaoci
+  Unique Views: Jedinstveni pogledi
+  Unique vs. Repeat Views: Jedinstveni vs. Ponovlja pogleda
+  User ID: Korisnički ID
+  User Info: Korisničke informacije
+  User Name: Korisničko ime
+  User Registration Date: Datum registracije korisnika
+  Username: Korisničko ime
+  Value: Vrednost
+  Verb: Glagol
+  Verb ID: Glagol id
+  Video Count: Broj video zapisa
+  Video Duration: Trajanje videa
+  Video Engagement: Videozahvat
+  Video Engagement per Section: Video angažman po odeljku
+  Video Engagement per Section/Subsection: Video angažman po odjeljku / pododeljku
+  Video Engagement per Subsection: Video angažman po pododeljku
+  Video Event: Video događaj
+  Video Link: Videozapis
+  Video Name Location: Lokacija imena videa
+  Video Number: Broj video zapisa
+  Video Rewatched Count: Video prepravljeni broj video zapisa
+  Video Watched Count: GOPOTNI GOPOT GOPOT
+  Videos: Videos
+  Viewed All Pages: Pregledao sve stranice
+  Viewed All Videos: Pogledao sve video zapise
+  Viewed At Least One Page: Gledano najmanje jednu stranicu
+  Viewed At Least One Video: Gledano najmanje jedan video
+  Visited On: Posećen
+  Watched Count: Gledano računanje
+  Watched Entire Video: Gledao ceo video
+  audit: revizija
+  failed: nije uspeo
+  graded: ocenjen
+  honor: čast
+  order: narediti
+  passed: prošao
+  registered: registrovan
+  section_subsection_name: section_subsection_name
+  section_subsection_page_engagement: section_subsection_page_engument
+  section_subsection_problem_engagement: section_subsection_problem_enguement
+  sort: sortirati
+  success: uspeh
+  ungraded: nerađen
+  unregistered: neregistran
+  verified: verifikovan
+  '{{ASPECTS_COURSE_COMPARISON_HELP_MARKDOWN}}': '{{ASPECTS_COURSE_COMPARISON_HELP_MARKDOWN}}'
+  '{{ASPECTS_COURSE_OVERVIEW_HELP_MARKDOWN}}': '{{ASPECTS_COURSE_OVERVIEW_HELP_MARKDOWN}}'
+  '{{ASPECTS_INDIVIDUAL_LEARNER_HELP_MARKDOWN}}': '{{ASPECTS_INDIVIDUAL_LEARNER_HELP_MARKDOWN}}'
+  '{{ASPECTS_LEARNER_GROUPS_HELP_MARKDOWN}}': '{{ASPECTS_LEARNER_GROUPS_HELP_MARKDOWN}}'
+  '{{ASPECTS_OPERATOR_HELP_MARKDOWN}}': '{{ASPECTS_OPERATOR_HELP_MARKDOWN}}'
