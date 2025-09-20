@@ -1,0 +1,122 @@
+{
+  "Hyperlink.externalLinkAltText": {
+    "string": "u novoj kartici"
+  },
+  "Hyperlink.externalLinkTitle": {
+    "string": "Otvara se u novoj kartici"
+  },
+  "dropzone.Dropzone.invalidSizeLessError": {
+    "string": "Fajl mora biti veći od {size}."
+  },
+  "dropzone.Dropzone.invalidSizeMoreError": {
+    "string": "Fajl mora biti manji od {size}."
+  },
+  "dropzone.Dropzone.invalidType": {
+    "string": "Tip fajla mora biti {count, plural, one {{typeString} fajl} other {jedan od {typeString} fajlova}}."
+  },
+  "dropzone.Dropzone.multipleDraggedError": {
+    "string": "Dozvoljen je samo jedan fajl za otpremanje."
+  },
+  "dropzone.Dropzone.unexpectedValidationError": {
+    "string": "Došlo je do neočekivanog problema tokom validacije fajla. Pokušajte ponovo."
+  },
+  "dropzone.Dropzone.uploadError": {
+    "string": "Došlo je do problema prilikom otpremanja fajla. Pokušajte ponovo."
+  },
+  "pgn.Alert.closeLabel": {
+    "string": "Zatvori"
+  },
+  "pgn.CardCarousel.scrollToNext": {
+    "string": "Pomeri na sledeći"
+  },
+  "pgn.CardCarousel.scrollToPrevious": {
+    "string": "Pomeri na prethodni"
+  },
+  "pgn.ChipCarousel.scrollToNext": {
+    "string": "Pomeri na sledeći"
+  },
+  "pgn.ChipCarousel.scrollToPrevious": {
+    "string": "Pomeri na prethodni"
+  },
+  "pgn.DataTable.BaseSelectionStatus.allSelectedText": {
+    "string": "Izabrano sve: {numSelectedRows}"
+  },
+  "pgn.DataTable.BaseSelectionStatus.clearSelectionText": {
+    "string": "Poništi izbor"
+  },
+  "pgn.DataTable.BaseSelectionStatus.selectAllText": {
+    "string": "Izaberi sve {itemCount}"
+  },
+  "pgn.DataTable.BaseSelectionStatus.selectedText": {
+    "string": "{numSelectedRows} izabrano"
+  },
+  "pgn.DataTable.BaseSelectionStatus.selectedTextPaginated": {
+    "string": "{numSelectedRows} izabrano ({numSelectedRowsOnPage} prikazano ispod)"
+  },
+  "pgn.DataTable.ExpandAll.collapseAllLabel": {
+    "string": "Sažmi sve"
+  },
+  "pgn.DataTable.ExpandAll.expandAllLabel": {
+    "string": "Proširi sve"
+  },
+  "pgn.DataTable.FilterStatus.clearFiltersText": {
+    "string": "Poništi filtere"
+  },
+  "pgn.DataTable.RowStatus.statusText": {
+    "string": "Prikazano {firstRow} - {lastRow} od {itemCount}."
+  },
+  "pgn.DataTable.SidebarFilters.title": {
+    "string": "Filteri"
+  },
+  "pgn.DataTable.filtersDropdownTitle": {
+    "string": "Filteri"
+  },
+  "pgn.DataTable.paginationLabel": {
+    "string": "paginacija tabele"
+  },
+  "pgn.Dropzone.DefaultContent.fileSizeBetween": {
+    "string": "Između {sizeMin} i {sizeMax}"
+  },
+  "pgn.Dropzone.DefaultContent.fileSizeMax": {
+    "string": "Maksimum {sizeMax}"
+  },
+  "pgn.Dropzone.DefaultContent.fileSizeMin": {
+    "string": "Minimum {sizeMin}"
+  },
+  "pgn.Dropzone.DefaultContent.fileTypeRestriction": {
+    "string": "Otpremi {count, plural, one {{firstPart} fajl} other {{firstPart} ili {secondPart} fajlova}}"
+  },
+  "pgn.Dropzone.DefaultContent.label": {
+    "string": "Prevucite fajl ovde ili kliknite da otpremite."
+  },
+  "pgn.Dropzone.UploadProgress.cancelLabel": {
+    "string": "Otkaži"
+  },
+  "pgn.Dropzone.UploadProgress.uploadLabel": {
+    "string": "Otpremanje fajla {filename}."
+  },
+  "pgn.FormAutosuggest.iconButtonClosed": {
+    "string": "Zatvori meni sa opcijama"
+  },
+  "pgn.FormAutosuggest.iconButtonOpened": {
+    "string": "Otvori meni sa opcijama"
+  },
+  "pgn.Modal.closeButon": {
+    "string": "Zatvori"
+  },
+  "pgn.ProductTour.Checkpoint.bottom-position-text": {
+    "string": "Dno koraka {step}"
+  },
+  "pgn.ProductTour.Checkpoint.page-index-text": {
+    "string": "{step} od {totalSteps}"
+  },
+  "pgn.ProductTour.Checkpoint.top-position-text": {
+    "string": "Vrh koraka {step}"
+  },
+  "pgn.ProductTour.checkpointHeader.close": {
+    "string": "Zatvori turu"
+  },
+  "pgn.Toast.closeLabel": {
+    "string": "Zatvori"
+  }
+}
