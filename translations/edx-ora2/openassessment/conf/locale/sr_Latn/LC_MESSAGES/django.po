@@ -19,18 +19,20 @@ msgstr ""
 
 #: assessment/api/student_training.py:179
 msgid "Could not parse serialized rubric"
-msgstr ""
+msgstr "Nije mogao raščlaniti serializovanu rubriku"
 
 #: assessment/api/student_training.py:191
 msgid ""
-"If your assignment includes a learner training step, the rubric must have at "
-"least one criterion, and that criterion must have at least one option."
+"If your assignment includes a learner training step, the rubric must have at"
+" least one criterion, and that criterion must have at least one option."
 msgstr ""
+"Ako vaš zadatak uključuje korak treninga učenika, rubrika mora imati najmanje "
+"jedan kriterijum, a taj kriterijum mora imati najmanje jednu opciju."
 
 #: assessment/api/student_training.py:203
 #, python-brace-format
 msgid "Example {example_number} has a validation error: {error}"
-msgstr ""
+msgstr "Primer {example_number} ima grešku za potvrdu: {error}"
 
 #: assessment/api/student_training.py:217
 #, python-brace-format
@@ -38,187 +40,199 @@ msgid ""
 "Example {example_number} has an invalid option for \"{criterion_name}\": "
 "\"{option_name}\""
 msgstr ""
+"Primer {example_number} ima nevažeću opciju za \"{criterion_name}\": "
+"\"{option_name}\""
 
 #: assessment/api/student_training.py:227
 #, python-brace-format
 msgid "Example {example_number} has an extra option for \"{criterion_name}\""
-msgstr ""
+msgstr "Primer {example_number} ima dodatnu opciju za \"{criterion_name}\""
 
 #: assessment/api/student_training.py:240
 #, python-brace-format
 msgid "Example {example_number} is missing an option for \"{criterion_name}\""
-msgstr ""
+msgstr "Primer {example_number} nedostaje opcija za \"{criterion_name}\""
 
 #: assessment/score_type_constants.py:21 xblock/grade_mixin.py:547
 msgid "Peer"
-msgstr ""
+msgstr "Peer"
 
 #: assessment/score_type_constants.py:22
 msgid "Self"
-msgstr ""
+msgstr "Za sebe"
 
 #: assessment/score_type_constants.py:23
 msgid "Staff"
-msgstr ""
+msgstr "Osoblje"
 
 #: assessment/score_type_constants.py:25
 msgid "Unknown"
-msgstr ""
+msgstr "Nepoznat"
 
 #: data.py:584
 #, python-brace-format
 msgid "Criterion {number}: {label}"
-msgstr ""
+msgstr "Kriterijum {number}: {label}"
 
 #: data.py:586
 #, python-brace-format
 msgid "Points {number}"
-msgstr ""
+msgstr "Points {number}"
 
 #: data.py:587
 #, python-brace-format
 msgid "Median Score {number}"
-msgstr ""
+msgstr "Median Score {number}"
 
 #: data.py:588
 #, python-brace-format
 msgid "Feedback {number}"
-msgstr ""
+msgstr "Povratne informacije {number}"
 
 #: data.py:917
 msgid "Item ID"
-msgstr ""
+msgstr "ID predmeta"
 
 #: data.py:918
 msgid "Submission ID"
-msgstr ""
+msgstr "ID podneska"
 
 #: data.py:930
 msgid "Anonymized Student ID"
-msgstr ""
+msgstr "Anonimnid Student ID"
 
 #: data.py:961
 msgid "Assessment ID"
-msgstr ""
+msgstr "ID procene"
 
 #: data.py:962
 msgid "Assessment Scored Date"
-msgstr ""
+msgstr "Procena je postigla datum"
 
 #: data.py:963
 msgid "Assessment Scored Time"
-msgstr ""
+msgstr "Procena je postigla vreme"
 
 #: data.py:964
 msgid "Assessment Type"
-msgstr ""
+msgstr "Vrsta procene"
 
 #: data.py:965
 msgid "Anonymous Scorer Id"
-msgstr ""
+msgstr "ID anonimnog strelaca"
 
 #: data.py:967
 #: templates/legacy/staff_area/oa_student_info_assessment_detail.html:59
 msgid "Overall Feedback"
-msgstr ""
+msgstr "Sveukupne povratne informacije"
 
 #: data.py:968
 msgid "Assessment Score Earned"
-msgstr ""
+msgstr "Rezultat procene zarađen"
 
 #: data.py:969
 msgid "Assessment Scored At"
-msgstr ""
+msgstr "Procena je postigla"
 
 #: data.py:970
 msgid "Date/Time Final Score Given"
-msgstr ""
+msgstr "Datum / vremenski konačni rezultat"
 
 #: data.py:971
 msgid "Final Score Earned"
-msgstr ""
+msgstr "Zarađen rezultat"
 
 #: data.py:972
 msgid "Final Score Possible"
-msgstr ""
+msgstr "Konačni rezultat"
 
 #: data.py:973
 msgid "Feedback Statements Selected"
-msgstr ""
+msgstr "Izjave za povratne informacije"
 
 #: data.py:974
 msgid "Feedback on Assessment"
-msgstr ""
+msgstr "Povratne informacije o proceni"
 
 #: data.py:976
 msgid "Response Files"
-msgstr ""
+msgstr "Datoteke odgovora"
 
 #: data.py:1367
 msgid "No description provided."
-msgstr ""
+msgstr "Nije predviđen opis."
 
 #: data.py:1626 templates/legacy/edit/oa_edit_criterion.html:54
 #: xblock/studio_mixin.py:58
 msgid "None"
-msgstr ""
+msgstr "Nijedan"
 
 #: templates/legacy/edit/oa_edit.html:28
 msgid "Save"
-msgstr ""
+msgstr "Sačuvati"
 
 #: templates/legacy/edit/oa_edit.html:32
 msgid "Cancel"
-msgstr ""
+msgstr "Otkazati"
 
 #: templates/legacy/edit/oa_edit_assessment_steps.html:6
 msgid ""
-"Open Response Assessments allow you to configure single or multiple steps in "
-"a rubric based open response assessment sequence. The steps available below "
-"can be enabled, disable, and ordered for a flexible set of pedagogical needs."
+"Open Response Assessments allow you to configure single or multiple steps in"
+" a rubric based open response assessment sequence. The steps available below"
+" can be enabled, disable, and ordered for a flexible set of pedagogical "
+"needs."
 msgstr ""
+"Otvoreni procene odgovora omogućavaju vam da konfigurišete pojedinačne ili "
+"više koraka u rubričkom redosledu za procjenu otvorenog odgovora. Dolje "
+"dostupni koraci mogu se omogućiti, onemogućiti i narediti za fleksibilan "
+"skup pedagoških potreba."
 
 #: templates/legacy/edit/oa_edit_basic_settings_list.html:5
 msgid "Display Name "
-msgstr ""
+msgstr "Prikaz ime"
 
 #: templates/legacy/edit/oa_edit_basic_settings_list.html:8
 msgid "The display name for this component."
-msgstr ""
+msgstr "Naziv prikaza za ovu komponentu."
 
 #: templates/legacy/edit/oa_edit_basic_settings_list.html:12
 msgid "Text Response"
-msgstr ""
+msgstr "Odgovor teksta"
 
 #: templates/legacy/edit/oa_edit_basic_settings_list.html:20
 msgid ""
 "Specify whether learners must include a text based response to this "
 "problem's prompt."
 msgstr ""
+"Navedite da li učenici moraju da uključuju odgovor na osnovu teksta na ovaj "
+"problem."
 
 #: templates/legacy/edit/oa_edit_basic_settings_list.html:25
 msgid "Response Editor"
-msgstr ""
+msgstr "Urednik odgovora"
 
 #: templates/legacy/edit/oa_edit_basic_settings_list.html:33
 msgid ""
 "Select which editor learners will use to include a text based response to "
 "this problem's prompt."
 msgstr ""
+"Izaberite koji učenici urednika će koristiti da uključe odgovor na osnovu "
+"teksta na ovaj problem."
 
 #: templates/legacy/edit/oa_edit_basic_settings_list.html:38
 msgid "File Uploads Response"
-msgstr ""
+msgstr "Datoteka uploads Responds"
 
 #: templates/legacy/edit/oa_edit_basic_settings_list.html:46
 msgid ""
 "Specify whether learners are able to upload files as a part of their "
 "response."
 msgstr ""
+"Navedite da li učenici mogu da prenose datoteke kao deo svog odgovora."
 
 #: templates/legacy/edit/oa_edit_basic_settings_list.html:50
 msgid "Allow Multiple Files"
-msgstr ""
+msgstr "Dozvolite više datoteka"
 
 #: templates/legacy/edit/oa_edit_basic_settings_list.html:52
 #: templates/legacy/edit/oa_edit_basic_settings_list.html:93
@@ -227,7 +241,7 @@ msgstr ""
 #: templates/legacy/edit/oa_edit_basic_settings_list.html:169
 #: templates/legacy/edit/oa_edit_peer_assessment.html:45
 msgid "False"
-msgstr ""
+msgstr "Lažno"
 
 #: templates/legacy/edit/oa_edit_basic_settings_list.html:53
 #: templates/legacy/edit/oa_edit_basic_settings_list.html:94
@@ -236,7 +250,7 @@ msgstr ""
 #: templates/legacy/edit/oa_edit_basic_settings_list.html:170
 #: templates/legacy/edit/oa_edit_peer_assessment.html:46
 msgid "True"
-msgstr ""
+msgstr "Istinit"
 
 #: templates/legacy/edit/oa_edit_basic_settings_list.html:56
 msgid ""
@@ -244,211 +258,234 @@ msgid ""
 "if File Uploads Response is set to None. This is automatically set to True "
 "for Team Assignments. "
 msgstr ""
+"Navedite da li učenici mogu da prenose više od jedne datoteke. Ovo nema "
+"efekta ako je odgovor upload datoteka postavljen na nijedan. Ovo se "
+"automatski postavlja na TRUE za zadatke tima."
 
 #: templates/legacy/edit/oa_edit_basic_settings_list.html:58
 msgid "File Upload Types"
-msgstr ""
+msgstr "Vrste prenosa datoteka"
 
 #: templates/legacy/edit/oa_edit_basic_settings_list.html:60
 msgid "PDF or Image Files"
-msgstr ""
+msgstr "PDF ili slike"
 
 #: templates/legacy/edit/oa_edit_basic_settings_list.html:61
 msgid "Image Files"
-msgstr ""
+msgstr "Slika datoteke"
 
 #: templates/legacy/edit/oa_edit_basic_settings_list.html:62
 msgid "Custom File Types"
-msgstr ""
+msgstr "Prilagođene vrste datoteka"
 
 #: templates/legacy/edit/oa_edit_basic_settings_list.html:66
 msgid ""
 "Specify whether learners can submit files along with their text responses."
 msgstr ""
+"Navedite da li učenici mogu podnijeti datoteke zajedno sa svojim odgovorima "
+"teksta."
 
 #: templates/legacy/edit/oa_edit_basic_settings_list.html:70
 msgid "File Types"
-msgstr ""
+msgstr "Vrste datoteka"
 
 #: templates/legacy/edit/oa_edit_basic_settings_list.html:79
 msgid ""
-"Enter the file extensions, separated by commas, that you want learners to be "
-"able to upload. For example: pdf,doc,docx."
+"Enter the file extensions, separated by commas, that you want learners to be"
+" able to upload. For example: pdf,doc,docx."
 msgstr ""
+"Unesite ekstenzije datoteka, odvojene zarezima, da želite da učenici mogu da"
+" učitaju. Na primer: PDF, doc, dock."
 
 #: templates/legacy/edit/oa_edit_basic_settings_list.html:84
 msgid ""
 "To add more file extensions, select Custom File Types and enter the full "
 "list of acceptable file extensions to be included."
 msgstr ""
+"Da biste dodali još proširenja datoteka, izaberite Prilagođene tipove "
+"datoteka i unesite celu listu prihvatljivih datotečnih ekstenzija koje treba "
+"da budu uključene."
 
 #: templates/legacy/edit/oa_edit_basic_settings_list.html:91
 msgid "Allow LaTeX Responses"
-msgstr ""
+msgstr "Dozvolite odgovore na lateks"
 
 #: templates/legacy/edit/oa_edit_basic_settings_list.html:97
 msgid "Specify whether learners can write LaTeX formatted strings"
-msgstr ""
+msgstr "Navedite da li učenici mogu da napišu lateks formatirane žice"
 
 #: templates/legacy/edit/oa_edit_basic_settings_list.html:102
 #: templates/legacy/leaderboard/oa_leaderboard_show.html:8
 #: templates/legacy/leaderboard/oa_leaderboard_waiting.html:10
 msgid "Top Responses"
-msgstr ""
+msgstr "Top odgovori"
 
 #: templates/legacy/edit/oa_edit_basic_settings_list.html:104
 msgid " (Disabled)"
-msgstr ""
+msgstr "(Onemogućeno)"
 
 #: templates/legacy/edit/oa_edit_basic_settings_list.html:117
 msgid ""
-"Specify the number of top scoring responses to display after the learner has "
-"submitted a response. Valid numbers are 0 to 99. If the number is 0, the Top "
-"Responses section does not appear to learners."
+"Specify the number of top scoring responses to display after the learner has"
+" submitted a response. Valid numbers are 0 to 99. If the number is 0, the "
+"Top Responses section does not appear to learners."
 msgstr ""
+"Navedite broj najboljih rezultata bodova na prikaz nakon što je učenik podneo"
+" odgovor. Važeni brojevi su 0 do 99. Ako je broj 0, gornji odjeljak odgovora "
+"se ne čini učenicima."
 
 #: templates/legacy/edit/oa_edit_basic_settings_list.html:122
 msgid "When Teams Enabled is set to true, Top Responses will be disabled."
 msgstr ""
+"Kada su omogućeni timovi postavljeni su na TRUE, top odgovori će biti "
+"onemogućeni."
 
 #: templates/legacy/edit/oa_edit_basic_settings_list.html:129
 msgid "Teams Enabled"
-msgstr ""
+msgstr "Ekipi su omogućene"
 
 #: templates/legacy/edit/oa_edit_basic_settings_list.html:136
 msgid "Specify whether team submissions are allowed for this response."
-msgstr ""
+msgstr "Navedite da li su podnesci tima dozvoljeni za ovaj odgovor."
 
 #: templates/legacy/edit/oa_edit_basic_settings_list.html:141
 msgid "Select Team-Set"
-msgstr ""
+msgstr "Izaberite Team-Set"
 
 #: templates/legacy/edit/oa_edit_basic_settings_list.html:155
 msgid "Show Rubric During Response"
-msgstr ""
+msgstr "Prikaži Rubriku tokom odgovora"
 
 #: templates/legacy/edit/oa_edit_basic_settings_list.html:162
 msgid ""
 "Specify whether learners can see the rubric while they are working on their "
 "response."
 msgstr ""
+"Navedite da li učenici mogu videti rubriku dok rade na njihovom odgovoru."
 
 #: templates/legacy/edit/oa_edit_basic_settings_list.html:167
 msgid "Allow Learner Resubmissions"
-msgstr ""
+msgstr "Dozvolite da se pouzdane od ponovnog predaja"
 
 #: templates/legacy/edit/oa_edit_basic_settings_list.html:174
 msgid ""
 "Set to TRUE to allow learners to resubmit ungraded work. Set to FALSE if "
 "resubmissions are not allowed."
 msgstr ""
+"Podesite na TRUE da bi se omogućilo učenicima da ponovo predaju ungradirani "
+"rad. Podesite na FALSE AKO NE DOZVOLjENO NE DOZVOLjENO."
 
 #: templates/legacy/edit/oa_edit_basic_settings_list.html:178
 msgid "Resubmission Grace Period"
-msgstr ""
+msgstr "Rezultati grejs ponovnog slanja"
 
 #: templates/legacy/edit/oa_edit_basic_settings_list.html:187
 msgid ""
 "Specify the maximum period during which resubmissions are allowed. If left "
-"blank, learners will be able to reset their submission as long as it has not "
-"been graded. The grace period starts once the learner has submitted their "
+"blank, learners will be able to reset their submission as long as it has not"
+" been graded. The grace period starts once the learner has submitted their "
 "response."
 msgstr ""
+"Navedite maksimalni period tokom koje su dozvoljene ponovne slanje. Ako je "
+"prazno, učenici će moći da resetuju svoje podnošenje sve dok to nije ocenjeno."
+" Grace period počinje nakon što učenik podnese svoj odgovor."
 
 #: templates/legacy/edit/oa_edit_criterion.html:6
 #: templates/legacy/staff_area/oa_student_info.html:122
 #: templates/legacy/staff_area/oa_student_info_assessment_detail.html:25
 msgid "Criterion"
-msgstr ""
+msgstr "Kriterijum"
 
 #: templates/legacy/edit/oa_edit_criterion.html:7
 msgid "You cannot delete a criterion after the assignment has been released."
-msgstr ""
+msgstr "Ne možete izbrisati kriterijum nakon otpuštanja zadatka."
 
 #: templates/legacy/edit/oa_edit_criterion.html:9
 #: templates/legacy/edit/oa_edit_option.html:7
 #: templates/legacy/edit/oa_edit_prompt.html:10
 #: templates/legacy/edit/oa_training_example.html:10
 msgid "Remove"
-msgstr ""
+msgstr "Skinuti"
 
 #: templates/legacy/edit/oa_edit_criterion.html:17
 msgid "Criterion Name"
-msgstr ""
+msgstr "Ime kriterijuma"
 
 #: templates/legacy/edit/oa_edit_criterion.html:29
 msgid "Criterion Prompt"
-msgstr ""
+msgstr "Kriterijumski prompt"
 
 #: templates/legacy/edit/oa_edit_criterion.html:44
 msgid "Add Option"
-msgstr ""
+msgstr "Dodavanje opcije"
 
 #: templates/legacy/edit/oa_edit_criterion.html:52
 msgid "Feedback for This Criterion"
-msgstr ""
+msgstr "Povratne informacije za ovaj kriterijum"
 
 #: templates/legacy/edit/oa_edit_criterion.html:55 xblock/studio_mixin.py:57
 msgid "Optional"
-msgstr ""
+msgstr "Opciono"
 
 #: templates/legacy/edit/oa_edit_criterion.html:56
 #: templates/legacy/oa_rubric.html:13
 #: templates/legacy/student_training/student_training.html:93
 #: xblock/studio_mixin.py:56
 msgid "Required"
-msgstr ""
+msgstr "Potreban"
 
 #: templates/legacy/edit/oa_edit_criterion.html:61
 msgid ""
 "Select one of the options above. This describes whether or not the reviewer "
 "will have to provide criterion feedback."
 msgstr ""
+"Izaberite jednu od gore navedenih opcija. Ovo opisuje da li će recenzent "
+"morati da pruži povratne informacije kriterijuma ili ne."
 
 #: templates/legacy/edit/oa_edit_header_and_validation.html:3
 msgid "Open Response Assessment"
-msgstr ""
+msgstr "Otvorite procenu odgovora"
 
 #: templates/legacy/edit/oa_edit_header_and_validation.html:8
 #: templates/legacy/edit/oa_edit_prompt.html:7
 msgid "Prompt"
-msgstr ""
+msgstr "Upisan"
 
 #: templates/legacy/edit/oa_edit_header_and_validation.html:15
 msgid "Rubric"
-msgstr ""
+msgstr "Rubrika"
 
 #: templates/legacy/edit/oa_edit_header_and_validation.html:22
 msgid "Schedule"
-msgstr ""
+msgstr "Raspored"
 
 #: templates/legacy/edit/oa_edit_header_and_validation.html:29
 msgid "Assessment steps"
-msgstr ""
+msgstr "Koraci za procenu"
 
 #: templates/legacy/edit/oa_edit_header_and_validation.html:36
 msgid "Settings"
-msgstr ""
+msgstr "Podešavanja"
 
 #: templates/legacy/edit/oa_edit_option.html:5
 msgid "Option"
-msgstr ""
+msgstr "Opcija"
 
 #: templates/legacy/edit/oa_edit_option.html:16
 msgid "Option Name"
-msgstr ""
+msgstr "Naziv opcije"
 
 #: templates/legacy/edit/oa_edit_option.html:29
 msgid "Option Points"
-msgstr ""
+msgstr "Opcija bodova"
 
 #: templates/legacy/edit/oa_edit_option.html:42
 msgid "Option Explanation"
-msgstr ""
+msgstr "Opcija Objašnjenje"
 
 #: templates/legacy/edit/oa_edit_peer_assessment.html:10
 msgid "Step: Peer Assessment"
-msgstr ""
+msgstr "Korak: Procena"
 
 #: templates/legacy/edit/oa_edit_peer_assessment.html:15
 msgid ""
@@ -456,47 +493,58 @@ msgid ""
 "also receive feedback from others in their final grade. Often, though not "
 "always, this step is preceded by Self Assessment or Learner Training steps."
 msgstr ""
+"Procena vršnjaka omogućava studentima da pruže povratne informacije drugim "
+"učenicima i takođe dobijaju povratne informacije od drugih u svojoj završnoj"
+" klasi. Često, iako ne uvek, ovaj korak prethodi koraci samoprocene ili "
+"učenika."
 
 #: templates/legacy/edit/oa_edit_peer_assessment.html:18
 msgid ""
-"Configuration: For this step to be configured you must specify the number of "
-"peer reviews a student will be assessed with, and the number of peer a "
+"Configuration: For this step to be configured you must specify the number of"
+" peer reviews a student will be assessed with, and the number of peer a "
 "student must grade. Additional options can be specified."
 msgstr ""
+"Konfiguracija: Da bi se ovaj korak konfigurisali morate odrediti broj "
+"vršnjačkih kritika sa ocenom učenika, a broj vršnjaka koju student mora "
+"razviti. Mogu se navesti dodatne opcije."
 
 #: templates/legacy/edit/oa_edit_peer_assessment.html:23
 msgid "View Options & Configuration"
-msgstr ""
+msgstr "Pregled opcija i konfiguracija"
 
 #: templates/legacy/edit/oa_edit_peer_assessment.html:29
 msgid "Must Grade"
-msgstr ""
+msgstr "Mora da ocene"
 
 #: templates/legacy/edit/oa_edit_peer_assessment.html:32
 msgid ""
 "Specify the number of peer assessments that each learner must complete. "
 "Valid numbers are 1 to 99."
 msgstr ""
+"Navedite broj procena vršnjaka koje svaki učenik mora završiti. Važeći "
+"brojevi su 1 do 99."
 
 #: templates/legacy/edit/oa_edit_peer_assessment.html:36
 msgid "Graded By"
-msgstr ""
+msgstr "Ocenio"
 
 #: templates/legacy/edit/oa_edit_peer_assessment.html:39
 msgid ""
-"Specify the number of learners that each response must be assessed by. Valid "
-"numbers are 1 to 99."
+"Specify the number of learners that each response must be assessed by. Valid"
+" numbers are 1 to 99."
 msgstr ""
+"Navedite broj učenika da svaki odgovor mora biti ocenjen. Važeći brojevi su 1"
+" do 99."
 
 #: templates/legacy/edit/oa_edit_peer_assessment.html:43
 msgid "Enable Flexible Peer Grade Averaging"
-msgstr ""
+msgstr "Omogućite fleksibilnu prosečnu prosečnu ocenu"
 
 #: templates/legacy/edit/oa_edit_peer_assessment.html:49
 #, python-format
 msgid ""
 "When enabled, learners who have received at least 30%% of the required \\"
-msgstr ""
+msgstr "Kada je omogućeno, učenici koji su dobili najmanje 30 %% potrebnih \\"
 
 #: templates/legacy/edit/oa_edit_peer_assessment.html:53
 msgid ""
@@ -504,18 +552,20 @@ msgid ""
 "under the Open Response Assessment Settings card on the Pages & Resources "
 "studio page."
 msgstr ""
+"Ovu funkciju omogućava podešavanje nivoa na kursu. Može se naći pod karticom "
+"Podešavanja Otvorene odgovornosti na stranici Studio PageS i Resursi."
 
 #: templates/legacy/edit/oa_edit_peer_assessment.html:60
 msgid "Grading strategy for the peer assessment"
-msgstr ""
+msgstr "Strategija ocenjivanja za ocenjivanje vršnjaka"
 
 #: templates/legacy/edit/oa_edit_peer_assessment.html:62
 msgid "Mean"
-msgstr ""
+msgstr "Značiti"
 
 #: templates/legacy/edit/oa_edit_peer_assessment.html:63
 msgid "Median (default)"
-msgstr ""
+msgstr "Medijan (podrazumevano)"
 
 #: templates/legacy/edit/oa_edit_peer_assessment.html:66
 msgid ""
@@ -523,53 +573,59 @@ msgid ""
 "the median across all peer reviews is used to calculate the final grade. If "
 "you select the mean, the average of all peer reviews will be used."
 msgstr ""
+"Izaberite željenu strategiju ocenjivanja za procenu vršnjaka. Podrazumevano, "
+"srednji preko svih recenzija vršnjaka koristi se za izračunavanje završne "
+"ocene. Ako odaberete srednju vrednost, koristiće se u proseku svih recenzija "
+"vršnjaka."
 
 #: templates/legacy/edit/oa_edit_peer_assessment_schedule.html:5
 msgid "Peer Assessment Deadlines"
-msgstr ""
+msgstr "Rokovi vršnjačkih procene"
 
 #: templates/legacy/edit/oa_edit_peer_assessment_schedule.html:10
 #: templates/legacy/edit/oa_edit_self_assessment_schedule.html:10
 msgid "Start Date"
-msgstr ""
+msgstr "Datum početka"
 
 #: templates/legacy/edit/oa_edit_peer_assessment_schedule.html:19
 #: templates/legacy/edit/oa_edit_self_assessment_schedule.html:19
 msgid "Start Time"
-msgstr ""
+msgstr "Vreme početka"
 
 #: templates/legacy/edit/oa_edit_peer_assessment_schedule.html:27
 msgid "The date and time when learners can begin assessing peer responses."
-msgstr ""
+msgstr "Datum i vreme kada učenici mogu početi da procene vršnjačke odgovore."
 
 #: templates/legacy/edit/oa_edit_peer_assessment_schedule.html:31
 #: templates/legacy/edit/oa_edit_self_assessment_schedule.html:31
 #: templates/legacy/staff_area/oa_staff_area.html:119
 msgid "Due Date"
-msgstr ""
+msgstr "Datum"
 
 #: templates/legacy/edit/oa_edit_peer_assessment_schedule.html:40
 #: templates/legacy/edit/oa_edit_self_assessment_schedule.html:40
 msgid "Due Time"
-msgstr ""
+msgstr "Vremensko vreme"
 
 #: templates/legacy/edit/oa_edit_peer_assessment_schedule.html:48
 msgid "The date and time when all peer assessments must be complete."
-msgstr ""
+msgstr "Datum i vreme kada sve vršnjačke procene moraju biti potpune."
 
 #: templates/legacy/edit/oa_edit_prompt.html:8
 msgid "You cannot delete a prompt after the assignment has been released."
-msgstr ""
+msgstr "Ne možete izbrisati brzinu nakon što je zadatak oslobođen."
 
 #: templates/legacy/edit/oa_edit_prompts.html:10
 msgid ""
 "Prompts. Replace the sample text with your own text. For more information, "
 "see the ORA documentation."
 msgstr ""
+"Upise. Zamenite uzorak teksta sa sopstvenim tekstom. Za više informacija "
+"pogledajte dokumentaciju o ORA."
 
 #: templates/legacy/edit/oa_edit_prompts.html:22
 msgid "Add Prompt"
-msgstr ""
+msgstr "Dodavanje upit"
 
 #: templates/legacy/edit/oa_edit_rubric.html:14
 msgid ""
@@ -578,118 +634,130 @@ msgid ""
 "and their options. Replace the sample text with your own text. For more "
 "information, see the ORA documentation."
 msgstr ""
+"Rubrike su sačinjene od kriterijuma, koji obično sadrže jednu ili više "
+"opcija. Svaka opcija ima vrednost poena. Ovaj obrazac sadrži dva kriterijuma"
+" uzorka i njihove opcije. Zamenite uzorak teksta sa sopstvenim tekstom. Za "
+"više informacija pogledajte dokumentaciju o ORA."
 
 #: templates/legacy/edit/oa_edit_rubric.html:29
 msgid "Add Criterion"
-msgstr ""
+msgstr "Dodajte kriterijum"
 
 #: templates/legacy/edit/oa_edit_rubric.html:35
 msgid "Feedback for This Response"
-msgstr ""
+msgstr "Povratne informacije za ovaj odgovor"
 
 #: templates/legacy/edit/oa_edit_rubric.html:40
 msgid "Feedback Instructions"
-msgstr ""
+msgstr "Uputstva za povratnu informaciju"
 
 #: templates/legacy/edit/oa_edit_rubric.html:44
 msgid ""
-"Encourage learners to provide feedback on the response they have graded. You "
-"can replace the sample text with your own."
+"Encourage learners to provide feedback on the response they have graded. You"
+" can replace the sample text with your own."
 msgstr ""
+"Ohrabrite učenike da daju povratne informacije o odgovoru koji su ocenili. "
+"Svojim pogledom možete zameniti svoj tekst."
 
 #: templates/legacy/edit/oa_edit_rubric.html:49
 msgid "Default Feedback Text"
-msgstr ""
+msgstr "Podrazumevani tekst Povratne informacije"
 
 #: templates/legacy/edit/oa_edit_rubric.html:53
 msgid ""
 "Enter feedback text that learners will see before they enter their own "
 "feedback. Use this text to show learners a good example peer assessment."
 msgstr ""
+"Unesite tekst povratnih informacija da će učenici videti pre nego što uđu u "
+"sopstvene povratne informacije. Koristite ovaj tekst da pokažete polaznike "
+"dobrog primera vršnjačke procene."
 
 #: templates/legacy/edit/oa_edit_schedule.html:5
 msgid "Deadlines Configuration"
-msgstr ""
+msgstr "Konfiguracija rokova"
 
 #: templates/legacy/edit/oa_edit_schedule.html:9
 msgid "Select a deadline configuration option"
-msgstr ""
+msgstr "Izaberite opciju konfiguracije roka"
 
 #: templates/legacy/edit/oa_edit_schedule.html:14
 msgid "Configure deadlines manually"
-msgstr ""
+msgstr "Ručno konfigurišite rokove"
 
 #: templates/legacy/edit/oa_edit_schedule.html:18
 msgid "Match deadlines to the subsection due date"
-msgstr ""
+msgstr "Rokovi utakmica do datuma roka za pododeljku"
 
 #: templates/legacy/edit/oa_edit_schedule.html:22
 msgid "Match deadlines to the course end date"
-msgstr ""
+msgstr "Rokovi utakmica na datum završetka kursa"
 
 #: templates/legacy/edit/oa_edit_schedule.html:25
 msgid "Learn more about open response date settings"
-msgstr ""
+msgstr "Saznajte više o Podešavanju datuma otvorenog odgovora"
 
 #: templates/legacy/edit/oa_edit_schedule.html:35
 msgid "Response Start Date"
-msgstr ""
+msgstr "Datum početka odgovora"
 
 #: templates/legacy/edit/oa_edit_schedule.html:48
 msgid "Response Start Time"
-msgstr ""
+msgstr "Vrijeme početka odgovora"
 
 #: templates/legacy/edit/oa_edit_schedule.html:57
 msgid "The date and time when learners can begin submitting responses."
-msgstr ""
+msgstr "Datum i vreme kada učenici mogu početi da podnose odgovore."
 
 #: templates/legacy/edit/oa_edit_schedule.html:65
 msgid "Response Due Date"
-msgstr ""
+msgstr "Datum dospeća odziva"
 
 #: templates/legacy/edit/oa_edit_schedule.html:78
 msgid "Response Due Time"
-msgstr ""
+msgstr "Vremensko vreme odgovora"
 
 #: templates/legacy/edit/oa_edit_schedule.html:87
 msgid "The date and time when learners can no longer submit responses."
-msgstr ""
+msgstr "Datum i vreme kada učenici više ne mogu da podnesu odgovore."
 
 #: templates/legacy/edit/oa_edit_self_assessment.html:8
 msgid "Step: Self Assessment"
-msgstr ""
+msgstr "Korak: Samoprocjena"
 
 #: templates/legacy/edit/oa_edit_self_assessment.html:12
 msgid ""
 "Self Assessment asks learners to grade their own submissions against the "
 "rubric."
 msgstr ""
+"Samoprocjena traži od učenika da ocenjuju svoje podneske protiv rubrike."
 
 #: templates/legacy/edit/oa_edit_self_assessment_schedule.html:5
 msgid "Self Assessment Deadlines"
-msgstr ""
+msgstr "Rokovi za samoprocenu"
 
 #: templates/legacy/edit/oa_edit_self_assessment_schedule.html:27
 msgid "The date and time when learners can begin assessing their responses."
-msgstr ""
+msgstr "Datum i vreme kada učenici mogu početi da procene svoje odgovore."
 
 #: templates/legacy/edit/oa_edit_self_assessment_schedule.html:48
 msgid "The date and time when all self assessments must be complete."
-msgstr ""
+msgstr "Datum i vreme kada sve samoprocene moraju biti potpune."
 
 #: templates/legacy/edit/oa_edit_staff_assessment.html:8
 msgid "Step: Staff Assessment"
-msgstr ""
+msgstr "Korak: Procena osoblja"
 
 #: templates/legacy/edit/oa_edit_staff_assessment.html:12
 msgid ""
 "Staff Assessment gates sets the final grade for students if enabled with "
 "other steps, though it can also be used as a standalone step."
 msgstr ""
+"Gijevi procjene osoblja postavlja konačnu ocenu za studente ako je omogućeno "
+"sa drugim koracima, iako se takođe može koristiti kao samostalni korak."
 
 #: templates/legacy/edit/oa_edit_student_training.html:9
 msgid "Step: Learner Training"
-msgstr ""
+msgstr "Korak: Trening za učenike"
 
 #: templates/legacy/edit/oa_edit_student_training.html:14
 msgid ""
@@ -697,26 +765,33 @@ msgid ""
 "submission in order to train them on the rubric and ensure learner's "
 "understand the rubric for either Self or Peer Assessment steps."
 msgstr ""
+"Obuka za učenike koristi se za pomoć učenicima da praktikuju da ocjenjuju "
+"simulirani vršnjački podnesak kako bi ih trenirao na rubrici i osiguravaju da"
+" učenik razume rubriku za korake ili korake procjene sebe ili vršnjaka."
 
 #: templates/legacy/edit/oa_edit_student_training.html:17
 msgid ""
 "Configuration: For this step to be fully configured you must provide one or "
-"more graded sample responses. Learners must then match this instructor score "
-"to advance and are provided feedback when their score doesn't match the "
+"more graded sample responses. Learners must then match this instructor score"
+" to advance and are provided feedback when their score doesn't match the "
 "sample response."
 msgstr ""
+"Konfiguracija: Da bi ovaj korak bio u potpunosti konfigurisan, morate da "
+"navedete jedan ili više odgovora uzoraka. Učenici moraju potom odgovarati "
+"ovom instruktoru da napreduju i daju se povratne informacije kada njihov "
+"rezultat ne odgovara uzorku."
 
 #: templates/legacy/edit/oa_edit_student_training.html:22
 msgid "View / Add Sample Responses"
-msgstr ""
+msgstr "Pogledajte / dodajte odgovarajuće uzorke"
 
 #: templates/legacy/edit/oa_edit_student_training.html:32
 msgid "Add Sample Response"
-msgstr ""
+msgstr "Dodajte uzorni odgovor"
 
 #: templates/legacy/edit/oa_rubric_reuse.html:4
 msgid "Clone Rubric"
-msgstr ""
+msgstr "Clone Rubric"
 
 #: templates/legacy/edit/oa_rubric_reuse.html:7
 msgid ""
@@ -725,75 +800,75 @@ msgid ""
 "after cloning will only affect the rubric being modified, and will not "
 "modify any rubric it was cloned from."
 msgstr ""
+"Da biste klonirali rubriku iz postojećeg objavljenog ili neobjavljenog nacrta,"
+" možete da pretražite kod bloka. Imajte na umu da je kloniranje jednosmjerno,"
+" što znači da su promene izvršene nakon kloniranja samo će uticati na rubriku"
+" koja se modifikuje i neće modifikovati bilo koju rubriku koju je bilo "
+"klonirana."
 
 #: templates/legacy/edit/oa_rubric_reuse.html:9
 msgid "Block ID For this ORA:"
-msgstr ""
+msgstr "Broj bloka za ovu ORA:"
 
 #: templates/legacy/edit/oa_rubric_reuse.html:19
 msgid "Block ID"
-msgstr ""
+msgstr "Blok ID"
 
 #: templates/legacy/edit/oa_rubric_reuse.html:21
 msgid "No other Open Response Assessments found in course"
-msgstr ""
+msgstr "Nijedna druga ocena otvorenog odgovora pronađena u kursu"
 
 #: templates/legacy/edit/oa_rubric_reuse.html:31
 msgid "Clone"
-msgstr ""
+msgstr "Kloniranje"
 
 #: templates/legacy/edit/oa_rubric_reuse.html:37
 msgid "Rubric Successfully Cloned from Block ID: "
-msgstr ""
+msgstr "Rubrika je uspešno klonirana iz blok ID-a:"
 
 #: templates/legacy/edit/oa_training_example.html:7
 msgid "Scored Response"
-msgstr ""
+msgstr "Postignut odgovor"
 
 #: templates/legacy/edit/oa_training_example.html:16
 msgid "Response Score"
-msgstr ""
+msgstr "Rezultat odgovora"
 
 #: templates/legacy/edit/oa_training_example.html:27
 msgid "Response"
-msgstr ""
+msgstr "Odgovor"
 
 #: templates/legacy/edit/oa_training_example_criterion.html:10
 msgid "Not Selected"
-msgstr ""
+msgstr "Nije izabran"
 
 #: templates/legacy/edit/oa_training_example_criterion.html:15
 #: templates/legacy/oa_rubric.html:43
 #: templates/legacy/student_training/student_training.html:128
 msgid "points"
-msgstr ""
+msgstr "poeni"
 
 #: templates/legacy/grade/oa_assessment_feedback.html:8
 #, python-format
 msgid ""
 "\n"
-"                %(start_tag)s%(title)s%(end_tag)s%(start_grade_tag)s - "
-"%(grade)s%(end_tag)s\n"
+"                %(start_tag)s%(title)s%(end_tag)s%(start_grade_tag)s - %(grade)s%(end_tag)s\n"
 "              "
 msgstr ""
+"\n"
+"                %(start_tag)s%(title)s%(end_tag)s%(start_grade_tag)s - %(grade)s%(end_tag)s\n"
+"              "
 
 #: templates/legacy/grade/oa_assessment_title.html:7
 #, python-format
-msgid ""
-"\n"
-"                      %(assessment_title)s - %(points)s point\n"
-"                  "
-msgid_plural ""
-"\n"
-"                      %(assessment_title)s - %(points)s points\n"
-"                  "
-msgstr[0] ""
-msgstr[1] ""
+msgid "                      %(assessment_title)s - %(points)s points"
+msgstr "                      %(assessment_title)s - %(points)s bodova"
+
 
 #: templates/legacy/grade/oa_assessment_title.html:24
 #, python-format
 msgid "More information about %(name)s"
-msgstr ""
+msgstr "Više informacija o %(name)s"
 
 #: templates/legacy/grade/oa_grade_cancelled.html:14
 #: templates/legacy/grade/oa_grade_complete.html:15
@@ -802,42 +877,46 @@ msgstr ""
 #: templates/legacy/grade/oa_grade_not_started.html:14
 #: templates/legacy/grade/oa_grade_waiting.html:14
 msgid "Your Grade"
-msgstr ""
+msgstr "Vaša ocena"
 
 #: templates/legacy/grade/oa_grade_cancelled.html:19
 #, python-format
 msgid ""
 "\n"
-"                                        %(points_earned)s out of "
-"%(points_possible)s\n"
+"                                        %(points_earned)s out of %(points_possible)s\n"
 "                                    "
 msgstr ""
+"\n"
+"                                        %(points_earned)s od %(points_possible)s\n"
+"                                    "
 
 #: templates/legacy/grade/oa_grade_cancelled.html:38
 msgid "Your submission has been cancelled."
-msgstr ""
+msgstr "Vaš podnesak je otkazan."
 
 #: templates/legacy/grade/oa_grade_complete.html:19
 #, python-format
 msgid ""
 "\n"
-"                                            %(points_earned)s out of "
-"%(points_possible)s\n"
+"                                            %(points_earned)s out of %(points_possible)s\n"
 "                                        "
 msgstr ""
+"\n"
+"                                            %(points_earned)s od %(points_possible)s\n"
+"                                        "
 
 #: templates/legacy/grade/oa_grade_complete.html:38
 #: templates/legacy/response/oa_response.html:29
 msgid "Your Response"
-msgstr ""
+msgstr "Vaš odgovor"
 
 #: templates/legacy/grade/oa_grade_complete.html:41
 msgid "Your Upload"
-msgstr ""
+msgstr "Svoje otpremanje"
 
 #: templates/legacy/grade/oa_grade_complete.html:46
 msgid "Assessments of Your Response"
-msgstr ""
+msgstr "Procene vašeg odgovora"
 
 #: templates/legacy/grade/oa_grade_complete.html:50
 #: templates/legacy/grade/oa_grade_complete.html:132
@@ -859,99 +938,107 @@ msgstr ""
 #: templates/legacy/self/oa_self_closed.html:30
 #: templates/legacy/student_training/student_training_closed.html:27
 msgid "Status"
-msgstr ""
+msgstr "Status"
 
 #: templates/legacy/grade/oa_grade_complete.html:65
 msgid "Overall Grade"
-msgstr ""
+msgstr "Ukupna ocena"
 
 #: templates/legacy/grade/oa_grade_complete.html:70
 #: templates/legacy/staff_area/oa_student_info_assessment_detail.html:28
 msgid "Points"
-msgstr ""
+msgstr "Poeni"
 
 #: templates/legacy/grade/oa_grade_complete.html:96
 msgid "Additional comments on your response"
-msgstr ""
+msgstr "Dodatni komentari na vaš odgovor"
 
 #: templates/legacy/grade/oa_grade_complete.html:117
 msgid "Provide feedback on peer assessments"
-msgstr ""
+msgstr "Obezbedite povratne informacije o vršnjačkim procenama"
 
 #: templates/legacy/grade/oa_grade_complete.html:126
 msgid "Submitting Feedback"
-msgstr ""
+msgstr "Podnošenje povratnih informacija"
 
 #: templates/legacy/grade/oa_grade_complete.html:134
 msgid ""
 "Your feedback has been submitted. Course staff will be able to see this "
 "feedback when they review course records."
 msgstr ""
+"Vaše povratne informacije su podnesene. Osoblje kursa moći će da vidi ovu "
+"povratnu informaciju kada pregledaju evidenciju kursa."
 
 #: templates/legacy/grade/oa_grade_complete.html:140
 msgid ""
 "Course staff will be able to see any feedback that you provide here when "
 "they review course records."
 msgstr ""
+"Osoblje kursa moći će da vidi bilo kakve povratne informacije koje ovde date "
+"kada pregledavaju evidenciju kursa."
 
 #: templates/legacy/grade/oa_grade_complete.html:146
 msgid ""
 "Select the statements below that best reflect your experience with peer "
 "assessments."
 msgstr ""
+"Izaberite navedene izjave koje najbolje odražavaju svoje iskustvo sa "
+"vršnjačkim procenama."
 
 #: templates/legacy/grade/oa_grade_complete.html:155
 msgid "These assessments were useful."
-msgstr ""
+msgstr "Ove procene su bile korisne."
 
 #: templates/legacy/grade/oa_grade_complete.html:164
 msgid "These assessments were not useful."
-msgstr ""
+msgstr "Ove procene nisu bile korisne."
 
 #: templates/legacy/grade/oa_grade_complete.html:173
 msgid "I disagree with one or more of the peer assessments of my response."
-msgstr ""
+msgstr "Ne slažem se sa jednom ili više procjena vršnjaka svog odgovora."
 
 #: templates/legacy/grade/oa_grade_complete.html:182
 msgid "Some comments I received were inappropriate."
-msgstr ""
+msgstr "Neki komentari koje sam dobio bili su neprimereni."
 
 #: templates/legacy/grade/oa_grade_complete.html:187
 msgid ""
 "Provide feedback on the grade or comments that you received from your peers."
 msgstr ""
+"Dajte povratne informacije o oceni ili komentarima koje ste dobili od svojih"
+" vršnjaka."
 
 #: templates/legacy/grade/oa_grade_complete.html:190
 msgid "I feel the feedback I received was..."
-msgstr ""
+msgstr "Osjećam da su povratne informacije koje sam dobio bio ..."
 
 #: templates/legacy/grade/oa_grade_complete.html:200
 msgid "We could not submit your feedback"
-msgstr ""
+msgstr "Nismo mogli da podnesemo vaše povratne informacije"
 
 #: templates/legacy/grade/oa_grade_complete.html:206
 msgid "Submit feedback on peer assessments"
-msgstr ""
+msgstr "Pošaljite povratne informacije o vršnjačkim procenama"
 
 #: templates/legacy/grade/oa_grade_incomplete.html:16
 msgid "Not Completed"
-msgstr ""
+msgstr "Nije završen"
 
 #: templates/legacy/grade/oa_grade_incomplete.html:33
 msgid "You have not completed all the steps of this problem."
-msgstr ""
+msgstr "Niste završili sve korake ovog problema."
 
 #: templates/legacy/grade/oa_grade_not_started.html:16
 msgid "Not Started"
-msgstr ""
+msgstr "Nije započeo"
 
 #: templates/legacy/grade/oa_grade_not_started.html:27
 msgid "You have not started this problem yet."
-msgstr ""
+msgstr "Još niste započeli ovaj problem."
 
 #: templates/legacy/grade/oa_grade_waiting.html:16
 msgid "Waiting for Assessments"
-msgstr ""
+msgstr "Čekajući procene"
 
 #: templates/legacy/grade/oa_grade_waiting.html:33
 msgid ""
@@ -960,99 +1047,124 @@ msgid ""
 "complete, you will see feedback from everyone who assessed your response, "
 "and you will receive your final grade."
 msgstr ""
+"Završili ste svoje korake u zadatku, ali neke procene i dalje treba da se "
+"urade na vašem odgovoru. Kada su procene vašeg odgovora završene, videćete "
+"povratne informacije od svih koji su ocenili vaš odgovor i dobićete svoju "
+"konačnu ocenu."
 
 #: templates/legacy/instructor_dashboard/oa_grade_available_responses.html:15
 #: templates/legacy/staff_area/oa_staff_area.html:16
 #: templates/legacy/staff_area/oa_staff_area.html:18
 #: templates/legacy/staff_area/oa_staff_area.html:153
 msgid "Grade Available Responses"
-msgstr ""
+msgstr "Raspoloživi reakcije"
 
 #: templates/legacy/instructor_dashboard/oa_grade_available_responses.html:26
 msgid ""
 "Grade Available Responses is unavailable. This item is not configured for "
 "Staff Assessment."
 msgstr ""
+"Redovni odgovori raspoloživi nisu dostupni. Ovaj artikal nije konfigurisan "
+"za procenu osoblja."
 
 #: templates/legacy/instructor_dashboard/oa_listing.html:6
 msgid "Please wait"
-msgstr ""
+msgstr "Pričekajte"
 
 #: templates/legacy/instructor_dashboard/oa_waiting_step_details.html:15
 msgid "Waiting Step Details"
-msgstr ""
+msgstr "Detalji o čekanju"
 
 #: templates/legacy/instructor_dashboard/oa_waiting_step_details.html:24
 msgid ""
 "Waiting Step details view is unavailable. This item is not configured for "
 "peer assessments."
 msgstr ""
+"Pregled detalja o čekanju koje čekaju nije dostupan. Ovaj artikal nije "
+"konfigurisan za vršnjačke procene."
 
 #: templates/legacy/leaderboard/oa_leaderboard_show.html:20
 #, python-format
 msgid "%(num_points)s points"
-msgstr ""
+msgstr "%(num_points)s bodova"
 
 #: templates/legacy/leaderboard/oa_leaderboard_show.html:24
 #: templates/legacy/peer/oa_peer_assessment.html:84
 #: templates/legacy/peer/oa_peer_turbo_mode.html:53
 msgid "Your peer's response to the prompt above"
-msgstr ""
+msgstr "Odgovor vašeg vršnjaka na gornju brzu"
 
 #: templates/legacy/leaderboard/oa_leaderboard_waiting.html:19
 msgid ""
 "After you complete all the steps of this assignment, you can see the top-"
 "scoring responses from your peers."
 msgstr ""
+"Nakon što završite sve korake ovog zadatka, možete videti odgovore gornjih "
+"rezultata od svojih vršnjaka."
 
 #: templates/legacy/message/oa_message_cancelled.html:8
 msgid ""
-"Your team’s submission has been cancelled. Your team will receive a grade of "
-"zero unless course staff resets your assessment to allow the team to "
+"Your team’s submission has been cancelled. Your team will receive a grade of"
+" zero unless course staff resets your assessment to allow the team to "
 "resubmit a response."
 msgstr ""
+"Podnošenje vašeg tima je otkazan. Vaš tim će dobiti ocenu nule, osim ako "
+"osoblje kursa ne resetira vašu procenu da bi tim omogućio da reši odgovor."
 
 #: templates/legacy/message/oa_message_cancelled.html:10
 msgid ""
 "Your submission has been cancelled. You will receive a grade of zero unless "
 "course staff resets your assessment to allow you to resubmit a response."
 msgstr ""
+"Vaš podnesak je otkazan. Dobićete nivo nule, osim ako osoblje kursa ne "
+"resetira vašu procenu da biste vam omogućili da ponovo pošaljete odgovor."
 
 #: templates/legacy/message/oa_message_closed.html:8
 msgid ""
 "This task is not yet available. Check back to complete the assignment once "
 "this section has opened."
 msgstr ""
+"Ovaj zadatak još nije dostupan. Povratak da biste dovršili zadatak nakon što"
+" se ovaj odeljak otvori."
 
 #: templates/legacy/message/oa_message_closed.html:10
 msgid ""
 "This assignment has closed. One or more deadlines for this assignment have "
 "passed. You will receive an incomplete grade for this assignment."
 msgstr ""
+"Ovaj zadatak je zatvoren. Jedna ili više rokova za ovaj zadatak je položila."
+" Dobićete nepotpunu ocenu za ovaj zadatak."
 
 #: templates/legacy/message/oa_message_complete.html:8
 msgid ""
 "You have completed this assignment. Your final grade will be available when "
 "the assessments of your response are complete."
 msgstr ""
+"Završili ste ovaj zadatak. Vaša konačna ocena biće dostupna kada su procene "
+"vašeg odgovora završene."
 
 #: templates/legacy/message/oa_message_complete.html:10
 msgid ""
 "You have completed this assignment. Review your grade and your assessment "
 "details."
 msgstr ""
+"Završili ste ovaj zadatak. Pregledajte svoju ocenu i detalje o proceni."
 
 #: templates/legacy/message/oa_message_incomplete.html:9
 msgid ""
 "This assignment is in progress. Learner training will close soon. Complete "
 "the learner training step to move on."
 msgstr ""
+"Ovaj zadatak je u toku. Obuka za učenike uskoro će se uskoro zatvoriti. "
+"Popunite korak treninga učenika da biste nastavili dalje."
 
 #: templates/legacy/message/oa_message_incomplete.html:11
 msgid ""
 "This assignment is in progress. Complete the learner training step to move "
 "on."
 msgstr ""
+"Ovaj zadatak je u toku. Popunite korak treninga učenika da biste nastavili "
+"dalje."
 
 #: templates/legacy/message/oa_message_incomplete.html:15
 #: templates/legacy/message/oa_message_incomplete.html:33
@@ -1060,159 +1172,173 @@ msgid ""
 "This assignment is in progress. Check back later when the assessment period "
 "has started."
 msgstr ""
+"Ovaj zadatak je u toku. Proverite kasnije kada je započeo period procene."
 
 #: templates/legacy/message/oa_message_incomplete.html:20
 #, python-format
 msgid ""
 "\n"
-"                                    %(start_strong)sThis assignment is in "
-"progress. The self assessment step will close soon.%(end_strong)s You still "
-"need to complete the %(start_link)sself assessment%(end_link)s step.\n"
+"                                    %(start_strong)sThis assignment is in progress. The self assessment step will close soon.%(end_strong)s You still need to complete the %(start_link)sself assessment%(end_link)s step.\n"
 "                                "
 msgstr ""
+"\n"
+"                                    %(start_strong)sThis dodeljivanje je u toku. Korak samoprocene će se uskoro zatvoriti.%(end_strong)s I dalje morate da dovršite %(start_link)s - %(end_link)s step.\n"
+"                                "
 
 #: templates/legacy/message/oa_message_incomplete.html:24
 #, python-format
 msgid ""
 "\n"
-"                                    This assignment is in progress. You "
-"still need to complete the %(start_link)sself assessment%(end_link)s step.\n"
+"                                    This assignment is in progress. You still need to complete the %(start_link)sself assessment%(end_link)s step.\n"
 "                                "
 msgstr ""
+"\n"
+"                                    Ovaj zadatak je u toku. Još uvek morate da popunite %(start_link)s - %(end_link)s .\n"
+"                                "
 
 #: templates/legacy/message/oa_message_incomplete.html:38
 #, python-format
 msgid ""
 "\n"
-"                                    This assignment is in progress."
-"%(start_strong)sThe peer assessment step will close soon.%(end_strong)s All "
-"submitted peer responses have been assessed. Check back later to see if more "
-"learners have submitted responses. You still need to complete the "
-"%(start_link)speer assessment%(end_link)s step.\n"
+"                                    This assignment is in progress.%(start_strong)sThe peer assessment step will close soon.%(end_strong)s All submitted peer responses have been assessed. Check back later to see if more learners have submitted responses. You still need to complete the %(start_link)speer assessment%(end_link)s step.\n"
 "                                "
 msgstr ""
+"\n"
+"                                    Ovaj zadatak je u toku.%(start_strong)s procena će biti zatvorena uskoro. %(end_strong)s Svi podneseni vršnjački odgovori su ocenjeni. Proverite kasnije da biste videli da li je još učenika podnelo odgovore. I dalje morate da popunite korak procene %(start_link)s ocenjivanje %(end_link)s. \n"
+"                                "
 
 #: templates/legacy/message/oa_message_incomplete.html:42
 #, python-format
 msgid ""
 "\n"
-"                                    This assignment is in progress. All "
-"submitted peer responses have been assessed. Check back later to see if more "
-"learners have submitted responses. You still need to complete the "
-"%(start_link)speer assessment%(end_link)s step.\n"
+"                                    This assignment is in progress. All submitted peer responses have been assessed. Check back later to see if more learners have submitted responses. You still need to complete the %(start_link)speer assessment%(end_link)s step.\n"
 "                                "
 msgstr ""
+"\n"
+"                                    Ovaj zadatak je u toku. Sve dostavljene reakcije vršnjaka su ocenjeni. Proverite kasnije da biste videli da li je još učenika podnelo odgovore. Još uvek morate da popunite korak %(start_link)s do %(end_link)s.\n"
+"                                "
 
 #: templates/legacy/message/oa_message_incomplete.html:46
 #, python-format
 msgid ""
 "\n"
-"                                    This assignment is in progress. "
-"%(start_strong)sThe peer assessment step will close soon.%(end_strong)s You "
-"still need to complete the %(start_link)speer assessment%(end_link)s step.\n"
+"                                    This assignment is in progress. %(start_strong)sThe peer assessment step will close soon.%(end_strong)s You still need to complete the %(start_link)speer assessment%(end_link)s step.\n"
 "                                "
 msgstr ""
+"\n"
+"Ovaj zadatak je u toku. %(start_strong)sTHE KORAK ZA PROCJENjU PROSTORA"
+" Uskoro.P%(end_strong)s I dalje morate da popunite %(start_link)s - %(end_link)s korak."
 
 #: templates/legacy/message/oa_message_incomplete.html:50
 #, python-format
 msgid ""
 "\n"
-"                                    This assignment is in progress. You "
-"still need to complete the %(start_link)speer assessment%(end_link)s step.\n"
+"                                    This assignment is in progress. You still need to complete the %(start_link)speer assessment%(end_link)s step.\n"
 "                                "
 msgstr ""
+"\n"
+"Ovaj zadatak je u toku. Još uvek morate da popunite korak %(start_link)s - %(end_link)s.\n"
+"                                "
 
 #: templates/legacy/message/oa_message_no_team.html:4
 msgid "Team membership is required to view this assignment"
-msgstr ""
+msgstr "Članstvo u timu je dužno da pogleda ovaj zadatak"
 
 #: templates/legacy/message/oa_message_no_team.html:7
 #, python-format
 msgid ""
 "\n"
 "            This is a team assignment for team-set \"%(teamset_name)s\".\n"
-"            You are currently not on a team in team-set "
-"\"%(teamset_name)s\".\n"
-"            You must be on a team in team-set \"%(teamset_name)s\" to access "
-"this team assignment.\n"
+"            You are currently not on a team in team-set \"%(teamset_name)s\".\n"
+"            You must be on a team in team-set \"%(teamset_name)s\" to access this team assignment.\n"
 "            "
 msgstr ""
+"\n"
+"            Ovo je zadatak tima za Team-Set \"%(teamset_name)s\".\n"
+"            Trenutno niste u timu u Team-Set \"%(teamset_name)s\".\n"
+"            Morate biti u timu u Team-Set \"%(teamset_name)s\" da biste pristupili ovom timu.\n"
+"            "
 
 #: templates/legacy/message/oa_message_open.html:7
 #, python-format
 msgid ""
 "\n"
-"                    Assignment submissions will close soon. To receive a "
-"grade, first provide a response to the prompt, then complete the steps below "
-"the %(start_tag)sYour Response%(end_tag)s field.\n"
+"                    Assignment submissions will close soon. To receive a grade, first provide a response to the prompt, then complete the steps below the %(start_tag)sYour Response%(end_tag)s field.\n"
 "                "
 msgstr ""
+"\n"
+"Podnesci dodeljenja uskoro će se uskoro zatvoriti. Da biste primili ocenu, prvo navedite odgovor na brzu, a zatim dovršite korake ispod polja %(start_tag)s - %(end_tag)s field.\n"
+"                "
 
 #: templates/legacy/message/oa_message_open.html:11
 #, python-format
 msgid ""
 "\n"
-"                    This assignment has several steps. In the first step, "
-"you'll provide a response to the prompt. The other steps appear below the "
-"%(start_tag)sYour Response%(end_tag)s field.\n"
+"                    This assignment has several steps. In the first step, you'll provide a response to the prompt. The other steps appear below the %(start_tag)sYour Response%(end_tag)s field.\n"
 "                "
 msgstr ""
+"\n"
+"                    Ovaj zadatak ima nekoliko koraka. U prvom koraku, pružićete odgovor na prompt. Ostali koraci se pojavljuju ispod polja %(start_tag)s - %(end_tag)s.\n"
+"                "
 
 #: templates/legacy/message/oa_message_unavailable.html:4
 msgid "Instructions Unavailable"
-msgstr ""
+msgstr "Uputstva nedostupna"
 
 #: templates/legacy/message/oa_message_unavailable.html:6
 msgid "The instructions for this step could not be loaded."
-msgstr ""
+msgstr "Uputstva za ovaj korak nije se mogla učitati."
 
 #: templates/legacy/oa_base.html:16 templates/openassessmentblock/base.html:22
 msgid ""
 "This assignment has several steps. In the first step, you'll provide a "
-"response to the prompt. The other steps appear below the Your Response field."
+"response to the prompt. The other steps appear below the Your Response "
+"field."
 msgstr ""
+"Ovaj zadatak ima nekoliko koraka. U prvom koraku, pružićete odgovor na "
+"prompt. Ostali koraci se pojavljuju ispod polja vašeg odgovora."
 
 #: templates/legacy/oa_base.html:37 templates/openassessmentblock/base.html:56
 #: templates/openassessmentblock/base.html:105
 msgid "Loading"
-msgstr ""
+msgstr "Utovarivanje"
 
 #: templates/legacy/oa_latex_preview.html:6
 msgid "Preview in LaTeX"
-msgstr ""
+msgstr "Pregled u lateku"
 
 #: templates/legacy/oa_latex_preview.html:9
 msgid "Click to preview your submission in LaTeX."
-msgstr ""
+msgstr "Kliknite da biste pregledali svoje podnošenje u lateku."
 
 #: templates/legacy/oa_latex_preview.html:14
 msgid "Preview Response"
-msgstr ""
+msgstr "Odgovor pregleda"
 
 #: templates/legacy/oa_rubric.html:53
 msgid "Comments"
-msgstr ""
+msgstr "Komentari"
 
 #: templates/legacy/oa_submission_answer.html:8
 msgid "The question for this section"
-msgstr ""
+msgstr "Pitanje za ovaj odeljak"
 
 #: templates/legacy/oa_team_uploaded_files.html:9
 msgid "Files that were uploaded by your teammates:"
-msgstr ""
+msgstr "Datoteke koje su prenosili vaši saigrači:"
 
 #: templates/legacy/oa_team_uploaded_files.html:28
 #: templates/legacy/oa_uploaded_file.html:34
 msgid "View the files associated with this submission:"
-msgstr ""
+msgstr "Pogledajte datoteke povezane sa ovim podnesom:"
 
 #: templates/legacy/oa_team_uploaded_files.html:32
 msgid "Uploaded by"
-msgstr ""
+msgstr "Postavljeno"
 
 #: templates/legacy/oa_uploaded_file.html:16
 msgid "Files that were uploaded by you:"
-msgstr ""
+msgstr "Datoteke koje ste poslali:"
 
 #: templates/legacy/oa_uploaded_file.html:48
 msgid ""
@@ -1220,34 +1346,45 @@ msgid ""
 "been verified, screened, approved, reviewed, or endorsed by the site "
 "administrator. If you access the files, you do so at your own risk.)"
 msgstr ""
+"OPREZ: Ove dosijee je učitalo da je drugi tečaj učinio i nisu verifikovani, "
+"pregledani, odobreni, pregledani ili podržali administrator sajta. Ako "
+"pristupite datotekama, to radite na svoj rizik.)"
 
 #: templates/legacy/peer/oa_peer_assessment.html:36
 msgid "Assess Peers"
-msgstr ""
+msgstr "Proceniti vršnjake"
 
-#. Translators: This string displays a date to the user, then tells them the time until that date.  Example: "available August 13th, 2014 00:00 UTC (in 5 days and 45 minutes)"
+#. Translators: This string displays a date to the user, then tells them the
+#. time until that date.  Example: "available August 13th, 2014 00:00 UTC (in
+#. 5 days and 45 minutes)"
 #: templates/legacy/peer/oa_peer_assessment.html:44
 #, python-format, python-brace-format
 msgid ""
 "\n"
-"            <span id=\"oa_step_deadline_peer\" class=\"date ora-datetime\" "
-"data-datetime=\"%(start_date)s\" data-string=\"available {date} (in "
-"%(time_until)s)\" data-timezone=\"%(user_timezone)s\" data-"
-"language=\"%(user_language)s\"></span>\n"
+"            <span id=\"oa_step_deadline_peer\" class=\"date ora-datetime\" data-datetime=\"%(start_date)s\" data-string=\"available {date} (in %(time_until)s)\" data-timezone=\"%(user_timezone)s\" data-language=\"%(user_language)s\"></span>\n"
 "            "
 msgstr ""
+"\n"
+"<span id=\"oa_step_deadline_peer\" class=\"date ora-datetime\" data-"
+"datetime=\"%(start_date)s\" data-string=\"available {date} (in "
+"%(time_until)s)\" data-timezone=\"%(user_timezone)s\" data-"
+"language=\"%(user_language)s\"></span>"
 
-#. Translators: This string displays a date to the user, then tells them the time until that date.  Example: "due August 13th, 2014 00:00 UTC (in 5 days and 45 minutes)"
+#. Translators: This string displays a date to the user, then tells them the
+#. time until that date.  Example: "due August 13th, 2014 00:00 UTC (in 5 days
+#. and 45 minutes)"
 #: templates/legacy/peer/oa_peer_assessment.html:51
 #, python-format, python-brace-format
 msgid ""
 "\n"
-"            <span id=\"oa_step_deadline_peer\" class=\"date ora-datetime\" "
-"data-datetime=\"%(due_date)s\" data-string=\"due {date} (in "
-"%(time_until)s)\" data-timezone=\"%(user_timezone)s\" data-"
-"language=\"%(user_language)s\"></span>\n"
+"            <span id=\"oa_step_deadline_peer\" class=\"date ora-datetime\" data-datetime=\"%(due_date)s\" data-string=\"due {date} (in %(time_until)s)\" data-timezone=\"%(user_timezone)s\" data-language=\"%(user_language)s\"></span>\n"
 "            "
 msgstr ""
+"\n"
+"<span id=\"oa_step_deadline_peer\" class=\"date ora-datetime\" data-"
+"datetime=\"%(due_date)s\" data-string=\"due {date} (in %(time_until)s)\" "
+"data-timezone=\"%(user_timezone)s\" data-"
+"language=\"%(user_language)s\"></span>"
 
 #: templates/legacy/peer/oa_peer_assessment.html:61
 #, python-format
@@ -1256,11 +1393,13 @@ msgid ""
 "                    In Progress (%(review_number)s of %(num_must_grade)s)\n"
 "                "
 msgstr ""
+"\n"
+"U toku (%(review_number)s od %(num_must_grade)s)"
 
 #: templates/legacy/peer/oa_peer_assessment.html:75
 #: templates/legacy/peer/oa_peer_turbo_mode.html:45
 msgid "Read and assess the following response from one of your peers."
-msgstr ""
+msgstr "Pročitajte i procijenite sledeći odgovor jednog od vaših vršnjaka."
 
 #: templates/legacy/peer/oa_peer_assessment.html:87
 #: templates/legacy/peer/oa_peer_turbo_mode.html:56
@@ -1269,7 +1408,7 @@ msgstr ""
 #: templates/legacy/staff_area/oa_staff_override_assessment.html:38
 #: templates/legacy/staff_area/oa_student_info.html:63
 msgid "Associated Files"
-msgstr ""
+msgstr "Pridružene datoteke"
 
 #: templates/legacy/peer/oa_peer_assessment.html:101
 #: templates/legacy/peer/oa_peer_turbo_mode.html:70
@@ -1277,14 +1416,14 @@ msgstr ""
 #: templates/legacy/staff_area/oa_staff_grade_learners_assessment.html:57
 #: templates/legacy/staff_area/oa_staff_override_assessment.html:50
 msgid "We could not submit your assessment"
-msgstr ""
+msgstr "Nismo mogli da podnesemo vašu procenu"
 
 #: templates/legacy/peer/oa_peer_cancelled.html:19
 #: templates/legacy/response/oa_response_cancelled.html:21
 #: templates/legacy/self/oa_self_cancelled.html:21
 #: templates/legacy/student_training/student_training_cancelled.html:18
 msgid "Cancelled"
-msgstr ""
+msgstr "Otkazan"
 
 #: templates/legacy/peer/oa_peer_closed.html:20
 #, python-format
@@ -1293,6 +1432,8 @@ msgid ""
 "            Incomplete (%(num_graded)s of %(num_must_grade)s)\n"
 "        "
 msgstr ""
+"\n"
+"Nepotpuno (%(num_graded)s od %(num_must_grade)s)"
 
 #: templates/legacy/peer/oa_peer_closed.html:35
 msgid ""
@@ -1300,10 +1441,13 @@ msgid ""
 "longer complete peer assessments or continue with this assignment, and you "
 "will receive a grade of Incomplete."
 msgstr ""
+"Dospjeli datum za ovaj korak je prošao. Ovaj korak je sada zatvoren. Više ne"
+" možete da završite vršnjačke procene ili nastavite sa ovim zadatkom i "
+"dobićete ocenu nepotpunog."
 
 #: templates/legacy/peer/oa_peer_complete.html:13
 msgid "Completed"
-msgstr ""
+msgstr "Završen"
 
 #: templates/legacy/peer/oa_peer_complete.html:31
 #: templates/legacy/peer/oa_peer_turbo_mode.html:41
@@ -1313,14 +1457,17 @@ msgid ""
 "this assignment. You may assess additional peer responses if you want to. "
 "Completing additional assessments will not affect your final grade."
 msgstr ""
+"Uspešno ste završili sve potrebne vršnjačke procene za ovaj zadatak. Ako "
+"želite da procenite dodatne reakcije vršnjaka. Dovršavanje dodatnih procena "
+"neće uticati na vašu završnu ocenu."
 
 #: templates/legacy/peer/oa_peer_complete.html:36
 msgid "We could not retrieve additional submissions for assessment"
-msgstr ""
+msgstr "Nismo mogli da preuzmemo dodatne podneske za procenu"
 
 #: templates/legacy/peer/oa_peer_complete.html:43
 msgid "Continue Assessing Peers"
-msgstr ""
+msgstr "Nastavite proceniti vršnjake"
 
 #: templates/legacy/peer/oa_peer_turbo_mode.html:26
 #: templates/legacy/peer/oa_peer_turbo_mode_waiting.html:20
@@ -1330,19 +1477,23 @@ msgid ""
 "        Complete (%(num_graded)s)\n"
 "      "
 msgstr ""
+"\n"
+"Kompletna (%(num_graded)s)"
 
 #: templates/legacy/peer/oa_peer_turbo_mode_waiting.html:38
 msgid ""
 "All submitted peer responses have been assessed. Check back later to see if "
 "more learners have submitted responses."
 msgstr ""
+"Sve dostavljene reakcije vršnjaka su ocenjeni. Proverite kasnije da biste "
+"videli da li je još učenika podnelo odgovore."
 
 #: templates/legacy/peer/oa_peer_unavailable.html:16
 #: templates/legacy/response/oa_response_unavailable.html:17
 #: templates/legacy/self/oa_self_unavailable.html:17
 #: templates/legacy/student_training/student_training_unavailable.html:16
 msgid "Not Available"
-msgstr ""
+msgstr "Nije dostupan"
 
 #: templates/legacy/peer/oa_peer_waiting.html:20
 #, python-format
@@ -1351,300 +1502,337 @@ msgid ""
 "          In Progress (%(review_number)s of %(num_must_grade)s)\n"
 "        "
 msgstr ""
+"\n"
+"U toku (%(review_number)s od %(num_must_grade)s)"
 
 #: templates/legacy/peer/oa_peer_waiting.html:37
 msgid ""
 "All available peer responses have been assessed. Check back later to see if "
 "more learners have submitted responses. You will receive your grade after "
-"you've completed all the steps for this problem and your peers have assessed "
-"your response."
+"you've completed all the steps for this problem and your peers have assessed"
+" your response."
 msgstr ""
+"Sve dostupne reakcije vršnjaka su ocenjeni. Proverite kasnije da biste videli "
+"da li je još učenika podnelo odgovore. Dobićete svoju ocenu nakon što "
+"završite sve korake za ovaj problem i vaši vršnjaci su ocenili vaš odgovor."
 
 #: templates/legacy/response/oa_response.html:27
 msgid "Your Team's Response"
-msgstr ""
+msgstr "Odgovor vašeg tima"
 
-#. Translators: This string displays a date to the user, then tells them the time until that date.  Example: "available August 13th, 2014 (in 5 days and 45 minutes)"
+#. Translators: This string displays a date to the user, then tells them the
+#. time until that date.  Example: "available August 13th, 2014 (in 5 days and
+#. 45 minutes)"
 #: templates/legacy/response/oa_response.html:39
 #, python-format, python-brace-format
 msgid ""
 "\n"
-"            <span id=\"oa_step_deadline_response\" class=\"date ora-"
-"datetime\" data-datetime=\"%(start_date)s\" data-string=\"available {date} "
-"(in %(time_until)s)\" data-timezone=\"%(user_timezone)s\" data-"
-"language=\"%(user_language)s\"></span>\n"
+"            <span id=\"oa_step_deadline_response\" class=\"date ora-datetime\" data-datetime=\"%(start_date)s\" data-string=\"available {date} (in %(time_until)s)\" data-timezone=\"%(user_timezone)s\" data-language=\"%(user_language)s\"></span>\n"
 "            "
 msgstr ""
+"\n"
+"<span id=\"oa_step_deadline_response\" class=\"date ora-datetime\" data-datetime=\"%(start_date)s\" data-string=\"available {date} (in %(time_until)s)\" data-timezone=\"%(user_timezone)s\" data-language=\"%(user_language)s\"></span>\n"
+"            "
 
-#. Translators: This string displays a date to the user, then tells them the time until that date.  Example: "due August 13th, 2014 (in 5 days and 45 minutes)"
+#. Translators: This string displays a date to the user, then tells them the
+#. time until that date.  Example: "due August 13th, 2014 (in 5 days and 45
+#. minutes)"
 #: templates/legacy/response/oa_response.html:46
 #, python-format, python-brace-format
 msgid ""
 "\n"
-"            <span id=\"oa_step_deadline_response\" class=\"date ora-"
-"datetime\" data-datetime=\"%(due_date)s\" data-string=\"due {date} (in "
-"%(time_until)s)\" data-timezone=\"%(user_timezone)s\" data-"
-"language=\"%(user_language)s\"></span>\n"
+"            <span id=\"oa_step_deadline_response\" class=\"date ora-datetime\" data-datetime=\"%(due_date)s\" data-string=\"due {date} (in %(time_until)s)\" data-timezone=\"%(user_timezone)s\" data-language=\"%(user_language)s\"></span>\n"
 "            "
 msgstr ""
+"\n"
+"<span id=\"oa_step_deadline_response\" class=\"date ora-datetime\" data-"
+"datetime=\"%(due_date)s\" data-string=\"due {date} (in %(time_until)s)\" "
+"data-timezone=\"%(user_timezone)s\" data-"
+"language=\"%(user_language)s\"></span>"
 
 #: templates/legacy/response/oa_response.html:54
 #: templates/legacy/self/oa_self_assessment.html:56
 msgid "In Progress"
-msgstr ""
+msgstr "U toku"
 
 #: templates/legacy/response/oa_response.html:66
 msgid "Enter your team's response to the prompt."
-msgstr ""
+msgstr "Unesite odgovor svog tima na brz."
 
 #: templates/legacy/response/oa_response.html:68
 msgid ""
 "\n"
-"                        Your work will save automatically and you can return "
-"to complete your team's response at any time before the due date\n"
+"                        Your work will save automatically and you can return to complete your team's response at any time before the due date\n"
 "                      "
 msgstr ""
+"\n"
+"Vaš rad će se automatski sačuvati i možete se vratiti kako biste u bilo koje"
+" vreme dovršili odgovor svog tima pre roka"
 
 #: templates/legacy/response/oa_response.html:81
 msgid ""
 "\n"
-"                        Your work will save automatically and you can return "
-"to complete your team's response at any time.\n"
+"                        Your work will save automatically and you can return to complete your team's response at any time.\n"
 "                      "
 msgstr ""
+"\n"
+"Vaš rad će se automatski sačuvati i možete se vratiti da biste u bilo koje "
+"vreme dovršili odgovor svog tima."
 
 #: templates/legacy/response/oa_response.html:86
 msgid ""
 "After you submit a response on behalf of your team, it cannot be edited."
-msgstr ""
+msgstr "Nakon što podnesete odgovor u ime svog tima, to se ne može uređivati."
 
 #: templates/legacy/response/oa_response.html:89
 msgid "Enter your response to the prompt."
-msgstr ""
+msgstr "Unesite svoj odgovor na prompt."
 
 #: templates/legacy/response/oa_response.html:92
 msgid ""
 "Your work will save automatically and you can return to complete your "
 "response at any time before the subsection due date "
 msgstr ""
+"Vaš rad će se automatski sačuvati i možete se vratiti da biste u bilo koje "
+"vreme dovršili odgovor pre datuma roka za pododeljku"
 
 #: templates/legacy/response/oa_response.html:94
 msgid ""
 "Your work will save automatically and you can return to complete your "
 "response at any time before the course ends "
 msgstr ""
+"Vaš rad će se automatski uštedeti i možete se vratiti da biste u bilo koje "
+"vreme dovršite odgovor pre nego što se kurs završi"
 
 #: templates/legacy/response/oa_response.html:96
 msgid ""
 "Your work will save automatically and you can return to complete your "
 "response at any time before the due date "
 msgstr ""
+"Vaš rad će se automatski sačuvati i možete se vratiti da biste dovršili svoj"
+" odgovor u bilo koje vreme pre datuma roka"
 
 #: templates/legacy/response/oa_response.html:108
 msgid ""
 "Your work will save automatically and you can return to complete your "
 "response at any time."
 msgstr ""
+"Vaš rad će se automatski sačuvati i možete se vratiti da biste u bilo kom "
+"trenutku vratili odgovor."
 
 #: templates/legacy/response/oa_response.html:110
 msgid "After you submit your response, you cannot edit it"
-msgstr ""
+msgstr "Nakon što podnesete svoj odgovor, ne možete ga urediti"
 
 #: templates/legacy/response/oa_response.html:120
 msgid "What will this assignment be graded on?"
-msgstr ""
+msgstr "Šta će se ovaj zadatak oceniti?"
 
 #: templates/legacy/response/oa_response.html:134
 msgid "The prompt for this section"
-msgstr ""
+msgstr "Upit za ovaj odeljak"
 
 #: templates/legacy/response/oa_response.html:148
 msgid "You are on team "
-msgstr ""
+msgstr "Ti si u timu"
 
 #: templates/legacy/response/oa_response.html:150
 msgid "Team Members: "
-msgstr ""
+msgstr "Članovi tima:"
 
 #: templates/legacy/response/oa_response.html:155
 #, python-format
 msgid ""
 "\n"
 "                                              %(team_members_with_external_submissions)s\n"
-"                                              have/has already submitted a "
-"response to this assignment with another team,\n"
-"                                              and will not be a part of your "
-"team's submission or assignment grade.\n"
+"                                              have/has already submitted a response to this assignment with another team,\n"
+"                                              and will not be a part of your team's submission or assignment grade.\n"
 "                                          "
 msgstr ""
+"\n"
+"%(team_members_with_external_submissions)s\n"
+"                                              imaju / već je podneo odgovor na ovaj zadatak sa drugim timom,\n"
+"                                              i neće biti deo ocene ili dodeljenosti vašeg tima."
 
 #: templates/legacy/response/oa_response.html:171
 msgid "Team Response "
-msgstr ""
+msgstr "Odgovor tima"
 
 #: templates/legacy/response/oa_response.html:173
 msgid "Your Response "
-msgstr ""
+msgstr "Vaš odgovor"
 
 #: templates/legacy/response/oa_response.html:177
 #: templates/legacy/response/oa_response.html:247
 msgid "(Required)"
-msgstr ""
+msgstr "(Obavezno)"
 
 #: templates/legacy/response/oa_response.html:179
 #: templates/legacy/response/oa_response.html:249
 msgid "(Optional)"
-msgstr ""
+msgstr "(Neobavezno)"
 
 #: templates/legacy/response/oa_response.html:183
 msgid ""
 "\n"
-"                                              Teams should designate one "
-"team member to submit a response on behalf of the\n"
-"                                              entire team.  All team members "
-"can use this space to work on draft responses,\n"
-"                                              but you will not be able to "
-"see your teammates' drafts made in this space, so\n"
-"                                              please coordinate with them to "
-"decide on the final response the designated team\n"
+"                                              Teams should designate one team member to submit a response on behalf of the\n"
+"                                              entire team.  All team members can use this space to work on draft responses,\n"
+"                                              but you will not be able to see your teammates' drafts made in this space, so\n"
+"                                              please coordinate with them to decide on the final response the designated team\n"
 "                                              member should submit.\n"
 "                                          "
 msgstr ""
+"\n"
+"Timovi bi trebali da određuju jednog člana tima da podnesu odgovor u ime\n"
+"                                              ceo tim.  ALL Članovi tima mogu da koriste ovaj prostor da rade na nacrtu odgovora,\n"
+"                                              Ali nećete moći da vidite nacrte vaših saigrača napravljenih u ovom prostoru, pa\n"
+"                                              Molimo vas da koordinirate sa njima da odlučuju o konačnom odgovoru koji je odredio određeni tim\n"
+"                                              Član treba da podnese."
 
 #: templates/legacy/response/oa_response.html:197
 msgid "Enter your response to the prompt above."
-msgstr ""
+msgstr "Unesite svoj odgovor na gornju brzu."
 
 #: templates/legacy/response/oa_response.html:211
 #, python-format
 msgid ""
 "\n"
-"                                      You are currently on Team "
-"%(team_name)s. Since you were on Team %(previous_team_name)s\n"
-"                                      when they submitted a response to this "
-"assignment, you are seeing Team %(previous_team_name)s’s\n"
-"                                      response and will receive the same "
-"grade for this assignment as your former teammates.\n"
-"                                      You will not be part of Team "
-"%(team_name)s’s submission for this assignment and will not\n"
+"                                      You are currently on Team %(team_name)s. Since you were on Team %(previous_team_name)s\n"
+"                                      when they submitted a response to this assignment, you are seeing Team %(previous_team_name)s’s\n"
+"                                      response and will receive the same grade for this assignment as your former teammates.\n"
+"                                      You will not be part of Team %(team_name)s’s submission for this assignment and will not\n"
 "                                      receive a grade for their submission.\n"
 "                                  "
 msgstr ""
+"\n"
+"Trenutno ste u Team %(team_name)s. Pošto ste bili u Team %(previous_team_name)s\n"
+"                                      Kada su podneli odgovor na ovaj zadatak, vi vidite Team %(previous_team_name)s-ove\n"
+"                                      Odgovor i dobit će istu ocenu za ovaj zadatak kao vaši bivši saigrači.\n"
+"                                      Nećete biti deo podneska tima %(team_name)s za ovaj zadatak i nećete\n"
+"                                      primite ocenu za njihovo podnošenje."
 
 #: templates/legacy/response/oa_response.html:224
 msgid "We could not save your progress"
-msgstr ""
+msgstr "Nismo mogli da uštedimo vaš napredak"
 
 #: templates/legacy/response/oa_response.html:232
 msgid "Status of Your Response"
-msgstr ""
+msgstr "Status vašeg odgovora"
 
 #: templates/legacy/response/oa_response.html:245
 msgid "File Uploads "
-msgstr ""
+msgstr "Upload datoteka"
 
 #: templates/legacy/response/oa_response.html:253
 msgid ""
 "\n"
-"                                  Upload files and review files uploaded by "
-"you and your teammates below. Be sure to add\n"
-"                                  descriptions to your files to help your "
-"teammates identify them.\n"
+"                                  Upload files and review files uploaded by you and your teammates below. Be sure to add\n"
+"                                  descriptions to your files to help your teammates identify them.\n"
 "                              "
 msgstr ""
+"\n"
+"Otpremite datoteke i pregledajte datoteke koje su prenosili i vi i vaši saigrači ispod. Obavezno dodajte\n"
+"                                  Opisi na vaše datoteke da biste ih pomogli da ih saigračima prepoznaju."
 
 #: templates/legacy/response/oa_response.html:261
 msgid "We could not upload files"
-msgstr ""
+msgstr "Nismo mogli da otpremimo datoteke"
 
 #: templates/legacy/response/oa_response.html:267
 msgid "We could not delete files"
-msgstr ""
+msgstr "Nismo mogli da izbrišemo datoteke"
 
 #: templates/legacy/response/oa_response.html:274
 msgid "Select one or more files to upload for this submission."
-msgstr ""
+msgstr "Izaberite jednu ili više datoteka da biste učitali za ovaj podnesak."
 
 #: templates/legacy/response/oa_response.html:276
 msgid "Select a file to upload for this submission."
-msgstr ""
+msgstr "Izaberite datoteku za otpremanje za ovaj podnesak."
 
 #: templates/legacy/response/oa_response.html:280
 msgid "Supported file types: "
-msgstr ""
+msgstr "Podržane vrste datoteka:"
 
 #: templates/legacy/response/oa_response.html:286
 msgid "Upload files"
-msgstr ""
+msgstr "Pošaljite datoteke"
 
 #: templates/legacy/response/oa_response.html:288
 msgid "Upload file"
-msgstr ""
+msgstr "Pošaljite datoteku"
 
 #: templates/legacy/response/oa_response.html:305
 msgid "This is a team submission."
-msgstr ""
+msgstr "Ovo je podnošenje tima."
 
 #: templates/legacy/response/oa_response.html:307
 msgid ""
 "One team member should submit a response with the team’s shared files and a "
 "text response on behalf of the entire team."
 msgstr ""
+"Jedan član tima treba da podnese odgovor sa zajedničkim datotekama tima i "
+"odziv teksta u ime celog tima."
 
 #: templates/legacy/response/oa_response.html:309
 msgid ""
 "One team member should submit a response with the team’s shared files on "
 "behalf of the entire team."
 msgstr ""
+"Jedan član tima treba da podnese odgovor sa zajedničkim datotekama tima u "
+"ime celog tima."
 
 #: templates/legacy/response/oa_response.html:311
 msgid ""
 "One team member should submit a text response on behalf of the entire team."
 msgstr ""
+"Jedan član tima treba da podnese odgovarajući odgovor u ime celog tima."
 
 #: templates/legacy/response/oa_response.html:313
 msgid "One team member should submit on behalf of the entire team."
-msgstr ""
+msgstr "Jedan član tima treba da podnese u ime celog tima."
 
 #: templates/legacy/response/oa_response.html:315
 msgid ""
 "\n"
-"                  Learn more about team assignments here: (<a "
-"target=\"_blank\" href=\"https://support.edx.org/hc/en-us/"
-"articles/360000191067-Submit-your-"
-"response#h_01FVD8SXM9E5H2DNAG87X25ZHR\">link</a>)\n"
+"                  Learn more about team assignments here: (<a target=\"_blank\" href=\"https://support.edx.org/hc/en-us/articles/360000191067-Submit-your-response#h_01FVD8SXM9E5H2DNAG87X25ZHR\">link</a>)\n"
 "                  "
 msgstr ""
+"\n"
+"Saznajte više o zadacima tima ovde: (<a target=\"_blank\" href=\"https://support.edx.org/hc/en-us/articles/360000191067-Submit-your-response#h_01FVD8SXM9E5H2DNAG87X25ZHR\">link</a>)\n"
+"                  "
 
 #: templates/legacy/response/oa_response.html:323
 msgid "We could not submit your response"
-msgstr ""
+msgstr "Nismo mogli da podnesemo vaš odgovor"
 
 #: templates/legacy/response/oa_response.html:334
 msgid "Submit your response and move to the next step"
-msgstr ""
+msgstr "Pošaljite svoj odgovor i pređite na sledeći korak"
 
 #: templates/legacy/response/oa_response_cancelled.html:34
 msgid "Your submission was cancelled. "
-msgstr ""
+msgstr "Vaš podnesak je otkazan."
 
 #: templates/legacy/response/oa_response_cancelled.html:37
 #, python-format
 msgid ""
 "\n"
-"                                Your submission has been cancelled by "
-"%(removed_by_username)s on %(removed_datetime)s\n"
+"                                Your submission has been cancelled by %(removed_by_username)s on %(removed_datetime)s\n"
 "                            "
 msgstr ""
+"\n"
+"Vaš podnesak je otkazan od %(removed_by_username)s na %(removed_datetime)s"
 
 #: templates/legacy/response/oa_response_cancelled.html:41
 #, python-format
 msgid ""
 "\n"
-"                               Your submission was cancelled on "
-"%(removed_datetime)s\n"
+"                               Your submission was cancelled on %(removed_datetime)s\n"
 "                            "
 msgstr ""
+"\n"
+"Vaš podnesak je otkazan na %(removed_datetime)s"
 
 #: templates/legacy/response/oa_response_cancelled.html:48
 #, python-format
@@ -1653,130 +1841,152 @@ msgid ""
 "                            Comments: %(comments)s\n"
 "                        "
 msgstr ""
+"\n"
+"Komentari: %(comments)s"
 
 #: templates/legacy/response/oa_response_closed.html:19
 #: templates/legacy/self/oa_self_closed.html:20
 #: templates/legacy/student_training/student_training_closed.html:17
 msgid "Incomplete"
-msgstr ""
+msgstr "Nepotpun"
 
 #: templates/legacy/response/oa_response_closed.html:32
 msgid ""
 "The due date for this step has passed. This step is now closed. You can no "
-"longer submit a response or continue with this problem, and you will receive "
-"a grade of Incomplete. If you saved but did not submit a response, the "
+"longer submit a response or continue with this problem, and you will receive"
+" a grade of Incomplete. If you saved but did not submit a response, the "
 "response appears in the course records."
 msgstr ""
+"Dospjeli datum za ovaj korak je prošao. Ovaj korak je sada zatvoren. Više ne"
+" možete da podnesete odgovor ili nastavite sa ovim problemom i dobićete "
+"ocenu nepotpunog. Ako ste sačuvali, ali niste podneli odgovor, odgovor se "
+"pojavljuje u evidenciji kursa."
 
 #: templates/legacy/response/oa_response_graded.html:20
 #: templates/legacy/response/oa_response_submitted.html:20
 #: templates/legacy/self/oa_self_complete.html:18
 #: templates/legacy/student_training/student_training_complete.html:17
 msgid "Complete"
-msgstr ""
+msgstr "Završiti"
 
 #: templates/legacy/response/oa_response_graded.html:30
 #: templates/legacy/response/oa_response_submitted.html:51
 #: templates/legacy/self/oa_self_assessment.html:67
 msgid "Your response"
-msgstr ""
+msgstr "Vaš odgovor"
 
 #: templates/legacy/response/oa_response_graded.html:33
 #: templates/legacy/response/oa_response_submitted.html:54
 msgid "Your Uploaded Files"
-msgstr ""
+msgstr "Vaše prenesene datoteke"
 
 #: templates/legacy/response/oa_response_submitted.html:32
 msgid ""
 "Your response has been submitted. You will receive your grade after all "
 "steps are complete and your response is fully assessed."
 msgstr ""
+"Vaš odgovor je podnesen. Ocenu ćete dobiti nakon završetka svih koraka i vaš"
+" odgovor je u potpunosti procenjen."
 
 #: templates/legacy/response/oa_response_submitted.html:34
 #, python-format
 msgid ""
 "\n"
-"                        You still need to complete the "
-"%(peer_start_tag)speer assessment%(end_tag)s and %(self_start_tag)sself "
-"assessment%(end_tag)s steps.\n"
+"                        You still need to complete the %(peer_start_tag)speer assessment%(end_tag)s and %(self_start_tag)sself assessment%(end_tag)s steps.\n"
 "                    "
 msgstr ""
+"\n"
+"Još uvek trebate da popunite %(peer_start_tag)sPEER ProceneP%(end_tag)s i "
+"%(self_start_tag)sSEMSEMENT%(end_tag)s koraka."
 
 #: templates/legacy/response/oa_response_submitted.html:38
 #, python-format
 msgid ""
 "\n"
-"                        You still need to complete the %(start_tag)speer "
-"assessment%(end_tag)s step.\n"
+"                        You still need to complete the %(start_tag)speer assessment%(end_tag)s step.\n"
 "                    "
 msgstr ""
+"\n"
+"Još uvek morate da popunite korak %(start_tag)speer Procession%(end_tag)s."
 
 #: templates/legacy/response/oa_response_submitted.html:42
 #, python-format
 msgid ""
 "\n"
-"                        You still need to complete the %(start_tag)sself "
-"assessment%(end_tag)s step.\n"
+"                        You still need to complete the %(start_tag)sself assessment%(end_tag)s step.\n"
 "                    "
 msgstr ""
+"\n"
+"Još uvek morate da popunite %(start_tag)ssem procenuP%(end_tag)s korak."
 
 #: templates/legacy/response/oa_response_submitted.html:63
 msgid "We could not reset your response"
-msgstr ""
+msgstr "Nismo mogli da resetujemo vaš odgovor"
 
 #: templates/legacy/response/oa_response_submitted.html:69
 msgid "Reset response and submit again"
-msgstr ""
+msgstr "Resetujte odgovor i ponovo podnesite ponovo"
 
 #: templates/legacy/response/oa_response_team_already_submitted.html:15
 msgid "Error"
-msgstr ""
+msgstr "Greška"
 
 #: templates/legacy/response/oa_response_team_already_submitted.html:29
 #, python-format
 msgid ""
 "\n"
-"                            You joined Team %(team_name)s after they "
-"submitted a response for this assignment\n"
-"                            and you will not receive a grade for their "
-"response. You have also not previously submitted\n"
-"                            a response to this assignment with another team. "
-"Please contact course staff to discuss your\n"
+"                            You joined Team %(team_name)s after they submitted a response for this assignment\n"
+"                            and you will not receive a grade for their response. You have also not previously submitted\n"
+"                            a response to this assignment with another team. Please contact course staff to discuss your\n"
 "                            options for this assignment.\n"
 "                        "
 msgstr ""
+"\n"
+"                            Pridružio si se %(team_name)s nakon što su podneli odgovor za ovaj zadatak\n"
+"                            I nećete dobiti ocenu za njihov odgovor. Takođe niste prethodno poslali\n"
+"                            odgovor na ovaj zadatak sa drugim timom. Molimo kontaktirajte osoblje kurseva da razgovarate o svojim\n"
+"                            opcijama za ovaj zadatak.\n"
+"                        "
 
 #: templates/legacy/self/oa_self_assessment.html:33
 msgid "Assess Your Response"
-msgstr ""
+msgstr "Procijenite svoj odgovor"
 
-#. Translators: This string displays a date to the user, then tells them the time until that date.  Example: "available August 13th, 2014 (in 5 days and 45 minutes)"
+#. Translators: This string displays a date to the user, then tells them the
+#. time until that date.  Example: "available August 13th, 2014 (in 5 days and
+#. 45 minutes)"
 #: templates/legacy/self/oa_self_assessment.html:41
 #, python-format, python-brace-format
 msgid ""
 "\n"
-"               <span id=\"oa_step_deadline_self\" class=\"date ora-"
-"datetime\" data-datetime=\"%(start_date)s\" data-string=\"available {date} "
-"(in %(time_until)s)\" data-timezone=\"%(user_timezone)s\" data-"
-"language=\"%(user_language)s\"></span>\n"
+"               <span id=\"oa_step_deadline_self\" class=\"date ora-datetime\" data-datetime=\"%(start_date)s\" data-string=\"available {date} (in %(time_until)s)\" data-timezone=\"%(user_timezone)s\" data-language=\"%(user_language)s\"></span>\n"
 "           "
 msgstr ""
+"\n"
+"<span id=\"oa_step_deadline_self\" class=\"date ora-datetime\" data-"
+"datetime=\"%(start_date)s\" data-string=\"available {date} (in "
+"%(time_until)s)\" data-timezone=\"%(user_timezone)s\" data-"
+"language=\"%(user_language)s\"></span>"
 
-#. Translators: This string displays a date to the user, then tells them the time until that date.  Example: "due August 13th, 2014 (in 5 days and 45 minutes)"
+#. Translators: This string displays a date to the user, then tells them the
+#. time until that date.  Example: "due August 13th, 2014 (in 5 days and 45
+#. minutes)"
 #: templates/legacy/self/oa_self_assessment.html:48
 #, python-format, python-brace-format
 msgid ""
 "\n"
-"               <span id=\"oa_step_deadline_self\" class=\"date ora-"
-"datetime\" data-datetime=\"%(due_date)s\" data-string=\"due {date} (in "
-"%(time_until)s)\" data-timezone=\"%(user_timezone)s\" data-"
-"language=\"%(user_language)s\"></span>\n"
+"               <span id=\"oa_step_deadline_self\" class=\"date ora-datetime\" data-datetime=\"%(due_date)s\" data-string=\"due {date} (in %(time_until)s)\" data-timezone=\"%(user_timezone)s\" data-language=\"%(user_language)s\"></span>\n"
 "           "
 msgstr ""
+"\n"
+"<span id=\"oa_step_deadline_self\" class=\"date ora-datetime\" data-"
+"datetime=\"%(due_date)s\" data-string=\"due {date} (in %(time_until)s)\" "
+"data-timezone=\"%(user_timezone)s\" data-"
+"language=\"%(user_language)s\"></span>"
 
 #: templates/legacy/self/oa_self_assessment.html:88
 msgid "Submit your assessment"
-msgstr ""
+msgstr "Pošaljite svoju procenu"
 
 #: templates/legacy/self/oa_self_closed.html:32
 msgid ""
@@ -1784,109 +1994,113 @@ msgid ""
 "longer complete a self assessment or continue with this assignment, and you "
 "will receive a grade of Incomplete."
 msgstr ""
+"Dospjeli datum za ovaj korak je prošao. Ovaj korak je sada zatvoren. Više ne"
+" možete da dovršite samoprocenu ili nastavite sa ovim zadatkom i dobićete "
+"ocenu nepotpunog."
 
 #: templates/legacy/staff/oa_staff_grade.html:13 xblock/grade_mixin.py:369
 msgid "Staff Grade"
-msgstr ""
+msgstr "Ocena osoblja"
 
 #: templates/legacy/staff_area/oa_staff_area.html:8
 #: templates/legacy/staff_area/oa_staff_area.html:35
 msgid "Manage Individual Learners"
-msgstr ""
+msgstr "Upravljanje pojedinačnim učenicima"
 
 #: templates/legacy/staff_area/oa_staff_area.html:10
 msgid "Manage Team Responses"
-msgstr ""
+msgstr "Upravljajte odgovorima tima"
 
 #: templates/legacy/staff_area/oa_staff_area.html:13
 #: templates/legacy/staff_area/oa_staff_area.html:71
 msgid "View Assignment Statistics"
-msgstr ""
+msgstr "Pogledajte statistiku za dodelu"
 
 #: templates/legacy/staff_area/oa_staff_area.html:22
 msgid "Demo the new Grading Experience"
-msgstr ""
+msgstr "Demo novo iskustvo ocenjivanja"
 
 #: templates/legacy/staff_area/oa_staff_area.html:26
 msgid "View ORA in Studio"
-msgstr ""
+msgstr "Pogledajte oru u studiju"
 
 #: templates/legacy/staff_area/oa_staff_area.html:31
 #: templates/legacy/staff_area/oa_staff_area.html:69
 #: templates/legacy/staff_area/oa_staff_area.html:151
 msgid "Close"
-msgstr ""
+msgstr "Zatvoriti"
 
 #: templates/legacy/staff_area/oa_staff_area.html:37
 msgid "Manage Teams"
-msgstr ""
+msgstr "Upravljanje timovima"
 
 #: templates/legacy/staff_area/oa_staff_area.html:50
 msgid "Enter an individual learner's username or email"
-msgstr ""
+msgstr "Unesite korisničko ime ili email pojedinačno učeničko ime"
 
 #: templates/legacy/staff_area/oa_staff_area.html:52
 msgid "Enter a team member's username or edX email"
-msgstr ""
+msgstr "Unesite ime člana tima ili EDKS e-poštu"
 
 #: templates/legacy/staff_area/oa_staff_area.html:56
 msgid "Submit"
-msgstr ""
+msgstr "Podneti"
 
 #: templates/legacy/staff_area/oa_staff_area.html:78
 msgid "Response total"
-msgstr ""
+msgstr "Ukupno odgovora"
 
 #: templates/legacy/staff_area/oa_staff_area.html:84
 msgid "Location"
-msgstr ""
+msgstr "Lokacija"
 
 #: templates/legacy/staff_area/oa_staff_area.html:90
 msgid "Learner Progress"
-msgstr ""
+msgstr "Napredak učenika"
 
 #: templates/legacy/staff_area/oa_staff_area.html:94
 #: templates/legacy/staff_area/oa_staff_area.html:117
 msgid "Problem Step"
-msgstr ""
+msgstr "Problem korak"
 
 #: templates/legacy/staff_area/oa_staff_area.html:95
 msgid "Active Learners in Step"
-msgstr ""
+msgstr "Aktivni učenici u koraku"
 
 #: templates/legacy/staff_area/oa_staff_area.html:113
 msgid "Dates"
-msgstr ""
+msgstr "Datumi"
 
 #: templates/legacy/staff_area/oa_staff_area.html:118
 msgid "Release Date"
-msgstr ""
+msgstr "Datum izdanja"
 
 #: templates/legacy/staff_area/oa_staff_area.html:131
 #: templates/legacy/staff_area/oa_staff_area.html:137
 msgid "N/A"
-msgstr ""
+msgstr "N / A"
 
 #: templates/legacy/staff_area/oa_staff_grade_learners.html:7
 msgid "Staff Assessment"
-msgstr ""
+msgstr "Procena osoblja"
 
 #: templates/legacy/staff_area/oa_staff_grade_learners_assessment.html:14
 msgid "Give this team a grade using the problem's rubric."
-msgstr ""
+msgstr "Dajte ovom timu oceni koristeći problem rubriku."
 
 #: templates/legacy/staff_area/oa_staff_grade_learners_assessment.html:16
 msgid "Give this learner a grade using the problem's rubric."
-msgstr ""
+msgstr "Dajte ovom učeniku oceni koristeći problem rubriku."
 
 #: templates/legacy/staff_area/oa_staff_grade_learners_assessment.html:26
 #, python-format
 msgid ""
 "\n"
-"                                        Response for: %(team_name)s with "
-"%(team_usernames)s\n"
+"                                        Response for: %(team_name)s with %(team_usernames)s\n"
 "                                    "
 msgstr ""
+"\n"
+"Odgovor za: %(team_name)s sa %(team_usernames)s"
 
 #: templates/legacy/staff_area/oa_staff_grade_learners_assessment.html:30
 #: templates/legacy/staff_area/oa_staff_override_assessment.html:20
@@ -1896,30 +2110,32 @@ msgid ""
 "                                        Response for: %(student_username)s\n"
 "                                    "
 msgstr ""
+"\n"
+"Odgovor za: %(student_username)s"
 
 #: templates/legacy/staff_area/oa_staff_grade_learners_assessment.html:34
 #: templates/legacy/staff_area/oa_staff_override_assessment.html:24
 msgid "Learner Response"
-msgstr ""
+msgstr "Odgovor učenika"
 
 #: templates/legacy/staff_area/oa_staff_grade_learners_assessment.html:39
 msgid "The teams's response to the prompt above"
-msgstr ""
+msgstr "Odgovor timova na gornju brzu"
 
 #: templates/legacy/staff_area/oa_staff_grade_learners_assessment.html:41
 #: templates/legacy/staff_area/oa_staff_override_assessment.html:32
 #: templates/legacy/staff_area/oa_student_info.html:57
 msgid "The learner's response to the prompt above"
-msgstr ""
+msgstr "Odgovor učenika na gornju brzu"
 
 #: templates/legacy/staff_area/oa_staff_grade_learners_assessment.html:64
 #: templates/legacy/staff_area/oa_staff_override_assessment.html:57
 msgid "Submit assessment"
-msgstr ""
+msgstr "Pošaljite procenu"
 
 #: templates/legacy/staff_area/oa_staff_grade_learners_assessment.html:70
 msgid "Submit assessment and continue grading"
-msgstr ""
+msgstr "Pošaljite procenu i nastavite sa ocenjivanjem"
 
 #: templates/legacy/staff_area/oa_staff_grade_learners_count.html:6
 #, python-format
@@ -1928,23 +2144,25 @@ msgid ""
 "                %(ungraded)s Available and %(in_progress)s Checked Out\n"
 "            "
 msgstr ""
+"\n"
+"%(ungraded)s Dostupno i %(in_progress)s proveren"
 
 #: templates/legacy/staff_area/oa_staff_override_assessment.html:7
 msgid "Override this learner's current grade using the problem's rubric."
-msgstr ""
+msgstr "Override this learner's current grade using the problem's rubric."
 
 #: templates/legacy/staff_area/oa_staff_override_assessment.html:9
 msgid "Override this team's current grade using the problem's rubric."
-msgstr ""
+msgstr "Preglasite ovaj tim's current grade using the problem's Rubric."
 
 #: templates/legacy/staff_area/oa_staff_override_assessment.html:27
 msgid "Team Response"
-msgstr ""
+msgstr "Odgovor tima"
 
 #: templates/legacy/staff_area/oa_staff_override_assessment.html:34
 #: templates/legacy/staff_area/oa_student_info.html:59
 msgid "The team's response to the prompt above"
-msgstr ""
+msgstr "Odgovor tima na gornju brzu"
 
 #: templates/legacy/staff_area/oa_student_info.html:11
 #, python-format
@@ -1953,6 +2171,8 @@ msgid ""
 "                    Viewing learner: %(learner)s\n"
 "                "
 msgstr ""
+"\n"
+"Pregled učenika: %(learner)s"
 
 #: templates/legacy/staff_area/oa_student_info.html:15
 #, python-format
@@ -1961,32 +2181,37 @@ msgid ""
 "                    Viewing team: %(team)s\n"
 "                "
 msgstr ""
+"\n"
+"Gledajući tim: %(team)s"
 
 #: templates/legacy/staff_area/oa_student_info.html:28
 msgid "Learner's Response"
-msgstr ""
+msgstr "Odgovor učenika"
 
 #: templates/legacy/staff_area/oa_student_info.html:30
 msgid "Team's Response"
-msgstr ""
+msgstr "Odgovor tima"
 
 #: templates/legacy/staff_area/oa_student_info.html:39
 #, python-format
 msgid ""
 "\n"
-"                            Learner submission removed by "
-"%(removed_by_username)s on %(removed_datetime)s\n"
+"                            Learner submission removed by %(removed_by_username)s on %(removed_datetime)s\n"
 "                        "
 msgstr ""
+"\n"
+"Podnošenje učenika uklonjeno od %(removed_by_username)s na "
+"%(removed_datetime)s"
 
 #: templates/legacy/staff_area/oa_student_info.html:43
 #, python-format
 msgid ""
 "\n"
-"                            Learner submission removed on "
-"%(removed_datetime)s\n"
+"                            Learner submission removed on %(removed_datetime)s\n"
 "                        "
 msgstr ""
+"\n"
+"Podnošenje učenika uklonjen na %(removed_datetime)s"
 
 #: templates/legacy/staff_area/oa_student_info.html:50
 #, python-format
@@ -1995,110 +2220,115 @@ msgid ""
 "                        Comments: %(comments)s\n"
 "                    "
 msgstr ""
+"\n"
+"                        Komentari: %(comments)s\n"
+"                    "
 
 #: templates/legacy/staff_area/oa_student_info.html:71
 msgid "Peer Assessments for This Learner"
-msgstr ""
+msgstr "Peer procene za ovog učenika"
 
 #: templates/legacy/staff_area/oa_student_info.html:76
 msgid "Peer Assessments Completed by This Learner"
-msgstr ""
+msgstr "Vršnjačke procene koje je završio ovaj učenik"
 
 #: templates/legacy/staff_area/oa_student_info.html:81
 msgid "Learner's Self Assessment"
-msgstr ""
+msgstr "Samoprocjena učenika"
 
 #: templates/legacy/staff_area/oa_student_info.html:87
 msgid "Staff Assessment for This Learner"
-msgstr ""
+msgstr "Procena osoblja za ovog učenika"
 
 #: templates/legacy/staff_area/oa_student_info.html:89
 msgid "Staff Assessment for this Team"
-msgstr ""
+msgstr "Procena osoblja za ovaj tim"
 
 #: templates/legacy/staff_area/oa_student_info.html:100
 msgid "Learner's Final Grade"
-msgstr ""
+msgstr "Završna ocena učenika"
 
 #: templates/legacy/staff_area/oa_student_info.html:102
 msgid "Team's Final Grade"
-msgstr ""
+msgstr "Konačna ocena tima"
 
 #: templates/legacy/staff_area/oa_student_info.html:112
 #, python-format
 msgid ""
 "\n"
-"                            Final grade: %(points_earned)s out of "
-"%(points_possible)s\n"
+"                            Final grade: %(points_earned)s out of %(points_possible)s\n"
 "                        "
 msgstr ""
+"\n"
+"                            Konačna ocena: %(points_earned)s od %(points_possible)s\n"
+"                        "
 
 #: templates/legacy/staff_area/oa_student_info.html:119
 msgid "Final Grade Details"
-msgstr ""
+msgstr "Završni detalji ocjene"
 
 #: templates/legacy/staff_area/oa_student_info.html:139
 #, python-format
 msgid ""
 "\n"
-"                                        %(assessment_label)s - %(points)s "
-"point\n"
+"                                        %(assessment_label)s - %(points)s point\n"
 "                                    "
-msgid_plural ""
+msgstr ""
 "\n"
-"                                        %(assessment_label)s - %(points)s "
-"points\n"
+"                                        %(assessment_label)s - %(points)s bodova\n"
 "                                    "
-msgstr[0] ""
-msgstr[1] ""
 
 #: templates/legacy/staff_area/oa_student_info.html:154
 msgid "Feedback Recorded"
-msgstr ""
+msgstr "Povratne informacije su zapisane"
 
 #: templates/legacy/staff_area/oa_student_info.html:165
 msgid "The submission is waiting for assessments."
-msgstr ""
+msgstr "Podnošenje čeka procene."
 
 #: templates/legacy/staff_area/oa_student_info.html:170
 msgid ""
 "The learner's submission has been removed from peer assessment. The learner "
 "receives a grade of zero unless you delete the learner's state for the "
 "problem to allow them to resubmit a response."
-msgstr ""
+msgstr "Naučite učenik da problem omogući da ponovo predaju odgovor."
 
 #: templates/legacy/staff_area/oa_student_info.html:172
 msgid ""
 "The team’s submission has been removed from grading. The team receives a "
-"grade of zero unless you delete the a team member’s state for the problem to "
-"allow the team to resubmit a response."
+"grade of zero unless you delete the a team member’s state for the problem to"
+" allow the team to resubmit a response."
 msgstr ""
+"Podnošenje tima je uklonjen iz ocenjivanja. Tim prima nivo nule, osim ako ne "
+"izbrišete stanje člana tima da bi se omogućilo da tim može da pošalje odgovor."
 
 #: templates/legacy/staff_area/oa_student_info.html:177
 msgid "The problem has not been started."
-msgstr ""
+msgstr "Problem nije započet."
 
 #: templates/legacy/staff_area/oa_student_info.html:181
 msgid "The problem has not been completed."
-msgstr ""
+msgstr "Problem nije završen."
 
 #: templates/legacy/staff_area/oa_student_info.html:193
 msgid "Submit Assessment Grade Override"
-msgstr ""
+msgstr "Podizanje ocene ocene Overdired"
 
 #: templates/legacy/staff_area/oa_student_info.html:195
 msgid "Submit Team Grade Override"
-msgstr ""
+msgstr "Pošaljite preglasavanje tima"
 
 #: templates/legacy/staff_area/oa_student_info.html:204
 msgid "Unable to perform grade override"
-msgstr ""
+msgstr "Nije moguće izvršiti ocenjivanje razreda"
 
 #: templates/legacy/staff_area/oa_student_info.html:207
 msgid ""
 "Grades are frozen. Grades are automatically frozen 30 days after the course "
 "end date."
 msgstr ""
+"Ocene su zamrznute. Ocene se automatski smrznute 30 dana nakon završetka "
+"kursa."
 
 #: templates/legacy/staff_area/oa_student_info.html:212
 msgid ""
@@ -2106,42 +2336,47 @@ msgid ""
 "documentation for how to delete the learner’s state for this problem to "
 "allow them to resubmit."
 msgstr ""
+"Ovaj podnesak je otkazan i ne može da primi ocenu. Pogledajte dokumentaciju "
+"kako da izbrišete državu učenika da bi im ovaj problem omogućio da se ponovo"
+" predaju."
 
 #: templates/legacy/staff_area/oa_student_info.html:230
 msgid "Remove Submission From Peer Grading"
-msgstr ""
+msgstr "Uklonite podnošenje od vršnjačkog ocenjivanja"
 
 #: templates/legacy/staff_area/oa_student_info.html:232
 msgid "Remove Team Submission from Grading"
-msgstr ""
+msgstr "Uklonite podnošenje tima sa ocenjivanja"
 
 #: templates/legacy/staff_area/oa_student_info.html:242
 msgid "Caution: This Action Cannot Be Undone"
-msgstr ""
+msgstr "OPREZ: Ova radnja se ne može poništiti"
 
 #: templates/legacy/staff_area/oa_student_info.html:244
 msgid ""
 "Removing a learner's submission cannot be undone and should be done with "
 "caution."
 msgstr ""
+"Uklanjanje podnošenja učenika ne može se poništiti i treba ga učiniti oprezno."
 
 #: templates/legacy/staff_area/oa_student_info.html:246
 msgid ""
 "Removing a team's submission cannot be undone and should be done with "
 "caution."
 msgstr ""
+"Uklanjanje podnošenja tima ne može se poništiti i treba to učiniti oprezno."
 
 #: templates/legacy/staff_area/oa_student_info.html:252
 msgid "Comments:"
-msgstr ""
+msgstr "Komentari:"
 
 #: templates/legacy/staff_area/oa_student_info.html:261
 msgid "Remove submission"
-msgstr ""
+msgstr "Uklonite podnošenje"
 
 #: templates/legacy/staff_area/oa_student_info.html:276
 msgid "A response was not found for this learner."
-msgstr ""
+msgstr "Odgovor nije pronađen za ovog učenika."
 
 #: templates/legacy/staff_area/oa_student_info_assessment_detail.html:16
 #, python-format
@@ -2150,64 +2385,73 @@ msgid ""
 "                            Assessment %(assessment_num)s:\n"
 "                        "
 msgstr ""
+"\n"
+"                            Procena %(assessment_num)s:\n"
+"                        "
 
 #: templates/legacy/staff_area/oa_student_info_assessment_detail.html:22
 msgid "Assessment Details"
-msgstr ""
+msgstr "Detalji o proceni"
 
 #: templates/legacy/staff_area/oa_student_info_assessment_detail.html:26
 msgid "Selected Option"
-msgstr ""
+msgstr "Izabrana opcija"
 
 #: templates/legacy/staff_area/oa_student_info_assessment_detail.html:27
 msgid "Feedback"
-msgstr ""
+msgstr "Povratna informacija"
 
 #: templates/legacy/staff_area/oa_student_info_assessment_detail.html:29
 msgid "Points Possible"
-msgstr ""
+msgstr "Mogući bodovi"
 
 #: templates/legacy/student_training/student_training.html:18
 msgid "Learn to Assess Responses"
-msgstr ""
+msgstr "Naučite da procenite odgovore"
 
 #: templates/legacy/student_training/student_training.html:27
 #, python-format
 msgid ""
 "\n"
-"                      In Progress (%(current_progress_num)s of "
-"%(training_available_num)s)\n"
+"                      In Progress (%(current_progress_num)s of %(training_available_num)s)\n"
 "                  "
 msgstr ""
+"\n"
+"                      U toku (%(current_progress_num)s od %(training_available_num)s)\n"
+"                  "
 
-#. Translators: This string displays a date to the user, then tells them the time until that date.  Example: "available August 13th, 2014 (in 5 days and 45 minutes)"
+#. Translators: This string displays a date to the user, then tells them the
+#. time until that date.  Example: "available August 13th, 2014 (in 5 days and
+#. 45 minutes)"
 #: templates/legacy/student_training/student_training.html:38
 #, python-format, python-brace-format
 msgid ""
 "\n"
-"            <span id=\"oa_step_deadline\" class=\"date ora-datetime\" data-"
-"datetime=\"%(start_date)s\" data-string=\"available {date} (in "
-"%(time_until)s)\" data-timezone=\"%(user_timezone)s\" data-"
-"language=\"%(user_language)s\"></span>\n"
+"            <span id=\"oa_step_deadline\" class=\"date ora-datetime\" data-datetime=\"%(start_date)s\" data-string=\"available {date} (in %(time_until)s)\" data-timezone=\"%(user_timezone)s\" data-language=\"%(user_language)s\"></span>\n"
 "            "
 msgstr ""
+"\n"
+"            <span id=\"oa_step_deadline\" class=\"date ora-datetime\" data-datetime=\"%(start_date)s\" data-string=\"available {date} (in %(time_until)s)\" data-timezone=\"%(user_timezone)s\" data-language=\"%(user_language)s\"></span>\n"
+"            "
 
-#. Translators: This string displays a date to the user, then tells them the time until that date.  Example: "due August 13th, 2014 (in 5 days and 45 minutes)"
+#. Translators: This string displays a date to the user, then tells them the
+#. time until that date.  Example: "due August 13th, 2014 (in 5 days and 45
+#. minutes)"
 #: templates/legacy/student_training/student_training.html:45
 #, python-format, python-brace-format
 msgid ""
 "\n"
-"            <span id=\"oa_step_deadline\" class=\"date ora-datetime\" data-"
-"datetime=\"%(due_date)s\" data-string=\"due {date} (in %(time_until)s)\" "
-"data-timezone=\"%(user_timezone)s\" data-language=\"%(user_language)s\"></"
-"span>\n"
+"            <span id=\"oa_step_deadline\" class=\"date ora-datetime\" data-datetime=\"%(due_date)s\" data-string=\"due {date} (in %(time_until)s)\" data-timezone=\"%(user_timezone)s\" data-language=\"%(user_language)s\"></span>\n"
 "            "
-msgstr ""
+msgstr  ""
+"\n"
+"            <span id=\"oa_step_deadline\" class=\"date ora-datetime\" data-datetime=\"%(due_date)s\" data-string=\"due {date} (in %(time_until)s)\" data-timezone=\"%(user_timezone)s\" data-language=\"%(user_language)s\"></span>\n"
+"            "
 
 #: templates/legacy/student_training/student_training.html:58
 #: templates/legacy/student_training/student_training.html:66
 msgid "Learning to Assess Responses"
-msgstr ""
+msgstr "Učenje za procenu odgovora"
 
 #: templates/legacy/student_training/student_training.html:61
 msgid ""
@@ -2217,6 +2461,11 @@ msgid ""
 "instructor selected, you'll move to the next step. If you don't select the "
 "same options, you'll review the response and try again."
 msgstr ""
+"Pre nego što počnete da procenite svoje odgovore, saznajte "
+"kako da dovršite procene vršnjaka preispitujući odgovore da su instruktori "
+"već ocenili. Ako odaberete iste opcije za odgovor koji je odabrao "
+"instruktor, prebacujete se na sledeći korak. Ako ne odaberete iste "
+"opcije, pregledaćete odgovor i pokušajte ponovo."
 
 #: templates/legacy/student_training/student_training.html:69
 msgid ""
@@ -2224,34 +2473,38 @@ msgid ""
 "Review the response and consider why the instructor may have assessed it "
 "differently. Then, try the assessment again."
 msgstr ""
+"Vaša procena se razlikuje od procene ovog odgovora instruktora. Pregledajte "
+"odgovor i razmislite o tome zašto je instruktor možda razjasnio drugačije. "
+"Zatim pokušajte ponovo procenu."
 
 #: templates/legacy/student_training/student_training.html:76
 msgid "The response to the prompt above:"
-msgstr ""
+msgstr "Odgovor na gornju brzu:"
 
 #: templates/legacy/student_training/student_training.html:98
 msgid "Selected Options Agree"
-msgstr ""
+msgstr "Izabrane opcije se slažu"
 
 #: templates/legacy/student_training/student_training.html:101
 msgid "The option you selected is the option that the instructor selected."
-msgstr ""
+msgstr "Opcija koju ste odabrali je opcija koju je odabran instruktor."
 
 #: templates/legacy/student_training/student_training.html:105
 msgid "Selected Options Differ"
-msgstr ""
+msgstr "Izabrane opcije se razlikuju"
 
 #: templates/legacy/student_training/student_training.html:108
-msgid "The option you selected is not the option that the instructor selected."
-msgstr ""
+msgid ""
+"The option you selected is not the option that the instructor selected."
+msgstr "Opcija koju ste odabrali nije opcija koju je odabran instruktor."
 
 #: templates/legacy/student_training/student_training.html:144
 msgid "We could not check your assessment"
-msgstr ""
+msgstr "Nismo mogli da proverimo vašu procenu"
 
 #: templates/legacy/student_training/student_training.html:151
 msgid "Compare your selections with the instructor's selections"
-msgstr ""
+msgstr "Uporedite svoje odabire sa odabirom instruktora"
 
 #: templates/legacy/student_training/student_training_closed.html:29
 msgid ""
@@ -2259,230 +2512,238 @@ msgid ""
 "longer continue with this assignment, and you will receive a grade of "
 "Incomplete."
 msgstr ""
+"Dospjeli datum za ovaj korak je prošao. Ovaj korak je sada zatvoren. Više ne"
+" možete da nastavite sa ovim zadatkom i dobićete razred nepotpune."
 
 #: templates/legacy/student_training/student_training_error.html:18
 msgid "Error Loading Learner Training Examples"
-msgstr ""
+msgstr "Greška prilikom učitavanja propisa učenika"
 
 #: templates/legacy/student_training/student_training_error.html:21
 msgid "The Learner Training Step of this assignment could not be loaded."
-msgstr ""
+msgstr "Skora obuke učenika ovog zadatka nije se mogla učitati."
 
 #: templates/openassessmentblock/base.html:69
 msgid "Loading Open Response Assessment..."
-msgstr ""
+msgstr "Učitavanje procjene otvorenog odgovora ..."
 
 #: xblock/grade_mixin.py:78 xblock/leaderboard_mixin.py:61
 msgid "An unexpected error occurred."
-msgstr ""
+msgstr "Došlo je do neočekivane greške."
 
 #: xblock/grade_mixin.py:180
 msgid "Peer Assessment"
-msgstr ""
+msgstr "Vršnjačka procena"
 
 #: xblock/grade_mixin.py:182
 msgid "Self Assessment"
-msgstr ""
+msgstr "Samoprocena"
 
 #: xblock/grade_mixin.py:222
 msgid "Assessment feedback could not be saved."
-msgstr ""
+msgstr "Povratne informacije o proceni se ne mogu sačuvati."
 
 #: xblock/grade_mixin.py:233
 msgid "Feedback saved."
-msgstr ""
+msgstr "Povratne informacije su sačuvane."
 
 #: xblock/grade_mixin.py:370 xblock/grade_mixin.py:535
 msgid "Staff Comments"
-msgstr ""
+msgstr "Komentari osoblja"
 
 #: xblock/grade_mixin.py:383 xblock/grade_mixin.py:542
 #, python-brace-format
 msgid "Peer {peer_index}"
-msgstr ""
+msgstr "Peer {peer_index}"
 
 #: xblock/grade_mixin.py:384
 msgid "Peer Comments"
-msgstr ""
+msgstr "Komentari"
 
 #: xblock/grade_mixin.py:394
 msgid "Self Assessment Grade"
-msgstr ""
+msgstr "Ocena samoprocene"
 
 #: xblock/grade_mixin.py:394
 msgid "Your Self Assessment"
-msgstr ""
+msgstr "Vaša samoprocena"
 
 #: xblock/grade_mixin.py:395 xblock/grade_mixin.py:554
 msgid "Your Comments"
-msgstr ""
+msgstr "Vaši komentari"
 
 #: xblock/grade_mixin.py:429
 msgid "Peer Mean Grade"
-msgstr ""
+msgstr "Vršnjačka srednja ocena"
 
 #: xblock/grade_mixin.py:430
 msgid "Peer Median Grade"
-msgstr ""
+msgstr "Srednja ocena"
 
 #: xblock/grade_mixin.py:508
 msgid "Waiting for peer reviews"
-msgstr ""
+msgstr "Čeka se pregled"
 
 #: xblock/grade_mixin.py:677
 msgid "The grade for this problem is determined by your Staff Grade."
-msgstr ""
+msgstr "Ocena za ovaj problem određuje se vašim ocenom osoblja."
 
 #: xblock/grade_mixin.py:681
 msgid "The grade for this problem is determined by your Self Assessment."
-msgstr ""
+msgstr "Ocena za ovaj problem određuje se vašim samoprocenom."
 
 #: xblock/grade_mixin.py:687
 #, python-brace-format
 msgid ""
-"You have successfully completed this problem and received a {earned_points}/"
-"{total_points}."
+"You have successfully completed this problem and received a "
+"{earned_points}/{total_points}."
 msgstr ""
+"Uspešno ste završili ovaj problem i primili {earned_points} / "
+"{total_points}."
 
 #: xblock/grade_mixin.py:695
 msgid ""
-"You have not yet received all necessary peer reviews to determine your final "
-"grade."
+"You have not yet received all necessary peer reviews to determine your final"
+" grade."
 msgstr ""
+"Još niste dobili sve potrebne recenzije vršnjaka da biste utvrdili konačnu "
+"ocenu."
 
 #: xblock/grade_mixin.py:710
 msgid ""
 "The grade for this problem is determined by the median score of your Peer "
 "Assessments."
 msgstr ""
+"Ocena za ovaj problem određuje se srednjim ocenom vaših vršnjačkih procena."
 
 #: xblock/grade_mixin.py:715
 msgid ""
 "The grade for this problem is determined by the mean score of your Peer "
 "Assessments."
 msgstr ""
+"Ocena za ovaj problem određuje se srednjim ocenom vaših vršnjačkih procena."
 
 #: xblock/openassesment_template_mixin.py:66
 msgid "Peer Assessment Only"
-msgstr ""
+msgstr "Samo procena vršnjaka"
 
 #: xblock/openassesment_template_mixin.py:67
 msgid "Self Assessment Only"
-msgstr ""
+msgstr "Samo samoprocena"
 
 #: xblock/openassesment_template_mixin.py:68
 msgid "Staff Assessment Only"
-msgstr ""
+msgstr "Samo procena osoblja"
 
 #: xblock/openassesment_template_mixin.py:69
 msgid "Self Assessment to Peer Assessment"
-msgstr ""
+msgstr "Samoprocena za procenu vršnjaka"
 
 #: xblock/openassesment_template_mixin.py:70
 msgid "Self Assessment to Staff Assessment"
-msgstr ""
+msgstr "Samoprocjena za procenu osoblja"
 
 #: xblock/openassessmentblock.py:1365
 msgid "You can't reset your submission."
-msgstr ""
+msgstr "Ne možete da resetujete svoje podnošenje."
 
 #: xblock/openassessmentblock.py:1378
 msgid "The user does not exist."
-msgstr ""
+msgstr "Korisnik ne postoji."
 
 #: xblock/openassessmentblock.py:1381
 msgid "There is no submission to reset."
-msgstr ""
+msgstr "Ne postoji podnesak za resetovanje."
 
 #: xblock/openassessmentblock.py:1383
 msgid "Submission reset successfully."
-msgstr ""
+msgstr "Uspešno resetovanje uspeha."
 
 #: xblock/rubric_reuse_mixin.py:62
 msgid "You must specify a block id from which to copy a rubric."
-msgstr ""
+msgstr "Morate odrediti blok ID sa kojih je kopirao rubriku."
 
 #: xblock/rubric_reuse_mixin.py:66
 msgid "Invalid block id."
-msgstr ""
+msgstr "Nevažeći ID bloka."
 
 #: xblock/rubric_reuse_mixin.py:72
 #, python-brace-format
 msgid ""
 "No Open Response Assessment found in {course_id} with block id {block_id}"
-msgstr ""
+msgstr "Nije pronađena procena otvorenog odgovora u {course_id} sa blok {block_id}"
 
 #: xblock/staff_area_mixin.py:42
 msgid "You do not have permission to schedule training"
-msgstr ""
+msgstr "Nemate dozvolu za zakazivanje obuke"
 
 #: xblock/staff_area_mixin.py:43
 msgid "You do not have permission to reschedule tasks."
-msgstr ""
+msgstr "Nemate dozvolu za odloženje zadataka."
 
 #: xblock/staff_area_mixin.py:69
 msgid "You do not have permission to access the ORA staff area"
-msgstr ""
+msgstr "Nemate dozvolu za pristup području osoblja ORA"
 
 #: xblock/staff_area_mixin.py:70
 msgid "You do not have permission to access ORA learner information."
-msgstr ""
+msgstr "Nemate dozvolu za pristup informacijama o učenju."
 
 #: xblock/staff_area_mixin.py:71
 msgid "You do not have permission to access ORA staff grading."
-msgstr ""
+msgstr "Nemate dozvolu za pristup Ora Osobljem."
 
 #: xblock/staff_area_mixin.py:241
 msgid "Pending"
-msgstr ""
+msgstr "Na čekanju"
 
 #: xblock/staff_area_mixin.py:242
 msgid "Complete/Overwritten"
-msgstr ""
+msgstr "Kompletna / prepisivana"
 
 #: xblock/staff_area_mixin.py:245
 msgid "Not applicable"
-msgstr ""
+msgstr "Nije primenljivo"
 
 #: xblock/staff_area_mixin.py:246
 msgid "Not submitted"
-msgstr ""
+msgstr "Nije podnesan"
 
 #: xblock/staff_area_mixin.py:247
 msgid "Submitted"
-msgstr ""
+msgstr "Podneti"
 
 #: xblock/staff_area_mixin.py:341
 msgid "Error getting learner information."
-msgstr ""
+msgstr "Greška prilikom dobijanja informacija učenika."
 
 #: xblock/staff_area_mixin.py:384
 msgid "Error loading the checked out learner response."
-msgstr ""
+msgstr "Greška u učitavanju odjavljenog odgovora učenika."
 
 #: xblock/staff_area_mixin.py:385
 msgid "No other learner responses are available for grading at this time."
-msgstr ""
+msgstr "Trenutno nisu dostupni drugi odgovori učenika za ocenjivanje."
 
 #: xblock/staff_area_mixin.py:387
 msgid "Error getting staff grade information."
-msgstr ""
+msgstr "Greška prilikom dobijanja informacija o oceni osoblja."
 
 #: xblock/staff_area_mixin.py:408
 msgid "Error getting staff grade ungraded and checked out counts."
-msgstr ""
+msgstr "Greška prilikom dobijanja ocene osoblja ugrađene i odjavljene tačke."
 
 #: xblock/staff_area_mixin.py:703
 msgid "Please enter valid reason to remove the submission."
-msgstr ""
+msgstr "Molimo unesite važeću razlog da se uklonite podnesak."
 
 #: xblock/staff_area_mixin.py:714
 msgid "Submission not found"
-msgstr ""
+msgstr "Podnošenje nije pronađeno"
 
 #: xblock/staff_area_mixin.py:725
 msgid "Submission for team assignment has no associated team submission"
-msgstr ""
+msgstr "Podnošenje za dodelu tima nema pridruženi zahtev tima"
 
 #: xblock/staff_area_mixin.py:754
 msgid ""
@@ -2490,6 +2751,9 @@ msgid ""
 "receives a grade of zero unless you delete the learner's state for the "
 "problem to allow them to resubmit a response."
 msgstr ""
+"Podnošenje učenika je uklonjen iz vršnjačke procene. Učenik prima nivo nule, "
+"osim ako ne izbrišete državu učenika da bi im se problem omogućio da ponovo "
+"pošalju odgovor."
 
 #: xblock/staff_area_mixin.py:789
 msgid ""
@@ -2497,45 +2761,54 @@ msgid ""
 "grade of zero unless you delete a team member’s state for the problem to "
 "allow the team to resubmit a response."
 msgstr ""
+"Podnošenje tima je uklonjen iz ocenjivanja. Tim dobija ocenu nule, osim ako ne "
+"izbrišete državu članovima tima da bi se omogućilo da tim može da pošalje "
+"odgovor."
 
 #: xblock/studio_mixin.py:247 xblock/studio_mixin.py:259
 msgid "Error updating XBlock configuration"
-msgstr ""
+msgstr "Greška u ažuriranju Ksblock konfiguracije"
 
 #: xblock/studio_mixin.py:264
 msgid "Error: Text Response and File Upload Response cannot both be disabled"
 msgstr ""
+"Greška: Odgovor teksta i odgovor za prenos datoteka ne može se oboje "
+"onemogućiti"
 
 #: xblock/studio_mixin.py:268
 msgid ""
 "Error: When Text Response is disabled, File Upload Response must be Required"
 msgstr ""
+"GREŠKA: Kada je odgovor na tekstualnom odgovoru na to, potrebno je potreban "
+"odgovor za prenos datoteke"
 
 #: xblock/studio_mixin.py:271
 msgid ""
 "Error: When File Upload Response is disabled, Text Response must be Required"
 msgstr ""
+"Greška: Kada je odgovor na prenos datoteka onemogućen, mora biti potreban "
+"odgovor teksta"
 
 #: xblock/studio_mixin.py:295
 #, python-brace-format
 msgid "Validation error: {error}"
-msgstr ""
+msgstr "Greška validacije: {error}"
 
 #: xblock/studio_mixin.py:329
 msgid "Successfully updated OpenAssessment XBlock"
-msgstr ""
+msgstr "Uspešno ažurirana opensassengment kblock"
 
 #: xblock/utils/data_conversion.py:315
 msgid "You must provide options selected in the assessment."
-msgstr ""
+msgstr "Morate da navedete opcije odabrane u proceni."
 
 #: xblock/utils/data_conversion.py:318
 msgid "You must provide overall feedback in the assessment."
-msgstr ""
+msgstr "Morate pružiti ukupne povratne informacije u proceni."
 
 #: xblock/utils/data_conversion.py:321
 msgid "You must provide feedback for criteria in the assessment."
-msgstr ""
+msgstr "Morate pružiti povratne informacije za kriterijume u proceni."
 
 #: xblock/utils/resolve_dates.py:52
 #, python-brace-format
@@ -2543,11 +2816,13 @@ msgid ""
 "'{date}' is an invalid date format. Make sure the date is formatted as YYYY-"
 "MM-DDTHH:MM:SS."
 msgstr ""
+"'{date}' je nevažeći format datuma. Proverite da li je datum formatiran kao "
+"GGGG-MM-DDTHH: MM: SS."
 
 #: xblock/utils/resolve_dates.py:57
 #, python-brace-format
 msgid "'{date}' must be a date string or datetime"
-msgstr ""
+msgstr "'{date}' MORA BITI A datum niza ili dateTime"
 
 #: xblock/utils/resolve_dates.py:210
 #, python-brace-format
@@ -2555,6 +2830,8 @@ msgid ""
 "This step's start date '{start}' cannot be earlier than the previous step's "
 "start date '{prev}'."
 msgstr ""
+"Ovaj STEP's start date '{start} 'ne može biti ranije od prethodnog Step's "
+"start date '{prev}'."
 
 #: xblock/utils/resolve_dates.py:218
 #, python-brace-format
@@ -2562,110 +2839,118 @@ msgid ""
 "This step's due date '{due}' cannot be later than the next step's due date "
 "'{prev}'."
 msgstr ""
+"Ovaj Step's due date '{due} 'ne može biti kasnije od sledećeg Step's due "
+"date '{prev}'."
 
 #: xblock/utils/resolve_dates.py:234
 #, python-brace-format
 msgid "The start date '{start}' cannot be later than the due date '{due}'"
-msgstr ""
+msgstr "Datum početka '{start}' ne može biti najkasnije od datuma '{due}'"
 
 #: xblock/utils/validation.py:120
 msgid "This problem must include at least one assessment."
-msgstr ""
+msgstr "Ovaj problem mora da sadrži najmanje jednu procenu."
 
 #: xblock/utils/validation.py:124
 msgid "The assessment order you selected is invalid."
-msgstr ""
+msgstr "Nalog za ocenjivanje koje ste odabrali nije važeći."
 
 #: xblock/utils/validation.py:134
-msgid ""
-"In peer assessment, the \"Must Grade\" value must be a positive integer."
-msgstr ""
+msgid "In peer assessment, the \"Must Grade\" value must be a positive integer."
+msgstr "U proceni vršnjaka, vrednost \"Must Grade\" mora biti pozitivan celi broj."
 
 #: xblock/utils/validation.py:137
 msgid "In peer assessment, the \"Graded By\" value must be a positive integer."
-msgstr ""
+msgstr "U proceni vršnjaka, vrednost \"Graded By\" mora biti pozitivan celi broj."
 
 #: xblock/utils/validation.py:141
 msgid ""
 "In peer assessment, the \"Must Grade\" value must be greater than or equal "
 "to the \"Graded By\" value."
 msgstr ""
+"U proceni vršnjaka, Vrednost \"Must Grade\" mora biti veća od ili jednaka "
+"\"Graded By\" vrednosti."
 
 #: xblock/utils/validation.py:150
 msgid "You must provide at least one example response for learner training."
-msgstr ""
+msgstr "Morate da date barem jedan primer odgovor za obuku učenika."
 
 #: xblock/utils/validation.py:153
 msgid "Each example response for learner training must be unique."
-msgstr ""
+msgstr "Svaki primer reakcije za obuku učenika mora biti jedinstven."
 
 #: xblock/utils/validation.py:160
-msgid ""
-"The \"required\" value must be true if staff assessment is the only step."
-msgstr ""
+msgid "The \"required\" value must be true if staff assessment is the only step."
+msgstr "Vrednost \"required\" mora biti tačna ako je procena osoblja jedini korak."
 
 #: xblock/utils/validation.py:164
 msgid ""
 "The number of assessments cannot be changed after the problem has been "
 "released."
-msgstr ""
+msgstr "Broj procjena ne može se menjati nakon otpuštanja problema."
 
 #: xblock/utils/validation.py:169
 msgid ""
 "The assessment type cannot be changed after the problem has been released."
-msgstr ""
+msgstr "Vrsta procene se ne može menjati nakon objavljivanja problema."
 
 #: xblock/utils/validation.py:176
 msgid ""
 "The grading strategy for peer assessments cannot be changed after the "
 "problem has been released."
 msgstr ""
+"Strategija za ocenjivanje procjena vršnjaka ne može se menjati nakon otpuštanja "
+"problema."
 
 #: xblock/utils/validation.py:200
 msgid "This rubric definition is not valid."
-msgstr ""
+msgstr "Ova definicija rubrika nije validna."
 
 #: xblock/utils/validation.py:203
 msgid "You must provide at least one prompt."
-msgstr ""
+msgstr "Morate da date najmanje jedan brz."
 
 #: xblock/utils/validation.py:209
 #, python-brace-format
 msgid "Options in '{criterion}' have duplicate name(s): {duplicates}"
-msgstr ""
+msgstr "Opcije u '{criterion}' imaju duplikate (i) ime: {duplicates}"
 
 #: xblock/utils/validation.py:217
 msgid "Criteria with no options must require written feedback."
 msgstr ""
+"Kriterijumi bez opcija ne moraju zahtevati pismene povratne informacije."
 
 #: xblock/utils/validation.py:226
 msgid "Prompts cannot be created or deleted after a problem is released."
 msgstr ""
+"Potraži se ne mogu kreirati ili brisati nakon što se problem pusti problem."
 
 #: xblock/utils/validation.py:230
 msgid "The number of criteria cannot be changed after a problem is released."
 msgstr ""
+"Broj kriterijuma se ne može menjati nakon što se problem pusti problem."
 
 #: xblock/utils/validation.py:243
 msgid "Criteria names cannot be changed after a problem is released"
 msgstr ""
+"Imena kriterijuma ne mogu se menjati nakon što se problem pusti problem"
 
 #: xblock/utils/validation.py:248
 msgid "The number of options cannot be changed after a problem is released."
-msgstr ""
+msgstr "Broj opcija se ne može menjati nakon otpuštanja problema."
 
 #: xblock/utils/validation.py:253
 msgid "Point values cannot be changed after a problem is released."
-msgstr ""
+msgstr "Vrijednosti tačke ne mogu se menjati nakon puštanja problema."
 
 #: xblock/utils/validation.py:304
 msgid "Learner training must have at least one training example."
-msgstr ""
+msgstr "Obuka za učenike mora imati najmanje jedan primer treninga."
 
 #: xblock/utils/validation.py:369
 msgid "Leaderboard number is invalid."
-msgstr ""
+msgstr "Broj vodene ploče nije važeći."
 
 #: xblock/utils/validation.py:392
 msgid "The submission format is invalid."
-msgstr ""
+msgstr "Format za podnošenje je nevažeći."

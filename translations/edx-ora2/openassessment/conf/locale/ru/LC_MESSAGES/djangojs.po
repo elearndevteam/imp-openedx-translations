@@ -3,383 +3,688 @@
 # Copyright (C) 2018 edX
 # This file is distributed under the GNU AFFERO GENERAL PUBLIC LICENSE.
 # EdX Team <info@edx.org>, 2018.
-# 
-# Translators:
-# Brian Smith, 2024
-# edx_transifex_bot <i18n-working-group+edx-transifex-bot@edx.org>, 2024
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: edx-ora2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-02-09 00:41+0000\n"
-"PO-Revision-Date: 2023-05-10 00:48+0000\n"
-"Last-Translator: edx_transifex_bot <i18n-working-group+edx-transifex-bot@edx.org>, 2024\n"
-"Language-Team: Russian (https://app.transifex.com/open-edx/teams/6205/ru/)\n"
+"POT-Creation-Date: 2025-09-03 00:38+0000\n"
+"PO-Revision-Date: 2014-06-04 15:41-0400\n"
+"Last-Translator: Muhammad Ayub khan <ayubkhan@edx.org>\n"
+"Language-Team: openedx-translation <openedx-translation@googlegroups.com>\n"
+"Language: en\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: ru\n"
-"Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || (n%100>=11 && n%100<=14)? 2 : 3);\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: xblock/static/dist/openassessment-lms.51b88d7de00c69ab0a2e.js:8
-#: xblock/static/dist/openassessment-studio.65076e7e76039d8c8ab2.js:1
+#: xblock/static/dist/openassessment-lms.42bdf01af5d117224bc9.js:8
+#: xblock/static/dist/openassessment-studio.b58bb4e55f63dadac6de.js:1
 #: xblock/static/js/src/oa_server.js:78 xblock/static/js/src/oa_server.js:114
 #: xblock/static/js/src/oa_server.js:138
 msgid "This section could not be loaded."
-msgstr "Не удалось загрузить раздел."
+msgstr "Овај одељак није могао да се учита."
 
-#: xblock/static/dist/openassessment-lms.51b88d7de00c69ab0a2e.js:8
-#: xblock/static/dist/openassessment-studio.65076e7e76039d8c8ab2.js:1
+#: xblock/static/dist/openassessment-lms.42bdf01af5d117224bc9.js:8
+#: xblock/static/dist/openassessment-studio.b58bb4e55f63dadac6de.js:1
 #: xblock/static/js/src/oa_server.js:159
 msgid "The staff assessment form could not be loaded."
-msgstr "Не удалось загрузить бланк оценивания."
+msgstr "Образац за процену особља није се могао учитати."
 
-#: xblock/static/dist/openassessment-lms.51b88d7de00c69ab0a2e.js:8
-#: xblock/static/dist/openassessment-studio.65076e7e76039d8c8ab2.js:1
+#: xblock/static/dist/openassessment-lms.42bdf01af5d117224bc9.js:8
+#: xblock/static/dist/openassessment-studio.b58bb4e55f63dadac6de.js:1
 #: xblock/static/js/src/oa_server.js:181
 msgid "The display of ungraded and checked out responses could not be loaded."
-msgstr "Не удалось загрузить список проверенных ответов и ответов без оценки."
+msgstr "Екран неправедног и одјављеног одговора није могао да се учита."
 
-#: xblock/static/dist/openassessment-lms.51b88d7de00c69ab0a2e.js:8
-#: xblock/static/dist/openassessment-studio.65076e7e76039d8c8ab2.js:1
+#: xblock/static/dist/openassessment-lms.42bdf01af5d117224bc9.js:8
+#: xblock/static/dist/openassessment-studio.b58bb4e55f63dadac6de.js:1
 #: xblock/static/js/src/oa_server.js:215
 msgid "This response could not be submitted."
-msgstr "Не удалось отправить ответ."
+msgstr "Овај одговор се није могао поднети."
 
-#: xblock/static/dist/openassessment-lms.51b88d7de00c69ab0a2e.js:8
-#: xblock/static/dist/openassessment-studio.65076e7e76039d8c8ab2.js:1
+#: xblock/static/dist/openassessment-lms.42bdf01af5d117224bc9.js:8
+#: xblock/static/dist/openassessment-studio.b58bb4e55f63dadac6de.js:1
+#: xblock/static/js/src/oa_server.js:237
+msgid "The submission could not be reset."
+msgstr "Подношење се не може ресетовати."
+
+#: xblock/static/dist/openassessment-lms.42bdf01af5d117224bc9.js:8
+#: xblock/static/dist/openassessment-studio.b58bb4e55f63dadac6de.js:1
+#: xblock/static/js/src/oa_server.js:260
+msgid "Please check your internet connection."
+msgstr "Проверите интернетску везу."
+
+#: xblock/static/dist/openassessment-lms.42bdf01af5d117224bc9.js:8
+#: xblock/static/dist/openassessment-studio.b58bb4e55f63dadac6de.js:1
 #: xblock/static/js/src/oa_server.js:285
 msgid "This feedback could not be submitted."
-msgstr "Не удалось отправить отзыв."
+msgstr "Ова повратна информација није могла да се поднесу."
 
-#: xblock/static/dist/openassessment-lms.51b88d7de00c69ab0a2e.js:8
-#: xblock/static/dist/openassessment-studio.65076e7e76039d8c8ab2.js:1
+#: xblock/static/dist/openassessment-lms.42bdf01af5d117224bc9.js:8
+#: xblock/static/dist/openassessment-studio.b58bb4e55f63dadac6de.js:1
 #: xblock/static/js/src/oa_server.js:310 xblock/static/js/src/oa_server.js:401
 #: xblock/static/js/src/oa_server.js:424
 msgid "This assessment could not be submitted."
-msgstr "Не удалось отправить оценку."
+msgstr "Ова процена се није могла поднети."
 
-#: xblock/static/dist/openassessment-lms.51b88d7de00c69ab0a2e.js:8
-#: xblock/static/dist/openassessment-studio.65076e7e76039d8c8ab2.js:1
+#: xblock/static/dist/openassessment-lms.42bdf01af5d117224bc9.js:8
+#: xblock/static/dist/openassessment-studio.b58bb4e55f63dadac6de.js:1
 #: xblock/static/js/src/oa_server.js:447
 msgid "One or more rescheduling tasks failed."
-msgstr "Не удалось перезапустить одну или несколько задач."
+msgstr "Један или више задатака одложивања није успело."
 
-#: xblock/static/dist/openassessment-lms.51b88d7de00c69ab0a2e.js:8
-#: xblock/static/dist/openassessment-studio.65076e7e76039d8c8ab2.js:1
+#: xblock/static/dist/openassessment-lms.42bdf01af5d117224bc9.js:8
+#: xblock/static/dist/openassessment-studio.b58bb4e55f63dadac6de.js:1
 #: xblock/static/js/src/oa_server.js:509
 msgid "This problem could not be saved."
-msgstr "Не удалось сохранить задание."
+msgstr "Овај проблем се није могао сачувати."
 
-#: xblock/static/dist/openassessment-lms.51b88d7de00c69ab0a2e.js:8
-#: xblock/static/dist/openassessment-studio.65076e7e76039d8c8ab2.js:1
+#: xblock/static/dist/openassessment-lms.42bdf01af5d117224bc9.js:8
+#: xblock/static/dist/openassessment-studio.b58bb4e55f63dadac6de.js:1
 #: xblock/static/js/src/oa_server.js:530
 msgid "The server could not be contacted."
-msgstr "Не удалось установить соединение с сервером."
+msgstr "Сервер се није могао контактирати."
 
-#: xblock/static/dist/openassessment-lms.51b88d7de00c69ab0a2e.js:8
-#: xblock/static/dist/openassessment-studio.65076e7e76039d8c8ab2.js:1
+#: xblock/static/dist/openassessment-lms.42bdf01af5d117224bc9.js:8
+#: xblock/static/dist/openassessment-studio.b58bb4e55f63dadac6de.js:1
 #: xblock/static/js/src/oa_server.js:556
 msgid "Could not retrieve upload url."
-msgstr "Не удалось получить url для загрузки."
+msgstr "Није могао да преузме УРЛ адресу."
 
-#: xblock/static/dist/openassessment-lms.51b88d7de00c69ab0a2e.js:8
-#: xblock/static/dist/openassessment-studio.65076e7e76039d8c8ab2.js:1
+#: xblock/static/dist/openassessment-lms.42bdf01af5d117224bc9.js:8
+#: xblock/static/dist/openassessment-studio.b58bb4e55f63dadac6de.js:1
 #: xblock/static/js/src/oa_server.js:575 xblock/static/js/src/oa_server.js:594
 msgid "Server error."
-msgstr "Ошибка сервера."
+msgstr "Грешка сервера."
 
-#: xblock/static/dist/openassessment-lms.51b88d7de00c69ab0a2e.js:8
-#: xblock/static/dist/openassessment-studio.65076e7e76039d8c8ab2.js:1
+#: xblock/static/dist/openassessment-lms.42bdf01af5d117224bc9.js:8
+#: xblock/static/dist/openassessment-studio.b58bb4e55f63dadac6de.js:1
 #: xblock/static/js/src/oa_server.js:614
 msgid "Could not retrieve download url."
-msgstr "Не удалось получить url для скачивания."
+msgstr "Није могао да преузме УРЛ за преузимање."
 
-#: xblock/static/dist/openassessment-lms.51b88d7de00c69ab0a2e.js:8
-#: xblock/static/dist/openassessment-studio.65076e7e76039d8c8ab2.js:1
+#: xblock/static/dist/openassessment-lms.42bdf01af5d117224bc9.js:8
+#: xblock/static/dist/openassessment-studio.b58bb4e55f63dadac6de.js:1
 #: xblock/static/js/src/oa_server.js:640
 msgid "The submission could not be removed from the grading pool."
-msgstr "Не удалось удалить ответ из хранилища."
+msgstr "Подношење се не може уклонити из базена за оцењивање."
 
-#: xblock/static/dist/openassessment-lms.51b88d7de00c69ab0a2e.js:309
+#: xblock/static/dist/openassessment-lms.42bdf01af5d117224bc9.js:8
+#: xblock/static/dist/openassessment-studio.b58bb4e55f63dadac6de.js:1
+#: xblock/static/js/src/oa_server.js:696
+msgid "Multiple teams returned for course"
+msgstr "Вишеструки тимови су се вратили за курс"
+
+#: xblock/static/dist/openassessment-lms.42bdf01af5d117224bc9.js:8
+#: xblock/static/dist/openassessment-studio.b58bb4e55f63dadac6de.js:1
+#: xblock/static/js/src/oa_server.js:703
+msgid "Could not load teams information."
+msgstr "Не могу учитати информације о тимовима."
+
+#: xblock/static/dist/openassessment-lms.42bdf01af5d117224bc9.js:8
+#: xblock/static/dist/openassessment-studio.b58bb4e55f63dadac6de.js:1
+#: xblock/static/js/src/oa_server.js:725
+msgid "User lookup failed"
+msgstr "Кориснички претраживач није успео"
+
+#: xblock/static/dist/openassessment-lms.42bdf01af5d117224bc9.js:8
+#: xblock/static/dist/openassessment-studio.b58bb4e55f63dadac6de.js:1
+#: xblock/static/js/src/oa_server.js:730
+msgid "Error when looking up username"
+msgstr "Грешка приликом гледања корисничког имена"
+
+#: xblock/static/dist/openassessment-lms.42bdf01af5d117224bc9.js:8
+#: xblock/static/dist/openassessment-studio.b58bb4e55f63dadac6de.js:1
+#: xblock/static/js/src/oa_server.js:754
+msgid "Failed to clone rubric"
+msgstr "Није успело да клонира рубрику"
+
+#: xblock/static/dist/openassessment-lms.42bdf01af5d117224bc9.js:309
+#: xblock/static/js/src/lms/oa_course_items_listing.js:61
+msgid "View and grade responses"
+msgstr "Поглед и одговори разреда"
+
+#: xblock/static/dist/openassessment-lms.42bdf01af5d117224bc9.js:309
+#: xblock/static/js/src/lms/oa_course_items_listing.js:61
+msgid "Demo the new Grading Experience"
+msgstr "Демо ново искуство оцењивања"
+
+#: xblock/static/dist/openassessment-lms.42bdf01af5d117224bc9.js:309
 #: xblock/static/js/src/lms/oa_course_items_listing.js:97
 msgid "Unit Name"
-msgstr "Название блока"
+msgstr "Име јединице"
 
-#: xblock/static/dist/openassessment-lms.51b88d7de00c69ab0a2e.js:309
+#: xblock/static/dist/openassessment-lms.42bdf01af5d117224bc9.js:309
 #: xblock/static/js/src/lms/oa_course_items_listing.js:98
 msgid "Units"
-msgstr "Блоки"
+msgstr "Јединице"
 
-#: xblock/static/dist/openassessment-lms.51b88d7de00c69ab0a2e.js:309
+#: xblock/static/dist/openassessment-lms.42bdf01af5d117224bc9.js:309
 #: xblock/static/js/src/lms/oa_course_items_listing.js:105
 msgid "Assessment"
-msgstr "Оценка"
+msgstr "Процена"
 
-#: xblock/static/dist/openassessment-lms.51b88d7de00c69ab0a2e.js:309
+#: xblock/static/dist/openassessment-lms.42bdf01af5d117224bc9.js:309
 #: xblock/static/js/src/lms/oa_course_items_listing.js:106
 msgid "Assessments"
-msgstr "Задания"
+msgstr "Процене"
 
-#: xblock/static/dist/openassessment-lms.51b88d7de00c69ab0a2e.js:309
+#: xblock/static/dist/openassessment-lms.42bdf01af5d117224bc9.js:309
 #: xblock/static/js/src/lms/oa_course_items_listing.js:113
 #: xblock/static/js/src/lms/oa_course_items_listing.js:114
 msgid "Total Responses"
-msgstr "Всего ответов"
+msgstr "Укупни одговори"
 
-#: xblock/static/dist/openassessment-lms.51b88d7de00c69ab0a2e.js:309
+#: xblock/static/dist/openassessment-lms.42bdf01af5d117224bc9.js:309
 #: xblock/static/js/src/lms/oa_course_items_listing.js:121
 #: xblock/static/js/src/lms/oa_course_items_listing.js:122
 msgid "Training"
-msgstr "Обучение"
+msgstr "Обука"
 
-#: xblock/static/dist/openassessment-lms.51b88d7de00c69ab0a2e.js:309
+#: xblock/static/dist/openassessment-lms.42bdf01af5d117224bc9.js:309
 #: xblock/static/js/src/lms/oa_course_items_listing.js:129
 #: xblock/static/js/src/lms/oa_course_items_listing.js:130
 msgid "Peer"
-msgstr "Взаимооценка"
+msgstr "Пеер"
 
-#: xblock/static/dist/openassessment-lms.51b88d7de00c69ab0a2e.js:309
+#: xblock/static/dist/openassessment-lms.42bdf01af5d117224bc9.js:309
 #: xblock/static/js/src/lms/oa_course_items_listing.js:137
 #: xblock/static/js/src/lms/oa_course_items_listing.js:138
 msgid "Self"
-msgstr "Самооценка"
+msgstr "За себе"
 
-#: xblock/static/dist/openassessment-lms.51b88d7de00c69ab0a2e.js:309
+#: xblock/static/dist/openassessment-lms.42bdf01af5d117224bc9.js:309
 #: xblock/static/js/src/lms/oa_course_items_listing.js:145
 #: xblock/static/js/src/lms/oa_course_items_listing.js:146
 msgid "Waiting"
-msgstr "Ожидание"
+msgstr "Чекање"
 
-#: xblock/static/dist/openassessment-lms.51b88d7de00c69ab0a2e.js:309
+#: xblock/static/dist/openassessment-lms.42bdf01af5d117224bc9.js:309
 #: xblock/static/js/src/lms/oa_course_items_listing.js:153
 #: xblock/static/js/src/lms/oa_course_items_listing.js:154
 msgid "Staff"
-msgstr "Сотрудник"
+msgstr "Особље"
 
-#: xblock/static/dist/openassessment-lms.51b88d7de00c69ab0a2e.js:309
+#: xblock/static/dist/openassessment-lms.42bdf01af5d117224bc9.js:309
 #: xblock/static/js/src/lms/oa_course_items_listing.js:161
 #: xblock/static/js/src/lms/oa_course_items_listing.js:162
 msgid "Final Grade Received"
-msgstr "Получена итоговая оценка"
+msgstr "Примљена коначна оцена"
 
-#: xblock/static/dist/openassessment-lms.51b88d7de00c69ab0a2e.js:309
+#: xblock/static/dist/openassessment-lms.42bdf01af5d117224bc9.js:309
+#: xblock/static/js/src/lms/oa_course_items_listing.js:169
+msgid "Staff Grader"
+msgstr "Грејдер особља"
+
+#: xblock/static/dist/openassessment-lms.42bdf01af5d117224bc9.js:309
 #: xblock/static/js/src/lms/oa_course_items_listing.js:200
 msgid "List of Open Assessments is unavailable"
-msgstr "Список заданий с открытыми ответами недоступен"
+msgstr "Листа отворених процена је недоступна"
 
-#: xblock/static/dist/openassessment-lms.51b88d7de00c69ab0a2e.js:309
+#: xblock/static/dist/openassessment-lms.42bdf01af5d117224bc9.js:309
 #: xblock/static/js/src/lms/oa_course_items_listing.js:302
 #: xblock/static/js/src/lms/oa_course_items_listing.js:353
 msgid "Please wait"
-msgstr "Пожалуйста, подождите"
+msgstr "Причекајте"
 
-#: xblock/static/dist/openassessment-lms.51b88d7de00c69ab0a2e.js:309
+#: xblock/static/dist/openassessment-lms.42bdf01af5d117224bc9.js:309
 #: xblock/static/js/src/lms/oa_course_items_listing.js:326
 msgid "Block view is unavailable"
-msgstr "Просмотр блока недоступен"
+msgstr "Преглед блока је недоступан"
 
-#: xblock/static/dist/openassessment-lms.51b88d7de00c69ab0a2e.js:309
+#: xblock/static/dist/openassessment-lms.42bdf01af5d117224bc9.js:309
 #: xblock/static/js/src/lms/oa_course_items_listing.js:338
 msgid "Back to Full List"
-msgstr "Вернуться к полному списку"
+msgstr "Повратак на целу листу"
 
-#: xblock/static/dist/openassessment-lms.51b88d7de00c69ab0a2e.js:362
-#: xblock/static/js/src/lms/oa_response.js:454
+#: xblock/static/dist/openassessment-lms.42bdf01af5d117224bc9.js:362
+#: xblock/static/js/src/lms/oa_confirmation_alert.js:5
+msgid "Confirm"
+msgstr "Потврдити"
+
+#: xblock/static/dist/openassessment-lms.42bdf01af5d117224bc9.js:362
+#: xblock/static/js/src/lms/oa_confirmation_alert.js:7
+msgid "Cancel"
+msgstr "Отказати"
+
+#: xblock/static/dist/openassessment-lms.42bdf01af5d117224bc9.js:362
+#: xblock/static/js/src/lms/oa_response.js:272
+msgid ""
+"There is still file upload in progress. Please wait until it is finished."
+msgstr ""
+"У току је још увек уплоад датотека. Молимо причекајте док се не заврши."
+
+#: xblock/static/dist/openassessment-lms.42bdf01af5d117224bc9.js:362
+#: xblock/static/js/src/lms/oa_response.js:262
+msgid "Cannot submit empty response even everything is optional."
+msgstr "Не може да поднесе празан одговор, чак и све је необавезно."
+
+#: xblock/static/dist/openassessment-lms.42bdf01af5d117224bc9.js:362
+#: xblock/static/js/src/lms/oa_response.js:254
+msgid "Please upload a file."
+msgstr "Пошаљите датотеку."
+
+#: xblock/static/dist/openassessment-lms.42bdf01af5d117224bc9.js:362
+#: xblock/static/js/src/lms/oa_response.js:247
+msgid "Please provide a response."
+msgstr "Наведите одговор."
+
+#: xblock/static/dist/openassessment-lms.42bdf01af5d117224bc9.js:362
+#: xblock/static/js/src/lms/oa_response.js:347
+msgid "No files selected for upload."
+msgstr "Нема датотека изабраних за учитавање."
+
+#: xblock/static/dist/openassessment-lms.42bdf01af5d117224bc9.js:362
+#: xblock/static/js/src/lms/oa_response.js:354
+msgid "Please provide a description for each file you are uploading."
+msgstr "Наведите опис за сваку датотеку коју преносите."
+
+#: xblock/static/dist/openassessment-lms.42bdf01af5d117224bc9.js:362
+#: xblock/static/js/src/lms/oa_response.js:363
+msgid "Your file has been deleted or path has been changed: "
+msgstr "Ваша датотека је избрисана или је промењена стаза:"
+
+#: xblock/static/dist/openassessment-lms.42bdf01af5d117224bc9.js:362
+#: xblock/static/js/src/lms/oa_response.js:458
+msgid "Saving draft"
+msgstr "Спремање нацрта"
+
+#: xblock/static/dist/openassessment-lms.42bdf01af5d117224bc9.js:362
+#: xblock/static/js/src/lms/oa_response.js:465
 msgid ""
 "If you leave this page without saving or submitting your response, you will "
 "lose any work you have done on the response."
 msgstr ""
-"Если вы покинете страницу, не сохранив или не отправив свой ответ, введённый"
-" вами ответ будет потерян."
+"Ако оставите ову страницу без уштеде или подношења одговора, изгубићете било"
+" који посао који сте учинили на одговор."
 
-#: xblock/static/dist/openassessment-lms.51b88d7de00c69ab0a2e.js:362
-#: xblock/static/js/src/lms/oa_response.js:498
+#: xblock/static/dist/openassessment-lms.42bdf01af5d117224bc9.js:362
+#: xblock/static/js/src/lms/oa_response.js:480
+msgid "Saving draft..."
+msgstr "Спремање нацрта ..."
+
+#: xblock/static/dist/openassessment-lms.42bdf01af5d117224bc9.js:362
+#: xblock/static/js/src/lms/oa_response.js:496
+msgid "Draft saved!"
+msgstr "Нацрт сачуваних!"
+
+#: xblock/static/dist/openassessment-lms.42bdf01af5d117224bc9.js:362
+#: xblock/static/js/src/lms/oa_response.js:509
 msgid "Error"
-msgstr "Ошибка"
+msgstr "Грешка"
 
-#: xblock/static/dist/openassessment-lms.51b88d7de00c69ab0a2e.js:362
-#: xblock/static/js/src/lms/oa_response.js:529
+#: xblock/static/dist/openassessment-lms.42bdf01af5d117224bc9.js:362
+#: xblock/static/js/src/lms/oa_response.js:530
+msgid "Confirm Submit Response"
+msgstr "Потврдите да поднесете одговор"
+
+#: xblock/static/dist/openassessment-lms.42bdf01af5d117224bc9.js:362
+#: xblock/static/js/src/lms/oa_response.js:534
+msgid ""
+"You're about to submit your response for this assignment. After you submit "
+"this response, you may have a limited time to resubmit before your "
+"submission is graded."
+msgstr ""
+"Управо ћете поднети одговор на овај задатак. Након што поднесете овај "
+"одговор, можда ћете имати ограничено време да се поново пошаљете пре него "
+"што се пријавите."
+
+#: xblock/static/dist/openassessment-lms.42bdf01af5d117224bc9.js:362
+#: xblock/static/js/src/lms/oa_response.js:540
 msgid ""
 "You're about to submit your response for this assignment. After you submit "
 "this response, you can't change it or submit a new response."
 msgstr ""
-"Вы собираетесь отправить свой ответ на оценивание. После отправки ответа Вы "
-"не сможете изменить его или отправить новый ответ."
+"Иоу're about to submit your response for this assignment. After you submit "
+"this response, you can'т Промените га или пошаљите нови одговор."
 
-#: xblock/static/dist/openassessment-lms.51b88d7de00c69ab0a2e.js:362
-#: xblock/static/js/src/lms/oa_response.js:737
-#: xblock/static/js/src/lms/oa_response.js:743
+#: xblock/static/dist/openassessment-lms.42bdf01af5d117224bc9.js:362
+#: xblock/static/js/src/lms/oa_response.js:582
+msgid "Confirm Reset"
+msgstr "Потврдите ресетовање"
+
+#: xblock/static/dist/openassessment-lms.42bdf01af5d117224bc9.js:362
+#: xblock/static/js/src/lms/oa_response.js:584
+msgid ""
+"You're about to reset your response for this assignment. You will need to "
+"submit a new response in order to complete this step. Are you sure you want "
+"to continue?"
+msgstr ""
+"Ускоро ћете ресетовати свој одговор на овај задатак. Морате да поднесете "
+"нови одговор да бисте довршили овај корак. Јесте ли сигурни да желите да "
+"наставите?"
+
+#: xblock/static/dist/openassessment-lms.42bdf01af5d117224bc9.js:362
+#: xblock/static/js/src/lms/oa_response.js:655
+msgid "Individual file size must be {max_files_mb}MB or less."
+msgstr "Појединачна величина датотеке мора бити {max_files_mb}МБ или мање."
+
+#: xblock/static/dist/openassessment-lms.42bdf01af5d117224bc9.js:362
+#: xblock/static/js/src/lms/oa_response.js:669
+msgid ""
+"File upload failed: unsupported file type. Only the supported file types can"
+" be uploaded. If you have questions, please reach out to the course team."
+msgstr ""
+"Уплоад датотека није успела: неподржана врста датотеке. Могу се преносити "
+"само подржани типови датотека. Ако имате питања, посетите тим за курс."
+
+#: xblock/static/dist/openassessment-lms.42bdf01af5d117224bc9.js:362
+#: xblock/static/js/src/lms/oa_response.js:680
+msgid "The maximum number files that can be saved is "
+msgstr "Максималне датотеке које се могу сачувати је"
+
+#: xblock/static/dist/openassessment-lms.42bdf01af5d117224bc9.js:362
+#: xblock/static/js/src/lms/oa_response.js:748
+#: xblock/static/js/src/lms/oa_response.js:754
 msgid "Describe "
-msgstr "Описание"
+msgstr "Описати"
 
-#: xblock/static/dist/openassessment-lms.51b88d7de00c69ab0a2e.js:362
-#: xblock/static/js/src/lms/oa_response.js:737
+#: xblock/static/dist/openassessment-lms.42bdf01af5d117224bc9.js:362
+#: xblock/static/js/src/lms/oa_response.js:748
 msgid "(required):"
-msgstr "(обязательно):"
+msgstr "(Обавезно):"
 
-#: xblock/static/dist/openassessment-lms.51b88d7de00c69ab0a2e.js:362
-#: xblock/static/js/src/lms/oa_response.js:757
+#: xblock/static/dist/openassessment-lms.42bdf01af5d117224bc9.js:362
+#: xblock/static/js/src/lms/oa_response.js:768
 msgid "Thumbnail view of "
-msgstr "Миниатюра"
+msgstr "Сличица"
 
-#: xblock/static/dist/openassessment-lms.51b88d7de00c69ab0a2e.js:362
+#: xblock/static/dist/openassessment-lms.42bdf01af5d117224bc9.js:362
+#: xblock/static/js/src/lms/oa_response.js:845
+msgid "Confirm Delete Uploaded File"
+msgstr "Потврдите да је избрисана пренесена датотека"
+
+#: xblock/static/dist/openassessment-lms.42bdf01af5d117224bc9.js:362
+#: xblock/static/js/src/lms/oa_response.js:870
+msgid ""
+"Are you sure you want to delete the following file? It cannot be restored.\n"
+"File: "
+msgstr ""
+"Јесте ли сигурни да желите да избришете следећу датотеку? Не може се вратити.\n"
+"Датотека:"
+
+#: xblock/static/dist/openassessment-lms.42bdf01af5d117224bc9.js:362
 #: xblock/static/js/src/lms/oa_self.js:138
 msgid ""
 "If you leave this page without submitting your self assessment, you will "
 "lose any work you have done."
 msgstr ""
-"Если вы покинете страницу, не сохранив или не отправив свой ответ, введённые"
-" вами ответ будет потерян."
+"Ако напустите ову страницу без да поднесете самопроцену, изгубићете било "
+"који посао који сте урадили."
 
-#: xblock/static/dist/openassessment-lms.51b88d7de00c69ab0a2e.js:362
+#: xblock/static/dist/openassessment-lms.42bdf01af5d117224bc9.js:362
 #: xblock/static/js/src/lms/oa_staff_area.js:143
 #: xblock/static/js/src/lms/oa_staff_area.js:253
 msgid "Unexpected server error."
-msgstr "Ошибка сервера."
+msgstr "Неочекивана грешка сервера."
 
-#: xblock/static/dist/openassessment-lms.51b88d7de00c69ab0a2e.js:362
+#: xblock/static/dist/openassessment-lms.42bdf01af5d117224bc9.js:362
 #: xblock/static/js/src/lms/oa_staff_area.js:147
 msgid "You must provide a learner name."
-msgstr "Необходимо указать имя слушателя."
+msgstr "Морате да дате име ученика."
 
-#: xblock/static/dist/openassessment-lms.51b88d7de00c69ab0a2e.js:362
+#: xblock/static/dist/openassessment-lms.42bdf01af5d117224bc9.js:362
+#: xblock/static/js/src/lms/oa_staff_area.js:214
+msgid ""
+"This grade will be applied to all members of the team. Do you want to "
+"continue?"
+msgstr ""
+"Ова оцена ће се примењивати на све чланове тима. Да ли желите да наставите?"
+
+#: xblock/static/dist/openassessment-lms.42bdf01af5d117224bc9.js:362
+#: xblock/static/js/src/lms/oa_staff_area.js:218
+msgid "Confirm Grade Team Submission"
+msgstr "Потврдите подношење тима тима"
+
+#: xblock/static/dist/openassessment-lms.42bdf01af5d117224bc9.js:362
 #: xblock/static/js/src/lms/oa_staff_area.js:304
 msgid "Error getting the number of ungraded responses"
-msgstr "Ошибка при получении количества неоцененных ответов"
+msgstr "Грешка приликом добијања броја неограничених одговора"
 
-#: xblock/static/dist/openassessment-lms.51b88d7de00c69ab0a2e.js:362
+#: xblock/static/dist/openassessment-lms.42bdf01af5d117224bc9.js:362
 #: xblock/static/js/src/lms/oa_staff_area.js:538
 msgid ""
 "If you leave this page without submitting your staff assessment, you will "
 "lose any work you have done."
 msgstr ""
-"Если вы покинете страницу, не сохранив или не отправив задание на оценку, "
-"введённый вами ответ будет потерян."
+"Ако оставите ову страницу без да предате процену вашег особља, изгубићете "
+"било који посао који сте урадили."
 
-#: xblock/static/dist/openassessment-lms.51b88d7de00c69ab0a2e.js:362
+#: xblock/static/dist/openassessment-lms.42bdf01af5d117224bc9.js:362
 #: xblock/static/js/src/lms/oa_training.js:130
 msgid "Feedback available for selection."
-msgstr "Выбор вариантов обратной связи."
+msgstr "Повратне информације доступне за избор."
 
-#: xblock/static/dist/openassessment-lms.51b88d7de00c69ab0a2e.js:362
+#: xblock/static/dist/openassessment-lms.42bdf01af5d117224bc9.js:362
 #: xblock/static/js/src/lms/oa_peer.js:217
 msgid ""
 "If you leave this page without submitting your peer assessment, you will "
 "lose any work you have done."
 msgstr ""
-"Если вы покинете страницу, не отправив вашу оценку, введённые вами данные "
-"будут потеряны."
+"Ако оставите ову страницу без да предате своју вршњачку процену, изгубићете "
+"било који посао који сте урадили."
 
-#: xblock/static/dist/openassessment-lms.51b88d7de00c69ab0a2e.js:362
+#: xblock/static/dist/openassessment-lms.42bdf01af5d117224bc9.js:362
+msgid "Refresh"
+msgstr "Освежити"
+
+#: xblock/static/dist/openassessment-lms.42bdf01af5d117224bc9.js:362
+msgid "Action"
+msgstr "Акција"
+
+#: xblock/static/dist/openassessment-lms.42bdf01af5d117224bc9.js:362
+msgid "Review"
+msgstr "Преглед"
+
+#: xblock/static/dist/openassessment-lms.42bdf01af5d117224bc9.js:362
+msgid "Username"
+msgstr "Корисничко име"
+
+#: xblock/static/dist/openassessment-lms.42bdf01af5d117224bc9.js:362
+msgid "Peers Assessed"
+msgstr "Оцењивачи вршњака"
+
+#: xblock/static/dist/openassessment-lms.42bdf01af5d117224bc9.js:362
+msgid "Peer Responses Received"
+msgstr "Примљени одговори вршњака"
+
+#: xblock/static/dist/openassessment-lms.42bdf01af5d117224bc9.js:362
+msgid "Time Spent On Current Step"
+msgstr "Вријеме проведено на тренутном кораку"
+
+#: xblock/static/dist/openassessment-lms.42bdf01af5d117224bc9.js:362
+msgid "Staff assessment"
+msgstr "Процена особља"
+
+#: xblock/static/dist/openassessment-lms.42bdf01af5d117224bc9.js:362
+msgid "Grade Status"
+msgstr "Статус оцене"
+
+#: xblock/static/dist/openassessment-lms.42bdf01af5d117224bc9.js:362
+msgid ""
+"The \"{name}\" problem is configured to require a minimum of {min_grades} "
+"peer grades, and asks to review {min_graded} peers."
+msgstr ""
+"Проблем \"{name}\" је конфигуриран да захтева најмање {min_grades} вршњачке "
+"оцене и тражи да прегледа {min_graded} врере."
+
+#: xblock/static/dist/openassessment-lms.42bdf01af5d117224bc9.js:362
+msgid ""
+"There are currently {stuck_learners} learners in the waiting state, meaning "
+"they have not yet met all requirements for Peer Assessment. "
+msgstr ""
+"Тренутно постоје {stuck_learners} ученици у држави чекања, што значи да још "
+"увек нису испунили све захтеве за процену вршњака."
+
+#: xblock/static/dist/openassessment-lms.42bdf01af5d117224bc9.js:362
+msgid ""
+"However, {overwritten_count} of these students have received a grade through"
+" the staff grade override tool already."
+msgstr ""
+"Међутим, {overwritten_count} ових ученика је већ примио оцену преко алата за"
+" надјачавање особља."
+
+#: xblock/static/dist/openassessment-lms.42bdf01af5d117224bc9.js:362
+msgid "Error while fetching student data."
+msgstr "Грешка приликом преузимања података ученика."
+
+#: xblock/static/dist/openassessment-lms.42bdf01af5d117224bc9.js:362
 #: xblock/static/js/src/lms/oa_base.js:441
 msgid "Unable to load"
-msgstr "Не удалось загрузить"
+msgstr "Не могу се учитати"
 
-#: xblock/static/dist/openassessment-studio.65076e7e76039d8c8ab2.js:11
+#: xblock/static/dist/openassessment-studio.b58bb4e55f63dadac6de.js:11
 #: xblock/static/js/src/studio/oa_tiny_mce.js:66
 msgid "Paragraph"
-msgstr "Абзац"
+msgstr "Ставак"
 
-#: xblock/static/dist/openassessment-studio.65076e7e76039d8c8ab2.js:11
+#: xblock/static/dist/openassessment-studio.b58bb4e55f63dadac6de.js:11
 #: xblock/static/js/src/studio/oa_tiny_mce.js:66
 msgid "Preformatted"
-msgstr "Шаблон форматирования"
+msgstr "Преформисање"
 
-#: xblock/static/dist/openassessment-studio.65076e7e76039d8c8ab2.js:11
+#: xblock/static/dist/openassessment-studio.b58bb4e55f63dadac6de.js:11
 #: xblock/static/js/src/studio/oa_tiny_mce.js:66
 msgid "Heading 3"
-msgstr "Заголовок 3"
+msgstr "Кретање 3"
 
-#: xblock/static/dist/openassessment-studio.65076e7e76039d8c8ab2.js:11
+#: xblock/static/dist/openassessment-studio.b58bb4e55f63dadac6de.js:11
 #: xblock/static/js/src/studio/oa_tiny_mce.js:66
 msgid "Heading 4"
-msgstr "Заголовок 4"
+msgstr "Кретање 4"
 
-#: xblock/static/dist/openassessment-studio.65076e7e76039d8c8ab2.js:11
+#: xblock/static/dist/openassessment-studio.b58bb4e55f63dadac6de.js:11
 #: xblock/static/js/src/studio/oa_tiny_mce.js:66
 msgid "Heading 5"
-msgstr "Заголовок 5"
+msgstr "Кретање 5"
 
-#: xblock/static/dist/openassessment-studio.65076e7e76039d8c8ab2.js:11
+#: xblock/static/dist/openassessment-studio.b58bb4e55f63dadac6de.js:11
 #: xblock/static/js/src/studio/oa_tiny_mce.js:66
 msgid "Heading 6"
-msgstr "Заголовок 6"
+msgstr "Кретање 6"
 
-#: xblock/static/dist/openassessment-studio.65076e7e76039d8c8ab2.js:11
+#: xblock/static/dist/openassessment-studio.b58bb4e55f63dadac6de.js:11
 #: xblock/static/js/src/studio/oa_container_item.js:43
 msgid "Unnamed Option"
-msgstr "Вариант без названия"
+msgstr "Неименована опција"
 
-#: xblock/static/dist/openassessment-studio.65076e7e76039d8c8ab2.js:11
+#: xblock/static/dist/openassessment-studio.b58bb4e55f63dadac6de.js:11
 #: xblock/static/js/src/studio/oa_container_item.js:53
 msgid "Not Selected"
-msgstr "Не выбрано"
+msgstr "Није изабран"
 
-#: xblock/static/dist/openassessment-studio.65076e7e76039d8c8ab2.js:11
+#: xblock/static/dist/openassessment-studio.b58bb4e55f63dadac6de.js:11
+#: xblock/static/js/src/studio/oa_edit_rubric.js:124
+msgid "Problem cloning rubric"
+msgstr "Проблем Цлонирање рубрика"
+
+#: xblock/static/dist/openassessment-studio.b58bb4e55f63dadac6de.js:11
 #: xblock/static/js/src/studio/oa_edit_listeners.js:100
 msgid "Criterion Added"
-msgstr "Критерий добавлен"
+msgstr "Додат критеријум"
 
-#: xblock/static/dist/openassessment-studio.65076e7e76039d8c8ab2.js:11
+#: xblock/static/dist/openassessment-studio.b58bb4e55f63dadac6de.js:11
+#: xblock/static/js/src/studio/oa_edit_listeners.js:102
+msgid ""
+"You have added a criterion. You will need to select an option for the "
+"criterion in the Learner Training step. To do this, click the Assessment "
+"Steps tab."
+msgstr ""
+"Додали сте критеријуму. Морате да изаберете опцију за критеријум у кораку "
+"тренинга ученика. Да бисте то урадили, кликните картицу Процене Степс."
+
+#: xblock/static/dist/openassessment-studio.b58bb4e55f63dadac6de.js:11
 #: xblock/static/js/src/studio/oa_edit_listeners.js:150
 #: xblock/static/js/src/studio/oa_edit_listeners.js:186
 msgid "Option Deleted"
-msgstr "Вариант удалён"
+msgstr "Опција избрисана"
 
-#: xblock/static/dist/openassessment-studio.65076e7e76039d8c8ab2.js:11
+#: xblock/static/dist/openassessment-studio.b58bb4e55f63dadac6de.js:11
 #: xblock/static/js/src/studio/oa_edit_listeners.js:152
 msgid ""
 "You have deleted an option. That option has been removed from its criterion "
 "in the sample responses in the Learner Training step. You might have to "
 "select a new option for the criterion."
 msgstr ""
-"Вы удалили вариант ответа. Он также был автоматически удалён из критерия для"
-" примеров ответов на шаге обучения слушателей. Вам может понадобиться "
-"выбрать новый вариант ответа для этого критерия."
+"Избрисали сте опцију. Та опција је уклоњена из свог критеријума у ​​узорку "
+"одговора у кораку обуке ученика. Можда ћете морати да одаберете нову опцију "
+"за критеријум."
 
-#: xblock/static/dist/openassessment-studio.65076e7e76039d8c8ab2.js:11
+#: xblock/static/dist/openassessment-studio.b58bb4e55f63dadac6de.js:11
 #: xblock/static/js/src/studio/oa_edit_listeners.js:188
 msgid ""
 "You have deleted all the options for this criterion. The criterion has been "
 "removed from the sample responses in the Learner Training step."
 msgstr ""
-"Вы удалили все варианты ответов для этого критерия. Критерий был "
-"автоматически удалён для всех примеров на шаге обучения слушателей."
+"Избрисали сте све опције за овај критеријум. Критеријум је уклоњен из "
+"одговарајућих одговора у кораку тренинга ученика."
 
-#: xblock/static/dist/openassessment-studio.65076e7e76039d8c8ab2.js:11
+#: xblock/static/dist/openassessment-studio.b58bb4e55f63dadac6de.js:11
 #: xblock/static/js/src/studio/oa_edit_listeners.js:214
 msgid "Criterion Deleted"
-msgstr "Критерий удалён"
+msgstr "Критеријум избрисан"
 
-#: xblock/static/dist/openassessment-studio.65076e7e76039d8c8ab2.js:11
+#: xblock/static/dist/openassessment-studio.b58bb4e55f63dadac6de.js:11
 #: xblock/static/js/src/studio/oa_edit_listeners.js:216
 msgid ""
 "You have deleted a criterion. The criterion has been removed from the "
 "example responses in the Learner Training step."
 msgstr ""
-"Вы удалили критерий. Он был автоматически удалён из примеров ответов на шаге"
-" обучения слушателей."
+"Избрисали сте критеријуму. Критеријум је уклоњен са примера одговора у "
+"кораку обуке ученика."
 
-#: xblock/static/dist/openassessment-studio.65076e7e76039d8c8ab2.js:11
+#: xblock/static/dist/openassessment-studio.b58bb4e55f63dadac6de.js:11
 #: xblock/static/js/src/studio/oa_edit_listeners.js:394
 msgid "Warning"
-msgstr "Предупреждение"
+msgstr "Упозорење"
 
-#: xblock/static/dist/openassessment-studio.65076e7e76039d8c8ab2.js:11
+#: xblock/static/dist/openassessment-studio.b58bb4e55f63dadac6de.js:11
 #: xblock/static/js/src/studio/oa_edit_listeners.js:395
 msgid ""
 "Changes to steps that are not selected as part of the assignment will not be"
 " saved."
-msgstr "Изменения в шагах, которые не включены в задание, не сохранятся."
+msgstr ""
+"Промјене у корацима који се не бирају као део задатка неће се сачувати."
 
-#: xblock/static/dist/openassessment-studio.65076e7e76039d8c8ab2.js:11
+#: xblock/static/dist/openassessment-studio.b58bb4e55f63dadac6de.js:11
+#: xblock/static/js/src/studio/oa_edit_settings.js:104
+msgid ""
+"Time must be in the format dd:hh:mm. The days must be between 00 and 99, the"
+" hours between 00 and 23, and the minutes between 00 and 59."
+msgstr ""
+"Време мора бити у формату ДД: ХХ: ММ. Дани морају бити између 00 и 99, сати "
+"између 00 и 23 године и записнике између 00 и 59."
+
+#: xblock/static/dist/openassessment-studio.b58bb4e55f63dadac6de.js:11
 #: xblock/static/js/src/studio/oa_edit_settings.js:118
 msgid "File types can not be empty."
-msgstr "Необходимо заполнить список типов файлов."
+msgstr "Врсте датотека не могу бити празне."
 
-#: xblock/static/dist/openassessment-studio.65076e7e76039d8c8ab2.js:11
+#: xblock/static/dist/openassessment-studio.b58bb4e55f63dadac6de.js:11
 #: xblock/static/js/src/studio/oa_edit_settings.js:128
 msgid "The following file types are not allowed: "
-msgstr "Следующие типы файлов недопустимы:"
+msgstr "Следеће врсте датотека нису дозвољене:"
+
+#: xblock/static/dist/openassessment-studio.b58bb4e55f63dadac6de.js:11
+#: xblock/static/js/src/studio/oa_edit.js:183
+msgid "Save Unsuccessful"
+msgstr "Уштедите неуспешни"
+
+#: xblock/static/dist/openassessment-studio.b58bb4e55f63dadac6de.js:11
+#: xblock/static/js/src/studio/oa_edit.js:184
+msgid "Errors detected on the following tabs: "
+msgstr "Грешке откривене на следећим картицама:"
+
+#: xblock/static/dist/openassessment-studio.b58bb4e55f63dadac6de.js:11
+msgid ""
+"This ORA has already been released. Changes will only affect learners making"
+" new submissions. Existing submissions will not be modified by this change."
+msgstr ""
+"Ова ОРА је већ пуштена. Промјене ће утицати само на полазнике који праве "
+"нове поднеске. Постојеће поднеске неће бити модификоване овом променом."
+
+#: xblock/static/dist/openassessment-studio.b58bb4e55f63dadac6de.js:11
+#: xblock/static/js/src/studio/oa_edit.js:321
+msgid "error count: "
+msgstr "Грешка грешке:"
