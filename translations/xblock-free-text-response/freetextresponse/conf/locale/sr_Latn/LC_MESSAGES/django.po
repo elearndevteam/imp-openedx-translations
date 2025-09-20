@@ -19,193 +19,193 @@ msgstr ""
 
 #: models.py:39
 msgid "Display Correctness?"
-msgstr "Прикажите исправност?"
+msgstr "Prikažite ispravnost?"
 
 #: models.py:41
 msgid ""
 "This is a flag that indicates if the indicator icon should be displayed "
 "after a student enters their response"
 msgstr ""
-"Ово је застава која указује да ли треба да се прикаже икона индикатора након"
-" што студент уђе у њихов одговор"
+"Ovo je zastava koja ukazuje da li treba da se prikaže ikona indikatora nakon"
+" što student uđe u njihov odgovor"
 
 #: models.py:49
 msgid "Display Other Student Responses"
-msgstr "Прикажи друге одговоре ученика"
+msgstr "Prikaži druge odgovore učenika"
 
 #: models.py:51
 msgid ""
 "This will display other student responses to the student after they submit "
 "their response."
 msgstr ""
-"Ово ће приказати друге одговоре ученика студенту након што поднесу свој "
-"одговор."
+"Ovo će prikazati druge odgovore učenika studentu nakon što podnesu svoj "
+"odgovor."
 
 #: models.py:60
 msgid "System selected answers to give to students"
-msgstr "Систем одабрани одговори да дају ученицима"
+msgstr "Sistem odabrani odgovori da daju učenicima"
 
 #: models.py:63
 msgid "Display Name"
-msgstr "Приказ име"
+msgstr "Prikaz ime"
 
 #: models.py:65
 msgid "This is the title for this question type"
-msgstr "Ово је наслов за ово питање"
+msgstr "Ovo je naslov za ovo pitanje"
 
 #: models.py:71
 msgid "Full-Credit Key Phrases"
-msgstr "Фрезе за фрезе"
+msgstr "Freze za freze"
 
 #: models.py:73
 msgid ""
 "This is a list of words or phrases, one of which must be present in order "
 "for the student's answer to receive full credit"
 msgstr ""
-"Ово је списак речи или фраза, од којих је једна мора бити присутна како би "
-"се студентски одговор примио пуни кредит"
+"Ovo je spisak reči ili fraza, od kojih je jedna mora biti prisutna kako bi "
+"se studentski odgovor primio puni kredit"
 
 #: models.py:81
 msgid "Half-Credit Key Phrases"
-msgstr "Полу-кредитне кључне фразе"
+msgstr "Polu-kreditne ključne fraze"
 
 #: models.py:83
 msgid ""
 "This is a list of words or phrases, one of which must be present in order "
 "for the student's answer to receive half credit"
 msgstr ""
-"Ово је списак речи или фраза, од којих је једна мора бити присутна како би "
-"се студентски одговор примио половину кредита"
+"Ovo je spisak reči ili fraza, od kojih je jedna mora biti prisutna kako bi "
+"se studentski odgovor primio polovinu kredita"
 
 #: models.py:91
 msgid "Maximum Number of Attempts"
-msgstr "Максимални број покушаја"
+msgstr "Maksimalni broj pokušaja"
 
 #: models.py:93
 msgid ""
 "This is the maximum number of times a student is allowed to attempt the "
 "problem"
 msgstr ""
-"Ово је максимални број пута да је студент дозвољено да покуша да проблем"
+"Ovo je maksimalni broj puta da je student dozvoljeno da pokuša da problem"
 
 #: models.py:101
 msgid "Maximum Word Count"
-msgstr "Максимална броја речи"
+msgstr "Maksimalna broja reči"
 
 #: models.py:103
 msgid "This is the maximum number of words allowed for this question"
-msgstr "Ово је максимални број дозвољених речи за ово питање"
+msgstr "Ovo je maksimalni broj dozvoljenih reči za ovo pitanje"
 
 #: models.py:111
 msgid "Minimum Word Count"
-msgstr "Минимална броја речи"
+msgstr "Minimalna broja reči"
 
 #: models.py:113
 msgid "This is the minimum number of words required for this question"
-msgstr "Ово је минимални број потребних речи за ово питање"
+msgstr "Ovo je minimalni broj potrebnih reči za ovo pitanje"
 
 #: models.py:121
 msgid "Prompt"
-msgstr "Уписан"
+msgstr "Upisan"
 
 #: models.py:123
 msgid ""
 "This is the prompt students will see when asked to enter their response"
-msgstr "Ово је брз студенти видеће када се тражи да уђе у њихов одговор"
+msgstr "Ovo je brz studenti videće kada se traži da uđe u njihov odgovor"
 
 #: models.py:131
 msgid "Submission Received Message"
-msgstr "Подношење примљене поруке"
+msgstr "Podnošenje primljene poruke"
 
 #: models.py:133
 msgid "This is the message students will see upon submitting their response"
-msgstr "Ово је порука које ће студенти видети након подношења одговора"
+msgstr "Ovo je poruka koje će studenti videti nakon podnošenja odgovora"
 
 #: models.py:140
 msgid "Weight"
-msgstr "Тежина"
+msgstr "Težina"
 
 #: models.py:142
 msgid "This assigns an integer value representing the weight of this problem"
-msgstr "Ово додељује целокупну вредност која представља тежину овог проблема"
+msgstr "Ovo dodeljuje celokupnu vrednost koja predstavlja težinu ovog problema"
 
 #: models.py:150
 msgid "Draft Received Message"
-msgstr "Нацрт примљене поруке"
+msgstr "Nacrt primljene poruke"
 
 #: models.py:152
 msgid "This is the message students will see upon submitting a draft response"
-msgstr "Ово је порука које ће студенти видети након подношења нацрта одговора"
+msgstr "Ovo je poruka koje će studenti videti nakon podnošenja nacrta odgovora"
 
 #: templates/view.html:15
 msgid ""
 "Allow my response to possibly be visible by other learners after submitting "
 "their response"
 msgstr ""
-"Дозволите да мој одговор могу бити видљиви од стране других ученика након "
-"што су поднели свој одговор"
+"Dozvolite da moj odgovor mogu biti vidljivi od strane drugih učenika nakon "
+"što su podneli svoj odgovor"
 
 #: templates/view.html:21 templates/view.html:24
 msgid "Checking..."
-msgstr "Провера ..."
+msgstr "Provera ..."
 
 #: templates/view.html:21 templates/view.html:22
 msgid "Submit"
-msgstr "Поднети"
+msgstr "Podneti"
 
 #: templates/view.html:24 templates/view.html:25
 msgid "Save"
-msgstr "Сачувати"
+msgstr "Sačuvati"
 
 #: templates/view.html:34
 msgid "Hide"
-msgstr "Сакрити се"
+msgstr "Sakriti se"
 
 #: templates/view.html:35
 msgid "Show"
-msgstr "Схов"
+msgstr "Shov"
 
 #: templates/view.html:36
 msgid "peer responses"
-msgstr "Резервни одговори"
+msgstr "Rezervni odgovori"
 
 #: templates/view.html:38
 msgid "Submissions by others"
-msgstr "Пријаве других"
+msgstr "Prijave drugih"
 
 #: templates/view.html:39 templates/view.html:43
 msgid "No responses to show at this time"
-msgstr "Нема одговора да се у овом тренутку приказују"
+msgstr "Nema odgovora da se u ovom trenutku prikazuju"
 
 #: views.py:126
 #, python-brace-format
 msgid "{weight} point possible"
 msgid_plural "{weight} points possible"
-msgstr[0] "{weight} могуће бодова"
-msgstr[1] "{weight} могућих бодова"
+msgstr[0] "{weight} moguće bodova"
+msgstr[1] "{weight} mogućih bodova"
 
 #: views.py:134
 #, python-brace-format
 msgid "{score_string}/{weight} point"
 msgid_plural "{score_string}/{weight} points"
-msgstr[0] "{score_string} / {weight} бодова"
-msgstr[1] "{score_string} / {weight} бодова"
+msgstr[0] "{score_string} / {weight} bodova"
+msgstr[1] "{score_string} / {weight} bodova"
 
 #: views.py:147
 #, python-brace-format
 msgid "You have used {count_attempts} of {max_attempts} submission"
 msgid_plural "You have used {count_attempts} of {max_attempts} submissions"
-msgstr[0] "Користили сте {count_attempts} од {max_attempts} пријаве"
-msgstr[1] "Користили сте {count_attempts} {max_attempts} пријава"
+msgstr[0] "Koristili ste {count_attempts} od {max_attempts} prijave"
+msgstr[1] "Koristili ste {count_attempts} {max_attempts} prijava"
 
 #: views.py:171
 #, python-brace-format
 msgid "Your response must be between {min} and {max} word."
 msgid_plural "Your response must be between {min} and {max} words."
-msgstr[0] "Ваш одговор мора бити између {min} и {max} речи."
-msgstr[1] "Ваш одговор мора бити између {min} и {max} речи."
+msgstr[0] "Vaš odgovor mora biti između {min} i {max} reči."
+msgstr[1] "Vaš odgovor mora biti između {min} i {max} reči."
 
 #: views.py:267
 #, python-brace-format
 msgid "Invalid Word Count. {word_count_message}"
-msgstr "Неважећи број речи. {word_count_message}"
+msgstr "Nevažeći broj reči. {word_count_message}"
