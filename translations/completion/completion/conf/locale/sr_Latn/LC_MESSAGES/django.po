@@ -22,30 +22,30 @@ msgid ""
 "BlockCompletion.objects.submit_batch_completion should not be called when "
 "the feature is disabled."
 msgstr ""
-"БлоцкЦомплеТион.Објецтс.субмит_батцх_ЦомплеТион не треба да се зове када је "
-"функција онемогућена."
+"BlockCompleTion.Objects.submit_batch_CompleTion ne treba da se zove kada je "
+"funkcija onemogućena."
 
 #: api/v1/views.py:89
 #, python-brace-format
 msgid "Key '{key}' not found."
-msgstr "Кључни '{key}' није пронађен."
+msgstr "Ključni '{key}' nije pronađen."
 
 #: api/v1/views.py:97
 msgid "User is not enrolled in course."
-msgstr "Корисник није уписан у току."
+msgstr "Korisnik nije upisan u toku."
 
 #: api/v1/views.py:115
 msgid "Invalid learning context key: {}"
-msgstr "Неважећи кључ контекста учења: {}"
+msgstr "Nevažeći ključ konteksta učenja: {}"
 
 #: api/v1/views.py:124
 msgid "Invalid block key: {}"
-msgstr "Неважећи блок тастер: {}"
+msgstr "Nevažeći blok taster: {}"
 
 #: api/v1/views.py:132
 #, python-brace-format
 msgid "Block with key: '{key}' is not in context {context}"
-msgstr "Блок са кључем: '{key}' није у контексту {context}"
+msgstr "Blok sa ključem: '{key}' nije u kontekstu {context}"
 
 #: api/v1/views.py:174
 msgid " "
@@ -53,9 +53,9 @@ msgstr ""
 
 #: api/v1/views.py:189
 msgid "ok"
-msgstr "у реду"
+msgstr "u redu"
 
 #: models.py:33
 #, python-brace-format
 msgid "{value} must be between 0.0 and 1.0"
-msgstr "{value} мора бити између 0,0 и 1.0"
+msgstr "{value} mora biti između 0,0 i 1.0"
