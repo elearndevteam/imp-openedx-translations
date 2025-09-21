@@ -21,17 +21,17 @@ msgstr ""
 #: templates/html/google_calendar_edit.html:17
 #: templates/html/google_docs_edit.html:17
 msgid "Display Name"
-msgstr "Приказ име"
+msgstr "Prikaz ime"
 
 #: google_calendar.py:46 google_docs.py:60
 #: templates/html/google_calendar_edit.html:24
 #: templates/html/google_docs_edit.html:24
 msgid "This name appears in the horizontal navigation at the top of the page."
-msgstr "Ово име се појављује у хоризонталној навигацији на врху странице."
+msgstr "Ovo ime se pojavljuje u horizontalnoj navigaciji na vrhu stranice."
 
 #: google_calendar.py:51 templates/html/google_calendar_edit.html:28
 msgid "Public Calendar ID"
-msgstr "ИД јавног календара"
+msgstr "ID javnog kalendara"
 
 #: google_calendar.py:53
 msgid ""
@@ -39,24 +39,24 @@ msgid ""
 "Calendar, open Settings and copy the ID from the Calendar Address section "
 "into this field."
 msgstr ""
-"Гоогле нуди ид за јавно доступне календаре. У Гоогле календару отворите "
-"поставке и копирајте ИД из одељка Адреса календара у ову област."
+"Google nudi id za javno dostupne kalendare. U Google kalendaru otvorite "
+"postavke i kopirajte ID iz odeljka Adresa kalendara u ovu oblast."
 
 #: google_calendar.py:60 templates/html/google_calendar_edit.html:41
 msgid "Default View"
-msgstr "Подразумевано приказ"
+msgstr "Podrazumevano prikaz"
 
 #: google_calendar.py:61 templates/html/google_calendar_edit.html:50
 msgid ""
 "The calendar view that students see by default. A student can change this "
 "view."
 msgstr ""
-"Погледајте календар који студенти виде подразумевано. Студент може да "
-"промени овај поглед."
+"Pogledajte kalendar koji studenti vide podrazumevano. Student može da "
+"promeni ovaj pogled."
 
 #: google_docs.py:65 templates/html/google_docs_edit.html:28
 msgid "Embed Code"
-msgstr "Уграђени код"
+msgstr "Ugrađeni kod"
 
 #: google_docs.py:67 templates/html/google_docs_edit.html:31
 msgid ""
@@ -64,34 +64,34 @@ msgid ""
 "document, from the File menu, select Publish to the Web. Modify settings as "
 "needed, click Publish, and copy the embed code into this field."
 msgstr ""
-"Гоогле нуди уграђени код за погонске документе. У документу Гоогле Дриве-а, "
-"из менија Датотека изаберите Објавите на Интернет. Измените подешавања по "
-"потреби кликните на Објавите и копирајте уграђени код у ово поље."
+"Google nudi ugrađeni kod za pogonske dokumente. U dokumentu Google Drive-a, "
+"iz menija Datoteka izaberite Objavite na Internet. Izmenite podešavanja po "
+"potrebi kliknite na Objavite i kopirajte ugrađeni kod u ovo polje."
 
 #: google_docs.py:75
 msgid "Alternative Text"
-msgstr "Алтернативни текст"
+msgstr "Alternativni tekst"
 
 #: google_docs.py:76 templates/html/google_docs_edit.html:38
 msgid ""
 "Alternative text describes an image and appears if the image is unavailable."
 msgstr ""
-"Алтернативни текст описује слику и појављује се ако је слика недоступна."
+"Alternativni tekst opisuje sliku i pojavljuje se ako je slika nedostupna."
 
 #: templates/html/google_calendar_edit.html:9
 msgid "Invalid Google Calendar"
-msgstr "Неважећи Гоогле календар"
+msgstr "Nevažeći Google kalendar"
 
 #: templates/html/google_calendar_edit.html:10
 #: templates/html/google_docs_edit.html:10
 msgid "Please correct the outlined fields."
-msgstr "Исправите назначена поља."
+msgstr "Ispravite naznačena polja."
 
 #: templates/html/google_calendar_edit.html:21
 #: templates/html/google_calendar_edit.html:32
 #: templates/html/google_docs_edit.html:21
 msgid "Clear Value"
-msgstr "Јасна вредност"
+msgstr "Jasna vrednost"
 
 #: templates/html/google_calendar_edit.html:35
 msgid ""
@@ -99,27 +99,27 @@ msgid ""
 "Calendar, open Settings and copy the ID from the Calendar Address section "
 "into this field. You can "
 msgstr ""
-"Гоогле нуди ид за јавно доступне календаре. У Гоогле календару отворите "
-"поставке и копирајте ИД из одељка Адреса календара у ову област. Можеш"
+"Google nudi id za javno dostupne kalendare. U Google kalendaru otvorite "
+"postavke i kopirajte ID iz odeljka Adresa kalendara u ovu oblast. Možeš"
 
 #: templates/html/google_calendar_edit.html:60
 #: templates/html/google_docs_edit.html:47
 msgid "Save"
-msgstr "Сачувати"
+msgstr "Sačuvati"
 
 #: templates/html/google_calendar_edit.html:64
 #: templates/html/google_docs_edit.html:51
 msgid "Cancel"
-msgstr "Отказати"
+msgstr "Otkazati"
 
 #: templates/html/google_docs_edit.html:9
 msgid "Invalid Google Document"
-msgstr "Неважећи Гоогле документ"
+msgstr "Nevažeći Google dokument"
 
 #: templates/html/google_docs_edit.html:35
 msgid "Alternative text"
-msgstr "Алтернативни текст"
+msgstr "Alternativni tekst"
 
 #: public/js/google_calendar_edit.js:88 public/js/google_docs_edit.js:55
 msgid "Saving"
-msgstr "Штедљив"
+msgstr "Štedljiv"

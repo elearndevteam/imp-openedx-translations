@@ -1,37 +1,41 @@
 # edX translation file.
-# Copyright (C) 2025 EdX
+# Copyright (C) 2024 EdX
 # This file is distributed under the GNU AFFERO GENERAL PUBLIC LICENSE.
-# EdX Team <info@edx.org>, 2025.
-#
+# EdX Team <info@edx.org>, 2024.
+# 
+# Translators:
+# Brian Smith, 2024
+# Nathan Robertson, 2024
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: 0.1a\n"
 "Report-Msgid-Bugs-To: openedx-translation@googlegroups.com\n"
 "POT-Creation-Date: 2023-06-13 08:00+0000\n"
-"PO-Revision-Date: 2023-06-13 09:00+0000\n"
-"Last-Translator: \n"
-"Language-Team: openedx-translation <openedx-translation@googlegroups.com>\n"
-"Language: en\n"
+"PO-Revision-Date: 2023-06-01 01:00+0000\n"
+"Last-Translator: Nathan Robertson, 2024\n"
+"Language-Team: Russian (https://app.transifex.com/open-edx/teams/6205/ru/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Language: ru\n"
+"Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || (n%100>=11 && n%100<=14)? 2 : 3);\n"
 
 #: google_calendar.py:45 google_docs.py:59
 #: templates/html/google_calendar_edit.html:17
 #: templates/html/google_docs_edit.html:17
 msgid "Display Name"
-msgstr "Приказ име"
+msgstr "Отображаемое название"
 
 #: google_calendar.py:46 google_docs.py:60
 #: templates/html/google_calendar_edit.html:24
 #: templates/html/google_docs_edit.html:24
 msgid "This name appears in the horizontal navigation at the top of the page."
-msgstr "Ово име се појављује у хоризонталној навигацији на врху странице."
+msgstr "Это имя отображается в горизонтальной навигации вверху страницы."
 
 #: google_calendar.py:51 templates/html/google_calendar_edit.html:28
 msgid "Public Calendar ID"
-msgstr "ИД јавног календара"
+msgstr "Идентификатор общедоступного календаря"
 
 #: google_calendar.py:53
 msgid ""
@@ -39,24 +43,25 @@ msgid ""
 "Calendar, open Settings and copy the ID from the Calendar Address section "
 "into this field."
 msgstr ""
-"Гоогле нуди ид за јавно доступне календаре. У Гоогле календару отворите "
-"поставке и копирајте ИД из одељка Адреса календара у ову област."
+"Google предоставляет идентификатор общедоступным календарям. В Календаре "
+"Google откройте «Настройки» и скопируйте идентификатор из раздела «Адрес "
+"календаря» в это поле."
 
 #: google_calendar.py:60 templates/html/google_calendar_edit.html:41
 msgid "Default View"
-msgstr "Подразумевано приказ"
+msgstr "Вид по умолчанию"
 
 #: google_calendar.py:61 templates/html/google_calendar_edit.html:50
 msgid ""
 "The calendar view that students see by default. A student can change this "
 "view."
 msgstr ""
-"Погледајте календар који студенти виде подразумевано. Студент може да "
-"промени овај поглед."
+"Представление календаря, которое учащиеся видят по умолчанию. Студент может "
+"изменить это мнение."
 
 #: google_docs.py:65 templates/html/google_docs_edit.html:28
 msgid "Embed Code"
-msgstr "Уграђени код"
+msgstr "Код для вставки"
 
 #: google_docs.py:67 templates/html/google_docs_edit.html:31
 msgid ""
@@ -64,34 +69,36 @@ msgid ""
 "document, from the File menu, select Publish to the Web. Modify settings as "
 "needed, click Publish, and copy the embed code into this field."
 msgstr ""
-"Гоогле нуди уграђени код за погонске документе. У документу Гоогле Дриве-а, "
-"из менија Датотека изаберите Објавите на Интернет. Измените подешавања по "
-"потреби кликните на Објавите и копирајте уграђени код у ово поље."
+"Google предоставляет код для встраивания документов на Диске. В документе "
+"Google Диска в меню «Файл» выберите «Опубликовать в Интернете». При "
+"необходимости измените настройки, нажмите «Опубликовать» и скопируйте код "
+"для внедрения в это поле."
 
 #: google_docs.py:75
 msgid "Alternative Text"
-msgstr "Алтернативни текст"
+msgstr "Альтернативный текст"
 
 #: google_docs.py:76 templates/html/google_docs_edit.html:38
 msgid ""
 "Alternative text describes an image and appears if the image is unavailable."
 msgstr ""
-"Алтернативни текст описује слику и појављује се ако је слика недоступна."
+"Альтернативный текст описывает изображение и появляется, если изображение "
+"недоступно."
 
 #: templates/html/google_calendar_edit.html:9
 msgid "Invalid Google Calendar"
-msgstr "Неважећи Гоогле календар"
+msgstr "Неверный Календарь Google"
 
 #: templates/html/google_calendar_edit.html:10
 #: templates/html/google_docs_edit.html:10
 msgid "Please correct the outlined fields."
-msgstr "Исправите назначена поља."
+msgstr "Пожалуйста, исправьте выделенные поля."
 
 #: templates/html/google_calendar_edit.html:21
 #: templates/html/google_calendar_edit.html:32
 #: templates/html/google_docs_edit.html:21
 msgid "Clear Value"
-msgstr "Јасна вредност"
+msgstr "Очистить значение"
 
 #: templates/html/google_calendar_edit.html:35
 msgid ""
@@ -99,27 +106,24 @@ msgid ""
 "Calendar, open Settings and copy the ID from the Calendar Address section "
 "into this field. You can "
 msgstr ""
-"Гоогле нуди ид за јавно доступне календаре. У Гоогле календару отворите "
-"поставке и копирајте ИД из одељка Адреса календара у ову област. Можеш"
+"Google предоставляет идентификатор общедоступным календарям. В Календаре "
+"Google откройте «Настройки» и скопируйте идентификатор из раздела «Адрес "
+"календаря» в это поле. Ты можешь "
 
 #: templates/html/google_calendar_edit.html:60
 #: templates/html/google_docs_edit.html:47
 msgid "Save"
-msgstr "Сачувати"
+msgstr "Сохранить"
 
 #: templates/html/google_calendar_edit.html:64
 #: templates/html/google_docs_edit.html:51
 msgid "Cancel"
-msgstr "Отказати"
+msgstr "Отмена"
 
 #: templates/html/google_docs_edit.html:9
 msgid "Invalid Google Document"
-msgstr "Неважећи Гоогле документ"
+msgstr "Неверный документ Google"
 
 #: templates/html/google_docs_edit.html:35
 msgid "Alternative text"
-msgstr "Алтернативни текст"
-
-#: public/js/google_calendar_edit.js:88 public/js/google_docs_edit.js:55
-msgid "Saving"
-msgstr "Штедљив"
+msgstr "Альтернативный текст"

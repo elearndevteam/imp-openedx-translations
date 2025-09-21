@@ -19,72 +19,72 @@ msgstr ""
 
 #: image_explorer.py:59
 msgid "Display Name"
-msgstr "Приказ име"
+msgstr "Prikaz ime"
 
 #: image_explorer.py:60
 msgid "This name appears in the horizontal navigation at the top of the page."
-msgstr "Ово име се појављује у хоризонталној навигацији на врху странице."
+msgstr "Ovo ime se pojavljuje u horizontalnoj navigaciji na vrhu stranice."
 
 #: image_explorer.py:62
 msgid "Image Explorer"
-msgstr "Слика Екплорер"
+msgstr "Slika Ekplorer"
 
 #: image_explorer.py:66
 msgid "Hot Spots Coordinates Centered"
-msgstr "Вруће спотове координате усредсређене"
+msgstr "Vruće spotove koordinate usredsređene"
 
 #: image_explorer.py:72
 msgid "Store hotspots opened by student, for completion"
-msgstr "Сторе ХотСпотс коју је отворио студент, за завршетак"
+msgstr "Store HotSpots koju je otvorio student, za završetak"
 
 #: image_explorer.py:77
 msgid "XML contents to display for this module"
-msgstr "КСМЛ садржај за приказ за овај модул"
+msgstr "KSML sadržaj za prikaz za ovaj modul"
 
 #: image_explorer.py:230
 msgid "Missing event_type in JSON data"
-msgstr "Недостаје догађај_типе у ЈСОН података"
+msgstr "Nedostaje događaj_tipe u JSON podataka"
 
 #: templates/html/image_explorer_edit.html:8
 msgid "Title"
-msgstr "Назив"
+msgstr "Naziv"
 
 #: templates/html/image_explorer_edit.html:11
 msgid "The title of the Image Explorer that is displayed to the user"
-msgstr "Наслов Екплорер-овог слике који се приказује кориснику"
+msgstr "Naslov Ekplorer-ovog slike koji se prikazuje korisniku"
 
 #: templates/html/image_explorer_edit.html:17
 msgid "Hotspot coordinates centered"
-msgstr "Хотспот координате усредсређене"
+msgstr "Hotspot koordinate usredsređene"
 
 #: templates/html/image_explorer_edit.html:19
 msgid ""
 "If set to true, hotspot coordinates interpreted to point to the center of "
 "the hotspot"
 msgstr ""
-"Ако је постављено на ТРУЕ, протумачине координате хотспот-а да би се указало"
-" на средиште хотспот-а"
+"Ako je postavljeno na TRUE, protumačine koordinate hotspot-a da bi se ukazalo"
+" na središte hotspot-a"
 
 #: templates/html/image_explorer_edit.html:19
 msgid ""
 "If set to false, assumed to point to the top left corner of the hotspot "
 "image"
 msgstr ""
-"Ако је постављено на лажно, претпоставља се да ће указати на горњи леви угао"
-" слике хотспот-а"
+"Ako je postavljeno na lažno, pretpostavlja se da će ukazati na gornji levi ugao"
+" slike hotspot-a"
 
 #: templates/html/image_explorer_edit.html:24
 msgid "Definition"
-msgstr "Дефиниција"
+msgstr "Definicija"
 
 #: templates/html/image_explorer_edit.html:25
 msgid "The XML definition for the Image Explorer"
-msgstr "КСМЛ дефиниција за истраживач слике"
+msgstr "KSML definicija za istraživač slike"
 
 #: templates/html/image_explorer_edit.html:36
 msgid "Save"
-msgstr "Сачувати"
+msgstr "Sačuvati"
 
 #: templates/html/image_explorer_edit.html:40
 msgid "Cancel"
-msgstr "Отказати"
+msgstr "Otkazati"
