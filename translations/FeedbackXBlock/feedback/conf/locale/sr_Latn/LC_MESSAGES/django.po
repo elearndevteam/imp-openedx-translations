@@ -19,17 +19,19 @@ msgstr ""
 
 #: feedback.py:30
 msgid "What did you learn from this? What was missing?"
-msgstr ""
+msgstr "Šta ste naučili od ovoga? Šta je nedostajalo?"
 
 #: feedback.py:31
 msgid "How would you rate this as a learning experience?"
-msgstr ""
+msgstr "Kako biste to ocenili kao iskustvo učenja?"
 
 #: feedback.py:33
 msgid ""
 "Think about the material, and try to synthesize key lessons learned, as well"
 " as key gaps in our presentation."
 msgstr ""
+"Razmislite o materijalu i pokušajte da sintetišete naučene ključne lekcije, "
+"kao i ključne praznine u našoj prezentaciji."
 
 #: feedback.py:37
 msgid ""
@@ -37,132 +39,137 @@ msgid ""
 "synthesis will help you better understand and remember material from this "
 "course."
 msgstr ""
+"Treba malo vremena da se ovde razmislite. Istraživanje pokazuje da će vam "
+"smislena sinteza pomoći da bolje razumete i zapamtite materijal sa ovog "
+"kursa."
 
 #: feedback.py:43 feedback.py:164
 msgid "Excellent"
-msgstr ""
+msgstr "Odličan"
 
 #: feedback.py:43 feedback.py:165
 msgid "Good"
-msgstr ""
+msgstr "Dobro"
 
 #: feedback.py:43 feedback.py:166
 msgid "Average"
-msgstr ""
+msgstr "Prosek"
 
 #: feedback.py:43 feedback.py:167
 msgid "Fair"
-msgstr ""
+msgstr "Dovoljno"
 
 #: feedback.py:43 feedback.py:168
 msgid "Poor"
-msgstr ""
+msgstr "Slabo"
 
 #: feedback.py:78
 msgid "Freeform user prompt"
-msgstr ""
+msgstr "Korisnički prompt slobode"
 
 #: feedback.py:84 feedback.py:100
 msgid "Random number generated for p. -1 if uninitialized"
-msgstr ""
+msgstr "Slučajni broj generisan za str. -1 ako je neinicijalizovano"
 
 #: feedback.py:89
 msgid "How user voted. -1 if didn't vote"
-msgstr ""
+msgstr "Kako je korisnik glasao. -1 ako nije glasalo"
 
 #: feedback.py:95
 msgid "What percent of the time should this show?"
-msgstr ""
+msgstr "Koji procenat vremena treba da ovaj šou?"
 
 #: feedback.py:105
 msgid "A list of user votes"
-msgstr ""
+msgstr "Lista glasova korisnika"
 
 #: feedback.py:109
 msgid "Feedback"
-msgstr ""
+msgstr "Povratna informacija"
 
 #: feedback.py:112
 msgid "Display Name"
-msgstr ""
+msgstr "Prikaz ime"
 
 #: feedback.py:113
 msgid "Provide Feedback"
-msgstr ""
+msgstr "Pružiti povratne informacije"
 
 #: feedback.py:118 templates/html/studio_view.html:17
 msgid "Voting message"
-msgstr ""
+msgstr "Glasačka poruka"
 
 #: feedback.py:119
 msgid "Thank you for voting!"
-msgstr ""
+msgstr "Hvala vam na glasanju!"
 
 #: feedback.py:124 templates/html/studio_view.html:25
 msgid "Feedback message"
-msgstr ""
+msgstr "Poruka povratnih informacija"
 
 #: feedback.py:125
 msgid "Thank you for your feedback!"
-msgstr ""
+msgstr "Hvala na povratnim informacijama!"
 
 #: feedback.py:130
 msgid "Show aggregate to students"
-msgstr ""
+msgstr "Pokažite agregat studentima"
 
 #: feedback.py:159
 msgid "Please reflect on this course material"
-msgstr ""
+msgstr "Molimo vas da se razmislite o ovom materijalu kursa"
 
 #: feedback.py:160
 msgid ""
 "Please take time to meaningfully reflect on your experience with this course"
 " material."
 msgstr ""
+"Molim vas, odvojite vreme da se smisleno razmišljate o svom iskustvu sa ovim "
+"materijalom predmeta."
 
 #: feedback.py:163
 msgid "Please rate your overall experience"
-msgstr ""
+msgstr "Molimo ocenite svoje opšte iskustvo"
 
 #: feedback.py:170
 msgid "Please take a moment to thoughtfully reflect."
-msgstr ""
+msgstr "Molim vas, odvojite trenutak da se zamisli odražavaju."
 
 #: feedback.py:387
 msgid "Please vote!"
-msgstr ""
+msgstr "Molimo glasajte!"
 
 #: static/html/feedback_instructor.html:10
 msgid "Component"
-msgstr ""
+msgstr "Komponenta"
 
 #: static/html/feedback_instructor.html:13
 msgid "Number of ratings"
-msgstr ""
+msgstr "Broj ocena"
 
 #: static/html/feedback_instructor.html:16
 msgid "Average rating"
-msgstr ""
+msgstr "Prosečna ocena"
 
 #: static/html/feedback_instructor.html:19
 msgid "Feedback "
-msgstr ""
+msgstr "Povratna informacija"
 
 #: static/html/feedback_instructor.html:40
 msgid "Comment"
-msgstr ""
+msgstr "Komentar"
 
 #: static/html/feedback_instructor.html:40
 msgid "Vote"
-msgstr ""
+msgstr "Glasati"
 
 #: static/html/feedback_instructor.html:40
 msgid "No vote"
-msgstr ""
+msgstr "Nema glasanja"
 
 #: templates/html/feedback.html:17
 msgid "Submit Feedback"
-msgstr ""
+msgstr "Pošaljite povratne informacije"
 
 #: templates/html/studio_view.html:5
 msgid ""
@@ -170,131 +177,134 @@ msgid ""
 "This may be helpful either for course improvement, or to give students a "
 "chance to reflect on what they have done."
 msgstr ""
+"Ovaj kblock vam omogućava da prikupljate povratne informacije o učenicima na "
+"komadima kursa. Ovo bi moglo biti korisno ili za poboljšanje kursa ili da "
+"učenici pruži šansu da razmisle o onome što su uradili."
 
 #: templates/html/studio_view.html:9
 msgid "Display name"
-msgstr ""
+msgstr "Prikaz ime"
 
 #: templates/html/studio_view.html:12
 msgid "The name of the component."
-msgstr ""
+msgstr "Ime komponente."
 
 #: templates/html/studio_view.html:20
 msgid "The message to show after user vote."
-msgstr ""
+msgstr "Poruka da se prikaže nakon glasanja korisnika."
 
 #: templates/html/studio_view.html:28
 msgid "The message to show after user feedback."
-msgstr ""
+msgstr "Poruka za prikazivanje nakon povratnih informacija korisnika."
 
 #: templates/html/studio_view.html:33
 msgid "Show aggregate report to students"
-msgstr ""
+msgstr "Pokažite agregatni izveštaj studentima"
 
 #: templates/html/studio_view.html:35
 msgid "False"
-msgstr ""
+msgstr "Lažno"
 
 #: templates/html/studio_view.html:36
 msgid "True"
-msgstr ""
+msgstr "Istinit"
 
 #: templates/html/studio_view.html:39
 msgid "Whether to show the aggregate report to students."
-msgstr ""
+msgstr "Da li da pokaže agregatni izveštaj studentima."
 
 #: templates/html/studio_view.html:44
 msgid "Freeform prompt"
-msgstr ""
+msgstr "Freeform Brzi"
 
 #: templates/html/studio_view.html:47
 msgid "Example: Please provide us feedback on this section."
-msgstr ""
+msgstr "Primer: Molimo vas da nam date povratne informacije o ovom odeljku."
 
 #: templates/html/studio_view.html:52
 msgid "Freeform placeholder"
-msgstr ""
+msgstr "Placeholder freeformom"
 
 #: templates/html/studio_view.html:55
 msgid "This is shown as grayed out text before the student has answered."
-msgstr ""
+msgstr "Ovo je prikazano kao zasebni tekst pre nego što je student odgovorio."
 
 #: templates/html/studio_view.html:60
 msgid "Likert icon set"
-msgstr ""
+msgstr "Likert ikona set"
 
 #: templates/html/studio_view.html:62
 msgid "Faces (happy to sad)"
-msgstr ""
+msgstr "Lica (srećna to tužnim)"
 
 #: templates/html/studio_view.html:63
 msgid "Faces (sad to happy)"
-msgstr ""
+msgstr "Lica (tužno je srećno)"
 
 #: templates/html/studio_view.html:64
 msgid "Numeric"
-msgstr ""
+msgstr "Numerički"
 
 #: templates/html/studio_view.html:65
 msgid "Stars"
-msgstr ""
+msgstr "Zvezde"
 
 #: templates/html/studio_view.html:68
 msgid "We can either show happy/sad faces, numbers 1-5 or stars."
-msgstr ""
+msgstr "Možemo ili pokazati srećna / tužna lica, brojeve 1-5 ili zvezde."
 
 #: templates/html/studio_view.html:73
 msgid "Likert prompt"
-msgstr ""
+msgstr "Likerto"
 
 #: templates/html/studio_view.html:76
 msgid "Example: Please rate your overall experience with this section."
-msgstr ""
+msgstr "Primer: Molimo ocenite svoje opšte iskustvo sa ovim odeljkom."
 
 #: templates/html/studio_view.html:81
 msgid "Likert option 1"
-msgstr ""
+msgstr "Likertova opcija 1"
 
 #: templates/html/studio_view.html:84
 msgid "Example: Excellent!"
-msgstr ""
+msgstr "Primer: Odlično!"
 
 #: templates/html/studio_view.html:89
 msgid "Likert option 2"
-msgstr ""
+msgstr "Likertova opcija 2"
 
 #: templates/html/studio_view.html:92
 msgid "Example: Good"
-msgstr ""
+msgstr "Primer: Dobro"
 
 #: templates/html/studio_view.html:97
 msgid "Likert option 3"
-msgstr ""
+msgstr "Likertova opcija 3"
 
 #: templates/html/studio_view.html:100
 msgid "Example: Average"
-msgstr ""
+msgstr "Primer: prosečno"
 
 #: templates/html/studio_view.html:105
 msgid "Likert option 4"
-msgstr ""
+msgstr "Likertova opcija 4"
 
 #: templates/html/studio_view.html:108
 msgid "Example: Fair"
-msgstr ""
+msgstr "Primer: Sajam"
 
 #: templates/html/studio_view.html:113
 msgid "Likert option 5"
-msgstr ""
+msgstr "Likertova opcija 5"
 
 #: templates/html/studio_view.html:116
 msgid "Example: Poor"
-msgstr ""
+msgstr "Primer: Loše"
 
 #: templates/html/studio_view.html:123
 msgid "Save"
-msgstr ""
+msgstr "Sačuvati"
 
 #: templates/html/studio_view.html:126
 msgid "Cancel"
-msgstr ""
+msgstr "Otkazati"

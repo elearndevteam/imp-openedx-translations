@@ -19,53 +19,59 @@ msgstr ""
 
 #: done.py:39
 msgid "Is the student done?"
-msgstr ""
+msgstr "Da li je student urađen?"
 
 #: done.py:45
 msgid "Align left/right/center"
-msgstr ""
+msgstr "Poravnajte levo/desno/centar"
 
 #: done.py:132
 msgid "Display name"
-msgstr ""
+msgstr "Prikaz ime"
 
 #: done.py:137
 msgid ""
 "ISO-8601 formatted string representing the start date of this assignment. We"
 " ignore this."
 msgstr ""
+"Formatirani niz ISO-8601 koji predstavlja datum početka ovog zadatka. To "
+"ignorišemo."
 
 #: done.py:142
 msgid ""
 "ISO-8601 formatted string representing the due date of this assignment. We "
 "ignore this."
 msgstr ""
+"Formatirani niz ISO-8601 koji predstavlja datum dospeća ovog zadatka. To "
+"ignorišemo."
 
 #: done.py:146
 msgid "Problem Weight"
-msgstr ""
+msgstr "Težina problema"
 
 #: done.py:148
 msgid ""
 "Defines the number of points each problem is worth. If the value is not set,"
 " the problem is worth the sum of the option point values."
 msgstr ""
+"Definiše broj bodova koji svaki problem vredi. Ako vrednost nije postavljena,"
+" problem vredi zbir vrednosti opcija Point."
 
 #: templates/done.html:8
 msgid "X"
-msgstr ""
+msgstr "X"
 
 #: templates/done.html:9
 msgid "I have completed this"
-msgstr ""
+msgstr "Ovo sam završio"
 
 #: templates/done.html:11
 msgid "Unmark"
-msgstr ""
+msgstr "Odznačiti"
 
 #: templates/done.html:12
 msgid "Mark as complete"
-msgstr ""
+msgstr "Označi kao kompletno"
 
 #: templates/studioview.html:4
 msgid ""
@@ -75,15 +81,24 @@ msgid ""
 "component, and students can see in their progress page which portions are "
 "completed and  which still need to be watched or read."
 msgstr ""
+"Ovo je vrlo jednostavna komponenta bez opcija konfiguracije. Koristi se za "
+"pomaganje učenicima da prati onaj deo kursa koji su završili. Na primer, to "
+"biste mogli da postavite ispod svakog teksta i video komponente, a studenti "
+"mogu da vide u svojoj stranici napretka koji su porcije završeni And  Khoich"
+" koji je još uvek potrebno gledati ili pročitati."
 
 #: templates/studioview.html:6
 msgid ""
 "It is also helpful to give students a way to sign off on having completed "
 "something. They are less likely to skip material that way."
 msgstr ""
+"Takođe je korisno dati učenicima način da se odjave da nešto okončaju. Manje "
+"je verovatno da će na taj način preskočiti materijal."
 
 #: templates/studioview.html:8
 msgid ""
 "(If you're a real power-user, in OLX, we do allow you to add an align tag, "
 "which can left-, center-, or right-justify the XBlock)"
 msgstr ""
+"(Ako ste pravi korisnik moći, u OLX-u, omogućavamo vam da dodate oznaku, " 
+"koja može biti: left-, center- ili right-justify XBlock)"
