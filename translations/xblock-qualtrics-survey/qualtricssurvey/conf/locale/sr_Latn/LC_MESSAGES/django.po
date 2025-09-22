@@ -19,43 +19,43 @@ msgstr ""
 
 #: models.py:24
 msgid "Display Name:"
-msgstr "Приказ назива:"
+msgstr "Prikaz naziva:"
 
 #: models.py:28
 msgid "This name appears in the horizontal navigation at the top of the page."
-msgstr "Ово име се појављује у хоризонталној навигацији на врху странице."
+msgstr "Ovo ime se pojavljuje u horizontalnoj navigaciji na vrhu stranice."
 
 #: models.py:33
 msgid "Link Text:"
-msgstr "Текст везе:"
+msgstr "Tekst veze:"
 
 #: models.py:36
 msgid "This is the text that will link to your survey."
-msgstr "Ово је текст који ће се повезати са ваше анкете."
+msgstr "Ovo je tekst koji će se povezati sa vaše ankete."
 
 #: models.py:39
 msgid "Message:"
-msgstr "Порука:"
+msgstr "Poruka:"
 
 #: models.py:43
 msgid "This is the text that will be displayed above the link to your survey."
-msgstr "Ово је текст који ће се приказати изнад везе до вашег анкете."
+msgstr "Ovo je tekst koji će se prikazati iznad veze do vašeg ankete."
 
 #: models.py:48
 msgid "Param Name:"
-msgstr "Име парама:"
+msgstr "Ime parama:"
 
 #: models.py:52
 msgid ""
 "This is the name for the User ID parameter in the url. If blank, User ID is "
 "ommitted from the url."
 msgstr ""
-"Ово је име за параметар корисника Усер-а у УРЛ-у. Ако је празно, кориснички "
-"ID је премијењен из УРЛ-а."
+"Ovo je ime za parametar korisnika User-a u URL-u. Ako je prazno, korisnički "
+"ID je premijenjen iz URL-a."
 
 #: models.py:57
 msgid "Survey ID:"
-msgstr "ID анкете:"
+msgstr "ID ankete:"
 
 #: models.py:61
 msgid ""
@@ -63,14 +63,14 @@ msgid ""
 " and letters, and should be entered in the following format: "
 "SV_###############"
 msgstr ""
-"Ово је ID који Квалификације користи за истраживање, које могу да садрже "
-"бројеве и слова, и требало би да се унесе у следеће формате: "
+"Ovo je ID koji Kvalifikacije koristi za istraživanje, koje mogu da sadrže "
+"brojeve i slova, i trebalo bi da se unese u sledeće formate: "
 "SV_###############"
 
 #: models.py:67
 msgid "Your University:"
-msgstr "Ваш универзитет:"
+msgstr "Vaš univerzitet:"
 
 #: models.py:70
 msgid "This is the name of your university."
-msgstr "Ово је име вашег универзитета."
+msgstr "Ovo je ime vašeg univerziteta."

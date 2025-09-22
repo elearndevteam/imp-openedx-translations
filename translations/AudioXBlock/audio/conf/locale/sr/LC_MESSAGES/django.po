@@ -19,16 +19,16 @@ msgstr ""
 
 #: audio.py:31
 msgid "URL for MP3 file to play"
-msgstr ""
+msgstr "УРЛ за МП3 датотеку за репродукцију"
 
 #: templates/html/audio_edit.html:7
 msgid "Audio Source Location"
-msgstr ""
+msgstr "Локација извора звука"
 
 #: templates/html/audio_edit.html:13
 msgid "Save"
-msgstr ""
+msgstr "Сачувати"
 
 #: templates/html/audio_edit.html:14
 msgid "Cancel"
-msgstr ""
+msgstr "Отказати"

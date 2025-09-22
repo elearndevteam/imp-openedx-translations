@@ -19,47 +19,47 @@ msgstr ""
 
 #: mixins/grading.py:72
 msgid "We could not execute your query; please try again."
-msgstr "Нисмо могли да извршимо ваш упит; Покушајте поново."
+msgstr "Nismo mogli da izvršimo vaš upit; Pokušajte ponovo."
 
 #: mixins/grading.py:89
 msgid "Weight"
-msgstr "Тежина"
+msgstr "Težina"
 
 #: mixins/grading.py:91
 msgid "This assigns an integer value representing the weight of this problem"
-msgstr "Ово додељује целокупну вредност која представља тежину овог проблема"
+msgstr "Ovo dodeljuje celokupnu vrednost koja predstavlja težinu ovog problema"
 
 #: mixins/grading.py:170
 msgid "Display Name"
-msgstr "Приказ име"
+msgstr "Prikaz ime"
 
 #: mixins/grading.py:171
 msgid "The display name for this component."
-msgstr "Назив приказа за ову компоненту."
+msgstr "Naziv prikaza za ovu komponentu."
 
 #: mixins/grading.py:172
 msgid "SQL Problem"
-msgstr "SQL проблем"
+msgstr "SQL problem"
 
 #: mixins/grading.py:176
 msgid "Dataset"
-msgstr "Скупови података"
+msgstr "Skupovi podataka"
 
 #: mixins/grading.py:177
 msgid "Which initial dataset/database to be used for queries"
-msgstr "Који ће почетни податак / база података користити за упите"
+msgstr "Koji će početni podatak / baza podataka koristiti za upite"
 
 #: mixins/grading.py:183
 msgid "Answer Query"
-msgstr "Одговор упит"
+msgstr "Odgovor upit"
 
 #: mixins/grading.py:184
 msgid "A correct response SQL query"
-msgstr "Тачан одговор SQL упит"
+msgstr "Tačan odgovor SQL upit"
 
 #: mixins/grading.py:190
 msgid "Verify Query"
-msgstr "Верификовати упит"
+msgstr "Verifikovati upit"
 
 #: mixins/grading.py:192
 msgid ""
@@ -67,45 +67,45 @@ msgid ""
 "the database (UPDATE, INSERT, DELETE, etc.). Only enter a single SELECT "
 "query here, which is used for matching the answer"
 msgstr ""
-"Секундарна верификација SQL упита, који ће се користити ако је одговор_Куери"
-" модификовао базу података (ажурирање, уметање, брисање итд.). Овде упишите "
-"само један одабрани упит, који се користи за подударање одговора"
+"Sekundarna verifikacija SQL upita, koji će se koristiti ako je odgovor_Kueri"
+" modifikovao bazu podataka (ažuriranje, umetanje, brisanje itd.). Ovde upišite "
+"samo jedan odabrani upit, koji se koristi za podudaranje odgovora"
 
 #: mixins/grading.py:202
 msgid "Modification query statements"
-msgstr "Изјаве о модификацији"
+msgstr "Izjave o modifikaciji"
 
 #: mixins/grading.py:204
 msgid ""
 "Optional SQL statements, to be executed after the user-submitted query, but "
 "before the verify_query."
 msgstr ""
-"Опционални SQL изјаве, које ће се извршити након корисног упита, али пре "
-"верификације_Куери."
+"Opcionalni SQL izjave, koje će se izvršiti nakon korisnog upita, ali pre "
+"verifikacije_Kueri."
 
 #: mixins/grading.py:212
 msgid "Is Ordered?"
-msgstr "Је наређено?"
+msgstr "Je naređeno?"
 
 #: mixins/grading.py:213
 msgid "Should results be in order?"
-msgstr "Да ли би требало да буду резултати?"
+msgstr "Da li bi trebalo da budu rezultati?"
 
 #: mixins/grading.py:228
 msgid "Prompt"
-msgstr "Спреман"
+msgstr "Spreman"
 
 #: mixins/grading.py:229
 msgid "Explanatory text to accompany the problem"
-msgstr "Објашњени текст да прате проблем"
+msgstr "Objašnjeni tekst da prate problem"
 
 #: mixins/grading.py:234
 msgid "Submission Query"
-msgstr "Упит за подношење"
+msgstr "Upit za podnošenje"
 
 #: mixins/grading.py:235
 msgid "A Submission Query"
-msgstr "Упит за подношење"
+msgstr "Upit za podnošenje"
 
 #: templates/view.html:6
 #, python-format
@@ -119,67 +119,67 @@ msgid_plural ""
 "        "
 msgstr[0] ""
 "\n"
-"           %(score_weighted)s / %(max_score)s Поинт (оцењено)\n"
+"           %(score_weighted)s / %(max_score)s Point (ocenjeno)\n"
 "        "
 msgstr[1] ""
 "\n"
-"           %(score_weighted)s / %(max_score)s бодова (оцењено)\n"
+"           %(score_weighted)s / %(max_score)s bodova (ocenjeno)\n"
 "        "
 
 #: templates/view.html:12
 msgid "0 points (ungraded)"
-msgstr "0 бодова (уграђено)"
+msgstr "0 bodova (ugrađeno)"
 
 #: templates/view.html:21
 msgid "Note:"
-msgstr "Напомена:"
+msgstr "Napomena:"
 
 #: templates/view.html:22
 msgid ""
 "Your queries are executed using SQLite, so you must conform to the SQL "
 "constructs supported by SQLite."
 msgstr ""
-"Ваше упите се изводе помоћу SQLите, тако да морате у SQLаду са SQL "
-"конструктима које подржавају SQLИТЕ."
+"Vaše upite se izvode pomoću SQLite, tako da morate u SQLadu sa SQL "
+"konstruktima koje podržavaju SQLITE."
 
 #: templates/view.html:27
 msgid "Press ESC then TAB or click outside of the code editor to exit"
 msgstr ""
-"Притисните ЕСЦ, а затим картицу или кликните изван Цоде Едитор-а да бисте "
-"изашли"
+"Pritisnite ESC, a zatim karticu ili kliknite izvan Code Editor-a da biste "
+"izašli"
 
 #: templates/view.html:33
 msgid "Submit"
-msgstr "Поднети"
+msgstr "Podneti"
 
 #: templates/view.html:40
 msgid "Show Answer"
-msgstr "Покажи одговор"
+msgstr "Pokaži odgovor"
 
 #: templates/view.html:50
 msgid "Correct"
-msgstr "Тачан"
+msgstr "Tačan"
 
 #: templates/view.html:52
 msgid "Incorrect"
-msgstr "Нетачан"
+msgstr "Netačan"
 
 #: templates/view.html:55
 msgid "Unanswered"
-msgstr "Неодговорен"
+msgstr "Neodgovoren"
 
 #: templates/view.html:63
 msgid ""
 "To check your data modification statement, we ran the following query after "
 "your modification:"
 msgstr ""
-"Да бисте проверили своју изјаву о модификацији података, покренули смо "
-"следећи упит након ваше модификације:"
+"Da biste proverili svoju izjavu o modifikaciji podataka, pokrenuli smo "
+"sledeći upit nakon vaše modifikacije:"
 
 #: templates/view.html:75
 msgid "Your Query Result:"
-msgstr "Ваш упит резултат:"
+msgstr "Vaš upit rezultat:"
 
 #: templates/view.html:80
 msgid "Expected Query Result:"
-msgstr "Резултат очекиваног упита:"
+msgstr "Rezultat očekivanog upita:"
