@@ -1110,7 +1110,7 @@
   "course-authoring.generic.saving-error-alert.aria.described-by": "Уштеда-грешка-Алерт-Опис",
   "course-authoring.course-outline.unlink-modal.title": "Унлинк {displayName}?",
   "course-authoring.course-outline.unlink-modal.title-component": "Непрекините ову компоненту?",
-  "course-authoring.course-outline.unlink-modal.description": "Јесте ли сигурни да желите да размотрите ову библиотеку {categoryName} Референца? Непочекивани блокови се не могу синхронизовати. <б> Поништавање је трајно. </ б>",
+  "course-authoring.course-outline.unlink-modal.description": "Јесте ли сигурни да желите да размотрите ову библиотеку {categoryName} Референца? Непочекивани блокови се не могу синхронизовати. <b> Поништавање је трајно. </b>",
   "course-authoring.course-outline.unlink-modal.description-children": "{childrenCategoryName} садржано у овом {categoryName} остаће повезан са својим библиотечким верзијама.",
   "course-authoring.course-outline.unlink-modal.button.unlink": "Потврдите да се не појави",
   "course-authoring.course-outline.unlink-modal.button.pending-unlink": "Незапаљив",

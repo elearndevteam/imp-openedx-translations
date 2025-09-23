@@ -19,11 +19,11 @@ msgstr ""
 
 #: enterprise/static/enterprise/js/manage_learners.js:38
 msgid "Enter a valid course ID"
-msgstr "Унесите важећи ИД курса"
+msgstr "Unesite važeći ID kursa"
 
 #: enterprise/static/enterprise/js/manage_learners.js:82
 msgid "Are you sure you want to unlink %(email)s?"
-msgstr "Јесте ли сигурни да желите да поништите %(email)s?"
+msgstr "Jeste li sigurni da želite da poništite %(email)s?"
 
 #: enterprise/static/enterprise/js/manage_learners.js:114
 msgid "---------"
@@ -31,24 +31,24 @@ msgstr "---------"
 
 #: enterprise/static/enterprise/js/manage_learners.js:115
 msgid "Audit"
-msgstr "Ревизија"
+msgstr "Revizija"
 
 #: enterprise/static/enterprise/js/manage_learners.js:116
 msgid "Verified"
-msgstr "Верификован"
+msgstr "Verifikovan"
 
 #: enterprise/static/enterprise/js/manage_learners.js:117
 msgid "Professional Education"
-msgstr "Стручно образовање"
+msgstr "Stručno obrazovanje"
 
 #: enterprise/static/enterprise/js/manage_learners.js:118
 msgid "Professional Education (no ID)"
-msgstr "Професионално образовање (без ид)"
+msgstr "Profesionalno obrazovanje (bez id)"
 
 #: enterprise/static/enterprise/js/manage_learners.js:119
 msgid "Credit"
-msgstr "Кредит"
+msgstr "Kredit"
 
 #: enterprise/static/enterprise/js/manage_learners.js:120
 msgid "Honor"
-msgstr "Част"
+msgstr "Čast"
