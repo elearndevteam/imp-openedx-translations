@@ -26464,3 +26464,11 @@ msgstr "Кликните на дугме \"Start Proctored Exam\" испод д�
 #: /home/zcirovic/.local/share/tutor/env/plugins/indigo/tutorindigo/templates/indigo/lms/templates/header/navbar-not-authenticated.html:
 msgid "Discover courses"
 msgstr "Истражите курсеве"
+
+#: indigo
+msgid "Unlock Your Potential: Discover New Courses Today!"
+msgstr "Откријте свој потенцијал: Пронађите нове курсеве већ данас!"
+
+#: indigo
+msgid "Explore a world of knowledge and enhance your skills with our diverse range of courses"
+msgstr "Истражи свет знања и унапреди своје вештине уз наш разноврстан избор курсева"
