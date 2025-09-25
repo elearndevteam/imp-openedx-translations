@@ -2154,14 +2154,14 @@ msgstr "\"{course_title} \" Особље курса"
 
 #: lms/djangoapps/ccx/plugins.py
 msgid "CCX Coach"
-msgstr "ЦЦКС тренер"
+msgstr "CCX тренер"
 
 #: lms/djangoapps/ccx/utils.py
 msgid ""
 "A CCX can only be created on this course through an external service. "
 "Contact a course admin to give you access."
 msgstr ""
-"ЦЦКС се може створити само на овом курсу путем спољне услуге. Контактирајте "
+"CCX се може креирати само на овом курсу путем спољне услуге. Контактирајте "
 "Админ курса да бисте добили приступ."
 
 #: lms/djangoapps/ccx/utils.py
@@ -2171,18 +2171,18 @@ msgstr "Курс је пун: граница је {max_student_enrollments_allow
 
 #: lms/djangoapps/ccx/views.py
 msgid "You must be a CCX Coach to access this view."
-msgstr "Морате бити ЦЦКС тренер да бисте приступили овом приказу."
+msgstr "Морате бити CCX тренер да бисте приступили овом приказу."
 
 #: lms/djangoapps/ccx/views.py
 msgid "You must be the coach for this ccx to access this view"
-msgstr "Сигурно сте тренер за овај ЦЦКС да бисте приступили овом приказу"
+msgstr "Сигурно сте тренер за овај CCX да бисте приступили овом приказу"
 
 #: lms/djangoapps/ccx/views.py
 msgid ""
 "You cannot create a CCX from a course using a deprecated id. Please create a"
 " rerun of this course in the studio to allow this action."
 msgstr ""
-"Не можете да креирате ЦЦКС са курса користећи застарели ИД. Молимо вас да "
+"Не можете да креирате CCX са курса користећи застарели ИД. Молимо вас да "
 "направите рекун овог курса у студију да бисте дозволили ову акцију."
 
 #. Translators: This is a past-tense verb that is used for task action
@@ -6014,7 +6014,7 @@ msgstr "Додајте нови чланак"
 
 #: lms/templates/wiki/create.html wiki/templates/wiki/create.html
 msgid "Create article"
-msgstr "Створити чланак"
+msgstr "креирати чланак"
 
 #: lms/templates/wiki/create.html lms/templates/wiki/delete.html
 #: wiki/plugins/attachments/templates/wiki/plugins/attachments/delete.html
@@ -10858,7 +10858,7 @@ msgstr ""
 #. his students.
 #: xmodule/course_block.py
 msgid "Enable CCX"
-msgstr "Омогући ЦЦКС"
+msgstr "Омогући CCX"
 
 #. Translators: Custom Courses for edX (CCX) is an edX feature for re-using
 #. course content. CCX Coach is
@@ -10872,23 +10872,23 @@ msgid ""
 "manage Custom Courses on {platform_name}. When false, Custom Courses cannot "
 "be created, but existing Custom Courses will be preserved."
 msgstr ""
-"Дозволите инструкторима курсева да доделе ЦЦКС тренерске улоге и омогућавају"
+"Дозволите инструкторима курсева да доделе CCX тренерске улоге и омогућавају"
 " тренерима да управљају прилагођеним курсевима на {platform_name}. Када се "
-"лажно, прилагођени курсеви не могу створити, али постојећи прилагођени "
+"лажно, прилагођени курсеви не могу креирати, али постојећи прилагођени "
 "курсеви ће се сачувати."
 
 #. Translators: Custom Courses for edX (CCX) is an edX feature for re-using
 #. course content.
 #: xmodule/course_block.py
 msgid "CCX Connector URL"
-msgstr "ЦЦКС прикључак за прикључак"
+msgstr "CCX прикључак за прикључак"
 
 #: xmodule/course_block.py
 msgid ""
 "URL for CCX Connector application for managing creation of CCXs. (optional)."
 " Ignored unless 'Enable CCX' is set to 'true'."
 msgstr ""
-"УРЛ за ЦЦКС прикључак за управљање креирањем ЦЦКС-а. (необавезно). "
+"УРЛ за CCX прикључак за управљање креирањем CCX-а. (необавезно). "
 "Занемарени осим 'Enable CCX' поставите на 'true'."
 
 #: xmodule/course_block.py
@@ -10900,7 +10900,7 @@ msgid ""
 "Enter true or false. If true, students can create discussion posts that are "
 "anonymous to all users."
 msgstr ""
-"Унесите ТРУЕ или ФАЛСЕ. Ако је истина, студенти могу створити дискусијске "
+"Унесите ТРУЕ или ФАЛСЕ. Ако је истина, студенти могу креирати дискусијске "
 "постове који су анонимирани свим корисницима."
 
 #: xmodule/course_block.py
@@ -14020,7 +14020,7 @@ msgstr "Датум када је држава последњи пут ажури
 
 #: cms/djangoapps/course_creators/models.py
 msgid "Current course creator state"
-msgstr "Тренутно стање Створитеља"
+msgstr "Тренутно стање Креатора"
 
 #: cms/djangoapps/course_creators/models.py
 msgid ""
@@ -16563,11 +16563,11 @@ msgstr "Резултат"
 
 #: lms/templates/ccx/coach_dashboard.html
 msgid "CCX Coach Dashboard"
-msgstr "ЦЦКС Цоацх Цомпбоард"
+msgstr "CCX Цоацх Цомпбоард"
 
 #: lms/templates/ccx/coach_dashboard.html
 msgid "Name your CCX"
-msgstr "Наведите свој ЦЦКС"
+msgstr "Наведите свој CCX"
 
 #: lms/templates/ccx/coach_dashboard.html
 #, python-brace-format
@@ -16590,7 +16590,7 @@ msgstr "Студентске оцене"
 
 #: lms/templates/ccx/coach_dashboard.html
 msgid "Please enter a valid CCX name."
-msgstr "Унесите важеће име ЦЦКС-а."
+msgstr "Унесите важеће име CCX-а."
 
 #: lms/templates/ccx/enrollment.html
 #: lms/templates/instructor/instructor_dashboard_2/membership.html
@@ -16672,7 +16672,7 @@ msgstr "Управљање студентским списком"
 
 #: lms/templates/ccx/enrollment.html
 msgid "CCX student list management response message"
-msgstr "Порука одговора управљања студентским списком ЦЦКС-а"
+msgstr "Порука одговора управљања студентским списком CCX-а"
 
 #: lms/templates/ccx/enrollment.html
 msgid "Revoke access"
@@ -19902,7 +19902,7 @@ msgstr "Додајте заједницу ТА"
 
 #: lms/templates/instructor/instructor_dashboard_2/membership.html
 msgid "CCX Coaches"
-msgstr "ЦЦКС тренери"
+msgstr "CCX тренери"
 
 #: lms/templates/instructor/instructor_dashboard_2/membership.html
 msgid ""
@@ -19910,13 +19910,13 @@ msgid ""
 "course, which they can use to provide personalized instruction to their own "
 "students based in this course material."
 msgstr ""
-"ЦЦКС тренери су у стању да стварају сопствене прилагођене курсеве на основу "
+"CCX тренери су у стању да стварају сопствене прилагођене курсеве на основу "
 "овог курса, који могу да користе да пруже персонализована упутства "
 "сопственим ученицима са седиштем у овом курсу материјала."
 
 #: lms/templates/instructor/instructor_dashboard_2/membership.html
 msgid "Add CCX Coach"
-msgstr "Додајте ЦЦКС тренера"
+msgstr "Додајте CCX тренера"
 
 #: lms/templates/instructor/instructor_dashboard_2/send_email.html
 msgid "To use the email tool, visit the"
@@ -21719,7 +21719,7 @@ msgstr "Креирајте курс Рерун од:"
 
 #: cms/templates/course-create-rerun.html
 msgid "Create a re-run of a course"
-msgstr "Створите поновну покренуцу курса"
+msgstr "Креирајте поновну покренуцу курса"
 
 #: cms/templates/course-create-rerun.html
 msgid "You are creating a re-run from:"
@@ -21815,7 +21815,7 @@ msgstr ""
 
 #: cms/templates/course-create-rerun.html
 msgid "Create Re-run"
-msgstr "Створите поновно покретање"
+msgstr "Креирајте поновно покретање"
 
 #: cms/templates/course-create-rerun.html
 msgid "When will my course re-run start?"
@@ -23326,7 +23326,7 @@ msgstr ""
 
 #: cms/templates/index.html
 msgid "Create"
-msgstr "Створити"
+msgstr "креирати"
 
 #: cms/templates/index.html
 msgid "Create a New Library"
@@ -23466,7 +23466,7 @@ msgid ""
 "The course creator must give you access to the course. Contact the course "
 "creator or administrator for the course you are helping to author."
 msgstr ""
-"Створитељ курса мора вам дати приступ курсу. Обратите се Створитељу курса "
+"Креатор курса мора вам дати приступ курсу. Обратите се Креатору курса "
 "или администратору за курс који помажете аутору."
 
 #: cms/templates/index.html
@@ -23499,7 +23499,7 @@ msgstr ""
 
 #: cms/templates/index.html
 msgid "Your Course Creator Request Status:"
-msgstr "Ваш курс Створитељ захтева Статус:"
+msgstr "Ваш курс Креатор захтева Статус:"
 
 #: cms/templates/index.html
 msgid "Request the Ability to Create Courses"
@@ -23566,7 +23566,7 @@ msgid ""
 "The library creator must give you access to the library. Contact the library"
 " creator or administrator for the library you are helping to author."
 msgstr ""
-"Створитељ библиотеке мора вам дати приступ библиотеци. Контактирајте "
+"Креатор библиотеке мора вам дати приступ библиотеци. Контактирајте "
 "библиотека или администратор за библиотеку коју помажете аутору."
 
 #: cms/templates/index.html
@@ -23625,7 +23625,7 @@ msgid ""
 "privileges to create your own course."
 msgstr ""
 "Да бисте креирали курсеве у {studio_name}, морате имати привилегије "
-"Створитеља курса да бисте креирали сопствени курс."
+"Креатора курса да бисте креирали сопствени курс."
 
 #: cms/templates/index.html
 #, python-brace-format
@@ -24934,7 +24934,7 @@ msgstr ""
 #: cms/templates/emails/course_creator_subject.txt
 #, python-brace-format
 msgid "Your course creator status for {studio_name}"
-msgstr "Статус Створитеља вашег курса за {studio_name}"
+msgstr "Статус Креатора вашег курса за {studio_name}"
 
 #: cms/templates/emails/user_task_complete_email.txt
 #, python-brace-format
@@ -25372,7 +25372,7 @@ msgid ""
 msgstr ""
 "Чишћење чланка: Потпуно га уклоните (и сав његов садржај) без поништавања. "
 "Прочишћавање је добра идеја ако желите да ослободите Слуг тако да корисници "
-"могу створити нове чланке на њеном месту."
+"могу креирати нове чланке на њеном месту."
 
 #: wiki/forms.py wiki/plugins/attachments/forms.py
 #: wiki/plugins/images/forms.py
@@ -25473,7 +25473,7 @@ msgid ""
 "The owner of the article, usually the creator. The owner always has both "
 "read and write access."
 msgstr ""
-"Власник чланка, обично Створитељ. Власник увек има и читање и написати "
+"Власник чланка, обично Креатор. Власник увек има и читање и написати "
 "приступ."
 
 #: wiki/models/article.py
@@ -26277,7 +26277,7 @@ msgid ""
 " create the first one, the root article. In the beginning, it will only be "
 "editable by administrators, but you can define permissions after."
 msgstr ""
-"Инсталиран је Дјанго-Вики ... али нема чланака. Дакле, време је да створите "
+"Инсталиран је Дјанго-Вики ... али нема чланака. Дакле, време је да Креирајте "
 "први, коријенски чланак. У почетку ће се администратори уређивати само, али "
 "можете дефинисати дозволе после."
 
@@ -26287,7 +26287,7 @@ msgstr "Коренински чланак"
 
 #: wiki/templates/wiki/article/create_root.html
 msgid "Create root"
-msgstr "Створити роот"
+msgstr "креирати роот"
 
 #: wiki/templates/wiki/includes/anonymous_blocked.html
 #, python-format
@@ -26464,3 +26464,11 @@ msgstr "Кликните на дугме \"Start Proctored Exam\" испод д�
 #: /home/zcirovic/.local/share/tutor/env/plugins/indigo/tutorindigo/templates/indigo/lms/templates/header/navbar-not-authenticated.html:
 msgid "Discover courses"
 msgstr "Истражите курсеве"
+
+#: indigo
+msgid "Unlock Your Potential: Discover New Courses Today!"
+msgstr "Откријте свој потенцијал: Пронађите нове курсеве већ данас!"
+
+#: indigo
+msgid "Explore a world of knowledge and enhance your skills with our diverse range of courses"
+msgstr "Истражи свет знања и унапреди своје вештине уз наш разноврстан избор курсева"

@@ -2020,7 +2020,7 @@ msgstr ""
 #: lms/djangoapps/branding/api.py cms/templates/widgets/footer.html
 #: themes/red-theme/lms/templates/footer.html
 msgid "Powered by Open edX"
-msgstr "Pokreće Otvori EDKS"
+msgstr "Pokreće eP"
 
 #: lms/djangoapps/branding/api.py lms/templates/static_templates/blog.html
 msgid "Blog"
@@ -2122,7 +2122,7 @@ msgstr "Podružnice"
 #. Translators: 'Open edX' is a trademark, please keep this untranslated
 #: lms/djangoapps/branding/api.py
 msgid "Open edX"
-msgstr "Otvori EDKS"
+msgstr "eP"
 
 #: lms/djangoapps/branding/api.py
 msgid "Cookie Policy"
@@ -2161,7 +2161,7 @@ msgid ""
 "A CCX can only be created on this course through an external service. "
 "Contact a course admin to give you access."
 msgstr ""
-"CCKS se može stvoriti samo na ovom kursu putem spoljne usluge. Kontaktirajte "
+"CCKS se može kreirati samo na ovom kursu putem spoljne usluge. Kontaktirajte "
 "Admin kursa da biste dobili pristup."
 
 #: lms/djangoapps/ccx/utils.py
@@ -6014,7 +6014,7 @@ msgstr "Dodajte novi članak"
 
 #: lms/templates/wiki/create.html wiki/templates/wiki/create.html
 msgid "Create article"
-msgstr "Stvoriti članak"
+msgstr "Kreirati članak"
 
 #: lms/templates/wiki/create.html lms/templates/wiki/delete.html
 #: wiki/plugins/attachments/templates/wiki/plugins/attachments/delete.html
@@ -6937,7 +6937,7 @@ msgstr "ID uvezenog kursa."
 #. Translators: 'Open edX' is a trademark, please keep this untranslated
 #: openedx/core/djangoapps/content_libraries/models.py
 msgid "open edx user"
-msgstr "Otvori EDKS korisnika"
+msgstr "eP korisnika"
 
 #: openedx/core/djangoapps/content_libraries/models.py
 msgid "lti platform identifier"
@@ -10874,7 +10874,7 @@ msgid ""
 msgstr ""
 "Dozvolite instruktorima kurseva da dodele CCKS trenerske uloge i omogućavaju"
 " trenerima da upravljaju prilagođenim kursevima na {platform_name}. Kada se "
-"lažno, prilagođeni kursevi ne mogu stvoriti, ali postojeći prilagođeni "
+"lažno, prilagođeni kursevi ne mogu kreirati, ali postojeći prilagođeni "
 "kursevi će se sačuvati."
 
 #. Translators: Custom Courses for edX (CCX) is an edX feature for re-using
@@ -10900,7 +10900,7 @@ msgid ""
 "Enter true or false. If true, students can create discussion posts that are "
 "anonymous to all users."
 msgstr ""
-"Unesite TRUE ili FALSE. Ako je istina, studenti mogu stvoriti diskusijske "
+"Unesite TRUE ili FALSE. Ako je istina, studenti mogu kreirati diskusijske "
 "postove koji su anonimirani svim korisnicima."
 
 #: xmodule/course_block.py
@@ -14020,7 +14020,7 @@ msgstr "Datum kada je država poslednji put ažurirana"
 
 #: cms/djangoapps/course_creators/models.py
 msgid "Current course creator state"
-msgstr "Trenutno stanje Stvoritelja"
+msgstr "Trenutno stanje Kreatora"
 
 #: cms/djangoapps/course_creators/models.py
 msgid ""
@@ -14719,7 +14719,7 @@ msgstr "Dobrodošli na {platform_name}"
 #: lms/templates/index_overlay.html
 #, python-brace-format
 msgid "It works! Powered by the Open edX{registered_trademark} Platform"
-msgstr "Radi! Pokreće Otvori Otvori EDKS{registered_trademark} platforma"
+msgstr "Radi! Pokreće Otvori eP{registered_trademark} platforma"
 
 #: lms/templates/invalid_email_key.html
 msgid "Invalid email change key"
@@ -21719,7 +21719,7 @@ msgstr "Kreirajte kurs Rerun od:"
 
 #: cms/templates/course-create-rerun.html
 msgid "Create a re-run of a course"
-msgstr "Stvorite ponovnu pokrenucu kursa"
+msgstr "Kreirajte ponovnu pokrenucu kursa"
 
 #: cms/templates/course-create-rerun.html
 msgid "You are creating a re-run from:"
@@ -21815,7 +21815,7 @@ msgstr ""
 
 #: cms/templates/course-create-rerun.html
 msgid "Create Re-run"
-msgstr "Stvorite ponovno pokretanje"
+msgstr "Kreirajte ponovno pokretanje"
 
 #: cms/templates/course-create-rerun.html
 msgid "When will my course re-run start?"
@@ -23326,7 +23326,7 @@ msgstr ""
 
 #: cms/templates/index.html
 msgid "Create"
-msgstr "Stvoriti"
+msgstr "Kreirati"
 
 #: cms/templates/index.html
 msgid "Create a New Library"
@@ -23466,7 +23466,7 @@ msgid ""
 "The course creator must give you access to the course. Contact the course "
 "creator or administrator for the course you are helping to author."
 msgstr ""
-"Stvoritelj kursa mora vam dati pristup kursu. Obratite se Stvoritelju kursa "
+"Kreator kursa mora vam dati pristup kursu. Obratite se Kreatoru kursa "
 "ili administratoru za kurs koji pomažete autoru."
 
 #: cms/templates/index.html
@@ -23499,7 +23499,7 @@ msgstr ""
 
 #: cms/templates/index.html
 msgid "Your Course Creator Request Status:"
-msgstr "Vaš kurs Stvoritelj zahteva Status:"
+msgstr "Vaš kurs Kreator zahteva Status:"
 
 #: cms/templates/index.html
 msgid "Request the Ability to Create Courses"
@@ -23566,7 +23566,7 @@ msgid ""
 "The library creator must give you access to the library. Contact the library"
 " creator or administrator for the library you are helping to author."
 msgstr ""
-"Stvoritelj biblioteke mora vam dati pristup biblioteci. Kontaktirajte "
+"Kreator biblioteke mora vam dati pristup biblioteci. Kontaktirajte "
 "biblioteka ili administrator za biblioteku koju pomažete autoru."
 
 #: cms/templates/index.html
@@ -23625,7 +23625,7 @@ msgid ""
 "privileges to create your own course."
 msgstr ""
 "Da biste kreirali kurseve u {studio_name}, morate imati privilegije "
-"Stvoritelja kursa da biste kreirali sopstveni kurs."
+"Kreatora kursa da biste kreirali sopstveni kurs."
 
 #: cms/templates/index.html
 #, python-brace-format
@@ -24934,7 +24934,7 @@ msgstr ""
 #: cms/templates/emails/course_creator_subject.txt
 #, python-brace-format
 msgid "Your course creator status for {studio_name}"
-msgstr "Status Stvoritelja vašeg kursa za {studio_name}"
+msgstr "Status Kreatora vašeg kursa za {studio_name}"
 
 #: cms/templates/emails/user_task_complete_email.txt
 #, python-brace-format
@@ -25227,7 +25227,7 @@ msgstr "Pristupite Open EDKS portalu"
 
 #: cms/templates/widgets/sock_links.html
 msgid "Open edX Portal"
-msgstr "Otvori EDKS portal"
+msgstr "eP portal"
 
 #: cms/templates/widgets/sock_links.html
 msgid "Enroll in edX101: Overview of Creating an edX Course"
@@ -25372,7 +25372,7 @@ msgid ""
 msgstr ""
 "Čišćenje članka: Potpuno ga uklonite (i sav njegov sadržaj) bez poništavanja. "
 "Pročišćavanje je dobra ideja ako želite da oslobodite Slug tako da korisnici "
-"mogu stvoriti nove članke na njenom mestu."
+"mogu kreirati nove članke na njenom mestu."
 
 #: wiki/forms.py wiki/plugins/attachments/forms.py
 #: wiki/plugins/images/forms.py
@@ -25473,7 +25473,7 @@ msgid ""
 "The owner of the article, usually the creator. The owner always has both "
 "read and write access."
 msgstr ""
-"Vlasnik članka, obično Stvoritelj. Vlasnik uvek ima i čitanje i napisati "
+"Vlasnik članka, obično Kreator. Vlasnik uvek ima i čitanje i napisati "
 "pristup."
 
 #: wiki/models/article.py
@@ -26277,7 +26277,7 @@ msgid ""
 " create the first one, the root article. In the beginning, it will only be "
 "editable by administrators, but you can define permissions after."
 msgstr ""
-"Instaliran je Django-Viki ... ali nema članaka. Dakle, vreme je da stvorite "
+"Instaliran je Django-Viki ... ali nema članaka. Dakle, vreme je da Kreirajte "
 "prvi, korijenski članak. U početku će se administratori uređivati samo, ali "
 "možete definisati dozvole posle."
 
@@ -26287,7 +26287,7 @@ msgstr "Koreninski članak"
 
 #: wiki/templates/wiki/article/create_root.html
 msgid "Create root"
-msgstr "Stvoriti root"
+msgstr "Kreirati root"
 
 #: wiki/templates/wiki/includes/anonymous_blocked.html
 #, python-format
@@ -26464,3 +26464,12 @@ msgstr "Kliknite na dugme \"Start Proctored Exam\" ispod da biste nastavili."
 #: /home/zcirovic/.local/share/tutor/env/plugins/indigo/tutorindigo/templates/indigo/lms/templates/header/navbar-not-authenticated.html:
 msgid "Discover courses"
 msgstr "Istražite kurseve"
+
+
+#: indigo
+msgid "Unlock Your Potential: Discover New Courses Today!"
+msgstr "Otkrijte svoj potencijal: Pronađite nove kurseve već danas!"
+
+#: indigo
+msgid "Explore a world of knowledge and enhance your skills with our diverse range of courses"
+msgstr "Istraži svet znanja i unapredi svoje veštine uz naš raznovrstan izbor kurseva"
