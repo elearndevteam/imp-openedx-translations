@@ -2029,7 +2029,7 @@ msgstr "Блог"
 #: lms/djangoapps/branding/api.py cms/templates/widgets/sock_links.html
 #: themes/stanford-style/lms/templates/static_templates/about.html
 msgid "Contact Us"
-msgstr "Контактирајте нас"
+msgstr "Контакт"
 
 #: lms/djangoapps/branding/api.py
 msgid "Help Center"
@@ -2046,7 +2046,7 @@ msgstr "Медиа Кит"
 
 #: lms/djangoapps/branding/api.py lms/templates/static_templates/donate.html
 msgid "Donate"
-msgstr "Донирати"
+msgstr "Донација"
 
 #: lms/djangoapps/branding/api.py lms/templates/footer.html
 #: lms/templates/static_templates/about.html
@@ -14284,7 +14284,7 @@ msgstr "Рачун"
 #: lms/templates/navigation/navbar-authenticated.html
 #: lms/templates/static_templates/help.html wiki/plugins/help/wiki_plugin.py
 msgid "Help"
-msgstr "Помоћи"
+msgstr "Помоћ"
 
 #: cms/templates/widgets/tabs-aggregator.html
 #: lms/templates/courseware/static_tab.html
@@ -21137,7 +21137,7 @@ msgstr "Ауторска права"
 #: themes/stanford-style/lms/templates/footer.html
 #, python-brace-format
 msgid "Copyright {year}. All rights reserved."
-msgstr "Цопиригхт {year}. Сва права задржана."
+msgstr "Аут. права {year}. Сва права задржана."
 
 #: themes/stanford-style/lms/templates/index.html
 msgid "For anyone, anywhere, anytime"
@@ -26475,3 +26475,7 @@ msgstr "Истражи свет знања и унапреди своје веш
 #: /home/zcirovic/.local/share/tutor/env/plugins/indigo/tutorindigo/templates/indigo/lms/templates/courseware/courses.html
 msgid "Filters"
 msgstr "Филтери"
+
+#: /home/zcirovic/.local/share/tutor/env/plugins/indigo/tutorindigo/templates/indigo/lms/templates/footer.html
+msgid "About Us"
+msgstr "О нама"

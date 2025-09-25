@@ -2029,7 +2029,7 @@ msgstr "Blog"
 #: lms/djangoapps/branding/api.py cms/templates/widgets/sock_links.html
 #: themes/stanford-style/lms/templates/static_templates/about.html
 msgid "Contact Us"
-msgstr "Kontaktirajte nas"
+msgstr "Kontakt"
 
 #: lms/djangoapps/branding/api.py
 msgid "Help Center"
@@ -2046,7 +2046,7 @@ msgstr "Media Kit"
 
 #: lms/djangoapps/branding/api.py lms/templates/static_templates/donate.html
 msgid "Donate"
-msgstr "Donirati"
+msgstr "Donacija"
 
 #: lms/djangoapps/branding/api.py lms/templates/footer.html
 #: lms/templates/static_templates/about.html
@@ -14284,7 +14284,7 @@ msgstr "Račun"
 #: lms/templates/navigation/navbar-authenticated.html
 #: lms/templates/static_templates/help.html wiki/plugins/help/wiki_plugin.py
 msgid "Help"
-msgstr "Pomoći"
+msgstr "Pomoć"
 
 #: cms/templates/widgets/tabs-aggregator.html
 #: lms/templates/courseware/static_tab.html
@@ -21137,7 +21137,7 @@ msgstr "Autorska prava"
 #: themes/stanford-style/lms/templates/footer.html
 #, python-brace-format
 msgid "Copyright {year}. All rights reserved."
-msgstr "Copiright {year}. Sva prava zadržana."
+msgstr "Aut. prava {year}. Sva prava zadržana."
 
 #: themes/stanford-style/lms/templates/index.html
 msgid "For anyone, anywhere, anytime"
