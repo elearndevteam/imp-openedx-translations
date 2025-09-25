@@ -2109,7 +2109,7 @@ msgstr "Политика приступачности"
 #: themes/stanford-style/lms/templates/footer.html
 #: themes/stanford-style/lms/templates/static_templates/tos.html
 msgid "Terms of Service"
-msgstr "Услови услуге"
+msgstr "Услови"
 
 #: lms/djangoapps/branding/api.py
 msgid "Sitemap"
