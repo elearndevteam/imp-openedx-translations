@@ -26460,15 +26460,18 @@ msgstr ""
 msgid "Click on the \"Start Proctored Exam\" button below to continue."
 msgstr "Кликните на дугме \"Start Proctored Exam\" испод да бисте наставили."
 
-#: indigo
 #: /home/zcirovic/.local/share/tutor/env/plugins/indigo/tutorindigo/templates/indigo/lms/templates/header/navbar-not-authenticated.html:
 msgid "Discover courses"
 msgstr "Истражите курсеве"
 
-#: indigo
+#: /home/zcirovic/.local/share/tutor/env/plugins/indigo/tutorindigo/templates/indigo/lms/templates/courseware/courses.html
 msgid "Unlock Your Potential: Discover New Courses Today!"
 msgstr "Откријте свој потенцијал: Пронађите нове курсеве већ данас!"
 
-#: indigo
+#: /home/zcirovic/.local/share/tutor/env/plugins/indigo/tutorindigo/templates/indigo/lms/templates/courseware/courses.html
 msgid "Explore a world of knowledge and enhance your skills with our diverse range of courses"
 msgstr "Истражи свет знања и унапреди своје вештине уз наш разноврстан избор курсева"
+
+#: /home/zcirovic/.local/share/tutor/env/plugins/indigo/tutorindigo/templates/indigo/lms/templates/courseware/courses.html
+msgid "Filters"
+msgstr "Филтери"

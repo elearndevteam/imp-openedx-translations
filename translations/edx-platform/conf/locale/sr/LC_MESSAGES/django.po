@@ -26471,3 +26471,7 @@ msgstr "Откријте свој потенцијал: Пронађите но�
 #: /home/zcirovic/.local/share/tutor/env/plugins/indigo/tutorindigo/templates/indigo/lms/templates/courseware/courses.html
 msgid "Explore a world of knowledge and enhance your skills with our diverse range of courses"
 msgstr "Истражи свет знања и унапреди своје вештине уз наш разноврстан избор курсева"
+
+#: /home/zcirovic/.local/share/tutor/env/plugins/indigo/tutorindigo/templates/indigo/lms/templates/courseware/courses.html
+msgid "Filters"
+msgstr "Филтери"
